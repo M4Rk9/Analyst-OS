@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -15,8 +16,10 @@ FORBIDDEN_BROWSER_PATTERNS = (
 
 
 def tracked_files() -> set[str]:
+    git = shutil.which("git")
+    assert git is not None, "git executable is required for tracked-file security tests"
     result = subprocess.run(
-        ["git", "ls-files"],
+        [git, "ls-files"],
         cwd=ROOT,
         check=True,
         capture_output=True,
