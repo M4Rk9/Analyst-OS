@@ -89,7 +89,10 @@ def debt_to_equity(total_debt: Number | None, total_equity: Number | None) -> De
     return safe_divide(total_debt, total_equity)
 
 
-def current_ratio(current_assets: Number | None, current_liabilities: Number | None) -> Decimal | None:
+def current_ratio(
+    current_assets: Number | None,
+    current_liabilities: Number | None,
+) -> Decimal | None:
     return safe_divide(current_assets, current_liabilities)
 
 
@@ -97,7 +100,10 @@ def interest_coverage(ebit: Number | None, interest_expense: Number | None) -> D
     return safe_divide(ebit, interest_expense)
 
 
-def free_cash_flow(cash_from_operations: Number | None, capital_expenditure: Number | None) -> Decimal | None:
+def free_cash_flow(
+    cash_from_operations: Number | None,
+    capital_expenditure: Number | None,
+) -> Decimal | None:
     cfo = to_decimal(cash_from_operations)
     capex = to_decimal(capital_expenditure)
     if cfo is None or capex is None:
@@ -105,11 +111,17 @@ def free_cash_flow(cash_from_operations: Number | None, capital_expenditure: Num
     return cfo - abs(capex)
 
 
-def cfo_to_pat(cash_from_operations: Number | None, profit_after_tax: Number | None) -> Decimal | None:
+def cfo_to_pat(
+    cash_from_operations: Number | None,
+    profit_after_tax: Number | None,
+) -> Decimal | None:
     return safe_divide(cash_from_operations, profit_after_tax)
 
 
-def working_capital(current_assets: Number | None, current_liabilities: Number | None) -> Decimal | None:
+def working_capital(
+    current_assets: Number | None,
+    current_liabilities: Number | None,
+) -> Decimal | None:
     assets = to_decimal(current_assets)
     liabilities = to_decimal(current_liabilities)
     if assets is None or liabilities is None:
