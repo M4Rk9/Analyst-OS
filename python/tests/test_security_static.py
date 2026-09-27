@@ -1,3 +1,4 @@
+import re
 import subprocess
 from pathlib import Path
 
@@ -68,3 +69,11 @@ def test_cloudflare_headers_define_strict_browser_policy() -> None:
         assert directive in headers
     assert "'unsafe-inline'" not in headers
     assert "'unsafe-eval'" not in headers
+
+
+def test_first_party_ci_actions_are_commit_sha_pinned() -> None:
+    workflow = (ROOT / ".github" / "workflows" / "ci.yml").read_text(encoding="utf-8")
+    action_uses = re.findall(r"uses:\s+(actions/[\w-]+)@([^\s#]+)", workflow)
+    assert action_uses
+    for action, revision in action_uses:
+        assert re.fullmatch(r"[0-9a-f]{40}", revision), f"{action} is not pinned to a commit SHA"
