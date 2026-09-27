@@ -33,5 +33,11 @@ jobs:
       - name: Pytest
         run: pytest
 
+      - name: Browser JavaScript syntax
+        run: |
+          for file in web/js/*.js; do
+            node --check "$file"
+          done
+
       - name: Dependency audit
         run: pip-audit
