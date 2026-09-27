@@ -1,0 +1,42 @@
+# Financial Data Ingestion
+
+## Principle
+
+Production financial facts are accepted only when they carry primary-source provenance and pass deterministic validation. Analyst OS does not scrape arbitrary third-party finance sites or invent missing values.
+
+## Current M2 pipeline
+
+The local ingestion package provides:
+
+- Pydantic validation for company, fiscal-period, currency, metric, source, page, and value fields
+- HTTPS-only source URLs
+- controlled-root CSV loading with path-traversal protection
+- CSV size limits
+- strict required-column checks
+- deterministic scale normalization (`normalized_value = raw_value × unit_scale`)
+- negative-value preservation where financially valid
+- duplicate/conflict detection across competing source observations
+- fail-closed behavior when sources disagree
+- a validation-only CLI that performs no database writes
+
+## CSV contract
+
+Required columns:
+
+`company_slug`, `period_type`, `fiscal_year`, `period_start`, `period_end`, `currency`, `metric_code`, `raw_value`, `unit_scale`, `source_title`, `source_document_type`, `source_url`, `source_publisher`.
+
+Optional columns include raw display text, source publication/fiscal metadata, SHA-256, source page, and source label.
+
+All remote source URLs must use HTTPS. The ingestion process should point to official company/IR/exchange material documented in `docs/DATA_SOURCES.md`.
+
+## Validation-only usage
+
+```bash
+python python/scripts/validate_financial_csv.py facts.csv --root /trusted/local/ingestion
+```
+
+The script reports counts only and does not publish data.
+
+## Production population status
+
+The pipeline code is implemented and testable, but the repository intentionally does not contain fabricated five-year financial history. M2 remains **in progress** until real primary filings are selected, normalized, reviewed, and loaded for the initial company universe. Conflicting observations must be recorded/resolved explicitly rather than silently selected.

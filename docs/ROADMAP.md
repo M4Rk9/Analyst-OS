@@ -4,13 +4,10 @@ Exactly eight milestones are used unless a compelling technical reason requires 
 
 ## M0 — Foundation — Completed
 
-- Repository structure
-- Technical documentation
+- Repository structure and technical documentation
 - README and security policy
-- Frontend shell
-- Python package skeletons
-- Pytest foundation
-- CI foundation
+- Frontend shell and Python package skeletons
+- Pytest and CI foundation
 
 **Verified:** repository installs, Ruff and pytest pass, and dependency audit passes.
 
@@ -20,19 +17,31 @@ Exactly eight milestones are used unless a compelling technical reason requires 
 - RLS on every exposed table
 - Explicit read-only public access policies
 - Company, reporting-period, financial-data, calculated-metric, red-flag, and source-document models
-- Provenance and integrity constraints
-- Initial five-company seed set
+- Provenance/integrity constraints and five-company seed set
 - Static migration-policy tests
 
-**External verification still required before production:** apply migrations to the target Supabase project and test the policies using that project's anon key. Repository implementation is complete; production configuration belongs to M7.
+**Production configuration note:** migrations still need to be applied and anon-key-tested in the target Supabase project during M7.
 
-## M2 — Financial Data Pipeline — Upcoming
+## M2 — Financial Data Pipeline — In progress
 
-- Controlled source ingestion
-- Normalization and validation
-- Approximately five years of history where available
-- Duplicate/conflict handling
-- Tests and source provenance
+Implemented:
+
+- Controlled-root CSV ingestion
+- Pydantic normalization/validation
+- HTTPS source validation
+- size/path protections
+- deterministic unit normalization
+- duplicate/conflict detection with fail-closed behavior
+- ingestion tests and validation-only CLI
+
+Still required before M2 is complete:
+
+- Select verified primary filings for the five-company universe
+- Normalize and review approximately five years of history where available
+- Resolve or explicitly record source conflicts
+- Load verified records into the target Supabase project
+
+No production financial values will be fabricated to satisfy the milestone.
 
 ## M3 — Financial Analytics — Upcoming
 
