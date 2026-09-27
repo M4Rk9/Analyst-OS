@@ -19,7 +19,8 @@ FORBIDDEN_BROWSER_PATTERNS = (
 def tracked_files() -> set[str]:
     git = shutil.which("git")
     assert git is not None, "git executable is required for tracked-file security checks"
-    result = subprocess.run(
+    # Fixed executable and argv; shell=False and no user-controlled input reaches the process.
+    result = subprocess.run(  # noqa: S603
         [git, "ls-files"],
         cwd=ROOT,
         check=True,
