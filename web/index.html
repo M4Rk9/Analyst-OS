@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Analyst OS — secure, source-backed company analysis.">
+  <title>Analyst OS</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="./index.html" aria-label="Analyst OS home">Analyst OS</a>
+    <span class="badge">Portfolio Research Tool</span>
+  </header>
+
+  <main id="main" class="shell">
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">Fundamental analysis workspace</p>
+      <h1 id="intro-title">Company analysis without the noise.</h1>
+      <p class="lede">Deterministic financial analytics, source-backed insights, and transparent provenance in a lightweight research interface.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="coverage-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Initial coverage</p>
+          <h2 id="coverage-title">Supported companies</h2>
+        </div>
+        <p class="muted">Coverage stays intentionally small until the data pipeline is verified end-to-end.</p>
+      </div>
+      <div id="company-list" class="company-list" aria-live="polite"></div>
+    </section>
+
+    <aside class="notice" aria-label="Investment disclaimer">
+      Analyst OS is an analysis and research tool, not an investment adviser. It does not provide buy/sell recommendations or guaranteed returns.
+    </aside>
+  </main>
+
+  <footer class="footer">Built for explainable, source-backed financial analysis.</footer>
+</body>
+</html>
