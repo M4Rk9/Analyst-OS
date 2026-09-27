@@ -45,7 +45,8 @@ def receivables_outpace_revenue(
         code="receivables_outpace_revenue",
         title="Receivables are growing faster than revenue",
         description=(
-            "Receivables growth materially exceeds revenue growth; investigate collection quality."
+            "Receivables growth materially exceeds revenue growth; "
+            "investigate collection quality."
         ),
         severity="medium",
         evidence={
@@ -75,7 +76,8 @@ def inventory_outpaces_revenue(
         code="inventory_outpaces_revenue",
         title="Inventory is growing faster than revenue",
         description=(
-            "Inventory growth materially exceeds revenue growth; investigate demand and obsolescence."
+            "Inventory growth materially exceeds revenue growth; "
+            "investigate demand and obsolescence."
         ),
         severity="medium",
         evidence={
@@ -120,7 +122,8 @@ def debt_rising_rapidly(
         code="debt_rising_rapidly",
         title="Debt increased rapidly",
         description=(
-            "Total debt increased beyond the configured threshold; investigate funding needs and leverage."
+            "Total debt increased beyond the configured threshold; "
+            "investigate funding needs and leverage."
         ),
         severity="medium",
         evidence={"debt_growth_pct": _text(debt_growth), "threshold_pct": _text(threshold_pct)},

@@ -109,7 +109,10 @@ def debt_to_equity(total_debt: Number | None, total_equity: Number | None) -> De
     return _positive_denominator_ratio(total_debt, total_equity)
 
 
-def current_ratio(current_assets: Number | None, current_liabilities: Number | None) -> Decimal | None:
+def current_ratio(
+    current_assets: Number | None,
+    current_liabilities: Number | None,
+) -> Decimal | None:
     return _positive_denominator_ratio(current_assets, current_liabilities)
 
 
