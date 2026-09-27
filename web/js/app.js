@@ -8,24 +8,51 @@ const INITIAL_COMPANIES = Object.freeze([
   { slug: "larsen-toubro", name: "Larsen & Toubro", symbol: "LT" },
 ]);
 
-function renderCompanyList() {
-  const container = document.getElementById("company-list");
-  if (!container) return;
+function buildCompanyLink(company) {
+  const link = document.createElement("a");
+  link.className = "company-link";
+  link.href = `./company.html?company=${encodeURIComponent(company.slug)}`;
 
-  for (const company of INITIAL_COMPANIES) {
-    const link = document.createElement("a");
-    link.className = "company-link";
-    link.href = `./company.html?company=${encodeURIComponent(company.slug)}`;
+  const name = document.createElement("strong");
+  name.textContent = company.name;
 
-    const name = document.createElement("strong");
-    name.textContent = company.name;
+  const symbol = document.createElement("span");
+  symbol.textContent = company.symbol;
 
-    const symbol = document.createElement("span");
-    symbol.textContent = company.symbol;
-
-    link.append(name, symbol);
-    container.append(link);
-  }
+  link.append(name, symbol);
+  return link;
 }
 
-document.addEventListener("DOMContentLoaded", renderCompanyList);
+function renderCompanyList(companies = INITIAL_COMPANIES) {
+  const container = document.getElementById("company-list");
+  const empty = document.getElementById("company-search-empty");
+  if (!container) return;
+
+  container.replaceChildren(...companies.map(buildCompanyLink));
+  if (empty) empty.hidden = companies.length !== 0;
+}
+
+function configureSearch() {
+  const input = document.getElementById("company-search");
+  if (!input) return;
+
+  input.addEventListener("input", () => {
+    const query = input.value.trim().toLocaleLowerCase("en-IN");
+    if (!query) {
+      renderCompanyList();
+      return;
+    }
+
+    const matches = INITIAL_COMPANIES.filter((company) => {
+      const name = company.name.toLocaleLowerCase("en-IN");
+      const symbol = company.symbol.toLocaleLowerCase("en-IN");
+      return name.includes(query) || symbol.includes(query);
+    });
+    renderCompanyList(matches);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderCompanyList();
+  configureSearch();
+});

@@ -54,27 +54,40 @@ No production financial values will be fabricated to satisfy the milestone.
 - Versioned formula/rule constants
 - Unit tests for missing, zero, negative and non-finite inputs
 
-**Verification gate:** CI must pass Ruff, pytest and dependency audit before this milestone is merged.
+**Verified:** merged CI passed Ruff, pytest and dependency audit.
 
-## M4 — AI Insight Pipeline — Upcoming
+## M4 — AI Insight Pipeline — Completed in repository
 
-- Safe document extraction and chunking
-- Local Ollama client
-- Prompt templates
-- Source references
-- Output schema validation
-- Prompt-injection resistance
+- Trusted-root PDF validation and bounded PyMuPDF extraction
+- Page-aware document chunking
+- Localhost-only Ollama client
+- Prompt templates that treat document text as untrusted evidence
+- Strict Pydantic insight/evidence schemas
+- Company, model, source-URL and cited-page validation
+- Source-backed `ai_insights` storage with RLS and public SELECT-only access
+- Tests for path traversal, invalid files, localhost enforcement and citation provenance
 
-## M5 — Interactive Frontend — Upcoming
+**Verified:** merged CI passed Ruff, pytest and dependency audit.
 
-- Company search/selector
-- Company overview
-- Financial trends
-- Ratio presentation
-- Red flags
-- AI insight sections
-- Peer snapshot
-- Sources
+## M5 — Interactive Frontend — In progress
+
+Implemented in the feature branch:
+
+- Searchable five-company selector
+- Verified company overview
+- Read-only Supabase workspace loading
+- Financial trend table with dependency-free SVG trend charts
+- Deterministic metric presentation
+- Investigation-signal presentation
+- Validated AI insight sections with primary-source provenance links
+- Same-sector peer snapshot when a verified peer exists in V1 coverage
+- Verified primary-source list
+- Safe DOM rendering with `textContent`/`createElement`
+- Browser JavaScript syntax checking in CI
+
+Remaining gate:
+
+- Pass the full M5 pull-request CI and fix any findings before merge
 
 ## M6 — Security & Performance Hardening — Upcoming
 
