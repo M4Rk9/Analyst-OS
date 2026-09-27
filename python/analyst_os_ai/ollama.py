@@ -58,7 +58,7 @@ def generate_json(
             "options": {"temperature": 0},
         }
     ).encode("utf-8")
-    request = Request(
+    request = Request(  # noqa: S310 - URL was restricted to literal loopback HTTP above
         f"{base}/api/generate",
         data=payload,
         headers={"Content-Type": "application/json"},
