@@ -43,9 +43,18 @@ Still required before M2 is complete:
 
 No production financial values will be fabricated to satisfy the milestone.
 
-## M3 — Financial Analytics — Upcoming
+## M3 — Financial Analytics — Completed in repository
 
-Deterministic Python calculations for growth, CAGR, margins, ROE/ROA/ROCE, leverage, cash-flow metrics, selected working-capital indicators, and red-flag rules. Every financial formula receives unit tests including zero, missing, and negative-value edge cases.
+- Growth and CAGR
+- Margins and ROE/ROA/ROCE
+- Leverage/liquidity/interest coverage
+- Cash-flow metrics and working capital
+- Receivables, inventory and payables days; cash conversion cycle
+- Six deterministic investigation-signal rules
+- Versioned formula/rule constants
+- Unit tests for missing, zero, negative and non-finite inputs
+
+**Verification gate:** CI must pass Ruff, pytest and dependency audit before this milestone is merged.
 
 ## M4 — AI Insight Pipeline — Upcoming
 
