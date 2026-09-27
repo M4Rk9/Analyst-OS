@@ -20,7 +20,7 @@ This document records concrete repository findings and the corresponding fixes. 
 
 **Risk:** documentation prohibited `innerHTML`, `eval`, dynamic HTML insertion, and privileged credentials in browser assets, but CI did not enforce those rules.
 
-**Fix:** static tests now fail if browser JavaScript uses unsafe DOM/execution APIs or if privileged Supabase credential markers appear anywhere under `web/`.
+**Fix:** static tests now fail if browser JavaScript uses unsafe DOM/execution APIs or if privileged Supabase credential markers appear anywhere under `web/`. The browser configuration example uses generic privileged-credential wording so literal privileged-key markers remain meaningful scanner signals rather than documentation-only false positives.
 
 ### 4. Local secret/config files were not a tested release gate
 
