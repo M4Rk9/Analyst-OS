@@ -3,13 +3,17 @@ from decimal import Decimal
 import pytest
 from analyst_os_analytics.formulas import (
     cagr,
+    cash_conversion_cycle,
     cfo_to_pat,
     current_ratio,
     debt_to_equity,
     free_cash_flow,
     growth_rate,
     interest_coverage,
+    inventory_days,
     margin,
+    payables_days,
+    receivables_days,
     roa,
     roce,
     roe,
@@ -36,15 +40,26 @@ def test_growth_rate_supports_negative_current_value() -> None:
     assert growth_rate(-50, 100) == Decimal("-150.0")
 
 
-def test_growth_rate_uses_absolute_previous_denominator() -> None:
-    assert growth_rate(-50, -100) == Decimal("50.0")
+def test_growth_rate_suppresses_non_positive_base() -> None:
+    assert growth_rate(-50, -100) is None
+    assert growth_rate(10, 0) is None
 
 
 def test_margin_and_return_ratios() -> None:
     assert margin(20, 100) == Decimal("20.0")
+    assert margin(-10, 100) == Decimal("-10.0")
     assert roe(15, 100) == Decimal("15.00")
     assert roa(10, 200) == Decimal("5.00")
     assert roce(20, 250, 50) == Decimal("10.0")
+
+
+def test_non_positive_financial_denominators_are_suppressed() -> None:
+    assert margin(10, 0) is None
+    assert roe(10, -100) is None
+    assert roa(10, 0) is None
+    assert debt_to_equity(10, -5) is None
+    assert current_ratio(10, 0) is None
+    assert interest_coverage(10, -2) is None
 
 
 def test_leverage_and_liquidity_ratios() -> None:
@@ -57,13 +72,26 @@ def test_cash_flow_metrics() -> None:
     assert free_cash_flow(100, 25) == Decimal("75")
     assert free_cash_flow(100, -25) == Decimal("75")
     assert cfo_to_pat(80, 100) == Decimal("0.8")
+    assert cfo_to_pat(80, -100) is None
     assert working_capital(150, 100) == Decimal("50")
 
 
+def test_working_capital_days_and_cash_conversion_cycle() -> None:
+    assert receivables_days(100, 1000) == Decimal("36.5")
+    assert inventory_days(200, 1000) == Decimal("73.0")
+    assert payables_days(150, 1000) == Decimal("54.75")
+    assert cash_conversion_cycle("36.5", "73", "54.75") == Decimal("54.75")
+
+
+def test_working_capital_days_require_meaningful_flows() -> None:
+    assert receivables_days(100, 0) is None
+    assert inventory_days(-1, 1000) is None
+    assert payables_days(100, -1000) is None
+    assert cash_conversion_cycle(10, None, 5) is None
+
+
 def test_cagr_handles_edge_cases() -> None:
-    result = cagr(121, 100, 2)
-    assert result is not None
-    assert abs(result - Decimal("10")) < Decimal("0.000001")
+    assert cagr(121, 100, 2) == pytest.approx(Decimal("10"), rel=Decimal("0.000001"))
     assert cagr(100, 0, 2) is None
     assert cagr(-100, 50, 2) is None
     assert cagr(100, 50, 0) is None
