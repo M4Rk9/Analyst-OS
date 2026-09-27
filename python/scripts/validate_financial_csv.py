@@ -23,7 +23,11 @@ def main() -> int:
 
     companies = {record.company_slug for record in records}
     periods = {(record.company_slug, record.period_end) for record in records}
-    print(f"Validated {len(records)} facts across {len(companies)} companies / {len(periods)} periods.")
+    summary = (
+        f"Validated {len(records)} facts across {len(companies)} companies / "
+        f"{len(periods)} periods."
+    )
+    print(summary)
     print("No database writes were performed.")
     return 0
 
