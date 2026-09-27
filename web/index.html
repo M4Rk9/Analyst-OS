@@ -30,7 +30,21 @@
         </div>
         <p class="muted">Coverage stays intentionally small until the data pipeline is verified end-to-end.</p>
       </div>
+
+      <div class="company-search">
+        <label for="company-search">Search the covered universe</label>
+        <input
+          id="company-search"
+          type="search"
+          inputmode="search"
+          autocomplete="off"
+          placeholder="Company name or ticker"
+          aria-controls="company-list"
+        >
+      </div>
+
       <div id="company-list" class="company-list" aria-live="polite"></div>
+      <p id="company-search-empty" class="empty-state" hidden>No supported company matches that search.</p>
     </section>
 
     <aside class="notice" aria-label="Investment disclaimer">
