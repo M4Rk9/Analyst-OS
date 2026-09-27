@@ -2,7 +2,7 @@
 
 Exactly eight milestones are used unless a compelling technical reason requires otherwise.
 
-## M0 — Foundation — Completed on foundation branch
+## M0 — Foundation — Completed
 
 - Repository structure
 - Technical documentation
@@ -12,16 +12,19 @@ Exactly eight milestones are used unless a compelling technical reason requires 
 - Pytest foundation
 - CI foundation
 
-**Exit gate:** repository installs cleanly, smoke tests pass, CI is defined, no secrets or privileged browser credentials are committed.
+**Verified:** repository installs, Ruff and pytest pass, and dependency audit passes.
 
-## M1 — Data Foundation — Upcoming
+## M1 — Data Foundation — Completed
 
 - Supabase schema and migrations
 - RLS on every exposed table
-- Read-only public access policies
-- Company, reporting-period, financial-data, source-document models
+- Explicit read-only public access policies
+- Company, reporting-period, financial-data, calculated-metric, red-flag, and source-document models
 - Provenance and integrity constraints
-- Seed approximately five companies
+- Initial five-company seed set
+- Static migration-policy tests
+
+**External verification still required before production:** apply migrations to the target Supabase project and test the policies using that project's anon key. Repository implementation is complete; production configuration belongs to M7.
 
 ## M2 — Financial Data Pipeline — Upcoming
 

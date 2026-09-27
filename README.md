@@ -47,6 +47,8 @@ docs/                      Architecture, roadmap, security, sources
 .github/workflows/         CI
 ```
 
+Database details are documented in [`docs/DATABASE.md`](docs/DATABASE.md).
+
 ## Local setup
 
 ```bash
@@ -66,8 +68,8 @@ For the frontend, copy `web/js/config.example.js` to `web/js/config.js` and supp
 
 | Milestone | Status |
 |---|---|
-| M0 — Foundation | Completed on foundation branch |
-| M1 — Data Foundation | Upcoming |
+| M0 — Foundation | Completed |
+| M1 — Data Foundation | Completed |
 | M2 — Financial Data Pipeline | Upcoming |
 | M3 — Financial Analytics | Upcoming |
 | M4 — AI Insight Pipeline | Upcoming |
