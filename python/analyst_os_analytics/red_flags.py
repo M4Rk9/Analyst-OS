@@ -1,13 +1,15 @@
 """Deterministic investigation signals for Analyst OS.
 
-These rules are intentionally conservative and produce research prompts, not investment
-recommendations. Missing evidence suppresses a signal instead of guessing.
+These rules produce research prompts, not investment recommendations. Missing or
+non-meaningful evidence suppresses a signal instead of guessing.
 """
 
 from dataclasses import dataclass
 from decimal import Decimal
 
 from .formulas import growth_rate, safe_divide, to_decimal
+
+RED_FLAG_RULE_VERSION = "1.0"
 
 
 @dataclass(frozen=True, slots=True)
@@ -17,7 +19,7 @@ class RedFlag:
     description: str
     severity: str
     evidence: dict[str, str]
-    rule_version: str = "1.0"
+    rule_version: str = RED_FLAG_RULE_VERSION
 
 
 def _text(value: Decimal | None) -> str:
@@ -100,8 +102,7 @@ def weak_cash_conversion(
         code="weak_cash_conversion",
         title="Operating cash flow is materially below PAT",
         description=(
-            "CFO/PAT is below the configured threshold; "
-            "investigate earnings-to-cash conversion."
+            "CFO/PAT is below the configured threshold; investigate earnings-to-cash conversion."
         ),
         severity="high",
         evidence={"cfo_pat": _text(ratio), "threshold": _text(threshold)},
@@ -125,10 +126,7 @@ def debt_rising_rapidly(
             "investigate funding needs and leverage."
         ),
         severity="medium",
-        evidence={
-            "debt_growth_pct": _text(debt_growth),
-            "threshold_pct": _text(threshold_pct),
-        },
+        evidence={"debt_growth_pct": _text(debt_growth), "threshold_pct": _text(threshold_pct)},
     )
 
 
@@ -144,9 +142,7 @@ def falling_interest_coverage(
     return RedFlag(
         code="falling_interest_coverage",
         title="Interest coverage deteriorated materially",
-        description=(
-            "Interest coverage declined materially; investigate debt-service resilience."
-        ),
+        description="Interest coverage declined materially; investigate debt-service resilience.",
         severity="high",
         evidence={"coverage_change_pct": _text(decline)},
     )
@@ -173,8 +169,5 @@ def sustained_margin_deterioration(
             "Margins declined in each observed period; investigate pricing, mix, and cost pressure."
         ),
         severity="medium",
-        evidence={
-            "total_decline_points": _text(total_decline),
-            "periods": str(len(values)),
-        },
+        evidence={"total_decline_points": _text(total_decline), "periods": str(len(values))},
     )
