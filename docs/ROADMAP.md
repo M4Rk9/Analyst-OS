@@ -69,9 +69,7 @@ No production financial values will be fabricated to satisfy the milestone.
 
 **Verified:** merged CI passed Ruff, pytest and dependency audit.
 
-## M5 — Interactive Frontend — In progress
-
-Implemented in the feature branch:
+## M5 — Interactive Frontend — Completed in repository
 
 - Searchable five-company selector
 - Verified company overview
@@ -85,13 +83,25 @@ Implemented in the feature branch:
 - Safe DOM rendering with `textContent`/`createElement`
 - Browser JavaScript syntax checking in CI
 
+**Verified:** merged CI passed Ruff, pytest, browser JavaScript syntax checks and dependency audit.
+
+## M6 — Security & Performance Hardening — In progress
+
+Implemented in the feature branch:
+
+- Cloudflare CSP and browser security headers
+- Static release-gate tests for unsafe DOM/dynamic execution APIs
+- Static checks preventing privileged Supabase credential markers in web assets
+- Tests preventing accidental tracking of `.env` and browser runtime config
+- RLS/read-only checks expanded to every exposed table, including `ai_insights`
+- Central 500-row default bound and 10-second timeout for public Supabase reads
+- Current first-party GitHub Actions upgraded and pinned to exact commit SHAs
+- CI rule enforcing SHA pinning for first-party actions
+- Hardening findings and production verification checklist documented
+
 Remaining gate:
 
-- Pass the full M5 pull-request CI and fix any findings before merge
-
-## M6 — Security & Performance Hardening — Upcoming
-
-Audit and fix RLS, secrets, dependencies, XSS, input/output validation, source URLs, database permissions, performance, responsiveness, and accessibility. Security findings are fixed rather than merely documented.
+- Pass the complete M6 pull-request CI and fix any findings before merge
 
 ## M7 — Portfolio Release — Upcoming
 
