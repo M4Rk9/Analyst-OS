@@ -10,8 +10,10 @@ create table public.ai_insights (
     title text not null check (length(title) between 1 and 160),
     insight_text text not null check (length(insight_text) between 1 and 1800),
     confidence text not null check (confidence in ('low', 'medium', 'high')),
-    source_page integer not null check (source_page > 0),
-    source_section text check (source_section is null or length(source_section) <= 160),
+    evidence jsonb not null check (
+        jsonb_typeof(evidence) = 'array'
+        and jsonb_array_length(evidence) between 1 and 8
+    ),
     model_name text not null check (length(model_name) between 1 and 120),
     prompt_version text not null default '1.0' check (length(prompt_version) between 1 and 40),
     validation_status text not null default 'validated' check (
@@ -19,15 +21,7 @@ create table public.ai_insights (
     ),
     generated_at timestamptz not null default now(),
     created_at timestamptz not null default now(),
-    unique (
-        company_id,
-        source_document_id,
-        section,
-        source_page,
-        title,
-        model_name,
-        prompt_version
-    )
+    unique (company_id, source_document_id, section, title, model_name, prompt_version)
 );
 
 create index ai_insights_company_section_idx
@@ -41,9 +35,20 @@ create policy "public_read_validated_ai_insights"
 on public.ai_insights
 for select
 to anon, authenticated
-using (validation_status = 'validated');
+using (
+    validation_status = 'validated'
+    and exists (
+        select 1 from public.companies c
+        where c.id = ai_insights.company_id and c.is_active = true
+    )
+    and exists (
+        select 1 from public.source_documents d
+        where d.id = ai_insights.source_document_id
+          and d.verification_status = 'verified'
+    )
+);
 
 comment on table public.ai_insights is
-    'Validated local-Ollama interpretations with primary-source page provenance.';
+    'Validated local-Ollama interpretations with primary-source evidence provenance.';
 
 commit;
