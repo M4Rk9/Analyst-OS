@@ -2,7 +2,6 @@ from decimal import Decimal
 from pathlib import Path
 
 import pytest
-
 from analyst_os_ingestion import (
     DataConflictError,
     FinancialFactRecord,
