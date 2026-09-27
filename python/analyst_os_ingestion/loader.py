@@ -105,7 +105,8 @@ def load_financial_csv(
         try:
             records.append(_record_from_row(row.to_dict()))
         except (ValidationError, KeyError, TypeError, ValueError) as exc:
-            raise IngestionValidationError(f"invalid financial fact at CSV row {index + 2}") from exc
+            message = f"invalid financial fact at CSV row {index + 2}"
+            raise IngestionValidationError(message) from exc
 
     assert_no_conflicts(records)
     return records
