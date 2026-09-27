@@ -1,0 +1,16 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://*.supabase.co; font-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/js/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/css/*
+  Cache-Control: public, max-age=3600, must-revalidate
