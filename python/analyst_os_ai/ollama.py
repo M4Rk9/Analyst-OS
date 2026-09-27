@@ -48,14 +48,14 @@ def generate_json(
             "options": {"temperature": 0},
         }
     ).encode("utf-8")
-    request = Request(
+    request = Request(  # noqa: S310 - target base URL is restricted to localhost above
         f"{base}/api/generate",
         data=payload,
         headers={"Content-Type": "application/json"},
         method="POST",
     )
 
-    with urlopen(request, timeout=timeout_seconds) as response:  # noqa: S310 - localhost validated above
+    with urlopen(request, timeout=timeout_seconds) as response:  # noqa: S310
         outer = json.loads(response.read().decode("utf-8"))
 
     model_text = outer.get("response")
