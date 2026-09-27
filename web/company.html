@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Analyst OS company research workspace.">
+  <title>Company | Analyst OS</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="./js/config.js"></script>
+  <script defer src="./js/supabase.js"></script>
+  <script defer src="./js/company.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="./index.html">Analyst OS</a>
+    <a class="quiet-link" href="./index.html">All companies</a>
+  </header>
+
+  <main id="main" class="shell workspace">
+    <section class="company-header" aria-labelledby="company-name">
+      <p id="company-symbol" class="eyebrow">—</p>
+      <h1 id="company-name">Company analysis</h1>
+      <p id="company-summary" class="lede">Select a supported company from the home page.</p>
+    </section>
+
+    <nav class="section-nav" aria-label="Company analysis sections">
+      <a href="#overview">Overview</a>
+      <a href="#financials">Financials</a>
+      <a href="#ratios">Ratios</a>
+      <a href="#signals">Signals</a>
+      <a href="#insights">AI insights</a>
+      <a href="#peers">Peers</a>
+      <a href="#sources">Sources</a>
+    </nav>
+
+    <section id="overview" class="panel"><h2>Overview</h2><p class="muted">Structured company metadata will be populated from the verified data layer.</p></section>
+    <section id="financials" class="panel"><h2>Financial trends</h2><div id="financial-content" class="empty-state">No verified financial data loaded yet.</div></section>
+    <section id="ratios" class="panel"><h2>Core ratios</h2><div id="ratio-content" class="empty-state">Ratios will be calculated by Python, not the language model.</div></section>
+    <section id="signals" class="panel"><h2>Signals requiring investigation</h2><div id="signal-content" class="empty-state">Deterministic red-flag rules will appear here.</div></section>
+    <section id="insights" class="panel"><h2>Source-backed AI insights</h2><div id="insight-content" class="empty-state">AI interpretation will be displayed only after schema and provenance validation.</div></section>
+    <section id="peers" class="panel"><h2>Peer snapshot</h2><div id="peer-content" class="empty-state">A small, comparable peer set will be shown here.</div></section>
+    <section id="sources" class="panel"><h2>Sources</h2><div id="source-content" class="empty-state">Primary-source references will be listed here.</div></section>
+  </main>
+
+  <footer class="footer">No evidence → no confident claim.</footer>
+</body>
+</html>
