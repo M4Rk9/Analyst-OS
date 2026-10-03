@@ -14,6 +14,7 @@ from analyst_os_ingestion.planning import (
     TargetSnapshot,
     build_catalog,
     build_load_plan,
+    digest,
     empty_reviews,
 )
 from pydantic import HttpUrl
@@ -111,6 +112,7 @@ def reasons(result, entry):
 
 
 def test_real_plan_matches_committed_artifacts_and_does_not_preapprove(catalog):
+    assert digest(catalog["payload"]) == catalog["sha256"]
     reviews = empty_reviews(catalog)
     result = build_load_plan(catalog, reviews)
     path = ROOT / "data/m2/ril-tcs/review"
