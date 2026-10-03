@@ -1,0 +1,179 @@
+32	
+Discontinued Operations
+	
+(i)	
+Demerger of Financial Services Business Undertaking:
+	
+	
+The Company vide the Scheme of arrangement (‘the Scheme’) demerged its financial services business undertaking to 
+Reliance Strategic Investments Limited (wholly owned subsidiary of the Company) with effect from the appointed date of 
+March 31, 2023. The Scheme has been sanctioned by the Hon'ble National Company Law Tribunal (Mumbai Bench) vide its 
+order dated June 28, 2023 (Refer Note 44).
+	
+	
+The Company has de-recognized the net carrying value of assets of C 1,05,281 crore  as on appointed date i.e. March 31, 
+2023 and has adjusted against respective reserves.
+	
+	
+Accordingly, the demerged undertaking being the separate reportable segment of the Group and the attributable 
+unallocated assets and liabilities represent discontinued operations and has been accounted for in accordance with the 
+stipulations of Ind AS 105 – Non-current assets held for sale and discontinued operations. The corresponding numbers in the 
+financial statements for the previous year have been presented as if these operations were discontinued in the prior year as well.
+	
+(ii)	
+Profit from Discontinued Operations for the Year:
+(C in crore)
+Particulars
+2022-23
+2021-22
+Total Income
+ 1,658 
+ 3,988 
+Expenses
+ (903)
+ (2,000)
+Tax Expenses
+ (337)
+ (327)
+De-recognition of net carrying value of assets
+ (1,05,281)
+-
+Adjusted against respective reserves 
+1,05,281
+-
+-
+-
+Profit After Tax from Discontinued Operations
+ 418 
+ 1,661 
+	
+(iii)	 Cash flows from Discontinued Operations
+(C in crore)
+Particulars
+2022-23
+2021-22
+Net cash inflows / (outflow) from operating activities
+(38)
+191
+Net cash inflows / (outflow) from investing activities
+(5,487)
+ (2,802)
+(C in crore)
+2022-23
+2021-22
+33.	 Earnings Per Share (EPS)
+	
+Face Value per Equity Share (K)
+10
+10
+	
+Continuing Operations
+	
+Basic Earnings Per Share (C) – After Exceptional Item
+ 97.97 
+ 89.48 
+	
+Basic Earnings Per Share (C) – Before Exceptional Item
+ 97.97 
+ 85.19 
+	
+Diluted Earnings Per Share (C) – After Exceptional Item
+ 97.97 
+ 88.37 
+	
+Diluted Earnings Per Share (C) – Before Exceptional Item
+ 97.97 
+ 84.12 
+	
+Discontinued Operations
+	
+Basic Earnings Per Share (C) – After Exceptional Item
+ 0.62 
+ 2.52 
+	
+Basic Earnings Per Share (C) – Before Exceptional Item
+ 0.62 
+ 2.52 
+	
+Diluted Earnings Per Share (C) – After Exceptional Item
+ 0.62 
+ 2.49 
+	
+Diluted Earnings Per Share (C) – Before Exceptional Item
+ 0.62 
+ 2.49 
+	
+Continuing and Discontinued Operations
+	
+Basic Earnings Per Share (C) – After Exceptional Item
+ 98.59 
+ 92.00 
+	
+Basic Earnings Per Share (C) – Before Exceptional Item
+ 98.59 
+ 87.71 
+	
+Diluted Earnings Per Share (C) – After Exceptional Item
+ 98.59 
+ 90.86 
+	
+Diluted Earnings Per Share (C) – Before Exceptional Item
+ 98.59 
+ 86.61 
+(C in crore)
+2022-23
+2021-22
+Continuing Operations
+Net Profit after Tax as per Statement of Profit and Loss attributable to Equity Shareholders (After 
+adjusting Non-Controlling Interest) (C in crore) - After Exceptional Item 
+66,284
+59,044
+Net Profit after Tax as per Statement of Profit and Loss attributable to Equity Shareholders (After 
+adjusting Non-Controlling Interest) (C in crore) - Before Exceptional Item
+66,284
+56,208
+Discontinued Operations
+Net Profit after Tax as per Statement of Profit and Loss attributable to Equity Shareholders (After 
+adjusting Non-Controlling Interest) (C in crore) - After Exceptional Item
+418
+1,661
+Net Profit after Tax as per Statement of Profit and Loss attributable to Equity Shareholders (After 
+adjusting Non-Controlling Interest) (C in crore) - Before Exceptional Item
+418
+1,661
+Continuing and Discontinued Operations
+Net Profit after Tax as per Statement of Profit and Loss attributable to Equity Shareholders (After 
+adjusting Non-Controlling Interest) (C in crore) - After Exceptional Item 
+66,702
+60,705
+Net Profit after Tax as per Statement of Profit and Loss attributable to Equity Shareholders (After 
+adjusting Non-Controlling Interest) (C in crore) - Before Exceptional Item
+66,702
+57,869
+Weighted Average number of Equity Shares used as denominator
+Basic EPS
+6,76,55,50,967
+6,59,81,11,978
+Diluted EPS
+6,76,61,55,766
+6,68,16,52,444
+Reconciliation of Weighted Average Number of Shares Outstanding
+Weighted Average number of Equity Shares used as denominator for calculating Basic EPS ^
+6,76,55,50,967
+6,59,81,11,978
+Total Weighted Average Potential Equity Shares *
+6,04,799
+8,35,40,466
+Weighted Average number of Equity Shares used as denominator for calculating Diluted EPS
+6,76,61,55,766
+6,68,16,52,444
+^ Refer Note 14.7
+* Dilutive impact of Employee Stock Option Scheme and Partly paid Rights Issue Shares.
+Corporate Overview      Management Review      Governance      Financial Statements
+Consolidated
+NOTES 
+to the Consolidated Financial Statements for the year ended 31st March, 2023
+464
+465
+Reliance Industries Limited
+Integrated Annual Report 2022-23

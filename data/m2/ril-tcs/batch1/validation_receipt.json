@@ -1,0 +1,26 @@
+{
+  "documents": 10,
+  "official_byte_matches": 9,
+  "official_reacquired_documents": 1,
+  "observations": 120,
+  "metrics_per_report_column": 6,
+  "five_year_current_year_observations": 60,
+  "conflicting_keys": 4,
+  "validated_candidate_rows": 56,
+  "candidate_periods": 10,
+  "production_writes": 0,
+  "checks": [
+    "120 models constructed",
+    "all unit multiplications exact",
+    "revenue + other income = total income per statement column",
+    "repository conflict detector agrees with ledger",
+    "candidate CSV passes repository loader"
+  ],
+  "limitations": [
+    "No production approval implied by model validation",
+    "No balance-sheet/cash-flow facts extracted in this first batch",
+    "No current target database inspection",
+    "No full pytest suite execution"
+  ],
+  "candidate_csv_sha256": "5a86f5051cb9be651ce320def3175bef5b5b971b2b59a21df8e3472d360a34bb"
+}

@@ -8,7 +8,7 @@ Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspac
 
 Repository engineering is implemented through **M6 — Security & Performance Hardening**. The project is **not yet production-ready** because two evidence-based release gates remain:
 
-1. **M2 data population:** reviewed primary-source financial history for the initial five-company universe still needs to be normalized and loaded.
+1. **M2 data population:** the [first RIL/TCS evidence batch](data/m2/ril-tcs/batch1/README.md) contains 120 P&L observations and 56 validation-only candidate facts. Conflict resolution, remaining financial statements, the other three companies, and controlled loading are still pending.
 2. **M7 deployment verification:** the real Supabase and Cloudflare Pages projects still need runtime RLS, security-header, browser, accessibility, and deployment checks.
 
 No synthetic production financial values are used merely to make the UI appear complete.

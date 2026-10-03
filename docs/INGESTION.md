@@ -40,3 +40,7 @@ The script reports counts only and does not publish data.
 ## Production population status
 
 The pipeline code is implemented and testable, but the repository intentionally does not contain fabricated five-year financial history. M2 remains **in progress** until real primary filings are selected, normalized, reviewed, and loaded for the initial company universe. Conflicting observations must be recorded/resolved explicitly rather than silently selected.
+
+## First reviewed RIL/TCS evidence batch
+
+See [data/m2/ril-tcs/batch1](../data/m2/ril-tcs/batch1/README.md) for five-year report provenance, 120 consolidated P&L observations, four preserved RIL re-presentation conflicts, and 56 unique validation-only candidate facts. Nine uploads matched official bytes; the TCS FY2025–26 official copy was independently reacquired when the uploaded hash differed. All records remain staging evidence. The CSV does not carry quality-state or reporting-basis approval; a privileged publisher must preserve the companion metadata and approve each observation explicitly. This batch does not complete M2 or issue #14.
