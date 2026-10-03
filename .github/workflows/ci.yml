@@ -41,5 +41,13 @@ jobs:
             node --check "$file"
           done
 
+      - name: PostgreSQL migration and provenance tests
+        run: |
+          npm ci --ignore-scripts
+          npm run test:db
+
+      - name: Database test dependency audit
+        run: npm audit --audit-level=high
+
       - name: Dependency audit
         run: pip-audit

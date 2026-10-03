@@ -41,3 +41,7 @@ The public policies expose only active-company data and restrict source document
 ## Applying migrations
 
 Apply `supabase/migrations/` in lexical order using the Supabase SQL editor or CLI in a trusted environment. Review the generated project roles before production use and verify RLS behavior with an anon key before calling M1 production-configured.
+
+## Review-bound provenance migration
+
+[PROVENANCE_SCHEMA.md](PROVENANCE_SCHEMA.md) documents the private `ingestion` schema, canonical hash contract, deferred publication guards, unverified defaults and read-only upgrade preflight. Review its legacy-demotion and derived-output blockers before applying. Local PostgreSQL tests pass; actual Supabase migration/runtime verification and controlled loading remain pending.

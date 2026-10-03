@@ -246,6 +246,7 @@ def build_catalog(
     }
     return {
         "sha256": digest(catalog),
+        "payload": catalog,
         "observations": len(entries),
         "candidates": candidates,
         "withheld": withheld,

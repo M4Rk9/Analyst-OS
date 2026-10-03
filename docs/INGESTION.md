@@ -51,4 +51,8 @@ See [data/m2/ril-tcs/batch1](../data/m2/ril-tcs/batch1/README.md) for five-year 
 
 ## Review-bound import planning
 
-The [RIL/TCS review packet](../data/m2/ril-tcs/review/README.md) combines both evidence batches and produces a zero-write offline plan. `python/scripts/plan_ril_tcs_load.py` binds decisions to the catalog digest, retains metadata discarded by the CSV loader, and checks trusted target snapshots for value, source, definition and preference conflicts. Current reviews are pending and no target snapshot is supplied; all 376 candidates remain blocked and the six conflicting keys remain withheld. Identical verified preferred target observations can be recognized as already present. No apply mode, credentials, target schema migration or executable publisher is added.
+The [RIL/TCS review packet](../data/m2/ril-tcs/review/README.md) combines both evidence batches and produces a zero-write offline plan. `python/scripts/plan_ril_tcs_load.py` binds decisions to the catalog digest, retains metadata discarded by the CSV loader, and checks trusted target snapshots for value, source, definition and preference conflicts. Current reviews are pending and no target snapshot is supplied; all 376 candidates remain blocked and the six conflicting keys remain withheld. Identical verified preferred target observations can be recognized as already present. The planner has no apply mode, credentials or executable publisher.
+
+## Database provenance prerequisite
+
+The [provenance migration](PROVENANCE_SCHEMA.md) stores catalog/review/definition evidence privately, defaults facts to unverified and enforces approval/normalization/source integrity at commit. It is locally tested but not applied to Supabase. Review its preflight and legacy-demotion behavior before applying; no approved financial ledger or production load is included. The next implementation step is the privileged snapshot exporter and transactional publisher.

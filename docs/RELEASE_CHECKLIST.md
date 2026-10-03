@@ -27,6 +27,9 @@ RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric d
 ## Supabase production verification — blocking
 
 - [ ] All migrations applied in order
+- [ ] Provenance migration preflight reviewed; legacy demotion/derived-output blockers addressed
+- [ ] Private ingestion schema excluded from Data API; review/function grants verified
+- [ ] Reviewed publication guards and target concurrency/retry behavior verified
 - [ ] RLS enabled on every exposed table in the target project
 - [ ] Browser anon SELECT succeeds only for intended public data
 - [ ] Browser anon INSERT fails on every exposed table
