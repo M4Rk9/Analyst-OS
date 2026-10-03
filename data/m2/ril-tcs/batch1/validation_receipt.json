@@ -22,5 +22,7 @@
     "No current target database inspection",
     "No full pytest suite execution"
   ],
-  "candidate_csv_sha256": "5a86f5051cb9be651ce320def3175bef5b5b971b2b59a21df8e3472d360a34bb"
+  "candidate_csv_sha256": "93c57cf61e6b9cdb1776c602bdc36756db73f0555964d965b20c9b2a20658c6e",
+  "original_crlf_candidate_csv_sha256": "5a86f5051cb9be651ce320def3175bef5b5b971b2b59a21df8e3472d360a34bb",
+  "candidate_csv_hash_scope": "Committed LF file bytes; original CRLF archive hash retained separately."
 }

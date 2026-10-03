@@ -1,0 +1,407 @@
+{
+  "$defs": {
+    "ExistingFact": {
+      "additionalProperties": false,
+      "description": "Privileged snapshot entry; an anon export would hide relevant conflicts.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "record": {
+          "$ref": "#/$defs/FinancialFactRecord"
+        },
+        "normalized_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Normalized Value"
+        },
+        "reporting_basis": {
+          "enum": [
+            "consolidated",
+            "standalone"
+          ],
+          "title": "Reporting Basis",
+          "type": "string"
+        },
+        "measurement_type": {
+          "enum": [
+            "instant",
+            "duration"
+          ],
+          "title": "Measurement Type",
+          "type": "string"
+        },
+        "as_of": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "As Of"
+        },
+        "definition_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Definition Sha256",
+          "type": "string"
+        },
+        "quality_status": {
+          "enum": [
+            "verified",
+            "unverified",
+            "conflict"
+          ],
+          "title": "Quality Status",
+          "type": "string"
+        },
+        "is_preferred": {
+          "title": "Is Preferred",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "record",
+        "normalized_value",
+        "reporting_basis",
+        "measurement_type",
+        "as_of",
+        "definition_sha256",
+        "quality_status",
+        "is_preferred"
+      ],
+      "title": "ExistingFact",
+      "type": "object"
+    },
+    "ExistingSource": {
+      "additionalProperties": false,
+      "properties": {
+        "company_slug": {
+          "title": "Company Slug",
+          "type": "string"
+        },
+        "source_url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "verification_status": {
+          "enum": [
+            "pending",
+            "verified",
+            "rejected",
+            "conflict"
+          ],
+          "title": "Verification Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "company_slug",
+        "source_url",
+        "sha256",
+        "verification_status"
+      ],
+      "title": "ExistingSource",
+      "type": "object"
+    },
+    "FinancialFactRecord": {
+      "additionalProperties": false,
+      "description": "One source observation before database ID resolution.",
+      "properties": {
+        "company_slug": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "title": "Company Slug",
+          "type": "string"
+        },
+        "period_type": {
+          "enum": [
+            "FY",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "TTM"
+          ],
+          "title": "Period Type",
+          "type": "string"
+        },
+        "fiscal_year": {
+          "maximum": 2200,
+          "minimum": 1900,
+          "title": "Fiscal Year",
+          "type": "integer"
+        },
+        "period_start": {
+          "format": "date",
+          "title": "Period Start",
+          "type": "string"
+        },
+        "period_end": {
+          "format": "date",
+          "title": "Period End",
+          "type": "string"
+        },
+        "currency": {
+          "pattern": "^[A-Z]{3}$",
+          "title": "Currency",
+          "type": "string"
+        },
+        "metric_code": {
+          "pattern": "^[a-z][a-z0-9_]{1,63}$",
+          "title": "Metric Code",
+          "type": "string"
+        },
+        "raw_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "title": "Raw Value"
+        },
+        "raw_value_text": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Raw Value Text"
+        },
+        "unit_scale": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0.0,
+              "type": "number"
+            },
+            {
+              "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+              "type": "string"
+            }
+          ],
+          "default": "1",
+          "title": "Unit Scale"
+        },
+        "source": {
+          "$ref": "#/$defs/SourceMetadata"
+        },
+        "source_page": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Page"
+        },
+        "source_label": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Label"
+        }
+      },
+      "required": [
+        "company_slug",
+        "period_type",
+        "fiscal_year",
+        "period_start",
+        "period_end",
+        "currency",
+        "metric_code",
+        "raw_value",
+        "source"
+      ],
+      "title": "FinancialFactRecord",
+      "type": "object"
+    },
+    "SourceMetadata": {
+      "additionalProperties": false,
+      "description": "Primary-source provenance attached to an ingested fact.",
+      "properties": {
+        "title": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "document_type": {
+          "enum": [
+            "annual_report",
+            "quarterly_result",
+            "investor_presentation",
+            "earnings_release",
+            "exchange_disclosure",
+            "ir_material"
+          ],
+          "title": "Document Type",
+          "type": "string"
+        },
+        "source_url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        },
+        "publisher": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "fiscal_year": {
+          "anyOf": [
+            {
+              "maximum": 2200,
+              "minimum": 1900,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fiscal Year"
+        },
+        "fiscal_quarter": {
+          "anyOf": [
+            {
+              "maximum": 4,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fiscal Quarter"
+        },
+        "sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sha256"
+        }
+      },
+      "required": [
+        "title",
+        "document_type",
+        "source_url",
+        "publisher"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Completeness is attested by the trusted exporter, not established by this planner.",
+  "properties": {
+    "project_ref": {
+      "pattern": "^[a-z0-9]{20}$",
+      "title": "Project Ref",
+      "type": "string"
+    },
+    "captured_at": {
+      "format": "date-time",
+      "title": "Captured At",
+      "type": "string"
+    },
+    "complete": {
+      "const": true,
+      "title": "Complete",
+      "type": "boolean"
+    },
+    "company_slugs": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Company Slugs",
+      "type": "array"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/ExistingSource"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "facts": {
+      "items": {
+        "$ref": "#/$defs/ExistingFact"
+      },
+      "title": "Facts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "project_ref",
+    "captured_at",
+    "complete",
+    "company_slugs",
+    "sources",
+    "facts"
+  ],
+  "title": "TargetSnapshot",
+  "type": "object"
+}
