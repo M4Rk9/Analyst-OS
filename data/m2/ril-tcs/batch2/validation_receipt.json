@@ -1,0 +1,20 @@
+{
+  "documents": 10,
+  "statement_text_pages": 26,
+  "supporting_note_pages": 7,
+  "observations": 644,
+  "source_columns": 20,
+  "current_year_observations": 322,
+  "conflicting_keys": 2,
+  "validated_candidate_rows": 320,
+  "accounting_identity_checks": 138,
+  "derived_equity_entries_not_in_candidate_csv": 2,
+  "candidate_csv_sha256": "ea4f4eabde67f9447a9c27018daa9a4d690187d9196ed00e54168ab4be67a285",
+  "production_writes": 0,
+  "limitations": [
+    "Schema validation does not approve facts for production",
+    "Original PDF hash/authenticity checks were performed during extraction",
+    "This checker verifies committed page-text hashes, not remote official PDFs",
+    "Companion metadata must survive any later publisher; CSV loader drops extras"
+  ]
+}

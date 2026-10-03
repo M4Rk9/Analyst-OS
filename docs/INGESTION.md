@@ -44,3 +44,7 @@ The pipeline code is implemented and testable, but the repository intentionally 
 ## First reviewed RIL/TCS evidence batch
 
 See [data/m2/ril-tcs/batch1](../data/m2/ril-tcs/batch1/README.md) for five-year report provenance, 120 consolidated P&L observations, four preserved RIL re-presentation conflicts, and 56 unique validation-only candidate facts. Nine uploads matched official bytes; the TCS FY2025–26 official copy was independently reacquired when the uploaded hash differed. All records remain staging evidence. The CSV does not carry quality-state or reporting-basis approval; a privileged publisher must preserve the companion metadata and approve each observation explicitly. This batch does not complete M2 or issue #14.
+
+## RIL/TCS balance-sheet and cash-flow evidence
+
+[Batch2](../data/m2/ril-tcs/batch2/README.md) retains 644 source observations and 320 validation-only candidates, with 138 exact accounting checks and two unresolved RIL FY2024 cash-flow conflicts. Together with batch1 there are 376 candidates and six unresolved conflict keys. Run `PYTHONPATH=python python python/scripts/validate_m2_batch2.py data/m2/ril-tcs/batch2` to recheck the evidence and receipt. Preserve the JSON companion metadata: instant balance-sheet semantics, source-column selection, quality/preference flags and metric definitions are not enforced or preserved by the CSV loader. Follow [M2_NEXT_STEPS.md](M2_NEXT_STEPS.md) before implementing any database writes.

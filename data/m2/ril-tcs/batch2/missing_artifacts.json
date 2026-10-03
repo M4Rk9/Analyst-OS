@@ -1,0 +1,71 @@
+[
+  {
+    "company_slug": "hdfc-bank",
+    "status": "not supplied or authenticated in these batches",
+    "artifact_types": [
+      "annual reports FY2022-FY2026 for selected history window",
+      "consolidated balance sheets, profit-and-loss statements and cash-flow statements",
+      "relevant liability/lease, segment and comparability notes"
+    ],
+    "source_urls_filenames_hashes": "unconfirmed",
+    "financial_values": "unavailable"
+  },
+  {
+    "company_slug": "tata-motors",
+    "status": "not supplied or authenticated in these batches",
+    "artifact_types": [
+      "annual reports FY2022-FY2026 for selected history window",
+      "consolidated balance sheets, profit-and-loss statements and cash-flow statements",
+      "relevant liability/lease, segment and comparability notes"
+    ],
+    "source_urls_filenames_hashes": "unconfirmed",
+    "financial_values": "unavailable"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "status": "not supplied or authenticated in these batches",
+    "artifact_types": [
+      "annual reports FY2022-FY2026 for selected history window",
+      "consolidated balance sheets, profit-and-loss statements and cash-flow statements",
+      "relevant liability/lease, segment and comparability notes"
+    ],
+    "source_urls_filenames_hashes": "unconfirmed",
+    "financial_values": "unavailable"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "status": "source review/decision missing; reports already available",
+    "artifact_types": [
+      "documented approved bridge/source-column selection for four FY2022 P&L conflicting keys",
+      "documented approved acquisition/CF presentation bridge for two FY2024 cash-flow conflicting keys",
+      "reviewed five-year applicable Note29 finance-cost components and capitalized-interest context",
+      "reviewed full debt, deferred-payment, accrued-interest and supplier-financing scope",
+      "approved FY2022 equity source/derivation and owner-profit/EBIT/capex definitions where required"
+    ],
+    "financial_values": "only selected page-backed fields in observations.json are candidates"
+  },
+  {
+    "company_slug": "tcs",
+    "status": "source review/decision missing; reports already available",
+    "artifact_types": [
+      "approved official FY2026 source selection",
+      "reviewed five-year applicable Note16 finance-cost components",
+      "reviewed liability notes and FY2026 convertible-instrument classification",
+      "approved billed/unbilled receivable, owner-profit/EBIT and capex/ROU/acquisition definitions where required"
+    ],
+    "financial_values": "borrowing absence is not reported zero"
+  },
+  {
+    "company_slug": null,
+    "status": "implementation/runtime evidence missing",
+    "artifact_types": [
+      "reviewed source/metric policy and preferred-series decision records",
+      "provenance-preserving dry-run and transactional/idempotent publishing path",
+      "target database conflict scan and load receipts",
+      "input-linked deterministic analytics and validated AI outputs for available inputs",
+      "Supabase migration/RLS runtime checks",
+      "Cloudflare deployment/header/browser/accessibility verification"
+    ],
+    "financial_values": "no production approval or loading implied by these batches"
+  }
+]
