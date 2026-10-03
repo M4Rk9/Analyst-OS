@@ -1,0 +1,431 @@
+Consolidated Balance Sheet
+As at 31st March, 2022
+392
+393
+Integrated Annual Report 2021-22
+Reliance Industries Limited
+(` in crore)
+Notes
+As at
+31st March, 2022
+As at
+31st March, 2021
+Assets
+Non-Current Assets
+Property, Plant and Equipment
+1
+5,00,454
+4,51,066
+Capital Work-in-Progress
+1
+68,052
+71,171
+Goodwill
+13,009
+10,212
+Other Intangible Assets
+1
+1,14,335
+79,980
+Intangible Assets Under Development
+1
+1,04,454
+54,782
+Financial Assets
+	
+Investments
+2
+2,86,146
+2,12,382
+	
+Loans
+3
+1,588
+1,117
+	
+Other Financial Assets
+4
+2,377
+1,367
+Deferred Tax Assets (Net)
+5
+1,043
+1,147
+Other Non-Current Assets
+6
+61,188
+64,977
+Total Non-Current Assets
+11,52,646
+9,48,201
+Current Assets
+Inventories
+7
+1,07,778
+81,672
+Financial Assets
+	
+Investments
+8
+1,08,118
+1,52,446
+	
+Trade Receivables
+9
+23,640
+19,014
+	
+Cash and Cash Equivalents
+10
+36,178
+17,397
+	
+Loans
+130
+65
+	
+Other Financial Assets
+11
+23,896
+61,124
+Other Current Assets
+12
+47,279
+41,293
+Total Current Assets
+3,47,019
+3,73,011
+Total Assets
+14,99,665
+13,21,212
+Equity and Liabilities
+Equity
+Equity Share Capital
+14
+6,765
+6,445
+Other Equity
+15
+7,72,720
+6,93,727
+Non-Controlling Interest
+1,09,499
+99,260
+Liabilities
+Non-Current Liabilities
+Financial Liabilities
+	
+Borrowings
+16
+1,87,699
+1,63,683
+	
+Lease Liabilities
+13,007
+6,948
+	
+Deferred Payment Liabilities
+17
+37,184
+18,837
+	
+Other Financial Liabilities
+18
+12,024
+14,616
+Provisions
+19
+1,853
+2,625
+Deferred Tax Liabilities (Net)
+5
+49,644
+37,001
+Other Non-Current Liabilities
+608
+502
+Total Non-Current Liabilities
+3,02,019
+2,44,212
+Current Liabilities
+Financial Liabilities
+	
+Borrowings
+20
+78,606
+88,128
+	
+Lease Liabilities
+2,662
+1,366
+	
+Trade Payables
+21
+1,59,330
+1,08,897
+	
+Other Financial Liabilities
+22
+44,544
+43,639
+Other Current Liabilities
+23
+21,584
+33,034
+Provisions
+24
+1,936
+2,504
+Total Current Liabilities
+3,08,662
+2,77,568
+Total Liabilities
+6,10,681
+5,21,780
+Total Equity and Liabilities
+14,99,665
+13,21,212
+Significant Accounting Policies
+See accompanying Notes to the Financial Statements
+1 to 45
+(` in crore)
+Notes
+2021-22
+2020-21
+Income
+Value of Sales
+6,96,972
+4,67,669
+Income from Services
+95,784
+71,569
+Value of Sales & Services (Revenue)
+7,92,756
+5,39,238
+Less: GST Recovered
+71,122
+52,912
+Revenue from Operations
+25
+7,21,634
+4,86,326
+Other Income
+26
+14,947
+16,327
+Total Income
+7,36,581
+5,02,653
+Expenses
+Cost of Materials Consumed
+3,60,784
+1,99,915
+Purchase of Stock-in-Trade
+1,35,585
+1,01,850
+Changes in Inventories of Finished Goods, Work-in-Progress and Stock-in-Trade
+27
+(21,457)
+(9,064)
+Excise Duty
+21,672
+19,402
+Employee Benefits Expense
+28
+18,775
+14,817
+Finance Costs
+29
+14,584
+21,189
+Depreciation / Amortisation and Depletion Expense
+1
+29,797
+26,572
+Other Expenses
+30
+95,815
+78,669
+Total Expenses
+6,55,555
+4,53,350
+Profit Before Share of Profit / (Loss) of Associates and Joint Ventures, 
+Exceptional Item and Tax
+81,026
+49,303
+Share of Profit / (Loss) of Associates and Joint Ventures
+280
+516
+Profit Before Exceptional Item and Tax
+81,306
+49,819
+Exceptional Item (Net of Tax)
+31
+2,836
+5,642
+Profit Before Tax *
+84,142
+55,461
+Tax Expenses *
+Current Tax
+13
+3,161
+2,205
+Deferred Tax
+13
+13,136
+(483)
+Profit for the Year
+67,845
+53,739
+Other Comprehensive Income:
+i.	
+Items that will not be reclassified to Profit or Loss
+26.1
+27,533
+37,517
+ii.	
+Income Tax relating to items that will not be reclassified to Profit or Loss
+(3,215)
+(4,605)
+iii.	 Items that will be reclassified to Profit or Loss
+26.2
+(2,584)
+1,264
+iv.	 Income Tax relating to items that will be reclassified to Profit or Loss
+526
+(378)
+Total Other Comprehensive Income for the Year [Net of Tax]
+22,260
+33,798
+Total Comprehensive Income for the Year
+90,105
+87,537
+Net Profit Attributable to:
+a)	 Owners of the Company
+60,705
+49,128
+b)	 Non Controlling Interest
+7,140
+4,611
+Other Comprehensive Income Attributable to:
+a)	 Owners of the Company
+22,185
+33,849
+b)	 Non Controlling Interest
+75
+(51)
+Total Comprehensive Income attributable to:
+a)	 Owners of the Company
+82,890
+82,977
+b)	 Non Controlling Interest
+7,215
+4,560
+Earnings Per Equity Share of Face Value of ` 10 each
+Basic (in `) - After Exceptional Items
+32
+92.00
+76.37
+Basic (in `) - Before Exceptional Items
+32
+87.71
+67.60
+Diluted (in `) - After Exceptional Items
+32
+90.85
+75.21
+Diluted (in `) - Before Exceptional Items
+32
+86.61
+66.57
+Significant Accounting Policies
+See accompanying Notes to the Financial Statements
+1 to 45
+* Profit before tax is after Exceptional Item and tax thereon. Tax expenses are excluding the Current Tax and Deferred Tax on Exceptional Item.
+For and on behalf of the Board
+M.D. Ambani
+Chairman and  
+Managing Director
+N.R. Meswani
+Executive Directors
+H.R. Meswani
+P.M.S. Prasad
+P.K. Kapil
+Nita M. Ambani
+Non-Executive  
+Directors
+Prof. Dipak C. Jain
+Dr. R.A. Mashelkar
+Adil Zainulbhai
+Raminder Singh Gujral
+Dr. Shumeet Banerji
+Arundhati Bhattacharya
+His Excellency Yasir Othman H. Al Rumayyan
+K.V. Chowdary
+As per our Report of even date
+For D T S & Associates LLP
+Chartered Accountants
+(Registration No.  
+142412W/ W100595)
+For S R B C & CO LLP
+Chartered Accountants
+(Registration No.  
+324982E/E300003)
+T P Ostwal
+Partner  
+Membership No. 030848
+Vikas Kumar Pansari
+Partner  
+Membership No. 093649
+Date: May 06, 2022
+Alok Agarwal
+Chief Financial Officer
+Srikanth Venkatachari
+Joint Chief Financial Officer
+Savithri Parekh
+Company Secretary
+For and on behalf of the Board
+M.D. Ambani
+Chairman and  
+Managing Director
+N.R. Meswani
+Executive Directors
+H.R. Meswani
+P.M.S. Prasad
+P.K. Kapil
+Nita M. Ambani
+Non-Executive  
+Directors
+Prof. Dipak C. Jain
+Dr. R.A. Mashelkar
+Adil Zainulbhai
+Raminder Singh Gujral
+Dr. Shumeet Banerji
+Arundhati Bhattacharya
+His Excellency Yasir Othman H. Al Rumayyan
+K.V. Chowdary
+As per our Report of even date
+For D T S & Associates LLP
+Chartered Accountants
+(Registration No.  
+142412W/ W100595)
+For S R B C & CO LLP
+Chartered Accountants
+(Registration No.  
+324982E/E300003)
+T P Ostwal
+Partner  
+Membership No. 030848
+Vikas Kumar Pansari
+Partner  
+Membership No. 093649
+Date: May 06, 2022
+Alok Agarwal
+Chief Financial Officer
+Srikanth Venkatachari
+Joint Chief Financial Officer
+Savithri Parekh
+Company Secretary
+Consolidated Statement of Profit and Loss
+For the year ended 31st March, 2022
