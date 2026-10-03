@@ -1,0 +1,3815 @@
+{
+  "plan_version": 1,
+  "catalog_sha256": "4ca38d331e7240ff333ec4d402b0e4b2c2baabef46aeb43227e8cb0421c94d8d",
+  "review_ledger_sha256": "e70946ed311ace2f3819c7eba52aaff06d926f7afa63d3b5cb8e6d9d81b02abc",
+  "target_project_ref": null,
+  "target_snapshot_sha256": null,
+  "target_snapshot_captured_at": null,
+  "summary": {
+    "evidence_observations": 764,
+    "candidate_facts": 376,
+    "unresolved_conflicting_keys": 6,
+    "withheld_current_year_facts": 6,
+    "blocked_candidates": 376,
+    "proposed_inserts": 0,
+    "already_present": 0,
+    "production_writes": 0
+  },
+  "withheld": [
+    {
+      "observation_id": "reliance-industries:2022:revenue:report2022",
+      "reason": "unresolved_source_conflict"
+    },
+    {
+      "observation_id": "reliance-industries:2022:other_income:report2022",
+      "reason": "unresolved_source_conflict"
+    },
+    {
+      "observation_id": "reliance-industries:2022:total_income:report2022",
+      "reason": "unresolved_source_conflict"
+    },
+    {
+      "observation_id": "reliance-industries:2022:total_expenses:report2022",
+      "reason": "unresolved_source_conflict"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_from_investing:report2024",
+      "reason": "unresolved_source_conflict"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_change:report2024",
+      "reason": "unresolved_source_conflict"
+    }
+  ],
+  "blocked": [
+    {
+      "observation_id": "reliance-industries:2022:finance_costs:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "fb6ce1e445e4a94a2edabf9c7b326ad831622985fb00da8cec1eb99f6e721ca2",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "reliance-industries:2022:profit_for_year:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "122745c1637bae8dcc3af79b0abeb5da66f06ac45cc7e5a26c50354c37940d26",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "reliance-industries:2023:revenue:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1ed7656622bd04e0ec6f7279c8ba28c5bebc2e16d0320850a8cecf734bf00af4",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "reliance-industries:2023:other_income:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3d56139e102077f250c4725414765ad5958350506c5a8187101cd5b1a87a019e",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_income:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2dad5d7bad3e19df1802d47127ab8db0fa2b707e91079ac44bcd5a80d6526f86",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "reliance-industries:2023:finance_costs:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "54f40777d0190e8f144e18f0df691c8ad7d1e3e4c322c649bdff563012126375",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_expenses:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1e2e64ffa505da8d745c71e6780a5f2f0a5f4e06c5d304af543590e3484e438c",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "reliance-industries:2023:profit_for_year:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ea767fe664b2523c45edb5de58d7b18840ced97c9caa950f0f55c8af0b6d4826",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "reliance-industries:2024:revenue:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5b3b3712b426daeeb61d28140bbc9aa0f01d1a9fe0d6f8d13063a6d4592d3b6f",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "reliance-industries:2024:other_income:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2694201b9a505a13b533b70fc0de743929ecef8e2110bbb0d90f2cd4961aa0f9",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_income:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f83180e2f668d2eddb38756992cd098b6436733321de5dc98cbb0f834c041a8e",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "reliance-industries:2024:finance_costs:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1962f2790b94b8735e5e26fe0de0c86ae7aa239c90e6c50e6acd9a3bddd5a05d",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_expenses:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "53183c2058ca567eab2126081c19f8eaf7efc2dc59ad207cfcc935cd2debee9f",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "reliance-industries:2024:profit_for_year:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "c7f624944ab99e044ae40ad46e7619a4f2a93dee463bf5b3dc8f7a2813e298af",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "reliance-industries:2025:revenue:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "fe0f8e01fd0a01eff985ec78a33d5ab402e529728e9236725619045c86628901",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "reliance-industries:2025:other_income:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5701118268026ed6816723f135d113f649e42fcd51cce8399573bb1512140e38",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_income:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b4bf9e1f13c0175bb8d7fc752a75198172c1f4418da7712b54d87744ae54b72d",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "reliance-industries:2025:finance_costs:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "754a27c04708013f60d8a521c8c1cbbfb577441bc47c33518d5de252f1c2c6f4",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_expenses:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "8f4c89940deaf152924e2103b151fff1c719f6be9b4b3e574fd4ae3b96955d96",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "reliance-industries:2025:profit_for_year:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3f0ce46102b1a0b977606d489c7eb8cedb46e9f78880051adc8497f87f53fb1a",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "reliance-industries:2026:revenue:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1bf34c6776d7011c6602e3ccb81a0129a3e49fa83b8ea4b7d4d89a5b2a178423",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "reliance-industries:2026:other_income:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7b616c1c97c58e901a6a01e06ded1fc6fdd061c083c41294d789aa3484ba7743",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "reliance-industries:2026:total_income:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1cdead9c45dac95a21dfef271442c128d8d9e781c282c3ba202e1a14ad8be954",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "reliance-industries:2026:finance_costs:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ffa614ad03627443661805292a0d3a3f80ce556384eff2944550f6c0e352fc49",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "reliance-industries:2026:total_expenses:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4adabb99459727b3dd42d04b7eab31bff74746b5c72405dee006ef8270b97f40",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "reliance-industries:2026:profit_for_year:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6a108faa48c6b5537fd66c5ecfcfaa9889dc91bfff2acd4395e298a24fe15313",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "tcs:2022:revenue:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2e6ea50969a5225bca043638b3c94e3e6044dfa6dc357d54ab992efef4dd1a31",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "tcs:2022:other_income:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e3f5694aabe110711950fd4b77231c6acfe68f3b691262af6fa1a0397d312328",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "tcs:2022:total_income:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "efbfcaabe6b37d5a7de0165319d9637c7a71988aa8e32597c2cf30cb50de1ffe",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "tcs:2022:finance_costs:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "40e0cdc83143303b03231b39aedc98707d435590c8be70efc26ee55ed62d3fd5",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "tcs:2022:total_expenses:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7795ebc9937381cd8d89070da5a847d81c8fb703719a9d0e3b2de1246544a6b4",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "tcs:2022:profit_for_year:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ca736d73656083504b1e62622d90458d55b9462553f58085f7b718ca7ec58c94",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "tcs:2023:revenue:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ebe5125de6445eebe7d41c135e90451f9a173b1a8c93fb3ea6d755014d4562d1",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "tcs:2023:other_income:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e2db1fe9e4269cffe85fde777e8c5f4b0a157141452fd83ebdb8d6757d54fa91",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "tcs:2023:total_income:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "44ad335fea7a2e99407de8519b7f308488af74eb5c20f0b5307e5a3ccc4bb2e2",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "tcs:2023:finance_costs:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "8d8ac12f0e38c1c9ea511d9784dbb95717b0fdb36b2a789b6a15262c2a9ad64d",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "tcs:2023:total_expenses:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "9109b9cf78ea776f36e07a590be98353fa5598e54443096f5bc2f02007f0d94c",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "tcs:2023:profit_for_year:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "384a328041ca2914b38fb91fd0a6206b12803ded8cc0e572a519bcc5c8e1e4df",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "tcs:2024:revenue:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a3b40799be9e9ad1c2902d8a1bfc1519be4b17b1e1062520df8a71db0122b87a",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "tcs:2024:other_income:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4616b6acfe13f588ec99c5d51ad488c186e40601ef1f9b091bcdfcf30bccb9a1",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "tcs:2024:total_income:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b362ee5bac3b970395694b87ee7cc4e4cf2665e04e30d02c47504efbe7b46fa8",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "tcs:2024:finance_costs:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "15a7d3e962f07ef371ea449014f2bc42aabbd2a3f457610d70f98aad99a000e8",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "tcs:2024:total_expenses:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "764b0ec73ce0f59cc209f5a1e3c476c68b7623f4f09d64aafba37f86a7d168a4",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "tcs:2024:profit_for_year:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f9205c3749ffaf9d44b16f3a6c55aa8ad4f2382371153135e784b6a1b4ed1929",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "tcs:2025:revenue:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a00a0899c5f1a1d3f079c48b968383c1e9419a2386dda7d73f9b1a10807c137f",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "tcs:2025:other_income:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "03e820a0f5b78d1f20b7b06ed2086f4edb370f2ef217c1ad2aff76928bab64e9",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "tcs:2025:total_income:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "983a80a583bcf3f622f667b46bb76680879e2246994846e7ab8252f3759203cd",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "tcs:2025:finance_costs:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4e5750da7c0cb518e06d71364fb93c74eb5c5e051f85dcd270812b3722edc908",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "tcs:2025:total_expenses:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "56f41023a4a0b3a003d8ea2fecbab59888ad9e76569fbc84c16920d0cb761cf5",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "tcs:2025:profit_for_year:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "036a9819349d1db1117e059c0ed545ea9324ef4c0880d132d99ecf2144a456a2",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "tcs:2026:revenue:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "301e4ab00481d2b75d0ecfa97b29be4466cd917c90317f172da6a74fe0db90ae",
+      "definition_sha256": "70255d7aa7df3147d13e9ac28085a43207a343d3bad9805250ce561e4c46ca18"
+    },
+    {
+      "observation_id": "tcs:2026:other_income:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ad21e00e5118ff93e0b52ccc041916507ec8011562f9fd7d16804cee469153ae",
+      "definition_sha256": "b1f60385ee512a105cdd1b05c009f906f9c4c7d8676fc9b6025a075c3443d7a7"
+    },
+    {
+      "observation_id": "tcs:2026:total_income:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a823ef57f67a50ab17cc88ddb7f3d21f4552e2a02bee7afdc0af837bf7d21a63",
+      "definition_sha256": "f74c7588fc0be2a3bb301d6f9d887aa62f0663c48035e08a803dd9b918e86d0a"
+    },
+    {
+      "observation_id": "tcs:2026:finance_costs:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a48a9f1d4e745ec21dcd694f187a11c4541a50c0b3dee1f149084e7f4fd5b112",
+      "definition_sha256": "7845ca8dfb769868a2d82b61858eb239666c6928e6ab9e89667a1575c5f987eb"
+    },
+    {
+      "observation_id": "tcs:2026:total_expenses:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b9b71c67f9207dd5287cc0eda04048a4973c2c473f2477b3b7dca8ea972ce386",
+      "definition_sha256": "bb1e1a4cd95a329a7eeb9e2a76f2b9358d106cf77d77fc49bbde841ecc221a0c"
+    },
+    {
+      "observation_id": "tcs:2026:profit_for_year:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "89fd45cca4722a3b9114c5ccb60fdbefdf5f9970d9c12ccd6a141c4ba735c0d7",
+      "definition_sha256": "e6e99150fb447597791320c87f3966bd30bed163c5c5765aa2e8978fdb785b5e"
+    },
+    {
+      "observation_id": "reliance-industries:2022:noncurrent_assets:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "9033826d52b593b6c0deb8900d665c2281b403abfde1fb081a825ebc4ed9bd06",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "reliance-industries:2022:current_assets:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "636d7254d13cbbae21c906c7faffe95af41d8467ffad84d2592e33e5db163a42",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "reliance-industries:2022:total_assets:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7704705bad7029b1200f3615d0d0fbd49852b552d1d79c566065898effe3944d",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "reliance-industries:2022:share_capital:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7ab18e4f8c3f7231c633612dda89ea8a5bce7e0f9c973d21f9b206018a4b0c4e",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "reliance-industries:2022:other_equity:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b484ff3192b2bbbe4b6ef4c77d58a2931c5349b853bfe32a6df1deeb512783ee",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "reliance-industries:2022:noncontrolling_interest:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2b8c622a171508bb59240021dc04fd6f0a58044c1653f8875afcae08ddb1ebe0",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "reliance-industries:2022:noncurrent_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "290056017c7624475a1b485e1a9e26f5d5cb161a1081f852ac4256aba49d3fe4",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "reliance-industries:2022:current_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0d231a8259a677765d628576b65ab0b3a1a5252487ed30761f8dcb7f6c52e238",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "reliance-industries:2022:inventory:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "baba6120ff280610f527edaf15fc69932bdabbe5cc8474c81fbac72463920531",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "reliance-industries:2022:cash_and_cash_equivalents:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4d8794440b883cb5335173a4d38d347112eff9ddc4777a39fac85b0c7b05d209",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "reliance-industries:2022:trade_payables:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "bdaefe0af317f52376bf143ffaa55c8d37f967299ca73453f053ab477e09cd66",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "reliance-industries:2022:trade_receivables:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "da103985ac676a3c29b33ef0f9609dd53db07d7834095f2cd1ac026558e3c758",
+      "definition_sha256": "baed3dfbb52ca22109f7f33d63d1728169b24f509fb321b0aa5aee971d65418d"
+    },
+    {
+      "observation_id": "reliance-industries:2022:noncurrent_borrowings:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5d0968bec4252d77107a23ab6a2aae2010b66a2a4c8926d4290bdaac82b2e551",
+      "definition_sha256": "43ea8af35aad4158a389cc785da36ee76178fe46c67f51480dca03c2ddddcfe5"
+    },
+    {
+      "observation_id": "reliance-industries:2022:current_borrowings:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5df529a3ae9ad8da74171712bcbe962753be89edffc1db4c9ac1e1491da3b3ac",
+      "definition_sha256": "da74fa74aa7698c84a6c0078a811ef92be491808413a7bb37c20f843133365ba"
+    },
+    {
+      "observation_id": "reliance-industries:2022:noncurrent_lease_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "25fc0d8d844bec4e346d3c427bbaaf2b90f6e1f81a1e02ac3f7c18fe8440f064",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "reliance-industries:2022:current_lease_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "06fd15560fd266b1ef99e3720169d04735954f39092bde8a27407d2392cd17bd",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "reliance-industries:2022:noncurrent_deferred_payment_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2a07439404ae22d874f9f22de7240644daeaf400c67e7779a381212f230c489e",
+      "definition_sha256": "2f2e9fddc35889c22333c1cf73439ebc2d2c3ece453a3f9ef8f61112cac9f2c1"
+    },
+    {
+      "observation_id": "reliance-industries:2022:cash_generated_before_tax:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b16190ce6817958f6d8fa386f82577ad6e5b49e05e315e8b3d3710a9d0fbba69",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "reliance-industries:2022:taxes_paid_net:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "20ed879cff58630b096fcd0b77ade748b00caef4b202ac4caf52e7e6c50c40a9",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "reliance-industries:2022:cash_from_operations:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "59555f1ff305d31684f70c043a191a414d30502737b469e01df6dd53a8e8fa0c",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "reliance-industries:2022:cash_from_investing:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a1dad037749dfd8da570d2fda8b427c9251c6f297d96f40b7e1cbb77d3ac0d0d",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "reliance-industries:2022:cash_from_financing:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a709fba615a574b84da29d709433382f3d1302128c03ae6a4dbc065d2297ed29",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "reliance-industries:2022:cash_change:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3d3674a38ee1f90904533043d530fda8697e55e9500770c83955f1213fa496f1",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "reliance-industries:2022:opening_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b131f8987d4ab9c7a6f7a39a02879895415713d30078d4db1cd41ae4c26e77d5",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "reliance-industries:2022:closing_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "eeed9eab4d837d2094892d5ec7841cd50c6f1af45e5e79731ad30b83bd83fe11",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "reliance-industries:2022:interest_paid_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a9be31c326b5cbb14582047e72c777122fda74c554fa8ea34be9d39cc086c7ab",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "reliance-industries:2022:lease_payments_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "15d268c452c62757f2e7e20cf7f9c43202f586bd782abb31e135e42b0b1f751c",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "reliance-industries:2022:capex_ppe_intangibles_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "159d7ef1af744ca41eef0ebb0f2d1ec002ce9fedf6d14c70644733c9640eafbc",
+      "definition_sha256": "badea985000c9bedea1c3a3b78c90afa7ea9425767bcd7e7ca72e8dc27069cd2"
+    },
+    {
+      "observation_id": "reliance-industries:2022:deferred_payment_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4d585479d03b19668a063c4cd73fa72b943d8eab18e1539cdd70e91f83149138",
+      "definition_sha256": "b965bf6bb65a5c993ee7852c2ee4e6df08a5ab42a4560abf97c093a26e8bc048"
+    },
+    {
+      "observation_id": "reliance-industries:2022:cash_subsidiary_additions:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5c892bddc5204ef07547db384a10b4ad769ca59d42c9ab3b1112ff0635ea03e6",
+      "definition_sha256": "a5b0cbcf172f510594cd52112259d05538903cc14e8bcc3550e4ae3116302b73"
+    },
+    {
+      "observation_id": "reliance-industries:2023:noncurrent_assets:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d9f217a9ecae550a55985d81adf9389e7ffd79eceba05ff047095dcbb6a17149",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "reliance-industries:2023:current_assets:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0f2950a09a9bd95020e03b8416cea64f9677cb6f096afe8365e6339212b8d028",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_assets:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "81743f6a5b81f49f3207ba707da9b9cd3b401d8c9a6abe4109073008073c7faf",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "reliance-industries:2023:share_capital:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "57e813a009c5a2e27a2df4ac618ca57bc8b414b1713fc5ef8b44b627e741b5a3",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "reliance-industries:2023:other_equity:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b0a003eb9b679754e5b6f39f842e3bf8d6d7a600afae19e7674813c1ef3a6d69",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "reliance-industries:2023:noncontrolling_interest:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "31502b476223695126fec0ce358c7ab3fc9bd8d7ce40b218c6b8be952a85decb",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_equity:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4f5d9eb249318fdb620414174824cd1451b727981fdfb553cbfd319d0b9025cf",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "reliance-industries:2023:noncurrent_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2901f753c5637bc80c5836d5ebf8425b9a9d7be3f78cfe4a7c24284ba5fc244b",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "reliance-industries:2023:current_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "107450f6f39149b13e3f2309dc83d52d15ac8968680e0ca410ac9137390fceaf",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "reliance-industries:2023:inventory:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "16dbe0180b6315f57286f9517b8a56261b7eb797d36b79f4aaf58d26fcfd4bfd",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_and_cash_equivalents:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ffd779a732a258c0973bbea2323010760ebfb27af482a5cc6cd3a7780632d66e",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "reliance-industries:2023:trade_payables:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6987466a76c4934f1ec15a3861aabb06d902926ecbe558bff02b6768a1a49942",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "reliance-industries:2023:trade_receivables:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "55b205145b341eeae802273cd5bab90c77eb9c621629d2b56c51f87c86c4cbb7",
+      "definition_sha256": "baed3dfbb52ca22109f7f33d63d1728169b24f509fb321b0aa5aee971d65418d"
+    },
+    {
+      "observation_id": "reliance-industries:2023:noncurrent_borrowings:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "36769516baa99cc7f690237c8f591df1a0da88e63e1809dbc421a4e116133bcd",
+      "definition_sha256": "43ea8af35aad4158a389cc785da36ee76178fe46c67f51480dca03c2ddddcfe5"
+    },
+    {
+      "observation_id": "reliance-industries:2023:current_borrowings:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d0602b024726843b376607b5b6040c9f5fd252a3f099b9f5a5c6567d0582625e",
+      "definition_sha256": "da74fa74aa7698c84a6c0078a811ef92be491808413a7bb37c20f843133365ba"
+    },
+    {
+      "observation_id": "reliance-industries:2023:noncurrent_lease_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0f95d7e04095daed7ef9cf05eb723689c19e2590eecd89a8af60998691396e6b",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "reliance-industries:2023:current_lease_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "77c75a434667e5daf6f0a719d6be1a80f2c8857b8cf7a95bc68fccacbba719fc",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "reliance-industries:2023:noncurrent_deferred_payment_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f64cf2d3ededa5ea693857f7faf8913c5d72c9b4868b3aaa946c89a2b53506bf",
+      "definition_sha256": "2f2e9fddc35889c22333c1cf73439ebc2d2c3ece453a3f9ef8f61112cac9f2c1"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_generated_before_tax:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d050004db61c48148b626d415884799f80f428c02ba8e98b3a86347e166678a4",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "reliance-industries:2023:taxes_paid_net:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d45b8e6f3cb0b8e728478d779ef5d53211cc210b4b7ce3bc2a0ffbb6d92813a0",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_from_operations:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b3e811e73ae60c122bbe052eae133bade7d194d02d8547509c50bcf59faf98e5",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_from_investing:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "bccbfb61da573a490e2ae4f10c44d801a41ec296a6df30c77c9cbffa825afdba",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_from_financing:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7ba3d6380e4174eae5c626f03216b2c7a894881fe6e484840615e23b6869345b",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_change:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a3b5190b4789d1a25a45cf3a8cb0c93faa6209b3859ea0dc8bf9308a7513f68d",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "reliance-industries:2023:opening_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "cf09c31d6efce2d34e481e49fe3c10baf807f0dc5944e525d27cf180bbeac951",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "reliance-industries:2023:closing_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4497177198d43d35cae59165f1a47eb6fa98b642dc513daeff6bb8117b91bcd4",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "reliance-industries:2023:interest_paid_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "04c8ccfb4cab646d0ab9fde2b13dfd8786dc236aa8cf3cb949872a6c260d0f8a",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "reliance-industries:2023:lease_payments_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "924c02a214d962b617c8825552f00bc3904594b9829e95fbd752d51bfaf61da3",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "reliance-industries:2023:capex_ppe_intangibles_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "eadffd7f1a19087112f2f279dba7e94c2787bac9ff52dbdec809ffffd22d53ab",
+      "definition_sha256": "badea985000c9bedea1c3a3b78c90afa7ea9425767bcd7e7ca72e8dc27069cd2"
+    },
+    {
+      "observation_id": "reliance-industries:2023:deferred_payment_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a9e568f6ba8964dc2c17d532f6f5ffdca58b2e6f645fc5453c0bc1a71110c995",
+      "definition_sha256": "b965bf6bb65a5c993ee7852c2ee4e6df08a5ab42a4560abf97c093a26e8bc048"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_subsidiary_additions:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "88e58dcab484081643958e9615fe91ddd7d97217096b1a53ab036f44820699e0",
+      "definition_sha256": "a5b0cbcf172f510594cd52112259d05538903cc14e8bcc3550e4ae3116302b73"
+    },
+    {
+      "observation_id": "reliance-industries:2023:cash_demerger_deduction:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "633a8c9141d6fa1b8e0d4e548df68f83a8bd8cabf21181a2bfb8474979751556",
+      "definition_sha256": "2064d1b25142d136b6089b3a6f87b1ce68c6fd617c7843bd86c0cce9a5d037d1"
+    },
+    {
+      "observation_id": "reliance-industries:2024:noncurrent_assets:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "acbb19455c9882b889fcc4e3fbbad6c4032341974132908514b84ddd6592dde8",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "reliance-industries:2024:current_assets:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1025b2445c31e100f598702579f8df143f2f9d2a106df3069b6e40348e407393",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_assets:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "72b0696c0d7ebcc2163b6288ea8b296bfad84d5ed5da797becf04ba686763b02",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "reliance-industries:2024:share_capital:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "c03f09ffb424414dc8e941678690dd55424d58d431185a1b3ec64368146c54f8",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "reliance-industries:2024:other_equity:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "940b8fad73592bde99927cb2799eec12cf40eb0b4814815f67c8d644fc788c0f",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "reliance-industries:2024:noncontrolling_interest:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "bbde827367dfd837e78f5bf7b30bba5d4fe100cb297934c40d44b159f52e6324",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_equity:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f7e6115968184b81fa1003f7515cd98033951d34f4bca7a4744f493235ee1f24",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "reliance-industries:2024:noncurrent_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5556b3cff11173b28823a725a2dfc373174cd37696b588ddb457bf94e3dc62d6",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "reliance-industries:2024:current_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "cbcf811636cf0984236f4717a3c966d81c65857130a640ad080c7078d2c4509f",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "reliance-industries:2024:inventory:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0be8f5eb9fe18f6822b3a9b100f7b281ee94073b0ed1afb81a63a1aa3673d9a7",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_and_cash_equivalents:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "556b6c7bfd3760a3a109ee8375dad0447d4dbc63247923c71a9b39c2d8f22c2d",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "reliance-industries:2024:trade_payables:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2d3736001e3ad3e6d8b35109b50d05fd93a152aa85185c481113565427a9022f",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "reliance-industries:2024:trade_receivables:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "dcaced4d8ecf341070a85151be837ac0fe3f121a21686cb58d616a74f25078ec",
+      "definition_sha256": "baed3dfbb52ca22109f7f33d63d1728169b24f509fb321b0aa5aee971d65418d"
+    },
+    {
+      "observation_id": "reliance-industries:2024:noncurrent_borrowings:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "94e4f83f13d55376613a8defcdc47f66c3acf3ec89ea9e3742a13112735ec1da",
+      "definition_sha256": "43ea8af35aad4158a389cc785da36ee76178fe46c67f51480dca03c2ddddcfe5"
+    },
+    {
+      "observation_id": "reliance-industries:2024:current_borrowings:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5824f1143d475ad13879baed68bddfce0bb0d3e183c11fe61a3e33c5087adc10",
+      "definition_sha256": "da74fa74aa7698c84a6c0078a811ef92be491808413a7bb37c20f843133365ba"
+    },
+    {
+      "observation_id": "reliance-industries:2024:noncurrent_lease_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ba99d189f4425b3639b3aade588820f3bd2c91ed606bc807b852c9735a973684",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "reliance-industries:2024:current_lease_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "809e869d714259b4df740e6934d1ef6892d45bb8a733895ed7cb52ce549522b8",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "reliance-industries:2024:noncurrent_deferred_payment_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "520e8e4fa7ca2f7d288c7db20239cf1cb50646fdfb6592f3410e67424caba9b6",
+      "definition_sha256": "2f2e9fddc35889c22333c1cf73439ebc2d2c3ece453a3f9ef8f61112cac9f2c1"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_generated_before_tax:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "35c8a67377df0e63678f869edd42e148ff8ee9457e536d3dfdc45b9b96e0c582",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "reliance-industries:2024:taxes_paid_net:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2a35661eb503cce332de2f19e272327cf88881eb418c4f244de67eacb7f88361",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_from_operations:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1cc7bef2b3e79b844458f64241c1ac999c853647be6f129d62ccb71437b84dac",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_from_financing:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a0a45f12145727efbeb8c8fb9938e52b2eaeac70067d6d8834d61b35a03e4451",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "reliance-industries:2024:opening_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "719814609f48f3b17e7ba8703ab4197fd9df06f394b1cb500dac9d5897a6f2aa",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "reliance-industries:2024:closing_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "93154ccaeaf53237d56c7953f6a4f160b9bc2d3db16312bd9f3a153e62777b10",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "reliance-industries:2024:interest_paid_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "dbd864e2e5a8c0065618ab09f3209b87d8697046650734def2ad4e0bebab0c36",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "reliance-industries:2024:lease_payments_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "472f616953c0bc1002432a4e07478891f323210dd4ce92c840b6bebdd642b421",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "reliance-industries:2024:capex_ppe_intangibles_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f1fe0903b486e57955dd38744f14775c4352c415fda5556e280ad22e3f7f1662",
+      "definition_sha256": "badea985000c9bedea1c3a3b78c90afa7ea9425767bcd7e7ca72e8dc27069cd2"
+    },
+    {
+      "observation_id": "reliance-industries:2024:deferred_payment_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "24fdd628ea862bb97c4345214eac8c14df8c44bebe42b5c6c725f0c6f9126650",
+      "definition_sha256": "b965bf6bb65a5c993ee7852c2ee4e6df08a5ab42a4560abf97c093a26e8bc048"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_subsidiary_additions:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "18497a23b5113f6cf6855d9c556e1b3e1cba12c687bcb49423631bdb4b8d3eef",
+      "definition_sha256": "a5b0cbcf172f510594cd52112259d05538903cc14e8bcc3550e4ae3116302b73"
+    },
+    {
+      "observation_id": "reliance-industries:2024:cash_demerger_deduction:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "25aff1a3c105b1eade0c6bde31dd9b35a0099f0c8574a2ccab537540d1af23f8",
+      "definition_sha256": "2064d1b25142d136b6089b3a6f87b1ce68c6fd617c7843bd86c0cce9a5d037d1"
+    },
+    {
+      "observation_id": "reliance-industries:2025:noncurrent_assets:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "66bf83c7fa57910a75a304dbed54756ea40ea74105c5b05a43e6238067762cc5",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "reliance-industries:2025:current_assets:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "998b069a33aba5fa4f28f84b45e0f100bdb92524c2e369c2186cc9d26aa68a58",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_assets:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d2691e5bcfad39f6401a96771eb9735af2a5e400b95abdec34e9670e1dd11229",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "reliance-industries:2025:share_capital:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "63e83135f1393ebf7a6f761c29ee13d5bc286885b07d79e23050518c71541296",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "reliance-industries:2025:other_equity:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d571ec2c730034ae2b33b41d876263512d2988a531878ef898294071f2be4f6d",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "reliance-industries:2025:noncontrolling_interest:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6ccd882d1c5c20c2f2f9ba016db365c7187d3dde9b14bf328b3b84ae25ff83f9",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_equity:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "fd5e3a6a3f3521543f1d9a296d92cd45635c48284ee2c48870d07219f08b75d7",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "reliance-industries:2025:noncurrent_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "977732c58157b3ba1658dc1850bb1527c3e0990e1c77030ad373e07472348427",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "reliance-industries:2025:current_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "63e0212551d2d3cbbe1f8228a3ab28d78045bde5d9bafa11d7a7e65d83040a7e",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "reliance-industries:2025:inventory:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b90fdb225102ebc71b658a91e2d2caae6a2346aa15c08757ca24cd0a326c1037",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "reliance-industries:2025:cash_and_cash_equivalents:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "89d82c94285dadbcf6b15f91c326dfd33340845b2b69efaaaa0a35f8a101648a",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "reliance-industries:2025:trade_payables:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "cabac8c9121ff5f86d0edc13f3ebdd0cf8101ecfd2cba3e2c1ec872ed50cab7c",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "reliance-industries:2025:trade_receivables:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "87dcf910a55dd86367d8208f79fe64ff26ec27028d83a89f003ebfd28d8ec7bd",
+      "definition_sha256": "baed3dfbb52ca22109f7f33d63d1728169b24f509fb321b0aa5aee971d65418d"
+    },
+    {
+      "observation_id": "reliance-industries:2025:noncurrent_borrowings:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e4fb33a7bbc0419155ac5c31ff6b5524e7c99f749131ab3456e657340d7d5712",
+      "definition_sha256": "43ea8af35aad4158a389cc785da36ee76178fe46c67f51480dca03c2ddddcfe5"
+    },
+    {
+      "observation_id": "reliance-industries:2025:current_borrowings:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1839e8b6d98653cd7228637cf53c5fbc5ca8b90fa5a8558ead19f1b48c548f30",
+      "definition_sha256": "da74fa74aa7698c84a6c0078a811ef92be491808413a7bb37c20f843133365ba"
+    },
+    {
+      "observation_id": "reliance-industries:2025:noncurrent_lease_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b0c0313b7e454c89dfd83e96063d75e8f59037e76f44ded5e6f73450c565be61",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "reliance-industries:2025:current_lease_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f634e7c903171c133512d398190631826cb20060c2870b8000e64965ea44be64",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "reliance-industries:2025:noncurrent_deferred_payment_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2ac06d04bacaa50e8fa090e692af6f41f39c8f77c8aa40cf1e80afcf998c460f",
+      "definition_sha256": "2f2e9fddc35889c22333c1cf73439ebc2d2c3ece453a3f9ef8f61112cac9f2c1"
+    },
+    {
+      "observation_id": "reliance-industries:2025:cash_generated_before_tax:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b393afd6abca541369eb754858a8d2459551345818367ef3366b6bb3e9d15e9b",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "reliance-industries:2025:taxes_paid_net:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b8155f0cdbcd7ad2e8ccf1b792f449b7722cdd48aad1b3ebbb0d3bcf03397fa5",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "reliance-industries:2025:cash_from_operations:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "beb7621e671c966b94a45d2e17996e38ef9a97311f20310284a340d365003a74",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "reliance-industries:2025:cash_from_investing:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "fe25e9ae6ca33ca4e36e9f2507880bbcc9362100b3a0515a527131675f9806af",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "reliance-industries:2025:cash_from_financing:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "468ed6b8ac53885dc4ce4d76d6b76f2c6f02f953612b3026ceba60a8c0c6fb65",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "reliance-industries:2025:cash_change:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "cad4da3a8e5569916c3cf2a482a2a5dc0a4deaf4ff7166e50ad59ccb5fe2f698",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "reliance-industries:2025:opening_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7b2a74bfd7cc582128b9f48279326a421b6485159a628e994701abcf664c8e8b",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "reliance-industries:2025:closing_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "44a4f622f573e88dfb5b20423e9a878416ccd653ba35b7580b4d77dd1393e134",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "reliance-industries:2025:interest_paid_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "942633bdb71c277b790c066b11469a992a5c1dcdd996ad5e202916c2780133d4",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "reliance-industries:2025:lease_payments_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d74a50f785f79544cdadb18aaf426c3c499a410d9b8063ddef1512d1f0609fe5",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "reliance-industries:2025:capex_ppe_intangibles_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "c58efb782f863748b8f110ce9831ecf83b372363a9e1bed9da8be68ed4e16880",
+      "definition_sha256": "badea985000c9bedea1c3a3b78c90afa7ea9425767bcd7e7ca72e8dc27069cd2"
+    },
+    {
+      "observation_id": "reliance-industries:2025:deferred_payment_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0a28fa27bbe15b77119e97e0e0adbdc6814a60da432605c7aa478927f32a5634",
+      "definition_sha256": "b965bf6bb65a5c993ee7852c2ee4e6df08a5ab42a4560abf97c093a26e8bc048"
+    },
+    {
+      "observation_id": "reliance-industries:2026:noncurrent_assets:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4d310595cba325f633bdb9d6e88f551ef859c7e6df1a202db3ac9302a05811a4",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "reliance-industries:2026:current_assets:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f8e342748fd58293fa93ccdebfb224d32701d573083a5a0bcfffd19504bfeb6e",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "reliance-industries:2026:total_assets:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1eb0cf509d30ce4d2a968c01681ce60132ce64e883b2edbfb0fd4c3002d037ce",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "reliance-industries:2026:share_capital:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ec3b909a0dfb6f0d16184eb19d1f804592d607608a8cbfd4a1f66a133d8bd08b",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "reliance-industries:2026:other_equity:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7a36fa76befde1f145bcfcbae5a4c0a4615ef7628bc3470304f5d4230049a1f8",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "reliance-industries:2026:noncontrolling_interest:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e7868f4d5be28ecc6e92e15fd58b0c77d2df9d7d731344e848807750aba88ebf",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "reliance-industries:2026:total_equity:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6f8edfaa9f41d2d7db641e4290d6f90d748afc0db459c7004ee8643718536aa1",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "reliance-industries:2026:noncurrent_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2332437763c52be33a65b461c99382c5218acfba12b1510f2da90ee0fa2af9fc",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "reliance-industries:2026:current_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "918ebc07f49540708ede40f1dea0feabacc944e0a0acba2f66b2a5202f14c4d4",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "reliance-industries:2026:inventory:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3b472a0aa79961b584ae4bc20a35bffbd07399124f02991f3d7ffad2d6f44972",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "reliance-industries:2026:cash_and_cash_equivalents:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1c043d439075e65500f136b15de7b6256be59720052edab783b2cde02ecf3373",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "reliance-industries:2026:trade_payables:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b9d772af34dea366336458428e66eac32b1606f85ca8a90c91d0cfcc9156f50c",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "reliance-industries:2026:trade_receivables:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f5ecf2085ffec7bb84373a2bb53ba9a6f3de065d3ee5ca79d2bf63ac9f3808c6",
+      "definition_sha256": "baed3dfbb52ca22109f7f33d63d1728169b24f509fb321b0aa5aee971d65418d"
+    },
+    {
+      "observation_id": "reliance-industries:2026:noncurrent_borrowings:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "73a97b1988f643daca9f4fa63d86e17cc388625bfd59dc5e7facce764ab7f8f1",
+      "definition_sha256": "43ea8af35aad4158a389cc785da36ee76178fe46c67f51480dca03c2ddddcfe5"
+    },
+    {
+      "observation_id": "reliance-industries:2026:current_borrowings:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2ca00a3ed65241388f4d4e451a7d762a25657574f65dba6bbd8d351728cd03d2",
+      "definition_sha256": "da74fa74aa7698c84a6c0078a811ef92be491808413a7bb37c20f843133365ba"
+    },
+    {
+      "observation_id": "reliance-industries:2026:noncurrent_lease_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "890a307267fa4569597ba65370066d05b15683dadebfe196a1149ce799b49516",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "reliance-industries:2026:current_lease_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "78f3c4b45b326556691a4c1543636ee3fdbf244364c2585b0deadf32b5a56bef",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "reliance-industries:2026:noncurrent_deferred_payment_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "629171d9ebba4564fc93c9aaf15ba6c0393cd9de3af2291f2576ad96e7bfb133",
+      "definition_sha256": "2f2e9fddc35889c22333c1cf73439ebc2d2c3ece453a3f9ef8f61112cac9f2c1"
+    },
+    {
+      "observation_id": "reliance-industries:2026:cash_generated_before_tax:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "aed52982ad03325c413af6330de20788fe1b536cb6f5d83ee4473ab2d5f65082",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "reliance-industries:2026:taxes_paid_net:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a99f76a53df95dffbec6525f28c493fb7aa367b2af3b8e2e65ea62defc4e2833",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "reliance-industries:2026:cash_from_operations:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e23e05a993ce393d00d4bc37a0e22a9d176378b6d2650c567d714761c30bfef8",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "reliance-industries:2026:cash_from_investing:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3de6322e5f39cbb25f4fe5f0e67ebc1d35d3b991f1d0e91cafcafae691bd62cc",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "reliance-industries:2026:cash_from_financing:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "fb6f2e283b565ce2cf5d9fb657a7f6000ee682ed333a633d5e5af6fd16827884",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "reliance-industries:2026:cash_change:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ce9443ba48861ff868e7a3fe8668e8c20fce5b08c7d0a1c414b72a61fa7adc1d",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "reliance-industries:2026:opening_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d137df359980d20f7565be0bf8c2806eadf411319a4dfda44405b1e6942f9394",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "reliance-industries:2026:closing_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d17ccf287611acdea11edd8e84aef13d324033df4b93b6e7a1f866b7288c5a59",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "reliance-industries:2026:interest_paid_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5e9102faa4a2b35802feb70342dcf38109b0068bce0f1971bb0bc6ff0d684ba9",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "reliance-industries:2026:lease_payments_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "805f51b349216408af20b3c9404dc8d9dc97a89cd741b29f25ed6a734152405e",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "reliance-industries:2026:capex_ppe_intangibles_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0a71d94b44cc737b5dde6226c29bdbe01484ac4da00b98b274101027eb165d4d",
+      "definition_sha256": "badea985000c9bedea1c3a3b78c90afa7ea9425767bcd7e7ca72e8dc27069cd2"
+    },
+    {
+      "observation_id": "reliance-industries:2026:deferred_payment_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "80e64795da3d72bfc1b8af57d011f9b14c330e0066696b60a7b72f48138e718b",
+      "definition_sha256": "b965bf6bb65a5c993ee7852c2ee4e6df08a5ab42a4560abf97c093a26e8bc048"
+    },
+    {
+      "observation_id": "tcs:2022:noncurrent_assets:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "09e339bc7ec39043fd8a26d2994b9d5bf424e7549842d6cce977c4929902cd8f",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "tcs:2022:current_assets:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3a34a01def995552bebec3193164253b7e1ef4b77dabcb7b93e59613a07775a2",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "tcs:2022:total_assets:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "079094c8735f6de6a305b5d736dea17806a4ac0f32f8e07e2050669c005efd6d",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "tcs:2022:share_capital:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "46217fe33e5cee493b7045033e85788f40c9e37ebf70f6231707ff5b1041e31d",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "tcs:2022:other_equity:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "832355350fd68cc0768ef20bf29ef5ea82a050fef56ea82f7d7570e9824774fb",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "tcs:2022:noncontrolling_interest:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f8edf8bdcb3383a39d3ffccc935d30c1cc85d7a8e2669d8aeeda63964da62533",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "tcs:2022:total_equity:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "022d6eabc6ca4e0666116c8cf787b926d10c7e4bc8e03ab81cb12e242129bc11",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "tcs:2022:noncurrent_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f4b82851c031ccee756ad0195ea0621c93b199fe05438471e63255980e63814b",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "tcs:2022:current_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "31abccecf5c781397adebd0e442939e04b401fc8da2e7e1ee46b06211a4dbd25",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "tcs:2022:inventory:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "97b6189955d1ff9839770b2dd414efcf51e5cea6aa2fa00dcfc43ceab7354ff5",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "tcs:2022:cash_and_cash_equivalents:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f10582fbbb63cd45fd3856536a59f17519d45710602c5190e7db91cb0996651c",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "tcs:2022:trade_payables:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "99a71145de6853350b48c42293aceb375b135b1c6993e19d0c3fddaeffd7c4fd",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "tcs:2022:equity_attributable_owners:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d9bff9277e0ed757c1035b67558a0e2b14a292a9218fafcc53bddff71137fe7e",
+      "definition_sha256": "3dbf429e3628990131c16c043faa125c3ca36e652f8798dcc09538aed7265596"
+    },
+    {
+      "observation_id": "tcs:2022:noncurrent_billed_receivables:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "96f19d1f9fe9bb4ee1ada93c4baef9c58b52d23a1c4c12d0f17bd39794a22b56",
+      "definition_sha256": "7f4749ae6d8518ee4abc63be5ee8a467b70c2638749178643667de9431a18e0b"
+    },
+    {
+      "observation_id": "tcs:2022:noncurrent_unbilled_receivables:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "66db471b87f1c8af0c5fca2819b54f3268d481f7f224903b205000e39f983b20",
+      "definition_sha256": "2076047a314d25693e8dd2392d0c3293f137ccf50a3fd417c4a73b7dabae35a4"
+    },
+    {
+      "observation_id": "tcs:2022:current_billed_receivables:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d67105590528cd16e4355edab57d21c30ab9ac9c9f57ae8318f9475d5963527b",
+      "definition_sha256": "9e42344b989f2639a3370779903c3fc4fe3aa0d982fa66d63dd9f6467d644294"
+    },
+    {
+      "observation_id": "tcs:2022:current_unbilled_receivables:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b3bf48cec603ff81ced9fd16531759311151116e1d0085ac3c6f0cc965fe685e",
+      "definition_sha256": "23d9a8ecda46e4b63db193c28563b46b6d91f932712520a93be787e14b4e550a"
+    },
+    {
+      "observation_id": "tcs:2022:noncurrent_lease_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7a8f87e09ee6473828c826df15ad32393ed80608ad9a5b9e42344c6977d657d7",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "tcs:2022:current_lease_liabilities:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "957be6099197228025718f6d4372d4fb912895c8b2dd7bc5f07ce036103c2cae",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "tcs:2022:cash_generated_before_tax:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7aa3934d032f7cd38cd811bb972951434f2d3c6d595e296d9f76b48b5f371a8d",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "tcs:2022:taxes_paid_net:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6fa33a0a9801a2576690995d6101b3e274a874910484dea4f681956410f3f288",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "tcs:2022:cash_from_operations:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b6b8ec488aee1c8e3d85d5b414b4750b7e02a8a893bbfa69dc73c336867883d1",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "tcs:2022:cash_from_investing:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6ae1c13c027f7c0f21631724dc0ecda3a6e68963c9a7cf537f98f0f80b51c151",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "tcs:2022:cash_from_financing:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "de404e97693f834935c373b30ce1086fc208723f225e4ce62412e754ebc25352",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "tcs:2022:cash_change:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6f492d7d162fefb6def5617ab6ec806b2130d4d47c4b5667e9308c3f1f36f5ff",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "tcs:2022:opening_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2e8cf972f298897c332134b7f92e046ee8a4fcedeb9b4c3e18fc3aaa50e35c5b",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "tcs:2022:closing_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "762e25bcc6376d4b76a280ea14bc15ceedc0f2b0dda2d4cd407c796faf1c2509",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "tcs:2022:interest_paid_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "39d7301b5441d0ccdfdd9f4bb3f9b6369ef455935124bc5101f0ca7d536a8551",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "tcs:2022:lease_payments_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1f60b2c532c03c0214fcfc995fa9cff42854b8f3ce7b8f0bbf0b14833435d35d",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "tcs:2022:capex_ppe_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b526969ca4e789d6a1fdc9d932993d3aa3a16414650945e392d549c20822e6ce",
+      "definition_sha256": "9882b9d609f3f3db08bfbf5bdbef9e06200851532d92436687cd77829f59e2d8"
+    },
+    {
+      "observation_id": "tcs:2022:capex_intangibles_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "89a54659b5e32da2b25f8e1422fc94aa68aa3ec66b404e5c20982af3ec070214",
+      "definition_sha256": "922f783b75cb831046ad6fd20954934ccb4a30129cb62493ac27f915f663f20e"
+    },
+    {
+      "observation_id": "tcs:2022:rou_acquisition_cash:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5449a747b4df916dc961f807dd2811718b1789656ad93f0558c2c8288ae51879",
+      "definition_sha256": "82ddc4f89dc54debec8aba1e627f15009d4fa3e9992ca7986f7826c82712dd96"
+    },
+    {
+      "observation_id": "tcs:2022:cash_fx_adjustment:report2022",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "9b377c04ceb1104bc988051c7f63fc4923b6f2dcf81c79ca5add9c81326f4fc1",
+      "definition_sha256": "8e5069b7c105c80c3ce2fe098ed6967159ef07348915fd24a84de1fbcc9cfa1e"
+    },
+    {
+      "observation_id": "tcs:2023:noncurrent_assets:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a40ef0c2912ea7a62bc70ec1a9e5f09b57f479ca261da3f8b66fb50cc3c68348",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "tcs:2023:current_assets:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "97a5265b719cd62506122177d4197702af523347e45c32921b510b08a6b5f219",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "tcs:2023:total_assets:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "328694b3d0c8062678f173ddd0bef4bfa25460ca0e08982266ef1c0f92e77014",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "tcs:2023:share_capital:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "bc69520ab9ceb6b7bfb256d61d9230960cba83e7cb4527398a655c41ac2fdd82",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "tcs:2023:other_equity:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b81299acd01c261f3e3cf4f1c80e7296cbd113c7903366e5f055dfd04f60f2c5",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "tcs:2023:noncontrolling_interest:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "72d83b85e0a059a50cc0e1f1cce9faf2a3a16dbb91ebc797adecca067f8e913e",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "tcs:2023:total_equity:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7d53518bdfeffb5d78f962cec578bd1a6eb0f4b25707ef3a63eeab44a0c9541e",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "tcs:2023:noncurrent_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4cc1e72c0019354ad03f98851d03e0db11b82a37fd5c75a3593e86c1e4734561",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "tcs:2023:current_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "19c61c1840b346ec1c83e610cedfb17555089165e6b76d9dbf8fcfda053c3e34",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "tcs:2023:inventory:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1e6fbd1a33027c598ab52b0dae6631ae61a627b365f4ff437477087ec500bbdf",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "tcs:2023:cash_and_cash_equivalents:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "9c048551b43f80a52dbb5a43730c74ec647175469272e9fb487a122877d00611",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "tcs:2023:trade_payables:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "cc1a358542b7097e0312e82a01a708ec7277b9cd18f88a36b425685079dbf882",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "tcs:2023:equity_attributable_owners:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "93ea5ff9207cf568a1f1713eb8a53eb72eff08527df1ff3239749087708afedb",
+      "definition_sha256": "3dbf429e3628990131c16c043faa125c3ca36e652f8798dcc09538aed7265596"
+    },
+    {
+      "observation_id": "tcs:2023:noncurrent_billed_receivables:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3bfcede6c755169738883b96a94bf8b0aee3e3d71321342dff907b5e213e71fe",
+      "definition_sha256": "7f4749ae6d8518ee4abc63be5ee8a467b70c2638749178643667de9431a18e0b"
+    },
+    {
+      "observation_id": "tcs:2023:noncurrent_unbilled_receivables:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ed1f6165b7a5d2cc39a680b2301ac9b302aed90b4a43c746ac73b8b9595b3b12",
+      "definition_sha256": "2076047a314d25693e8dd2392d0c3293f137ccf50a3fd417c4a73b7dabae35a4"
+    },
+    {
+      "observation_id": "tcs:2023:current_billed_receivables:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f8592b5aaf02c45c1e6fe1f3dd75d738383b0e991098ba17944594632c00f9ff",
+      "definition_sha256": "9e42344b989f2639a3370779903c3fc4fe3aa0d982fa66d63dd9f6467d644294"
+    },
+    {
+      "observation_id": "tcs:2023:current_unbilled_receivables:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "556dc46e02eda2808a61d87f3e88403b2d6668631f24c609b5fcede15122451f",
+      "definition_sha256": "23d9a8ecda46e4b63db193c28563b46b6d91f932712520a93be787e14b4e550a"
+    },
+    {
+      "observation_id": "tcs:2023:noncurrent_lease_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "18dbe04d51ed61cde4ea3afb832aaf0bd3e39934f271814e36ab248b8f29fa9d",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "tcs:2023:current_lease_liabilities:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "650b8f18c69a5a3d5bea8410e0c450eeb69323feafe599cf9b4458195e5ade57",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "tcs:2023:cash_generated_before_tax:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f1239d3d55d3385b79117691bf76e8b14afdbfe388956af4659f34b922f2a472",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "tcs:2023:taxes_paid_net:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1bcf5eb354bcb7b88ddb1a5fc323911356f08b65ebd4156a6676ac0446301685",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "tcs:2023:cash_from_operations:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0d9d651b49b4b4e5eb87e1ea5419ae282ee7d0418ac9ec93300594fa5fed878b",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "tcs:2023:cash_from_investing:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "c9d5b45f686ea7b31a99cd0faa81b518336a8780ea32e779be4a3402febcffaf",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "tcs:2023:cash_from_financing:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "24f825db22eb2e24b95e29bc34e5d30f31c4d81374207852a1fa2a48e46f2437",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "tcs:2023:cash_change:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6014ee7a83964b8cf9d73e218219875971be6a152bb2a29b5cb579c09342cdbf",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "tcs:2023:opening_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "322f727b2ff14a3633677c7bd69c744e9a37221aeb515e9c130ba0034a6f2cd7",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "tcs:2023:closing_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "8dca76a25ed51c92640775d0d6671287a2c6faf2b63bdfbea56c154f6e3d7a33",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "tcs:2023:interest_paid_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "eb0704c62cd24094cb39d829f9befb0c095b0d0ba8dcebc2be17c86d58649608",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "tcs:2023:lease_payments_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "43728be47c99ee3bfa49158ac583795cd279bb02c46418536e8dfd7347dff129",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "tcs:2023:capex_ppe_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "9f05a65857d648d6d1b5dbdc8fb5a2848010f77f2ee36f6553204f7b984c7e30",
+      "definition_sha256": "9882b9d609f3f3db08bfbf5bdbef9e06200851532d92436687cd77829f59e2d8"
+    },
+    {
+      "observation_id": "tcs:2023:capex_intangibles_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7183110e2a5a5d8b27128a4a847c2201132083c4bae407962f5bb2a3f3d8fad5",
+      "definition_sha256": "922f783b75cb831046ad6fd20954934ccb4a30129cb62493ac27f915f663f20e"
+    },
+    {
+      "observation_id": "tcs:2023:rou_acquisition_cash:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "dd8e1c4e970edf9ed6e16012641058567880a8d656cabb6d16fbcb8d19de772f",
+      "definition_sha256": "82ddc4f89dc54debec8aba1e627f15009d4fa3e9992ca7986f7826c82712dd96"
+    },
+    {
+      "observation_id": "tcs:2023:cash_fx_adjustment:report2023",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ad3d151860770bd42cf40be2ff60fb0bd325f08af629e0edc0e91506b5cb4ba0",
+      "definition_sha256": "8e5069b7c105c80c3ce2fe098ed6967159ef07348915fd24a84de1fbcc9cfa1e"
+    },
+    {
+      "observation_id": "tcs:2024:noncurrent_assets:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d0f71396521248e9f40b01629792b721aa50872ff96f0591bb5fbcb8640ffc88",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "tcs:2024:current_assets:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e296afcfe1a8cb1161214868d4c52b72b793afb287ec41f364d3b1d275fb3d80",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "tcs:2024:total_assets:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6b86f29bc425b87e9b4c6c6fb849f74c4098e7492b86383d9ea478ee93432d0b",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "tcs:2024:share_capital:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4621d198a04181c2231363f841cbed70733ebb5bb30533d6ccfdb1cd787ce011",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "tcs:2024:other_equity:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a1c9a96d03e2d67afbd3de72a3b313d0abe04d419a26a50ef203532dd03f2069",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "tcs:2024:noncontrolling_interest:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "dbc861161b48645f0facf95691a4d137ccbe708a51cadd4e7b78f5722f08e9d3",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "tcs:2024:total_equity:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ad2ce01ee7b9c92d1ce4b7eb316f2cb5d7a2f4fd95f695b90ed69d4c3a4c1c47",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "tcs:2024:noncurrent_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e7be351bb13725aed324e6bb4b16bc7db5b9dea5900bf89b3027b56414561365",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "tcs:2024:current_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3a10d44e53dcc179ca5aa7c3d7ae5ed64453773172ced60dcb7ea24fb99b59d9",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "tcs:2024:inventory:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1f204b4794941097c0964acdf206754832f5b96c74ab1cac022ea60585f5f0cb",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "tcs:2024:cash_and_cash_equivalents:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "36ee913636203938b7c37c4e22db506588aabfe774368e8deb247e9ec4988713",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "tcs:2024:trade_payables:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b9eb6d981696569084562cc027ed8f69c7f49a9a58cd134b3c7273dea9bf0887",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "tcs:2024:equity_attributable_owners:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ba30500891bfdb3812083f6ab0418db576baf355d4538386f06001bab8b445ce",
+      "definition_sha256": "3dbf429e3628990131c16c043faa125c3ca36e652f8798dcc09538aed7265596"
+    },
+    {
+      "observation_id": "tcs:2024:noncurrent_billed_receivables:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f8ee0de64870fbc12eeb019c51ea61dfe6af9a81997d1c33ea2b965a49a7c536",
+      "definition_sha256": "7f4749ae6d8518ee4abc63be5ee8a467b70c2638749178643667de9431a18e0b"
+    },
+    {
+      "observation_id": "tcs:2024:noncurrent_unbilled_receivables:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "524964feeba7ff05618661b7137bfcfe6d2a3e052dadc17300b1251ebd6fb1f6",
+      "definition_sha256": "2076047a314d25693e8dd2392d0c3293f137ccf50a3fd417c4a73b7dabae35a4"
+    },
+    {
+      "observation_id": "tcs:2024:current_billed_receivables:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "9cbdc76d43a3a9de761a9ecbbcc6e2a2c7464d9b7989f7229f3b2ce65c91116e",
+      "definition_sha256": "9e42344b989f2639a3370779903c3fc4fe3aa0d982fa66d63dd9f6467d644294"
+    },
+    {
+      "observation_id": "tcs:2024:current_unbilled_receivables:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "703290bf4316f9ba81d8a33c10b21dc3e2f18a565ef70b3b9f071ae9cb7bcb99",
+      "definition_sha256": "23d9a8ecda46e4b63db193c28563b46b6d91f932712520a93be787e14b4e550a"
+    },
+    {
+      "observation_id": "tcs:2024:noncurrent_lease_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4e2399eabb61c7a4e2a7b486b36889ccaa5449a1568cd413de1fafb0ad1b58fb",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "tcs:2024:current_lease_liabilities:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1d15490c9e11c715a34851d923ee00de6616b394d25db5d35c7f332e81cd6429",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "tcs:2024:cash_generated_before_tax:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "da032258eac295029118c5c0ef8524852ffa9aab907d7548b48dca679682df11",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "tcs:2024:taxes_paid_net:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f71d0d0e1dbbe9670f2ce41839ec4cd7d6b7de1182fccb8f5f883832b6d4dcca",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "tcs:2024:cash_from_operations:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "73f888d3632f5437f9e899dbb84eb0a755ad0a55664efbe43d254a57ede81024",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "tcs:2024:cash_from_investing:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4ff6eaf1dc2d2925ccf5a9f13146dcedf33c02c9b3798132a684ab2eb75c277d",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "tcs:2024:cash_from_financing:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "80b1afde1f370b4341e6aadb5348fb384c66df009bddaf936a8083f32357a179",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "tcs:2024:cash_change:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e0d4a66d7d8fda8fdcbd634e21cced224ece52e456f4a7c7681c5a131e362fb2",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "tcs:2024:opening_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2f2e469863672e4263f9a2101de5f2e55ee343d508ecf2295c6eb4f6ba330aa9",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "tcs:2024:closing_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "dba31537827c5fb9fd987357049f03b5bb28024b26b1c44bd593593bd6391d78",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "tcs:2024:interest_paid_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7a81fff7957662d04b914f8c03469fe0f1660a34aba717a7ddffb21899314ecc",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "tcs:2024:lease_payments_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "fff377fea633f7d706c58e480db6de133d8d713e4614abc6253baec3c861d9c7",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "tcs:2024:capex_ppe_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "328e435e9dbff0b4cc33d2fbb0632cba9157626d4012191584845c04c27baeae",
+      "definition_sha256": "9882b9d609f3f3db08bfbf5bdbef9e06200851532d92436687cd77829f59e2d8"
+    },
+    {
+      "observation_id": "tcs:2024:capex_intangibles_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "75c7fbdb78ce379017fff7a5660eb13d1d7307433a925bca11470d384d43a54c",
+      "definition_sha256": "922f783b75cb831046ad6fd20954934ccb4a30129cb62493ac27f915f663f20e"
+    },
+    {
+      "observation_id": "tcs:2024:rou_acquisition_cash:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6580f0f9a9811dff2be013a73df0ac05ca561cdc9edc48d6eec817557b2b15f1",
+      "definition_sha256": "82ddc4f89dc54debec8aba1e627f15009d4fa3e9992ca7986f7826c82712dd96"
+    },
+    {
+      "observation_id": "tcs:2024:cash_fx_adjustment:report2024",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7941bf417cab85dea327c450e1a405322effe729eb7b09861caa888f285334bd",
+      "definition_sha256": "8e5069b7c105c80c3ce2fe098ed6967159ef07348915fd24a84de1fbcc9cfa1e"
+    },
+    {
+      "observation_id": "tcs:2025:noncurrent_assets:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "73de6527f18a25d2a817f8302b475a813f64ff36ff40635b6572c3ebd69c7265",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "tcs:2025:current_assets:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4639989fb5bcf7d94b3b572ba9e8add47f958936519fa83eb73a47b2b15e41f7",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "tcs:2025:total_assets:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "33ada88d5697c54df7e206bd046ada5d4641b478370af55b098e8cb37de7c68e",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "tcs:2025:share_capital:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "960afbac6a489329a94fe8788edbf9c3b8ff3af3e60d20024c4e7bd481055491",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "tcs:2025:other_equity:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0d4293ea4c1d6d73948df870d77d9eab6086f138ae89231930142cabc842c215",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "tcs:2025:noncontrolling_interest:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "98dd7821e562205447256af156f0fa4255445728ee298e9a8a4aba93671fe1b1",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "tcs:2025:total_equity:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "502d2222487cd24c38683cbbdf633d0ea4fcca3d991e4807bf9f0c5d96c99691",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "tcs:2025:noncurrent_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a3a23e2fb812553347400a064e1e0d1760a82c9a9b514d64ffd9479d5d00c008",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "tcs:2025:current_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e6f7a1f1b0e609a86f4338af36c5e09e24c5ffa017815a7ea2db3ee35dcfc872",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "tcs:2025:inventory:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "c72405243a955420c53ee7ab5e301511b526415d620ac36978cbf4fc8310776e",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "tcs:2025:cash_and_cash_equivalents:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4df2d1c6358a6e428217f92c21fa973199d0e37362ec477b5bba74c29cf15efa",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "tcs:2025:trade_payables:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d58363c1be71ee612b9c5aef6a1689e1ac4fa8d7f36e60f8c4bb806f2af35249",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "tcs:2025:equity_attributable_owners:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "bcbdd01699b2ba8d3f9bb6c709571704aaa555729d9b9b794446731fd24ffbcf",
+      "definition_sha256": "3dbf429e3628990131c16c043faa125c3ca36e652f8798dcc09538aed7265596"
+    },
+    {
+      "observation_id": "tcs:2025:noncurrent_billed_receivables:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d801ca21d8ee33405a19afb581863ed20d9bdfbcb418f6c847aa28469c78ea26",
+      "definition_sha256": "7f4749ae6d8518ee4abc63be5ee8a467b70c2638749178643667de9431a18e0b"
+    },
+    {
+      "observation_id": "tcs:2025:noncurrent_unbilled_receivables:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "52d71b68168dff9b449576551530e66a380b9dd5ffdb559aec79bf584be07f96",
+      "definition_sha256": "2076047a314d25693e8dd2392d0c3293f137ccf50a3fd417c4a73b7dabae35a4"
+    },
+    {
+      "observation_id": "tcs:2025:current_billed_receivables:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1cc04ac76ef41606cb43f2aba77f26c04da34842cf9baae3b5750607db8e14f7",
+      "definition_sha256": "9e42344b989f2639a3370779903c3fc4fe3aa0d982fa66d63dd9f6467d644294"
+    },
+    {
+      "observation_id": "tcs:2025:current_unbilled_receivables:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "51d0905aac50c2cb43b85fbde568d005f514321b91be3e330bedd81802e38869",
+      "definition_sha256": "23d9a8ecda46e4b63db193c28563b46b6d91f932712520a93be787e14b4e550a"
+    },
+    {
+      "observation_id": "tcs:2025:noncurrent_lease_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "29895fafeb71e6c091ab1a2d329bfba1ffe8fa662e93ee17b0dd9d1b8f06d7dc",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "tcs:2025:current_lease_liabilities:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5797e96eb192b761bfea3f3912ffcf14ac31ff04ad7311569bdea969a7a55e69",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "tcs:2025:cash_generated_before_tax:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "077aeac2dafa0df37c6c3c9536bbce5fbb85f2efd743fd941678a9c9f6ec5398",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "tcs:2025:taxes_paid_net:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a210c14ceb2b991647af0cfca3d76524c8115f749eac9c802a3f96e15598149b",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "tcs:2025:cash_from_operations:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "33da92230279a2c9ffa3dd3b4b6fed2a1750573841398e1d8c29c38b404da10e",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "tcs:2025:cash_from_investing:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a503adad488d3d6597433f7c7839d288c4f540f67ca56059307559e9891a8428",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "tcs:2025:cash_from_financing:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0646b5742ce1ddac38a6c9166aa2d09293ab57f5b57c96ef707716dfc154886b",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "tcs:2025:cash_change:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2740337031b32309eb77469ff0bbe337ed3bfef6621bd7f41c936ea1ed93bf45",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "tcs:2025:opening_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "2d36b5b5f77eb569e34de5e9e744bad6d1c8a39215b0496944556a6c709d8e98",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "tcs:2025:closing_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ec035a7e5539715b7e4558a955d863ab9c48ba1a85c81f921d5656327a6f117d",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "tcs:2025:interest_paid_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ed884823d780ba7154cf73ac2715adca2d0a2ba9cd086517ea86c81e1dc152ff",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "tcs:2025:lease_payments_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "add895f5733b577f85f386674e729d1671d11b15a50741bdcacdb5ed07cddbbb",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "tcs:2025:capex_ppe_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "c4a2ea4b1d88f0eb3e720776f7bf99fe71d86164a291b11e1683928375e3ca64",
+      "definition_sha256": "9882b9d609f3f3db08bfbf5bdbef9e06200851532d92436687cd77829f59e2d8"
+    },
+    {
+      "observation_id": "tcs:2025:capex_intangibles_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "10c86a863b254b04eabec443db4059995ba8e309861dd653ff250865861e7eff",
+      "definition_sha256": "922f783b75cb831046ad6fd20954934ccb4a30129cb62493ac27f915f663f20e"
+    },
+    {
+      "observation_id": "tcs:2025:rou_acquisition_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "ce2bd4e1d35b65d27b189c32c72e50844c519c37019919d3ef0b9299f6f76c8b",
+      "definition_sha256": "82ddc4f89dc54debec8aba1e627f15009d4fa3e9992ca7986f7826c82712dd96"
+    },
+    {
+      "observation_id": "tcs:2025:cash_fx_adjustment:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "1387e0198d2b285b8ab9b6fc6f2a83935885138a01d555d3b1dfbfb5ae00f3a8",
+      "definition_sha256": "8e5069b7c105c80c3ce2fe098ed6967159ef07348915fd24a84de1fbcc9cfa1e"
+    },
+    {
+      "observation_id": "tcs:2025:asset_acquisition_cash:report2025",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a1297a04b5af91777cf032796f7ebba70ad0386493c160205200c95fb86ca43d",
+      "definition_sha256": "ac7530ae364d326020df4d24f4f6717106d4ffc480ea7efe991a8a3d265d8a99"
+    },
+    {
+      "observation_id": "tcs:2026:noncurrent_assets:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "d62f073a28e849a5bd2fa48ca0b24e85dcdf9ea1f8e27abffed421da271b45fb",
+      "definition_sha256": "fad1539bcdbaff1968e3c8e75af1c29f86797ace8024062546515012bcda7370"
+    },
+    {
+      "observation_id": "tcs:2026:current_assets:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "f0aa84b5f0661c0cd69857f4c820be796ff8e007fe9dadf268629700008ed469",
+      "definition_sha256": "e63c83020e7e651b0048533dfe300d4d83a90c075a1822016f31bcb3ef282b83"
+    },
+    {
+      "observation_id": "tcs:2026:total_assets:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "93b4289fa2aae6914a24e1dedd636a891c44b12389c2fece2992bc050cdab684",
+      "definition_sha256": "77dca7ba4b35fd7943fe36bbe7e3817457f0eaa8175369410f90e473c8515955"
+    },
+    {
+      "observation_id": "tcs:2026:share_capital:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "c51d488db77d170a96a60b103534bc2c9be42b7e67ef35b837585a4146221554",
+      "definition_sha256": "430091f6513ac177b5c64b8bde15711e76a6fc5385896a475c7271e0c0f1ac73"
+    },
+    {
+      "observation_id": "tcs:2026:other_equity:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b8edd2f263a9ecb4af4a72b863c43c701080e383b66f47b820ba1bace62eda0d",
+      "definition_sha256": "132fedcfc460d5d310d4c2b7795ed8d1f2eedad6fe3ecd15ca3c554ddfbad2c3"
+    },
+    {
+      "observation_id": "tcs:2026:noncontrolling_interest:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4b86bdcb1e41d2d2f3c2d8d5eb7874bfe89d37a5f42e9a1e13f3336063553710",
+      "definition_sha256": "ebf8a136feeabefe3d96796172ae2a610885fd2367d181c2021f977b13c87746"
+    },
+    {
+      "observation_id": "tcs:2026:total_equity:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "437993aa8d56771a34d0465792e104811e15636eaadbc3e61ce389b59e9732f7",
+      "definition_sha256": "867a53c66d0152d78aadde95a5836f049b8b58ae85e8a5b5449c3ad5dffa3ac7"
+    },
+    {
+      "observation_id": "tcs:2026:noncurrent_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "493d6145faa1f0c18df1db780009f138dff2e1519dac16e911e63f3ec4e3d008",
+      "definition_sha256": "7b1399cc4af3f8016e4b5a3a034ac5a49ac23e63652188155a22391f7de94c5a"
+    },
+    {
+      "observation_id": "tcs:2026:current_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "611fcc1bb9d25c4375b1c2fa139e26515fa7626e707896a212cfef0f4da677cf",
+      "definition_sha256": "e5273171e1c5a51502cb081753c2afd7c43f19aa1b0542fd5c0abbcc6cdfdc3f"
+    },
+    {
+      "observation_id": "tcs:2026:inventory:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "493daccaf92d6d2ec68953467d7fb2011e432473de3e4f2b0f28e47b8c00c9e8",
+      "definition_sha256": "02695c86f89c0bd189a592ad0750045db5c50eaab07430f3e7d27f660aff7779"
+    },
+    {
+      "observation_id": "tcs:2026:cash_and_cash_equivalents:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "36dd800b1efa7ea3bca0ac478df5a06c8def1ffde7b319ccbc08a3b5fc5ca2e0",
+      "definition_sha256": "0bedd29003df466cc7c3546e63fa55a0449d47620dbe2d4c92af2ef1f675a9af"
+    },
+    {
+      "observation_id": "tcs:2026:trade_payables:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "4aad4a56f7d70e6c68dc03882e3cdd1e86ca1ed3971548e127a7ce70de6e62ed",
+      "definition_sha256": "ab0421cc248b1f549da53cc1dec8bbc517c17dcdf423901ed496c8194424367c"
+    },
+    {
+      "observation_id": "tcs:2026:equity_attributable_owners:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "512c580f7a2ab4876b8cc9a6738d01967eaeab80e36396b4414b22c45998f3a1",
+      "definition_sha256": "3dbf429e3628990131c16c043faa125c3ca36e652f8798dcc09538aed7265596"
+    },
+    {
+      "observation_id": "tcs:2026:noncurrent_billed_receivables:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "a3ce2e0346e277c6244f93c237c0338686a2ae9aead48a27bf8b265678a551d2",
+      "definition_sha256": "7f4749ae6d8518ee4abc63be5ee8a467b70c2638749178643667de9431a18e0b"
+    },
+    {
+      "observation_id": "tcs:2026:noncurrent_unbilled_receivables:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "3b93b41d09cf344dec040603ae50dd1b2a07c781fab5c58cd539133289f48c54",
+      "definition_sha256": "2076047a314d25693e8dd2392d0c3293f137ccf50a3fd417c4a73b7dabae35a4"
+    },
+    {
+      "observation_id": "tcs:2026:current_billed_receivables:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "865cdb0eb1d795aa16e25034dee75746edf15ed33d1fd1ec6559977071b210b1",
+      "definition_sha256": "9e42344b989f2639a3370779903c3fc4fe3aa0d982fa66d63dd9f6467d644294"
+    },
+    {
+      "observation_id": "tcs:2026:current_unbilled_receivables:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "871431f39246635a80dcb781944875455dfe776c824f67a8f5295398a554ee2a",
+      "definition_sha256": "23d9a8ecda46e4b63db193c28563b46b6d91f932712520a93be787e14b4e550a"
+    },
+    {
+      "observation_id": "tcs:2026:noncurrent_lease_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "59c6380ff5a365e5bfe534d9b354bf021541041a7c43495462608cf98b59b2eb",
+      "definition_sha256": "7dbf7571c514a25743d6b26b0e50b86e2060a0f219dc549d533d21c28c9e9190"
+    },
+    {
+      "observation_id": "tcs:2026:current_lease_liabilities:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "93f878daaca7f0188e2e0a040eccbb1d35329bca34478f8ab255bca95e5a1ce6",
+      "definition_sha256": "d629c368bf5b914768766329d730e6417f7a16d7498225853bb4d93dabb2b60d"
+    },
+    {
+      "observation_id": "tcs:2026:cash_generated_before_tax:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "e411b592456e37d450c8c781a950840308aa5befdffa6c60ce4c428aa8ea81a4",
+      "definition_sha256": "e07fed68cefb453e7023f305f4097f298cd355096f12b237108b75b796cc2337"
+    },
+    {
+      "observation_id": "tcs:2026:taxes_paid_net:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "86ffc9deb7b31a1ad3a8555420ba1d2316f8dfc1f72ccccae97a162dd98a323d",
+      "definition_sha256": "6b8d7fbb41324206265243df00c813f7e81f39f9450ab6cc98aad46efecea9af"
+    },
+    {
+      "observation_id": "tcs:2026:cash_from_operations:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7464aa757e8c50f57d355b92613eaa7522ccbd920c5f3d628e1cb792c4f2a5a1",
+      "definition_sha256": "b7d8a79d38966ae5238462327ed582bc5e83aeac826d78e8a518cbf0573cc3fe"
+    },
+    {
+      "observation_id": "tcs:2026:cash_from_investing:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "944301d66a221131fd00fda273d0bf28f8c6739c9001d9bd3a2f2d92dffe2d11",
+      "definition_sha256": "043d0061fd7a510a562a5f49d4801cd276d591a4cc79d2ee3ff65c2db067c35d"
+    },
+    {
+      "observation_id": "tcs:2026:cash_from_financing:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "20821a381dea9118eddac25c361cd957eca2f1954a217e6b00dc8bd523ee0fca",
+      "definition_sha256": "6ae08bc1be14b3479aa2dcc40d7fd47cdfefae19e9faca3822402445974ea7ce"
+    },
+    {
+      "observation_id": "tcs:2026:cash_change:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "48b673bf73b3dd79a970dad51c429482b004fa032ccb8e33ce96231272720c39",
+      "definition_sha256": "354da07f03c70b6264017be07790284c1d9ce20a08f6d1c36c9d1c887b24993f"
+    },
+    {
+      "observation_id": "tcs:2026:opening_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "fb6c9f357fb1f2d9b09b743a2486fac733ac455620970bbd70b250121756f68d",
+      "definition_sha256": "0545bdcf01363effe04d24308ab577bde2bf280969705506bafd22dcb0d4b547"
+    },
+    {
+      "observation_id": "tcs:2026:closing_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "acdfa839046d077b804ef3dff25d0559f279c4c2d24853c98dc139ae22bb823a",
+      "definition_sha256": "763b64ce4efc81226869da5d23939b093d5fbe1f3bdab8731baa9a4051af2103"
+    },
+    {
+      "observation_id": "tcs:2026:interest_paid_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "11bc8a3b51f00254214b1a4f51e851a92d50d318a84f3c054becc9052461ed7c",
+      "definition_sha256": "9298b6c0223a4b1b9040e44963ac21a6278ce3051fedbac37a84e2c2a918fb74"
+    },
+    {
+      "observation_id": "tcs:2026:lease_payments_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "5cb6b7a92e74ce58f9f9e9cb763160c34f0d93ee25d39b119bb7d6c6101fca1d",
+      "definition_sha256": "7fc0838154120a4e854cb82290c7e1ec5b64774bdd8777ec31822ae506f0bc21"
+    },
+    {
+      "observation_id": "tcs:2026:capex_ppe_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "b432d508c2a1a2d74f72c27d37b9ced7b62a256a9fb4085a1944afb74b6cbd51",
+      "definition_sha256": "9882b9d609f3f3db08bfbf5bdbef9e06200851532d92436687cd77829f59e2d8"
+    },
+    {
+      "observation_id": "tcs:2026:capex_intangibles_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "21e14de691635871053beaed025de8fa82e47b97cd4cd3f755481c78a26678bb",
+      "definition_sha256": "922f783b75cb831046ad6fd20954934ccb4a30129cb62493ac27f915f663f20e"
+    },
+    {
+      "observation_id": "tcs:2026:rou_acquisition_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0ea0da316a72ed68fa523be945b8a9b8152b42f61276a0fc223a5f3f12f980b8",
+      "definition_sha256": "82ddc4f89dc54debec8aba1e627f15009d4fa3e9992ca7986f7826c82712dd96"
+    },
+    {
+      "observation_id": "tcs:2026:cash_fx_adjustment:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "6bc77cf6a8b54f16959757887b57085925e20c794990d3b1999d4199f597d2f1",
+      "definition_sha256": "8e5069b7c105c80c3ce2fe098ed6967159ef07348915fd24a84de1fbcc9cfa1e"
+    },
+    {
+      "observation_id": "tcs:2026:asset_acquisition_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "0ffcf31c186fe9e2f8135393a8a8515e7c1423dca81de7ba05b562dac061e65a",
+      "definition_sha256": "ac7530ae364d326020df4d24f4f6717106d4ffc480ea7efe991a8a3d265d8a99"
+    },
+    {
+      "observation_id": "tcs:2026:subsidiary_acquisition_cash:report2026",
+      "reasons": [
+        "fact_review_pending",
+        "source_review_pending",
+        "target_snapshot_missing"
+      ],
+      "evidence_sha256": "7c6960ef945b7bd0c76a261ba3c2fd1c9f55d33d4be3cce9acaf0ae027e67617",
+      "definition_sha256": "005d965dd227f072b30b1c653522ed7aa748d271aabc8aee4f54d8f0244bfd1d"
+    }
+  ],
+  "proposed_facts": [],
+  "already_present": [],
+  "apply_ready": false,
+  "apply_blockers": [
+    "No executable database writer in this planner",
+    "Target ID resolution and transaction-time conflict recheck required",
+    "Persist definition, basis, measurement and review provenance in schema",
+    "Verify target migration/RLS state before any privileged write"
+  ]
+}

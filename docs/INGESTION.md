@@ -48,3 +48,7 @@ See [data/m2/ril-tcs/batch1](../data/m2/ril-tcs/batch1/README.md) for five-year 
 ## RIL/TCS balance-sheet and cash-flow evidence
 
 [Batch2](../data/m2/ril-tcs/batch2/README.md) retains 644 source observations and 320 validation-only candidates, with 138 exact accounting checks and two unresolved RIL FY2024 cash-flow conflicts. Together with batch1 there are 376 candidates and six unresolved conflict keys. Run `PYTHONPATH=python python python/scripts/validate_m2_batch2.py data/m2/ril-tcs/batch2` to recheck the evidence and receipt. Preserve the JSON companion metadata: instant balance-sheet semantics, source-column selection, quality/preference flags and metric definitions are not enforced or preserved by the CSV loader. Follow [M2_NEXT_STEPS.md](M2_NEXT_STEPS.md) before implementing any database writes.
+
+## Review-bound import planning
+
+The [RIL/TCS review packet](../data/m2/ril-tcs/review/README.md) combines both evidence batches and produces a zero-write offline plan. `python/scripts/plan_ril_tcs_load.py` binds decisions to the catalog digest, retains metadata discarded by the CSV loader, and checks trusted target snapshots for value, source, definition and preference conflicts. Current reviews are pending and no target snapshot is supplied; all 376 candidates remain blocked and the six conflicting keys remain withheld. Identical verified preferred target observations can be recognized as already present. No apply mode, credentials, target schema migration or executable publisher is added.

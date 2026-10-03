@@ -1,0 +1,8 @@
+{
+  "revenue": {"metric_code": "revenue", "measurement_type": "duration", "definition": "Consolidated revenue from operations; excludes recovered GST and other income. Scope follows the cited statement, without an adjusted comparability assertion."},
+  "other_income": {"metric_code": "other_income", "measurement_type": "duration", "definition": "Consolidated statement other income. Scope follows the cited statement."},
+  "total_income": {"metric_code": "total_income", "measurement_type": "duration", "definition": "Consolidated statement total income, equal to revenue from operations plus other income."},
+  "finance_costs": {"metric_code": "finance_costs", "measurement_type": "duration", "definition": "Full consolidated P&L finance-cost line; not interest_expense or a generic interest-coverage denominator."},
+  "total_expenses": {"metric_code": "total_expenses", "measurement_type": "duration", "definition": "Consolidated P&L total expenses, not directors-report operating expenses or inferred COGS."},
+  "profit_for_year": {"metric_code": "profit_for_year", "measurement_type": "duration", "definition": "Consolidated group profit for the year including NCI; continuing/discontinued scope follows the cited statement. Not owner PAT/net_income, and not RIL's distinct pre-associate/JV Profit After Tax subtotal."}
+}
