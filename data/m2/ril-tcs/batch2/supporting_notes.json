@@ -1,0 +1,86 @@
+[
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+    "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+    "source_page": 113,
+    "printed_pages": "222-223",
+    "topic": "borrowings",
+    "text_file": "reliance-industries_2026_note_borrowings_pdf113.txt",
+    "text_sha256": "b9cffc03b4376e74b26adb361f025b54a5b8b5107e2fa00550605672a624fc4b",
+    "review_status": "selected page visually inspected; no additional note amounts promoted to facts"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+    "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+    "source_page": 114,
+    "printed_pages": "224-225",
+    "topic": "deferred_current_borrowings",
+    "text_file": "reliance-industries_2026_note_deferred_current_borrowings_pdf114.txt",
+    "text_sha256": "084be8e2b4877ae9f8f8bc8d87ef5c7c50fef54a7b6c9d53886cd149e9a89d1d",
+    "review_status": "selected page visually inspected; no additional note amounts promoted to facts"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+    "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+    "source_page": 118,
+    "printed_pages": "232-233",
+    "topic": "finance_costs",
+    "text_file": "reliance-industries_2026_note_finance_costs_pdf118.txt",
+    "text_sha256": "74605a384649719fef17df71a78b3713e29276cd6c86474ead11010d0c375ed4",
+    "review_status": "selected page visually inspected; no additional note amounts promoted to facts"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2024-25.pdf",
+    "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+    "source_page": 138,
+    "printed_pages": "272-273",
+    "topic": "comparative_regrouping",
+    "text_file": "reliance-industries_2025_note_comparative_regrouping_pdf138.txt",
+    "text_sha256": "1678547597497db45d27839e632809a045a3c2af98049555564960dd01da4e08",
+    "review_status": "selected page visually inspected; no additional note amounts promoted to facts"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+    "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+    "source_page": 220,
+    "printed_pages": "250",
+    "topic": "finance_costs",
+    "text_file": "tcs_2026_note_finance_costs_pdf220.txt",
+    "text_sha256": "c8e04cad2640a5545a332fb44dcd64abc594e17a1f3e8504f4e27843be1c4700",
+    "review_status": "selected page visually inspected; no additional note amounts promoted to facts"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+    "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+    "source_page": 198,
+    "printed_pages": "228",
+    "topic": "ccps_terms",
+    "text_file": "tcs_2026_note_ccps_terms_pdf198.txt",
+    "text_sha256": "de435fe0d8f1b9ff9617638e192ac344e10c09f2521a30b441a06bd6653620fa",
+    "review_status": "selected page visually inspected; no additional note amounts promoted to facts"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/ar/annual-report-2024-2025.pdf",
+    "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+    "source_page": 236,
+    "printed_pages": "234",
+    "topic": "asset_acquisition",
+    "text_file": "tcs_2025_note_asset_acquisition_pdf236.txt",
+    "text_sha256": "73feeaf08faec4e25450b8c7edb7b6e0a3febd36c66886300c59b18c306e0c56",
+    "review_status": "selected page visually inspected; no additional note amounts promoted to facts"
+  }
+]

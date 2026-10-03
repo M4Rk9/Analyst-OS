@@ -1,0 +1,2338 @@
+[
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1321212",
+    "right_value": "1321212",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2021:noncurrent_assets:report2022",
+      "reliance-industries:2021:current_assets:report2022",
+      "reliance-industries:2021:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1321212",
+    "right_value": "1321212",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2021:share_capital:report2022",
+      "reliance-industries:2021:other_equity:report2022",
+      "reliance-industries:2021:noncontrolling_interest:report2022",
+      "reliance-industries:2021:noncurrent_liabilities:report2022",
+      "reliance-industries:2021:current_liabilities:report2022",
+      "reliance-industries:2021:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "derived_equity_only",
+    "formula": "share_capital + other_equity + noncontrolling_interest",
+    "unit": "INR crore",
+    "derived_value": "799432",
+    "input_observation_ids": [
+      "reliance-industries:2021:share_capital:report2022",
+      "reliance-industries:2021:other_equity:report2022",
+      "reliance-industries:2021:noncontrolling_interest:report2022"
+    ],
+    "production_fact": false
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "26958",
+    "right_value": "26958",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2021:cash_generated_before_tax:report2022",
+      "reliance-industries:2021:taxes_paid_net:report2022",
+      "reliance-industries:2021:cash_from_operations:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "-13547",
+    "right_value": "-13547",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2021:cash_from_operations:report2022",
+      "reliance-industries:2021:cash_from_investing:report2022",
+      "reliance-industries:2021:cash_from_financing:report2022",
+      "reliance-industries:2021:cash_change:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "17397",
+    "right_value": "17397",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2021:opening_cash:report2022",
+      "reliance-industries:2021:cash_change:report2022",
+      "reliance-industries:2021:cash_subsidiary_additions:report2022",
+      "reliance-industries:2021:closing_cash:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "17397",
+    "right_value": "17397",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2021:closing_cash:report2022",
+      "reliance-industries:2021:cash_and_cash_equivalents:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1499665",
+    "right_value": "1499665",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:noncurrent_assets:report2022",
+      "reliance-industries:2022:current_assets:report2022",
+      "reliance-industries:2022:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1499665",
+    "right_value": "1499665",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:share_capital:report2022",
+      "reliance-industries:2022:other_equity:report2022",
+      "reliance-industries:2022:noncontrolling_interest:report2022",
+      "reliance-industries:2022:noncurrent_liabilities:report2022",
+      "reliance-industries:2022:current_liabilities:report2022",
+      "reliance-industries:2022:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "derived_equity_only",
+    "formula": "share_capital + other_equity + noncontrolling_interest",
+    "unit": "INR crore",
+    "derived_value": "888984",
+    "input_observation_ids": [
+      "reliance-industries:2022:share_capital:report2022",
+      "reliance-industries:2022:other_equity:report2022",
+      "reliance-industries:2022:noncontrolling_interest:report2022"
+    ],
+    "production_fact": false
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "110654",
+    "right_value": "110654",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:cash_generated_before_tax:report2022",
+      "reliance-industries:2022:taxes_paid_net:report2022",
+      "reliance-industries:2022:cash_from_operations:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "17840",
+    "right_value": "17840",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:cash_from_operations:report2022",
+      "reliance-industries:2022:cash_from_investing:report2022",
+      "reliance-industries:2022:cash_from_financing:report2022",
+      "reliance-industries:2022:cash_change:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "36178",
+    "right_value": "36178",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:opening_cash:report2022",
+      "reliance-industries:2022:cash_change:report2022",
+      "reliance-industries:2022:cash_subsidiary_additions:report2022",
+      "reliance-industries:2022:closing_cash:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "36178",
+    "right_value": "36178",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:closing_cash:report2022",
+      "reliance-industries:2022:cash_and_cash_equivalents:report2022"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1499665",
+    "right_value": "1499665",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:noncurrent_assets:report2023",
+      "reliance-industries:2022:current_assets:report2023",
+      "reliance-industries:2022:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "888984",
+    "right_value": "888984",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:share_capital:report2023",
+      "reliance-industries:2022:other_equity:report2023",
+      "reliance-industries:2022:noncontrolling_interest:report2023",
+      "reliance-industries:2022:total_equity:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1499665",
+    "right_value": "1499665",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:share_capital:report2023",
+      "reliance-industries:2022:other_equity:report2023",
+      "reliance-industries:2022:noncontrolling_interest:report2023",
+      "reliance-industries:2022:noncurrent_liabilities:report2023",
+      "reliance-industries:2022:current_liabilities:report2023",
+      "reliance-industries:2022:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "110654",
+    "right_value": "110654",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:cash_generated_before_tax:report2023",
+      "reliance-industries:2022:taxes_paid_net:report2023",
+      "reliance-industries:2022:cash_from_operations:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "17840",
+    "right_value": "17840",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:cash_from_operations:report2023",
+      "reliance-industries:2022:cash_from_investing:report2023",
+      "reliance-industries:2022:cash_from_financing:report2023",
+      "reliance-industries:2022:cash_change:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "36178",
+    "right_value": "36178",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:opening_cash:report2023",
+      "reliance-industries:2022:cash_change:report2023",
+      "reliance-industries:2022:cash_subsidiary_additions:report2023",
+      "reliance-industries:2022:cash_demerger_deduction:report2023",
+      "reliance-industries:2022:closing_cash:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "36178",
+    "right_value": "36178",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2022:closing_cash:report2023",
+      "reliance-industries:2022:cash_and_cash_equivalents:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1607431",
+    "right_value": "1607431",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:noncurrent_assets:report2023",
+      "reliance-industries:2023:current_assets:report2023",
+      "reliance-industries:2023:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "828881",
+    "right_value": "828881",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:share_capital:report2023",
+      "reliance-industries:2023:other_equity:report2023",
+      "reliance-industries:2023:noncontrolling_interest:report2023",
+      "reliance-industries:2023:total_equity:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1607431",
+    "right_value": "1607431",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:share_capital:report2023",
+      "reliance-industries:2023:other_equity:report2023",
+      "reliance-industries:2023:noncontrolling_interest:report2023",
+      "reliance-industries:2023:noncurrent_liabilities:report2023",
+      "reliance-industries:2023:current_liabilities:report2023",
+      "reliance-industries:2023:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "115032",
+    "right_value": "115032",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:cash_generated_before_tax:report2023",
+      "reliance-industries:2023:taxes_paid_net:report2023",
+      "reliance-industries:2023:cash_from_operations:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "34252",
+    "right_value": "34252",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:cash_from_operations:report2023",
+      "reliance-industries:2023:cash_from_investing:report2023",
+      "reliance-industries:2023:cash_from_financing:report2023",
+      "reliance-industries:2023:cash_change:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "68664",
+    "right_value": "68664",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:opening_cash:report2023",
+      "reliance-industries:2023:cash_change:report2023",
+      "reliance-industries:2023:cash_subsidiary_additions:report2023",
+      "reliance-industries:2023:cash_demerger_deduction:report2023",
+      "reliance-industries:2023:closing_cash:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "68664",
+    "right_value": "68664",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:closing_cash:report2023",
+      "reliance-industries:2023:cash_and_cash_equivalents:report2023"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1607431",
+    "right_value": "1607431",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:noncurrent_assets:report2024",
+      "reliance-industries:2023:current_assets:report2024",
+      "reliance-industries:2023:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "828881",
+    "right_value": "828881",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:share_capital:report2024",
+      "reliance-industries:2023:other_equity:report2024",
+      "reliance-industries:2023:noncontrolling_interest:report2024",
+      "reliance-industries:2023:total_equity:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1607431",
+    "right_value": "1607431",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:share_capital:report2024",
+      "reliance-industries:2023:other_equity:report2024",
+      "reliance-industries:2023:noncontrolling_interest:report2024",
+      "reliance-industries:2023:noncurrent_liabilities:report2024",
+      "reliance-industries:2023:current_liabilities:report2024",
+      "reliance-industries:2023:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "115032",
+    "right_value": "115032",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:cash_generated_before_tax:report2024",
+      "reliance-industries:2023:taxes_paid_net:report2024",
+      "reliance-industries:2023:cash_from_operations:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "34252",
+    "right_value": "34252",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:cash_from_operations:report2024",
+      "reliance-industries:2023:cash_from_investing:report2024",
+      "reliance-industries:2023:cash_from_financing:report2024",
+      "reliance-industries:2023:cash_change:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "68664",
+    "right_value": "68664",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:opening_cash:report2024",
+      "reliance-industries:2023:cash_change:report2024",
+      "reliance-industries:2023:cash_subsidiary_additions:report2024",
+      "reliance-industries:2023:cash_demerger_deduction:report2024",
+      "reliance-industries:2023:closing_cash:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "68664",
+    "right_value": "68664",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2023:closing_cash:report2024",
+      "reliance-industries:2023:cash_and_cash_equivalents:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1755986",
+    "right_value": "1755986",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:noncurrent_assets:report2024",
+      "reliance-industries:2024:current_assets:report2024",
+      "reliance-industries:2024:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "925788",
+    "right_value": "925788",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:share_capital:report2024",
+      "reliance-industries:2024:other_equity:report2024",
+      "reliance-industries:2024:noncontrolling_interest:report2024",
+      "reliance-industries:2024:total_equity:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1755986",
+    "right_value": "1755986",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:share_capital:report2024",
+      "reliance-industries:2024:other_equity:report2024",
+      "reliance-industries:2024:noncontrolling_interest:report2024",
+      "reliance-industries:2024:noncurrent_liabilities:report2024",
+      "reliance-industries:2024:current_liabilities:report2024",
+      "reliance-industries:2024:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "158788",
+    "right_value": "158788",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:cash_generated_before_tax:report2024",
+      "reliance-industries:2024:taxes_paid_net:report2024",
+      "reliance-industries:2024:cash_from_operations:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "27841",
+    "right_value": "27841",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:cash_from_operations:report2024",
+      "reliance-industries:2024:cash_from_investing:report2024",
+      "reliance-industries:2024:cash_from_financing:report2024",
+      "reliance-industries:2024:cash_change:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "97225",
+    "right_value": "97225",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:opening_cash:report2024",
+      "reliance-industries:2024:cash_change:report2024",
+      "reliance-industries:2024:cash_subsidiary_additions:report2024",
+      "reliance-industries:2024:cash_demerger_deduction:report2024",
+      "reliance-industries:2024:closing_cash:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "97225",
+    "right_value": "97225",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:closing_cash:report2024",
+      "reliance-industries:2024:cash_and_cash_equivalents:report2024"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1755986",
+    "right_value": "1755986",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:noncurrent_assets:report2025",
+      "reliance-industries:2024:current_assets:report2025",
+      "reliance-industries:2024:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "925788",
+    "right_value": "925788",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:share_capital:report2025",
+      "reliance-industries:2024:other_equity:report2025",
+      "reliance-industries:2024:noncontrolling_interest:report2025",
+      "reliance-industries:2024:total_equity:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1755986",
+    "right_value": "1755986",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:share_capital:report2025",
+      "reliance-industries:2024:other_equity:report2025",
+      "reliance-industries:2024:noncontrolling_interest:report2025",
+      "reliance-industries:2024:noncurrent_liabilities:report2025",
+      "reliance-industries:2024:current_liabilities:report2025",
+      "reliance-industries:2024:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "158788",
+    "right_value": "158788",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:cash_generated_before_tax:report2025",
+      "reliance-industries:2024:taxes_paid_net:report2025",
+      "reliance-industries:2024:cash_from_operations:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "28561",
+    "right_value": "28561",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:cash_from_operations:report2025",
+      "reliance-industries:2024:cash_from_investing:report2025",
+      "reliance-industries:2024:cash_from_financing:report2025",
+      "reliance-industries:2024:cash_change:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "97225",
+    "right_value": "97225",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:opening_cash:report2025",
+      "reliance-industries:2024:cash_change:report2025",
+      "reliance-industries:2024:closing_cash:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "97225",
+    "right_value": "97225",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2024:closing_cash:report2025",
+      "reliance-industries:2024:cash_and_cash_equivalents:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1950121",
+    "right_value": "1950121",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:noncurrent_assets:report2025",
+      "reliance-industries:2025:current_assets:report2025",
+      "reliance-industries:2025:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "1009626",
+    "right_value": "1009626",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:share_capital:report2025",
+      "reliance-industries:2025:other_equity:report2025",
+      "reliance-industries:2025:noncontrolling_interest:report2025",
+      "reliance-industries:2025:total_equity:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1950121",
+    "right_value": "1950121",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:share_capital:report2025",
+      "reliance-industries:2025:other_equity:report2025",
+      "reliance-industries:2025:noncontrolling_interest:report2025",
+      "reliance-industries:2025:noncurrent_liabilities:report2025",
+      "reliance-industries:2025:current_liabilities:report2025",
+      "reliance-industries:2025:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "178703",
+    "right_value": "178703",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:cash_generated_before_tax:report2025",
+      "reliance-industries:2025:taxes_paid_net:report2025",
+      "reliance-industries:2025:cash_from_operations:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "9277",
+    "right_value": "9277",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:cash_from_operations:report2025",
+      "reliance-industries:2025:cash_from_investing:report2025",
+      "reliance-industries:2025:cash_from_financing:report2025",
+      "reliance-industries:2025:cash_change:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "106502",
+    "right_value": "106502",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:opening_cash:report2025",
+      "reliance-industries:2025:cash_change:report2025",
+      "reliance-industries:2025:closing_cash:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "106502",
+    "right_value": "106502",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:closing_cash:report2025",
+      "reliance-industries:2025:cash_and_cash_equivalents:report2025"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "1950121",
+    "right_value": "1950121",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:noncurrent_assets:report2026",
+      "reliance-industries:2025:current_assets:report2026",
+      "reliance-industries:2025:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "1009626",
+    "right_value": "1009626",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:share_capital:report2026",
+      "reliance-industries:2025:other_equity:report2026",
+      "reliance-industries:2025:noncontrolling_interest:report2026",
+      "reliance-industries:2025:total_equity:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "1950121",
+    "right_value": "1950121",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:share_capital:report2026",
+      "reliance-industries:2025:other_equity:report2026",
+      "reliance-industries:2025:noncontrolling_interest:report2026",
+      "reliance-industries:2025:noncurrent_liabilities:report2026",
+      "reliance-industries:2025:current_liabilities:report2026",
+      "reliance-industries:2025:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "178703",
+    "right_value": "178703",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:cash_generated_before_tax:report2026",
+      "reliance-industries:2025:taxes_paid_net:report2026",
+      "reliance-industries:2025:cash_from_operations:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "9277",
+    "right_value": "9277",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:cash_from_operations:report2026",
+      "reliance-industries:2025:cash_from_investing:report2026",
+      "reliance-industries:2025:cash_from_financing:report2026",
+      "reliance-industries:2025:cash_change:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "106502",
+    "right_value": "106502",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:opening_cash:report2026",
+      "reliance-industries:2025:cash_change:report2026",
+      "reliance-industries:2025:closing_cash:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "106502",
+    "right_value": "106502",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2025:closing_cash:report2026",
+      "reliance-industries:2025:cash_and_cash_equivalents:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "2178140",
+    "right_value": "2178140",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2026:noncurrent_assets:report2026",
+      "reliance-industries:2026:current_assets:report2026",
+      "reliance-industries:2026:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "1085866",
+    "right_value": "1085866",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2026:share_capital:report2026",
+      "reliance-industries:2026:other_equity:report2026",
+      "reliance-industries:2026:noncontrolling_interest:report2026",
+      "reliance-industries:2026:total_equity:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "2178140",
+    "right_value": "2178140",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2026:share_capital:report2026",
+      "reliance-industries:2026:other_equity:report2026",
+      "reliance-industries:2026:noncontrolling_interest:report2026",
+      "reliance-industries:2026:noncurrent_liabilities:report2026",
+      "reliance-industries:2026:current_liabilities:report2026",
+      "reliance-industries:2026:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "192113",
+    "right_value": "192113",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2026:cash_generated_before_tax:report2026",
+      "reliance-industries:2026:taxes_paid_net:report2026",
+      "reliance-industries:2026:cash_from_operations:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "39475",
+    "right_value": "39475",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2026:cash_from_operations:report2026",
+      "reliance-industries:2026:cash_from_investing:report2026",
+      "reliance-industries:2026:cash_from_financing:report2026",
+      "reliance-industries:2026:cash_change:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "145977",
+    "right_value": "145977",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2026:opening_cash:report2026",
+      "reliance-industries:2026:cash_change:report2026",
+      "reliance-industries:2026:closing_cash:report2026"
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "145977",
+    "right_value": "145977",
+    "difference": "0",
+    "input_observation_ids": [
+      "reliance-industries:2026:closing_cash:report2026",
+      "reliance-industries:2026:cash_and_cash_equivalents:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "130759",
+    "right_value": "130759",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2021:noncurrent_assets:report2022",
+      "tcs:2021:current_assets:report2022",
+      "tcs:2021:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "87108",
+    "right_value": "87108",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2021:share_capital:report2022",
+      "tcs:2021:other_equity:report2022",
+      "tcs:2021:noncontrolling_interest:report2022",
+      "tcs:2021:total_equity:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "130759",
+    "right_value": "130759",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2021:share_capital:report2022",
+      "tcs:2021:other_equity:report2022",
+      "tcs:2021:noncontrolling_interest:report2022",
+      "tcs:2021:noncurrent_liabilities:report2022",
+      "tcs:2021:current_liabilities:report2022",
+      "tcs:2021:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "38802",
+    "right_value": "38802",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2021:cash_generated_before_tax:report2022",
+      "tcs:2021:taxes_paid_net:report2022",
+      "tcs:2021:cash_from_operations:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "-1961",
+    "right_value": "-1961",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2021:cash_from_operations:report2022",
+      "tcs:2021:cash_from_investing:report2022",
+      "tcs:2021:cash_from_financing:report2022",
+      "tcs:2021:cash_change:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "6858",
+    "right_value": "6858",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2021:opening_cash:report2022",
+      "tcs:2021:cash_change:report2022",
+      "tcs:2021:cash_fx_adjustment:report2022",
+      "tcs:2021:closing_cash:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2021,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "6858",
+    "right_value": "6858",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2021:closing_cash:report2022",
+      "tcs:2021:cash_and_cash_equivalents:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "141514",
+    "right_value": "141514",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:noncurrent_assets:report2022",
+      "tcs:2022:current_assets:report2022",
+      "tcs:2022:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "89846",
+    "right_value": "89846",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:share_capital:report2022",
+      "tcs:2022:other_equity:report2022",
+      "tcs:2022:noncontrolling_interest:report2022",
+      "tcs:2022:total_equity:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "141514",
+    "right_value": "141514",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:share_capital:report2022",
+      "tcs:2022:other_equity:report2022",
+      "tcs:2022:noncontrolling_interest:report2022",
+      "tcs:2022:noncurrent_liabilities:report2022",
+      "tcs:2022:current_liabilities:report2022",
+      "tcs:2022:total_assets:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "39949",
+    "right_value": "39949",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:cash_generated_before_tax:report2022",
+      "tcs:2022:taxes_paid_net:report2022",
+      "tcs:2022:cash_from_operations:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "5471",
+    "right_value": "5471",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:cash_from_operations:report2022",
+      "tcs:2022:cash_from_investing:report2022",
+      "tcs:2022:cash_from_financing:report2022",
+      "tcs:2022:cash_change:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "12488",
+    "right_value": "12488",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:opening_cash:report2022",
+      "tcs:2022:cash_change:report2022",
+      "tcs:2022:cash_fx_adjustment:report2022",
+      "tcs:2022:closing_cash:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "fiscal_year": 2022,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "12488",
+    "right_value": "12488",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:closing_cash:report2022",
+      "tcs:2022:cash_and_cash_equivalents:report2022"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "141514",
+    "right_value": "141514",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:noncurrent_assets:report2023",
+      "tcs:2022:current_assets:report2023",
+      "tcs:2022:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "89846",
+    "right_value": "89846",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:share_capital:report2023",
+      "tcs:2022:other_equity:report2023",
+      "tcs:2022:noncontrolling_interest:report2023",
+      "tcs:2022:total_equity:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "141514",
+    "right_value": "141514",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:share_capital:report2023",
+      "tcs:2022:other_equity:report2023",
+      "tcs:2022:noncontrolling_interest:report2023",
+      "tcs:2022:noncurrent_liabilities:report2023",
+      "tcs:2022:current_liabilities:report2023",
+      "tcs:2022:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "39949",
+    "right_value": "39949",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:cash_generated_before_tax:report2023",
+      "tcs:2022:taxes_paid_net:report2023",
+      "tcs:2022:cash_from_operations:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "5471",
+    "right_value": "5471",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:cash_from_operations:report2023",
+      "tcs:2022:cash_from_investing:report2023",
+      "tcs:2022:cash_from_financing:report2023",
+      "tcs:2022:cash_change:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "12488",
+    "right_value": "12488",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:opening_cash:report2023",
+      "tcs:2022:cash_change:report2023",
+      "tcs:2022:cash_fx_adjustment:report2023",
+      "tcs:2022:closing_cash:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2022,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "12488",
+    "right_value": "12488",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2022:closing_cash:report2023",
+      "tcs:2022:cash_and_cash_equivalents:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "143651",
+    "right_value": "143651",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:noncurrent_assets:report2023",
+      "tcs:2023:current_assets:report2023",
+      "tcs:2023:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "91206",
+    "right_value": "91206",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:share_capital:report2023",
+      "tcs:2023:other_equity:report2023",
+      "tcs:2023:noncontrolling_interest:report2023",
+      "tcs:2023:total_equity:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "143651",
+    "right_value": "143651",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:share_capital:report2023",
+      "tcs:2023:other_equity:report2023",
+      "tcs:2023:noncontrolling_interest:report2023",
+      "tcs:2023:noncurrent_liabilities:report2023",
+      "tcs:2023:current_liabilities:report2023",
+      "tcs:2023:total_assets:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "41965",
+    "right_value": "41965",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:cash_generated_before_tax:report2023",
+      "tcs:2023:taxes_paid_net:report2023",
+      "tcs:2023:cash_from_operations:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "-5874",
+    "right_value": "-5874",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:cash_from_operations:report2023",
+      "tcs:2023:cash_from_investing:report2023",
+      "tcs:2023:cash_from_financing:report2023",
+      "tcs:2023:cash_change:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "7123",
+    "right_value": "7123",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:opening_cash:report2023",
+      "tcs:2023:cash_change:report2023",
+      "tcs:2023:cash_fx_adjustment:report2023",
+      "tcs:2023:closing_cash:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "fiscal_year": 2023,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "7123",
+    "right_value": "7123",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:closing_cash:report2023",
+      "tcs:2023:cash_and_cash_equivalents:report2023"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "143651",
+    "right_value": "143651",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:noncurrent_assets:report2024",
+      "tcs:2023:current_assets:report2024",
+      "tcs:2023:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "91206",
+    "right_value": "91206",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:share_capital:report2024",
+      "tcs:2023:other_equity:report2024",
+      "tcs:2023:noncontrolling_interest:report2024",
+      "tcs:2023:total_equity:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "143651",
+    "right_value": "143651",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:share_capital:report2024",
+      "tcs:2023:other_equity:report2024",
+      "tcs:2023:noncontrolling_interest:report2024",
+      "tcs:2023:noncurrent_liabilities:report2024",
+      "tcs:2023:current_liabilities:report2024",
+      "tcs:2023:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "41965",
+    "right_value": "41965",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:cash_generated_before_tax:report2024",
+      "tcs:2023:taxes_paid_net:report2024",
+      "tcs:2023:cash_from_operations:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "-5874",
+    "right_value": "-5874",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:cash_from_operations:report2024",
+      "tcs:2023:cash_from_investing:report2024",
+      "tcs:2023:cash_from_financing:report2024",
+      "tcs:2023:cash_change:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "7123",
+    "right_value": "7123",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:opening_cash:report2024",
+      "tcs:2023:cash_change:report2024",
+      "tcs:2023:cash_fx_adjustment:report2024",
+      "tcs:2023:closing_cash:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2023,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "7123",
+    "right_value": "7123",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2023:closing_cash:report2024",
+      "tcs:2023:cash_and_cash_equivalents:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "146449",
+    "right_value": "146449",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:noncurrent_assets:report2024",
+      "tcs:2024:current_assets:report2024",
+      "tcs:2024:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "91319",
+    "right_value": "91319",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:share_capital:report2024",
+      "tcs:2024:other_equity:report2024",
+      "tcs:2024:noncontrolling_interest:report2024",
+      "tcs:2024:total_equity:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "146449",
+    "right_value": "146449",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:share_capital:report2024",
+      "tcs:2024:other_equity:report2024",
+      "tcs:2024:noncontrolling_interest:report2024",
+      "tcs:2024:noncurrent_liabilities:report2024",
+      "tcs:2024:current_liabilities:report2024",
+      "tcs:2024:total_assets:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "44338",
+    "right_value": "44338",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:cash_generated_before_tax:report2024",
+      "tcs:2024:taxes_paid_net:report2024",
+      "tcs:2024:cash_from_operations:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "1828",
+    "right_value": "1828",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:cash_from_operations:report2024",
+      "tcs:2024:cash_from_investing:report2024",
+      "tcs:2024:cash_from_financing:report2024",
+      "tcs:2024:cash_change:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "9016",
+    "right_value": "9016",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:opening_cash:report2024",
+      "tcs:2024:cash_change:report2024",
+      "tcs:2024:cash_fx_adjustment:report2024",
+      "tcs:2024:closing_cash:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "fiscal_year": 2024,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "9016",
+    "right_value": "9016",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:closing_cash:report2024",
+      "tcs:2024:cash_and_cash_equivalents:report2024"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "146449",
+    "right_value": "146449",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:noncurrent_assets:report2025",
+      "tcs:2024:current_assets:report2025",
+      "tcs:2024:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "91319",
+    "right_value": "91319",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:share_capital:report2025",
+      "tcs:2024:other_equity:report2025",
+      "tcs:2024:noncontrolling_interest:report2025",
+      "tcs:2024:total_equity:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "146449",
+    "right_value": "146449",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:share_capital:report2025",
+      "tcs:2024:other_equity:report2025",
+      "tcs:2024:noncontrolling_interest:report2025",
+      "tcs:2024:noncurrent_liabilities:report2025",
+      "tcs:2024:current_liabilities:report2025",
+      "tcs:2024:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "44338",
+    "right_value": "44338",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:cash_generated_before_tax:report2025",
+      "tcs:2024:taxes_paid_net:report2025",
+      "tcs:2024:cash_from_operations:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "1828",
+    "right_value": "1828",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:cash_from_operations:report2025",
+      "tcs:2024:cash_from_investing:report2025",
+      "tcs:2024:cash_from_financing:report2025",
+      "tcs:2024:cash_change:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "9016",
+    "right_value": "9016",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:opening_cash:report2025",
+      "tcs:2024:cash_change:report2025",
+      "tcs:2024:cash_fx_adjustment:report2025",
+      "tcs:2024:closing_cash:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2024,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "9016",
+    "right_value": "9016",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2024:closing_cash:report2025",
+      "tcs:2024:cash_and_cash_equivalents:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "159629",
+    "right_value": "159629",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:noncurrent_assets:report2025",
+      "tcs:2025:current_assets:report2025",
+      "tcs:2025:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "95771",
+    "right_value": "95771",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:share_capital:report2025",
+      "tcs:2025:other_equity:report2025",
+      "tcs:2025:noncontrolling_interest:report2025",
+      "tcs:2025:total_equity:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "159629",
+    "right_value": "159629",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:share_capital:report2025",
+      "tcs:2025:other_equity:report2025",
+      "tcs:2025:noncontrolling_interest:report2025",
+      "tcs:2025:noncurrent_liabilities:report2025",
+      "tcs:2025:current_liabilities:report2025",
+      "tcs:2025:total_assets:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "48908",
+    "right_value": "48908",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:cash_generated_before_tax:report2025",
+      "tcs:2025:taxes_paid_net:report2025",
+      "tcs:2025:cash_from_operations:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "-848",
+    "right_value": "-848",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:cash_from_operations:report2025",
+      "tcs:2025:cash_from_investing:report2025",
+      "tcs:2025:cash_from_financing:report2025",
+      "tcs:2025:cash_change:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "8342",
+    "right_value": "8342",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:opening_cash:report2025",
+      "tcs:2025:cash_change:report2025",
+      "tcs:2025:cash_fx_adjustment:report2025",
+      "tcs:2025:closing_cash:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "fiscal_year": 2025,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "8342",
+    "right_value": "8342",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:closing_cash:report2025",
+      "tcs:2025:cash_and_cash_equivalents:report2025"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "159629",
+    "right_value": "159629",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:noncurrent_assets:report2026",
+      "tcs:2025:current_assets:report2026",
+      "tcs:2025:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "95771",
+    "right_value": "95771",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:share_capital:report2026",
+      "tcs:2025:other_equity:report2026",
+      "tcs:2025:noncontrolling_interest:report2026",
+      "tcs:2025:total_equity:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "159629",
+    "right_value": "159629",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:share_capital:report2026",
+      "tcs:2025:other_equity:report2026",
+      "tcs:2025:noncontrolling_interest:report2026",
+      "tcs:2025:noncurrent_liabilities:report2026",
+      "tcs:2025:current_liabilities:report2026",
+      "tcs:2025:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "48908",
+    "right_value": "48908",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:cash_generated_before_tax:report2026",
+      "tcs:2025:taxes_paid_net:report2026",
+      "tcs:2025:cash_from_operations:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "-848",
+    "right_value": "-848",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:cash_from_operations:report2026",
+      "tcs:2025:cash_from_investing:report2026",
+      "tcs:2025:cash_from_financing:report2026",
+      "tcs:2025:cash_change:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "8342",
+    "right_value": "8342",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:opening_cash:report2026",
+      "tcs:2025:cash_change:report2026",
+      "tcs:2025:cash_fx_adjustment:report2026",
+      "tcs:2025:closing_cash:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2025,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "8342",
+    "right_value": "8342",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2025:closing_cash:report2026",
+      "tcs:2025:cash_and_cash_equivalents:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "asset_components",
+    "formula": "noncurrent_assets + current_assets = total_assets",
+    "unit": "INR crore",
+    "left_value": "182372",
+    "right_value": "182372",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2026:noncurrent_assets:report2026",
+      "tcs:2026:current_assets:report2026",
+      "tcs:2026:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "equity_components",
+    "formula": "share_capital + other_equity + noncontrolling_interest = total_equity",
+    "unit": "INR crore",
+    "left_value": "108478",
+    "right_value": "108478",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2026:share_capital:report2026",
+      "tcs:2026:other_equity:report2026",
+      "tcs:2026:noncontrolling_interest:report2026",
+      "tcs:2026:total_equity:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "balance_sheet",
+    "formula": "equity components + noncurrent/current liabilities = total_assets",
+    "unit": "INR crore",
+    "left_value": "182372",
+    "right_value": "182372",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2026:share_capital:report2026",
+      "tcs:2026:other_equity:report2026",
+      "tcs:2026:noncontrolling_interest:report2026",
+      "tcs:2026:noncurrent_liabilities:report2026",
+      "tcs:2026:current_liabilities:report2026",
+      "tcs:2026:total_assets:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "operating_cash",
+    "formula": "cash_generated_before_tax + signed taxes_paid_net = CFO",
+    "unit": "INR crore",
+    "left_value": "52094",
+    "right_value": "52094",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2026:cash_generated_before_tax:report2026",
+      "tcs:2026:taxes_paid_net:report2026",
+      "tcs:2026:cash_from_operations:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "cash_movement",
+    "formula": "CFO + CFI + CFF = cash_change",
+    "unit": "INR crore",
+    "left_value": "-2884",
+    "right_value": "-2884",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2026:cash_from_operations:report2026",
+      "tcs:2026:cash_from_investing:report2026",
+      "tcs:2026:cash_from_financing:report2026",
+      "tcs:2026:cash_change:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "closing_cash_bridge",
+    "formula": "opening_cash + cash_change + reported FX/subsidiary additions - reported demerger",
+    "unit": "INR crore",
+    "left_value": "6417",
+    "right_value": "6417",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2026:opening_cash:report2026",
+      "tcs:2026:cash_change:report2026",
+      "tcs:2026:cash_fx_adjustment:report2026",
+      "tcs:2026:closing_cash:report2026"
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "fiscal_year": 2026,
+    "check": "cash_agrees_with_balance_sheet",
+    "formula": "cash-flow closing cash = balance-sheet cash",
+    "unit": "INR crore",
+    "left_value": "6417",
+    "right_value": "6417",
+    "difference": "0",
+    "input_observation_ids": [
+      "tcs:2026:closing_cash:report2026",
+      "tcs:2026:cash_and_cash_equivalents:report2026"
+    ]
+  }
+]

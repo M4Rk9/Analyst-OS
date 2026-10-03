@@ -1,0 +1,267 @@
+Consolidated Financial Statements
+Consolidated Financial Statements
+Reliance Industries Limited
+Integrated Annual Report 2025-26
+224
+225
+Notes
+To the Consolidated Financial Statements for the year ended 31st March, 2026
+(I in crore)
+As at 31st March, 2026
+As at 31st March, 2025
+Non-Current
+Current
+Non-Current
+Current
+17.
+Deferred Payment Liabilities
+Unsecured
+Payable to Department of Telecommunication ("DoT") ^
+99,552
+4,962
+1,04,410
+4,736
+Others 
+-
+-
+-
+2
+Total
+99,552
+4,962
+1,04,410
+4,738
+	
+^ (a)	 The deferred payment liability of I 30,213 crore, related to spectrum acquired in March 2021 auction, is payable in 13 equated annual instalments 
+along with interest @ 7.30% p.a.
+	
+  (b)	
+The deferred payment liability of I 73,425 crore, related to spectrum acquired in August 2022 auction, is payable in 16 equated annual instalments 
+along with interest @ 7.20% p.a.
+	
+  (c)	
+The deferred payment liability of I 876 crore, related to spectrum acquired in July 2024 auction, is payable in 18 equated annual instalments, 
+commencing from August 2026, along with interest @ 8.65% p.a.
+(I in crore)
+As at 
+31st March, 2026
+As at 
+31st March, 2025
+18.
+Other Financial Liabilities – Non-Current
+Other Payables ^
+37,833
+10,909
+Total
+37,833
+10,909
+	
+^ Includes Interest Accrued but not due on Deferred Payment Liabilities and Creditors for Capital Expenditure.
+(I in crore)
+As at 
+31st March, 2026
+As at 
+31st March, 2025
+19.
+Provisions – Non-Current
+Provision for Annuities
+85
+82
+Provision for Decommissioning of Assets #
+2,211
+1,899
+Others *
+19,497
+26,323
+Total
+21,793
+28,304
+	
+# Includes Provision for Decommissioning of Assets for KGD6 and CBM Block. The increase in provision of I 312 crore (Previous Year increase of I 71 crore) 
+is mainly towards (i) changes in the exchange rates (ii) unwinding of discount.
+	
+* Includes provision for onerous contracts (Jiostar India Private Limited) of I 17,742 crore (Previous Year I 25,760 crore). Provision used during the year 
+is I 8,018 crore (Previous Year I 4,963 crore). Also includes, provision for custom duty on goods lying in the bonded warehouse under MOOWR Scheme 
+amounting to I 1,143 crore.
+(I in crore)
+As at 31st March, 2026
+As at 31st March, 2025
+20.
+Borrowings – Current
+Secured – At Amortised Cost
+Working Capital Loans
+From Banks
+	
+Foreign Currency Loans
+79
+72
+	
+Rupee Loans
+17,067
+15,522
+17,146
+15,594
+From Others
+	
+Rupee Loans
+7
+-
+Unsecured – At Amortised Cost
+Working Capital Loans
+From Others
+	
+Rupee Loans
+32
+-
+Other Loans and Advances
+From Banks
+	
+Foreign Currency Loans
+ 2,766 
+1,594
+	
+Rupee Loans
+ 44,568 
+31,530
+ 47,334 
+33,124
+(I in crore)
+As at 31st March, 2026
+As at 31st March, 2025
+From Others
+	
+Foreign Currency Loans
+-
+2,870
+	
+Rupee Loans
+-
+496
+-
+3,366
+Commercial Paper ^
+13,186
+29,162
+Loans from Related Parties [Refer Note 32 (iv)]
+-
+62
+Current maturities of Non-Current Borrowings  
+(Refer Note 16)
+25,965
+29,323
+Total
+1,03,670
+1,10,631
+	
+^ Maximum amount outstanding at any time during the year was I 64,783 crore (Previous Year I 60,054 crore).
+ 
+20.1	 a)	
+Working Capital Loan in foreign currency of I 79 (Previous Year I 72 crore) are secured on freehold property.
+	
+	
+b)	
+Working Capital Loans from Banks of I 12,351 crore (Previous Year I 7,371 crore) are secured by hypothecation of present 
+and future stock of raw materials, work-in-progress, finished goods, stores and spares (not relating to plant and machinery), 
+book debts, outstanding monies, receivables, claims, bills, materials in transit, fixed deposit etc. save and except stock and 
+receivables of Oil & Gas segment.
+	
+	
+c)	
+Working Capital Loan from Bank of I Nil (Previous Year I 2,110 crore) are secured by way of collateral on investment in 
+Government Securities.
+	
+	
+d)	
+Working Capital Loan repayable on demand from Bank of I 1,968 crore (Previous Year I 3,185 crore) are secured by a first 
+pari passu charge over Property, Plant and Equipment and Current Assets.
+	
+	
+e)	
+Working Capital Loan from Bank of I 2,748 crore (Previous Year I 2,636 crore) are secured by way of hypothecation on 
+current assets of certain subsidiaries.
+	
+	
+f)	
+Working Capital Loans from Bank is I Nil (Previous Year I 220 crore) are secured by way of collateral on Fixed Deposit.
+	
+	
+g)	
+Working Capital Loans from Others is I 7 crore (Previous Year I Nil) are secured by way of collateral on Current Assets.
+	
+	
+h)	
+Refer Note 36 B (iv) for maturity profile.
+	
+	
+i)	
+In respect of working capital loans, quarterly returns or statements of current assets filed by the Group with banks are in 
+agreement with the books of account.
+	
+	
+j)	
+The Group has satisfied all the covenants prescribed in terms of borrowings.
+(I in crore)
+As at 
+31st March, 2026
+As at 
+31st March, 2025
+21.
+Trade Payables Due to
+Micro and Small Enterprises
+2,042
+2,067
+Other than Micro and Small Enterprises
+1,56,800
+1,84,722
+Total
+1,58,842
+1,86,789
+ 
+21.1 Trade Payables Ageing:
+(I in crore)
+Particulars
+Outstanding for following periods from due date of payment
+Total
+Not Due
+Less than 
+1 year
+1-2 years
+2-3 years
+More than 
+3 years
+As at 31st March, 2026
+Micro and Small Enterprises
+2,042
+-
+-
+-
+-
+2,042
+Others
+1,50,767
+4,287
+813
+252
+681
+1,56,800
+Disputed Dues - Micro and Small Enterprises
+-
+-
+-
+-
+-
+-
+Disputed Dues - Others
+-
+-
+-
+-
+-
+-
+Total
+1,52,809
+4,287
+813
+252
+681
+1,58,842

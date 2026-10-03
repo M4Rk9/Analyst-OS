@@ -1,0 +1,1537 @@
+[
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "capex_ppe_intangibles_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_and_cash_equivalents",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_change",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [
+      2024
+    ],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_demerger_deduction",
+    "current_year_extracted_fiscal_years": [
+      2023,
+      2024
+    ],
+    "validation_candidate_fiscal_years": [
+      2023,
+      2024
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2022
+    ],
+    "unavailable_current_year_fiscal_years": [
+      2022,
+      2025,
+      2026
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_from_financing",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_from_investing",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [
+      2024
+    ],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_from_operations",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_generated_before_tax",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "cash_subsidiary_additions",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": [
+      2025,
+      2026
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "closing_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "current_assets",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "current_borrowings",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "current_lease_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "current_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "deferred_payment_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "interest_paid_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "inventory",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "lease_payments_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "noncontrolling_interest",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "noncurrent_assets",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "noncurrent_borrowings",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "noncurrent_deferred_payment_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "noncurrent_lease_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "noncurrent_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "opening_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "other_equity",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "share_capital",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "taxes_paid_net",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "total_assets",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "total_equity",
+    "current_year_extracted_fiscal_years": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2022
+    ],
+    "unavailable_current_year_fiscal_years": [
+      2022
+    ]
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "trade_payables",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "reliance-industries",
+    "metric_code": "trade_receivables",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "asset_acquisition_cash",
+    "current_year_extracted_fiscal_years": [
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2024
+    ],
+    "unavailable_current_year_fiscal_years": [
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "capex_intangibles_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "capex_ppe_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "cash_and_cash_equivalents",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "cash_change",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "cash_from_financing",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "cash_from_investing",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "cash_from_operations",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "cash_fx_adjustment",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "cash_generated_before_tax",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "closing_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "current_assets",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "current_billed_receivables",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "current_lease_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "current_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "current_unbilled_receivables",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "equity_attributable_owners",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "interest_paid_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "inventory",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "lease_payments_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "noncontrolling_interest",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "noncurrent_assets",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "noncurrent_billed_receivables",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "noncurrent_lease_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "noncurrent_liabilities",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "noncurrent_unbilled_receivables",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "opening_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "other_equity",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "rou_acquisition_cash",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "share_capital",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "subsidiary_acquisition_cash",
+    "current_year_extracted_fiscal_years": [
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2025
+    ],
+    "unavailable_current_year_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "taxes_paid_net",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "total_assets",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "total_equity",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  },
+  {
+    "company_slug": "tcs",
+    "metric_code": "trade_payables",
+    "current_year_extracted_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "validation_candidate_fiscal_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "withheld_conflict_fiscal_years": [],
+    "comparative_only_fiscal_years": [
+      2021
+    ],
+    "unavailable_current_year_fiscal_years": []
+  }
+]

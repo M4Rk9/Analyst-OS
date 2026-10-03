@@ -4,6 +4,8 @@ A checked item must have evidence. Do not mark an external/runtime item complete
 
 ## Data readiness — blocking
 
+RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric decisions, six conflicting keys, other-company history and controlled loading remain pending; see [M2_NEXT_STEPS.md](M2_NEXT_STEPS.md). No blocking item is completed by merging the evidence batches alone.
+
 - [ ] Verified primary filings selected for all five initial companies
 - [ ] Approximately five years of financial history reviewed where available
 - [ ] Reporting periods, currency, units, and source provenance verified

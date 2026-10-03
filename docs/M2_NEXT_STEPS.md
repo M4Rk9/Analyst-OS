@@ -1,0 +1,24 @@
+# M2 remaining work after RIL/TCS batches 1 and 2
+
+RIL and TCS now have selected P&L, balance-sheet and cash-flow evidence for FY2022–2026. [Batch1](../data/m2/ril-tcs/batch1/README.md) has 120 observations and 56 candidates; [batch2](../data/m2/ril-tcs/batch2/README.md) adds 644 observations and 320 candidates. All 376 candidates are validation-only. No production financial data has been loaded by these batches, and issue #14 remains open.
+
+| Company | Verified facts/evidence assembled | Remaining source artifacts or review |
+|---|---|---|
+| Reliance Industries | Five authenticated reports; selected consolidated P&L, BS and CF observations; exact accounting bridges | Resolve four FY2022 P&L and two FY2024 CF conflicting keys; select FY2022 equity source/derivation; finish applicable interest, debt/deferred-payment/supplier-finance, owner-profit and capex definitions before derived metrics |
+| TCS | Five authenticated reports; selected consolidated P&L, BS and CF observations; split receivables; exact accounting bridges | Review full liability scope and FY2026 convertible instruments; complete interest/owner-profit definitions and asset/acquisition treatment for capex/FCF; approve official FY2026 source selection |
+| HDFC Bank | No reviewed history assembled in these batches | Obtain and authenticate annual reports for the selected five-year window, consolidated BS/P&L/CF, bank-specific notes and merger/comparability disclosures; bank metrics require their own definitions |
+| Tata Motors | No reviewed history assembled in these batches | Obtain and authenticate annual reports for the selected five-year window, consolidated BS/P&L/CF and relevant debt, lease, segment and restructuring/comparability notes |
+| Larsen & Toubro | No reviewed history assembled in these batches | Obtain and authenticate annual reports for the selected five-year window, consolidated BS/P&L/CF and relevant debt, lease, segment and scope/comparability notes |
+
+Collected documents and reviewed field observations are different stages. The other three companies' actual filenames, URLs, hashes and coverage remain unconfirmed; this document does not assert that their reports do not exist publicly. Unknown values remain unavailable.
+
+## Ordered work
+
+1. **Approve source and metric policies.** Review the six conflict keys, retain all competing provenance, and explicitly choose source columns for any preferred series. Confirm group/owner profit alignment, instant-vs-duration semantics, debt components, interest denominators, capex and bank applicability. The exact batch2 company/field/year readiness is in [field_readiness.json](../data/m2/ril-tcs/batch2/field_readiness.json).
+2. **Finish remaining RIL/TCS required inputs.** Extract only fields required by the approved display/analytics definitions from the already available notes. Keep not-disclosed, not-applicable and not-yet-reviewed states distinct. Review scope changes before constructing cross-year averages or growth rates. Selected statement fields do not constitute a complete financial-statement transcription.
+3. **Implement the controlled publishing path.** The current CSV loader validates local records but does not write the database. A publisher must preserve source hashes/pages/labels, source-column choice, definitions, review status and preference flags; resolve company/period/source/metric IDs; check against existing target facts; handle conflict and duplicate/idempotent/transaction behavior; and report dry-run counts before writes. Existing conflict detection is batch-local, and SQL verification defaults are not a substitute for review. Apply source and quality decisions explicitly.
+4. **Calculate and validate outputs for approved RIL/TCS facts.** Produce deterministic analytics and investigation signals only when their inputs and definitions are available. Trace each output to input observations and formula version. Validate any local AI evidence/output before publishing. Missing inputs must continue to produce unavailable states.
+5. **Repeat for HDFC Bank, Tata Motors and L&T.** Authenticate source artifacts, extract and normalize, retain comparative conflicts, reconcile, review, then publish controlled data. Confirm the source-document inventory from supplied files or actual repository contents rather than an assumed dataset location.
+6. **Verify the target and release.** Apply/verify migrations and runtime RLS, test anon SELECT and rejected writes, load only approved data through the privileged local path, and verify Cloudflare Pages headers, populated browser flows, accessibility and missing-data behavior. M7 remains governed by [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
+
+M2 is complete only when reviewed, normalized, provenance-tagged and validated history is loaded for all five companies with evidence of the resulting records. Neither merging evidence PRs nor passing schema tests satisfies that gate.

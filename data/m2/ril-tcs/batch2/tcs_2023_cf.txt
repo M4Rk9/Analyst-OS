@@ -1,0 +1,121 @@
+Consolidated Financial Statements 2022-23  |  194
+Integrated Annual Report 2022-23
+Consolidated Statement of Cash Flows
+(` crore)
+Year ended 
+March 31, 2023
+Year ended 
+March 31, 2022
+CASH FLOWS FROM OPERATING ACTIVITIES
+Profit for the year
+42,303 
+38,449 
+Adjustments for:
+Depreciation and amortisation expense
+5,022 
+4,604 
+Bad debts and advances written off, allowance for doubtful trade receivables and 
+advances (net)
+140 
+135 
+Tax expense
+14,604 
+13,238 
+Net (gain) / loss on lease modification
+2 
+(7)
+Net loss on sub-lease
+ - 
+9 
+Unrealised foreign exchange gain
+(189)
+(120)
+Net gain on disposal of property, plant and equipment
+(26)
+(23)
+Net gain on disposal / fair valuation of investments
+(224)
+(198)
+Interest income
+(3,248)
+(2,663)
+Dividend income
+(15)
+(4)
+Finance costs
+779 
+784 
+Operating profit before working capital changes
+ 59,148 
+ 54,204 
+Net change in
+Inventories
+(8)
+(12)
+Trade receivables
+	
+Billed
+(6,501)
+(4,210)
+	
+Unbilled
+(1,182)
+(934)
+Loans and other financial assets
+261 
+(116)
+Other assets 
+(25)
+807 
+Trade payables
+2,036 
+186 
+Unearned and deferred revenue
+39 
+(103)
+Other financial liabilities
+1,417 
+1,153 
+Other liabilities and provisions
+(254)
+460 
+Cash generated from operations
+ 54,931 
+ 51,435 
+Taxes paid (net of refunds)
+(12,966)
+(11,486)
+Net cash generated from operating activities
+ 41,965 
+ 39,949 
+CASH FLOWS FROM INVESTING ACTIVITIES
+Bank deposits placed
+(4,548)
+(15,947)
+Inter-corporate deposits placed
+(8,293)
+(14,619)
+Purchase of investments#
+(1,29,745)
+(75,374)
+Payment for purchase of property, plant and equipment 
+(2,532)
+(2,483)
+Payment including advances for acquiring right-of-use assets
+(213)
+(15)
+Payment for purchase of intangible assets
+(355)
+(497)
+Proceeds from bank deposits 
+ 6,252 
+11,950 
+Proceeds from inter-corporate deposits 
+13,654 
+19,498 
+Proceeds from disposal / redemption of investments#
+1,22,687 
+73,852 
+Proceeds from sub-lease receivable
+2 
+3 

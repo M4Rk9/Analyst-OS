@@ -1,0 +1,262 @@
+[
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+    "statement": "bs",
+    "source_page": 198,
+    "printed_pages": "392",
+    "text_file": "reliance-industries_2022_bs.txt",
+    "text_sha256": "089fff8b013bd3fc449ba84aeabe7ea956570d0658bfe1b9a5148595a19456ad"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2022,
+    "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+    "statement": "cf",
+    "source_page": 200,
+    "printed_pages": "396-397",
+    "text_file": "reliance-industries_2022_cf.txt",
+    "text_sha256": "bad057f46d517973509c32e50cacc151eb872de14872cfdb388a893f5c1c7c96"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+    "statement": "bs",
+    "source_page": 208,
+    "printed_pages": "412-413",
+    "text_file": "reliance-industries_2023_bs.txt",
+    "text_sha256": "36b8295cb699c2afbabe4b8b3a34893ead0bf97cb631f574406eac92526d19cc"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2023,
+    "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+    "statement": "cf",
+    "source_page": 211,
+    "printed_pages": "418-419",
+    "text_file": "reliance-industries_2023_cf.txt",
+    "text_sha256": "b6e4b1d622d65ba85259d2cf6678b62c66aa18078569fd3b7977f52bb8bfaa0c"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+    "statement": "bs",
+    "source_page": 110,
+    "printed_pages": "216-217",
+    "text_file": "reliance-industries_2024_bs.txt",
+    "text_sha256": "a316304d2298d59ca6344b9451cf4b8b17b7304d5cf4a173eebf7ae83c728089"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2024,
+    "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+    "statement": "cf",
+    "source_page": 113,
+    "printed_pages": "222-223",
+    "text_file": "reliance-industries_2024_cf.txt",
+    "text_sha256": "f4972d38c9dd05f714673efa0be22c6f35e4aa45648564f137e572b8ed58d725"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+    "statement": "bs",
+    "source_page": 99,
+    "printed_pages": "194-195",
+    "text_file": "reliance-industries_2025_bs.txt",
+    "text_sha256": "699608f51ba4e5f0ae009f879fe32b869bf626415c4527f352b651939c13c465"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2025,
+    "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+    "statement": "cf",
+    "source_page": 102,
+    "printed_pages": "200-201",
+    "text_file": "reliance-industries_2025_cf.txt",
+    "text_sha256": "1a0046f77c6ef0c2842d59d2af339bc81799e38937489e41cb1f216230640280"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+    "statement": "bs",
+    "source_page": 100,
+    "printed_pages": "196-197",
+    "text_file": "reliance-industries_2026_bs.txt",
+    "text_sha256": "c7720a1c6789c363dff9407a559209eb50a453f913bb187ef73e9b018dc2c477"
+  },
+  {
+    "company_slug": "reliance-industries",
+    "report_fiscal_year": 2026,
+    "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+    "statement": "cf",
+    "source_page": 103,
+    "printed_pages": "202-203",
+    "text_file": "reliance-industries_2026_cf.txt",
+    "text_sha256": "e9156bb3236786896205867accc2aea5126a845aebfe4f8923397ad0725a9a78"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+    "statement": "bs",
+    "source_page": 243,
+    "printed_pages": "243",
+    "text_file": "tcs_2022_bs.txt",
+    "text_sha256": "2c9351a377d6dcbc202d24f841e5b6a0aff23a05740924c1f32c9650a4800176"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+    "statement": "bs",
+    "source_page": 244,
+    "printed_pages": "244",
+    "text_file": "tcs_2022_bs2.txt",
+    "text_sha256": "bb8812cb252b642d5799ddb6765594578f1690168ab9d70937392ecb611e3ec8"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+    "statement": "cf",
+    "source_page": 250,
+    "printed_pages": "250",
+    "text_file": "tcs_2022_cf.txt",
+    "text_sha256": "e6f4ffd3d785c0bbf36b9d3533e38407b24dd88ab85e6ed7ed78afaa12c09dac"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2022,
+    "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+    "statement": "cf",
+    "source_page": 251,
+    "printed_pages": "251",
+    "text_file": "tcs_2022_cf2.txt",
+    "text_sha256": "5d58ecf2bd6ff587825a40606e24a64ceb9d44a8c53992783b35695fc35da867"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+    "statement": "bs",
+    "source_page": 190,
+    "printed_pages": "190",
+    "text_file": "tcs_2023_bs.txt",
+    "text_sha256": "aaecce1085f073eef1ee8805de5a291db46329e1538b53f70e1171ddfec0a19e"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+    "statement": "cf",
+    "source_page": 194,
+    "printed_pages": "194",
+    "text_file": "tcs_2023_cf.txt",
+    "text_sha256": "cec80b034915a238483aa00ac32a84edd467b83207c16a2039aa1e46446b0c24"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2023,
+    "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+    "statement": "cf",
+    "source_page": 195,
+    "printed_pages": "195",
+    "text_file": "tcs_2023_cf2.txt",
+    "text_sha256": "2c0058a3ffcab4f27602c9d8c9143c28e788779fd10a8a15073555c0178c5d30"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+    "statement": "bs",
+    "source_page": 180,
+    "printed_pages": "180",
+    "text_file": "tcs_2024_bs.txt",
+    "text_sha256": "ca318a5389277dd6a92a675361ebf85919c88b081c70215e623e258c61d6fbf0"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+    "statement": "cf",
+    "source_page": 184,
+    "printed_pages": "184",
+    "text_file": "tcs_2024_cf.txt",
+    "text_sha256": "10199cada32b19876632f94aa191ac6f5793540912188a8674d7254d677b9760"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2024,
+    "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+    "statement": "cf",
+    "source_page": 185,
+    "printed_pages": "185",
+    "text_file": "tcs_2024_cf2.txt",
+    "text_sha256": "f6f2f5bc9b3ca08cb0d066611630bfd7f50269fe27c8db2ba65811b1e32d2dea"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+    "statement": "bs",
+    "source_page": 180,
+    "printed_pages": "178",
+    "text_file": "tcs_2025_bs.txt",
+    "text_sha256": "cca364e00ec116a882bda3edd17463b93076808e134df39bd052a706d6dcf9c7"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+    "statement": "cf",
+    "source_page": 184,
+    "printed_pages": "182",
+    "text_file": "tcs_2025_cf.txt",
+    "text_sha256": "1b4a94134f42b1fa6c1cb66344cbc90f3cebd03dffd70f0a53301143edd0c016"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2025,
+    "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+    "statement": "cf",
+    "source_page": 185,
+    "printed_pages": "183",
+    "text_file": "tcs_2025_cf2.txt",
+    "text_sha256": "9c6da204256d98146edb6a6d6dc5608065837e02a80c2aa3cb88561b06062e08"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+    "statement": "bs",
+    "source_page": 166,
+    "printed_pages": "196",
+    "text_file": "tcs_2026_bs.txt",
+    "text_sha256": "8b9b16b0e0c791f2ab9443caecd7d71009c29ced98a01f2fdb7f1de1a916f9f7"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+    "statement": "cf",
+    "source_page": 172,
+    "printed_pages": "202",
+    "text_file": "tcs_2026_cf.txt",
+    "text_sha256": "fa34cddbd21127c1ab546cd39002a1aec03b6185c5b92c82827169006f3a8878"
+  },
+  {
+    "company_slug": "tcs",
+    "report_fiscal_year": 2026,
+    "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+    "statement": "cf",
+    "source_page": 173,
+    "printed_pages": "203",
+    "text_file": "tcs_2026_cf2.txt",
+    "text_sha256": "135d459ea81bbf3d872b60b13ec39b58137f934f1daa017fb832db055349f59d"
+  }
+]

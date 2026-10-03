@@ -1,0 +1,506 @@
+[
+  {
+    "metric_code": "noncurrent_assets",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Total Non-Current Assets",
+      "Total non-current assets",
+      "To tal n o n -c u rren t as s ets",
+      "Total non- current assets"
+    ],
+    "definition": "Reported non-current assets subtotal.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "current_assets",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Total Current Assets",
+      "Total current assets",
+      "To tal c u rren t as s ets"
+    ],
+    "definition": "Reported current assets subtotal.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "total_assets",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Total Assets",
+      "TOTAL ASSETS"
+    ],
+    "definition": "Reported consolidated total assets.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "share_capital",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Equity and Liabilities Equity Equity Share Capital",
+      "(C in crore) Notes As at 31st March, 2023 As at 31st March, 2022 Equity and Liabilities Equity Equity Share Capital",
+      "(C in crore) Notes As at 31st March, 2024 As at 31st March, 2023 Equity and Liabilities Equity Equity Share Capital",
+      "Consolidated Balance Sheet As at 31st March, 2025 (C in crore) Notes As at 31st March, 2025 As at 31st March, 2024 Equity and Liabilities Equity Equity Share Capital",
+      "Consolidated Balance Sheet As at 31st March, 2026 (I in crore) Notes As at 31st March, 2026 As at 31st March, 2025 Equity and Liabilities Equity Equity Share Capital",
+      "EQUITY AND LIABILITIES Equity Share capital",
+      "EQ UITY  AND LIABILITIES Eq u ity Sh are capital",
+      "EQ U ITY  AN D LIABILITIES Eq uity Share capital"
+    ],
+    "definition": "Reported equity/share capital.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "other_equity",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Other Equity",
+      "Other equity",
+      "O th er eq uity"
+    ],
+    "definition": "Reported other equity.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "noncontrolling_interest",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Non-Controlling Interest",
+      "Non-controlling interests"
+    ],
+    "definition": "Reported non-controlling interest in equity.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "noncurrent_liabilities",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Total Non-Current Liabilities",
+      "Total non-current liabilities",
+      "Total non- current liabilities"
+    ],
+    "definition": "Reported non-current liabilities subtotal.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "current_liabilities",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Total Current Liabilities",
+      "Total current liabilities"
+    ],
+    "definition": "Reported current liabilities subtotal.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "inventory",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Current Assets Inventories",
+      "Current assets Inventories",
+      "Cu rren t as s ets Inv entories"
+    ],
+    "definition": "Reported closing inventories; no COGS implied.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_and_cash_equivalents",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Cash and Cash Equivalents",
+      "Cash and cash equivalents",
+      "C ash  and cash  eq uiv alents"
+    ],
+    "definition": "Balance-sheet cash and cash equivalents; excludes separately reported bank balances and investments.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "trade_payables",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Trade Payables",
+      "Trade payables"
+    ],
+    "definition": "Reported trade payables; does not imply purchases/COGS denominator.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "trade_receivables",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Trade Receivables"
+    ],
+    "definition": "RIL reported trade receivables balance.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "noncurrent_borrowings",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Liabilities Non-Current Liabilities Financial Liabilities Borrowings"
+    ],
+    "definition": "RIL non-current borrowings carrying amount; excludes current maturities, leases and separately reported deferred-payment liabilities.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "current_borrowings",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Current Liabilities Financial Liabilities Borrowings"
+    ],
+    "definition": "RIL current borrowings carrying amount, including current maturities already presented in this line; do not add Note16 current maturities again.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "noncurrent_lease_liabilities",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Lease Liabilities",
+      "Integrated Annual Report 2021-22 Consolidated Financial Statements  |  244 (` crore) Note As at March 31, 2022 As at March 31, 2021 Liabilities Non-current liabilities Financial liabilities Lease liabilities",
+      "Liabilities Non-current liabilities Financial liabilities Lease liabilities",
+      "Lease liabilities"
+    ],
+    "definition": "Reported non-current lease liabilities; kept separate from borrowings.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "current_lease_liabilities",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Lease Liabilities",
+      "Current liabilities Financial liabilities Lease liabilities"
+    ],
+    "definition": "Reported current lease liabilities; kept separate from borrowings.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "noncurrent_deferred_payment_liabilities",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Deferred Payment Liabilities"
+    ],
+    "definition": "RIL separately reported non-current deferred-payment liabilities; current part and accrued-interest/other-liability notes are outside this selected fact set.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_generated_before_tax",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Cash Generated from Operations",
+      "Cash generated from operations",
+      "Cash flows generated from operations"
+    ],
+    "definition": "Reported operating cash generated before net cash taxes.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "taxes_paid_net",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Taxes Paid (Net)",
+      "Taxes paid (net of refunds)"
+    ],
+    "definition": "Net cash taxes, with outflows negative.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_from_operations",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Net Cash Flow from Operating Activities *",
+      "Net cash generated from operating activities",
+      "Net cash flows generated from operating activities",
+      "N et cash flows generated from operating activities"
+    ],
+    "definition": "Reported net operating cash flow after cash taxes; retains full consolidated statement scope.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_from_investing",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Net Cash Flow used in Investing Activities",
+      "Net Cash used in Investing Activities",
+      "Net Cash Used in Investing Activities",
+      "Net cash used in investing activities",
+      "Net cash generated from / (used in) investing activities",
+      "Net cash generated from investing activities",
+      "Net cash flows generated from / (used in) investing activities",
+      "N et cash flows used in investing activities"
+    ],
+    "definition": "Reported signed net investing cash flow; RIL FY2024 has conflicting presentations.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_from_financing",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Net Cash from Financing Activities",
+      "Net Cash Flow from Financing Activities",
+      "Net Cash Flow from / (used in) Financing Activities",
+      "Net Cash Flow Used in Financing Activities",
+      "Net cash used in financing activities",
+      "Net cash flows used in financing activities",
+      "N et cash flows used in financing activities"
+    ],
+    "definition": "Reported signed net financing cash flow.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_change",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Net Increase / (Decrease) in Cash and Cash Equivalents",
+      "Net Increase in Cash and Cash Equivalents",
+      "Net change in cash and cash equivalents",
+      "Net c han ge in  c as h an d  c as h eq u ivalen ts",
+      "N et change in cash and cash eq uivalents"
+    ],
+    "definition": "Reported movement from operating/investing/financing flows, before separately presented closing-cash adjustments; RIL FY2024 has conflicting presentations.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "opening_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Opening Balance of Cash and Cash Equivalents",
+      "Cash and cash equivalents at the beginning of the year"
+    ],
+    "definition": "Opening cash balance in the cash-flow statement.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "closing_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Closing Balance of Cash and Cash Equivalents (Refer Note 10)",
+      "Cash and cash equivalents at the end of the year",
+      "Cas h an d  c as h eq u ivalen ts  at the en d  o f  the y ear",
+      "Cash and cash eq uivalents at the end of the year"
+    ],
+    "definition": "Closing cash balance in the cash-flow statement.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "interest_paid_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Interest Paid",
+      "Interest Paid #",
+      "Interest paid"
+    ],
+    "definition": "Reported signed interest cash payment; never mapped to P&L interest_expense. RIL FY2022/FY2023 footnote excludes Financial Services Segment.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "lease_payments_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Payment of Lease Liabilities",
+      "Integrated Annual Report 2021-22 Consolidated Financial Statements  |  251 (` crore) Year ended March 31, 2022 Year ended March 31, 2021 CASH FLOWS FROM FINANCING ACTIVITIES Repayment of lease liabilities",
+      "CASH FLOWS FROM FINANCING ACTIVITIES Repayment of lease liabilities",
+      "CASH FLOWS FROM FINANCING ACTIVITIES Repayment of lease liabilities1",
+      "CASH  FLOW S FROM FIN AN CIN G ACTIV ITIES Repayment of lease liabilities1"
+    ],
+    "definition": "Reported signed lease-liability repayment cash flow; do not infer full lease interest/principal composition from the label alone.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "capex_ppe_intangibles_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "B. Cash Flow from Investing Activities Expenditure for Property, Plant and Equipment and Other Intangible Assets",
+      "B.\t Cash Flow from Investing Activities Expenditure for Property, Plant and Equipment, Spectrum and Other Intangible Assets",
+      "B. CASH FLOW FROM INVESTING ACTIVITIES Expenditure for Property, Plant and Equipment, Spectrum and Other Intangible Assets",
+      "B. Cash Flow from Investing Activities Expenditure for Property, Plant and Equipment, Spectrum and Other Intangible Assets"
+    ],
+    "definition": "RIL signed cash expenditure line for PPE and other intangibles (explicitly includes spectrum from FY2023); deferred-payment cash is separate. No generic capex/FCF policy approved.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "deferred_payment_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Repayment of Deferred Payment Liabilities",
+      "Payment of Deferred Payment Liabilities"
+    ],
+    "definition": "RIL separately reported signed deferred-payment cash. FY2023 plain dash is reported nil; no starred/inexact dash is converted to zero.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_subsidiary_additions",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Add: Upon addition of Subsidiaries"
+    ],
+    "definition": "RIL separately reported cash added on subsidiary inclusion; source-column bridge adjustment, not operating cash. FY2024 presentation interacts with unresolved CFI/cash_change conflict.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "total_equity",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Total Equity",
+      "Total equity",
+      "To tal eq u ity",
+      "Total eq uity"
+    ],
+    "definition": "Reported consolidated equity including non-controlling interest; no raw fact invented when no subtotal is printed.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_demerger_deduction",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Less: On Demerger (Refer Note 44)",
+      "Less: On Demerger (Refer Note 43)"
+    ],
+    "definition": "RIL reported positive amount to subtract in closing-cash bridge; plain dash is reported nil.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "equity_attributable_owners",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Equity attributable to shareholders of the Company",
+      "Eq uity attributable to shareholders of the Company"
+    ],
+    "definition": "TCS equity attributable to company shareholders; excludes NCI.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "noncurrent_billed_receivables",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Trade receivables Billed"
+    ],
+    "definition": "TCS non-current billed trade receivables.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "noncurrent_unbilled_receivables",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Unbilled",
+      "U nbilled"
+    ],
+    "definition": "TCS non-current unbilled trade receivables.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "current_billed_receivables",
+    "measurement_type": "instant",
+    "source_labels": [
+      "(` crore) Note As at March 31, 2022 As at March 31, 2021 Trade receivables Billed",
+      "Trade receivables Billed"
+    ],
+    "definition": "TCS current billed trade receivables.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "current_unbilled_receivables",
+    "measurement_type": "instant",
+    "source_labels": [
+      "Unbilled",
+      "U nbilled"
+    ],
+    "definition": "TCS current unbilled trade receivables.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "capex_ppe_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Payment for purchase of property, plant and equipment"
+    ],
+    "definition": "TCS signed PPE-purchase cash; separate from ROU, intangible, asset-acquisition and subsidiary-acquisition cash.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "capex_intangibles_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Payment for purchase of intangible assets"
+    ],
+    "definition": "TCS signed intangible-purchase cash.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "rou_acquisition_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Payment including advances for acquiring right-of- use assets",
+      "Payment including advances for acquiring right-of-use assets"
+    ],
+    "definition": "TCS signed payments including advances to acquire ROU assets, preserved separately.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "cash_fx_adjustment",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Exchange difference on translation of foreign currency cash and cash equivalents"
+    ],
+    "definition": "TCS exchange translation adjustment added in closing-cash bridge.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "asset_acquisition_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Acquisition of assets (Refer note 21)"
+    ],
+    "definition": "TCS separately reported asset-acquisition cash; fiscal2025/2026 supported by acquisition note. Not automatically included in generic capex.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  },
+  {
+    "metric_code": "subsidiary_acquisition_cash",
+    "measurement_type": "duration",
+    "source_labels": [
+      "Acquisition of subsidiaries (net of cash of H130 crore) (Refer note 7)"
+    ],
+    "definition": "TCS reported subsidiary-acquisition cash net of acquired cash in FY2026; separately preserved, not conventional PPE capex.",
+    "unit": "INR crore (normalized to INR with exact scale10000000)",
+    "production_status": "requires source selection and quality/provenance-preserving publisher"
+  }
+]
