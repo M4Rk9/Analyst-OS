@@ -91,3 +91,7 @@ Place the original ten source files in upload/ beside the script. Provide the An
 ## Repository scope
 
 This commit contains the lightweight manifests, observations, conflict ledger, raw statement text, candidate CSV and validation receipt. Full PDFs, rendered page images and the extraction builder remain in the delivered evidence archive. The manifest records immutable hashes and official reacquisition URLs. The source_file/extraction_file values are historical audit-workspace references, not paths available in this repository.
+
+## Source size correction and focused review packet
+
+The subsequent [source review notes](../review/SOURCE_REVIEW_NOTES.md) correct TCS FY2026 `bytes` to 22,126,348 for the already pinned official copy and retain the upload's 30,438,344 bytes as `uploaded_bytes`. Financial values, PDF hashes and CSV hashes do not change. The [P&L decision packet](../review/PNL_DECISION_PACKET.md) corroborates all 120 observations and scopes 56 conflict-free candidates for actual decisions; it does not approve or load them.
