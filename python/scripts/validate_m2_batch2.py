@@ -194,7 +194,7 @@ def validate_batch(batch: Path) -> tuple[dict, list[dict]]:
         )
         lines = [
             line.strip()
-            for line in (batch / page["text_file"]).read_text().splitlines()
+            for line in (batch / page["text_file"]).read_text(encoding="utf-8").splitlines()
             if line.strip()
         ]
         start = o["evidence_label_line"] - 1

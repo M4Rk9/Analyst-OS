@@ -4,7 +4,13 @@ import json
 from uuid import uuid4
 
 from .planning import ReviewLedger, TargetSnapshot, build_catalog, build_load_plan, digest
-from .snapshot import CONTEXT_SQL, SETTINGS_SQL, SnapshotError, read_snapshot
+from .snapshot import (
+    CONTEXT_SQL,
+    SETTINGS_SQL,
+    SnapshotError,
+    client_tls_verified,
+    read_snapshot,
+)
 
 PUBLIC_TABLES = (
     "ai_insights",
@@ -217,7 +223,7 @@ def _context(connection, *, apply: bool) -> dict:
     c = connection.execute(CONTEXT_SQL).fetchone()
     if not (
         c["privileged"] is True
-        and c["ssl"] is True
+        and client_tls_verified(connection)
         and c["database_name"] == "postgres"
         and c["row_security"] == "off"
         and c["read_only"] == ("off" if apply else "on")

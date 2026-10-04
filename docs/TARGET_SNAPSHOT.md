@@ -64,3 +64,9 @@ Python tests cover connection binding, TLS/privilege/session rejection, complete
 These tests use ephemeral PostgreSQL plus a mocked Python connection adapter. They do not establish live Psycopg/TLS authentication, target configuration or concurrent multi-session behavior. Real Supabase export, project verification and the writer's multi-session concurrency tests remain release gates. No production credential is needed by CI.
 
 References: [Supabase connection methods](https://supabase.com/docs/guides/database/connecting-to-postgres), [Psycopg transactions](https://www.psycopg.org/psycopg3/docs/basic/transactions.html), [PostgreSQL isolation](https://www.postgresql.org/docs/current/transaction-iso.html), [TLS verification](https://www.postgresql.org/docs/current/libpq-ssl.html).
+
+### Client TLS through a session pooler
+
+The native snapshot and publisher require Psycopg/libpq to report active client TLS, effective `sslmode=verify-full`, and an explicit root certificate. Unknown or weaker client transport is rejected even if PostgreSQL reports backend TLS. `pg_stat_ssl` remains backend diagnostic information: through a session pooler it describes the pooler-to-PostgreSQL leg, not the operator-to-pooler connection. It is not used as a substitute for client certificate and hostname verification. Endpoint/project binding, port 5432, privileged session checks, transaction settings, review gates, locks and receipt checks remain enforced. This does not attest encryption of the pooler's internal backend leg.
+
+On Windows, evidence text is read explicitly as UTF-8. Existing failed-run output directories cannot be reused; choose a fresh output directory.
