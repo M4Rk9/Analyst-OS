@@ -34,7 +34,9 @@ class Cursor:
 class Connection:
     # TEST ONLY: synthetic client transport, never a live TLS attestation.
     pgconn = SimpleNamespace(ssl_in_use=True)
-    info = SimpleNamespace(get_parameters=lambda: {"sslmode": "verify-full", "sslrootcert": "test-only-ca.pem"})
+    info = SimpleNamespace(get_parameters=lambda: {
+        "sslmode": "verify-full", "sslrootcert": "test-only-ca.pem",
+    })
 
     def execute(self, sql, params=None):
         print(json.dumps({"sql": sql, "params": params}, default=str), flush=True)

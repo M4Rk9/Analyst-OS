@@ -4,7 +4,13 @@ import json
 from uuid import uuid4
 
 from .planning import ReviewLedger, TargetSnapshot, build_catalog, build_load_plan, digest
-from .snapshot import CONTEXT_SQL, SETTINGS_SQL, SnapshotError, client_tls_verified, read_snapshot
+from .snapshot import (
+    CONTEXT_SQL,
+    SETTINGS_SQL,
+    SnapshotError,
+    client_tls_verified,
+    read_snapshot,
+)
 
 PUBLIC_TABLES = (
     "ai_insights",

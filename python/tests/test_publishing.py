@@ -191,13 +191,16 @@ def test_cli_preserves_uncertain_commit_diagnostic_when_close_fails(
 ])
 def test_publisher_checks_client_tls_even_with_pooler_backend(apply, active, mode, accepted):
     from types import SimpleNamespace
+
     from analyst_os_ingestion.publishing import _context
     context = {"privileged": True, "ssl": False, "database_name": "postgres",
                "row_security": "off", "read_only": "off" if apply else "on",
                "isolation": "read committed" if apply else "repeatable read"}
     connection = SimpleNamespace(
         pgconn=SimpleNamespace(ssl_in_use=active),
-        info=SimpleNamespace(get_parameters=lambda: {"sslmode": mode, "sslrootcert": "test-ca.pem"}),
+        info=SimpleNamespace(get_parameters=lambda: {
+            "sslmode": mode, "sslrootcert": "test-ca.pem",
+        }),
         execute=lambda _: SimpleNamespace(fetchone=lambda: context),
     )
     if accepted:

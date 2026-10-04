@@ -1,4 +1,3 @@
-from types import SimpleNamespace
 """Read-only export completeness, provenance, connection and file-safety tests."""
 
 import copy
@@ -6,6 +5,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from types import SimpleNamespace
 from uuid import UUID
 
 import pytest
@@ -94,7 +94,9 @@ class Cursor:
 class Connection:
     def __init__(self, rows):
         self.pgconn = SimpleNamespace(ssl_in_use=True)
-        self.info = SimpleNamespace(get_parameters=lambda: {"sslmode": "verify-full", "sslrootcert": "test-only-ca.pem"})
+        self.info = SimpleNamespace(get_parameters=lambda: {
+            "sslmode": "verify-full", "sslrootcert": "test-only-ca.pem",
+        })
         self.rows = rows
         self.calls = []
         self.rolled_back = False
