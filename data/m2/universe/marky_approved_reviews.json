@@ -1,0 +1,1621 @@
+{
+  "catalog_sha256": "520c66905ec178c2c5ed630d98fd92ac25d40dcfd1dda1a5a4cd653d41110c8f",
+  "sources": {
+    "hdfc-bank:c4238074fceef5757349c76ce4f9aee9a01bad8f79cd5e179e15a6234e712338": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:6e008a43c6fd4576e2f2e1e5b42dcff343dfa76bda5c9d6518f5027be576810d": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:fcd7ef37de26997fed3bcf2b7cfb9eb90f08d4e2617f5f3f967a1ac621c2a73e": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:875360e8667a46c33d0e33859b4cf363a6cdf68754e3220db9ce77b62fae434a": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:92de3c75b6fc05afe8731e97705c9d3534cc192e677af02f4b325e3d82eafca6": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:f127e5a6b13601376ba6ff0ad0a6073308cca3c3b4c7ff4b2efa049fdd4f3d9d": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:410c3010df8c34b0d70872c42a938257a5581e63edbde649f7ccfb53dd211585": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:012acee24d17d429fe5787db91df2c64f1cce88e1c0c3bcd70679712ece4c483": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:7db5b698f798ab63a4abebc2dbd8b1f107d64168b9d290259639e5540f38aa65": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:e356bc6534fd2afe33bf11ad075a45e437c4ecb643ec2af39f9853f44cefe8a1": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2d7c3bfb4807d7d232e3cd6c9599ff6f25ae3b01925e680a9b4dc8dcc21c1db8": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:21d90544da8893c592b9dfc06d7bb74e31f18e4981e8b3a7d576b92f45fd305c": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:88bf67991efaa3f1e5330c67fffde7c2232465f5c7af1478098babbea2af9778": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    }
+  },
+  "facts": {
+    "hdfc-bank:2022:bank_share_capital:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_reserves_surplus:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_deposits:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_borrowings:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_advances:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_investments:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_cash_rbi:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_balances_call_money:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_total_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_interest_earned:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_other_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_total_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_interest_expended:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_operating_expenses:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_owner_profit:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:cfo:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:cfi:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:cff:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2022:bank_closing_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_share_capital:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_deposits:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_borrowings:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_advances:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_investments:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_cash_rbi:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_balances_call_money:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_total_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_interest_earned:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_other_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_total_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_interest_expended:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_operating_expenses:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_owner_profit:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:cfo:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:cfi:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:cff:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2023:bank_closing_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_share_capital:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_reserves_surplus:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_deposits:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_borrowings:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_investments:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_cash_rbi:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_balances_call_money:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_total_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_interest_earned:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_other_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_total_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_interest_expended:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_operating_expenses:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_owner_profit:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:cfo:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:cfi:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:cff:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2024:bank_closing_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_share_capital:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_reserves_surplus:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_deposits:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_borrowings:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_advances:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_investments:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_cash_rbi:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_balances_call_money:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_total_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_interest_earned:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_other_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_total_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_interest_expended:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_operating_expenses:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_owner_profit:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:cfo:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:cfi:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:cff:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2025:bank_closing_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_share_capital:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_reserves_surplus:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_deposits:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_borrowings:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_advances:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_investments:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_cash_rbi:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_balances_call_money:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_total_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_interest_earned:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_other_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_total_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_interest_expended:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_operating_expenses:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_owner_profit:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:cfo:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:cfi:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:cff:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:2026:bank_closing_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:cash_and_cash_equivalents:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:inventory:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:share_capital:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:other_equity:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:total_equity:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:lt_reported_revenue:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:other_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:total_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:lt_corporate_finance_costs:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:profit_for_year:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:cfo:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:cfi:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:cff:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2022:closing_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:total_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:cash_and_cash_equivalents:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:inventory:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:current_receivables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:share_capital:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:other_equity:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:total_equity_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:noncurrent_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:current_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:total_equity:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:total_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:current_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:noncurrent_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:lt_reported_revenue:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:other_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:total_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:lt_corporate_finance_costs:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:total_expenses:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:profit_for_year:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:cfo:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:cfi:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:cff:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2023:closing_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:cash_and_cash_equivalents:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:inventory:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:current_receivables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:share_capital:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:other_equity:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:noncurrent_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:total_equity:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:noncurrent_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:lt_reported_revenue:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:other_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:total_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:lt_corporate_finance_costs:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:total_expenses:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:profit_for_year:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:cfo:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:cfi:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:cff:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2024:closing_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:total_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:cash_and_cash_equivalents:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:inventory:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:current_receivables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:share_capital:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:other_equity:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:total_equity_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:noncurrent_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:current_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:total_equity:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:total_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:current_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:noncurrent_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:lt_reported_revenue:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:other_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:total_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:lt_corporate_finance_costs:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:total_expenses:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:profit_for_year:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:cff:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2025:closing_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:total_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:cash_and_cash_equivalents:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:inventory:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:current_receivables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:share_capital:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:other_equity:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:total_equity_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:noncurrent_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:current_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:total_equity:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:total_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:current_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:noncurrent_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:lt_reported_revenue:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:other_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:total_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:lt_corporate_finance_costs:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:total_expenses:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:profit_for_year:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:cfo:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:cfi:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:cff:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:2026:closing_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:total_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:cash_and_cash_equivalents:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:inventory:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:current_receivables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:share_capital:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:other_equity:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:total_equity_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:tata_reported_revenue:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:other_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:total_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:finance_costs:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:total_expenses:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:profit_for_year:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:cfo:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:cfi:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:cff:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2022:closing_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:total_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:cash_and_cash_equivalents:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:inventory:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:current_receivables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:share_capital:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:other_equity:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:total_equity_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:tata_reported_revenue:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:other_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:total_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:finance_costs:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:total_expenses:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:profit_for_year:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:cfo:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:cfi:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:cff:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2023:closing_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:total_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:cash_and_cash_equivalents:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:inventory:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:current_receivables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:share_capital:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:other_equity:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:total_equity_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:profit_for_year:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:cfo:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:cfi:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:cff:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2025:closing_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:total_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:cash_and_cash_equivalents:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:inventory:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:current_receivables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:share_capital:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:other_equity:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:total_equity_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:tata_reported_revenue:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:other_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:total_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:finance_costs:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:total_expenses:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:profit_for_year:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:cfo:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:cfi:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:cff:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2026:closing_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    }
+  }
+}

@@ -1,0 +1,2311 @@
+{
+  "catalog_sha256": "e8d4dc3d24cbef2ef81c37f2eadefcd40b0862d66cf73e65da1ec6549eab6c41",
+  "sources": {
+    "reliance-industries:12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    }
+  },
+  "facts": {
+    "reliance-industries:2022:finance_costs:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2022:profit_for_year:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2023:finance_costs:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2023:other_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2023:profit_for_year:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2023:revenue:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2023:total_expenses:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2023:total_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2024:finance_costs:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2024:other_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2024:profit_for_year:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2024:revenue:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2024:total_expenses:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2024:total_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2025:finance_costs:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2025:other_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2025:profit_for_year:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2025:revenue:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2025:total_expenses:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2025:total_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2026:finance_costs:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2026:other_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2026:profit_for_year:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2026:revenue:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2026:total_expenses:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2026:total_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2022:finance_costs:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2022:other_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2022:profit_for_year:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2022:revenue:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2022:total_expenses:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2022:total_income:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2023:finance_costs:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2023:other_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2023:profit_for_year:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2023:revenue:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2023:total_expenses:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2023:total_income:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2024:finance_costs:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2024:other_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2024:profit_for_year:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2024:revenue:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2024:total_expenses:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2024:total_income:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2025:finance_costs:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2025:other_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2025:profit_for_year:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2025:revenue:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2025:total_expenses:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2025:total_income:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2026:finance_costs:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2026:other_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2026:profit_for_year:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2026:revenue:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2026:total_expenses:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "tcs:2026:total_income:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T08:31:04Z",
+      "rationale": "I accept the cited evidence and definitions for these reported consolidated figures."
+    },
+    "reliance-industries:2022:noncurrent_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:current_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:total_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:share_capital:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:other_equity:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:noncontrolling_interest:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:noncurrent_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:current_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:inventory:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:cash_and_cash_equivalents:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:trade_payables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:trade_receivables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:noncurrent_borrowings:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:current_borrowings:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:noncurrent_lease_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:current_lease_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:noncurrent_deferred_payment_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:cash_generated_before_tax:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:taxes_paid_net:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:cash_from_operations:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:cash_from_investing:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:cash_from_financing:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:cash_change:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:opening_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:closing_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:interest_paid_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:lease_payments_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:capex_ppe_intangibles_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:deferred_payment_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2022:cash_subsidiary_additions:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:noncurrent_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:current_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:total_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:share_capital:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:other_equity:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:noncontrolling_interest:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:total_equity:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:noncurrent_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:current_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:inventory:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_and_cash_equivalents:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:trade_payables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:trade_receivables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:noncurrent_borrowings:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:current_borrowings:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:noncurrent_lease_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:current_lease_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:noncurrent_deferred_payment_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_generated_before_tax:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:taxes_paid_net:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_from_operations:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_from_investing:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_from_financing:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_change:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:opening_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:closing_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:interest_paid_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:lease_payments_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:capex_ppe_intangibles_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_subsidiary_additions:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2023:cash_demerger_deduction:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:noncurrent_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:current_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:total_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:share_capital:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:other_equity:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:noncontrolling_interest:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:total_equity:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:noncurrent_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:current_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:inventory:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:cash_and_cash_equivalents:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:trade_payables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:trade_receivables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:noncurrent_borrowings:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:current_borrowings:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:noncurrent_lease_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:current_lease_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:noncurrent_deferred_payment_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:cash_generated_before_tax:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:taxes_paid_net:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:cash_from_operations:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:cash_from_financing:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:opening_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:closing_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:interest_paid_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:lease_payments_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:capex_ppe_intangibles_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:deferred_payment_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2024:cash_subsidiary_additions:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:noncurrent_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:current_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:total_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:share_capital:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:other_equity:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:noncontrolling_interest:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:total_equity:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:noncurrent_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:current_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:inventory:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:cash_and_cash_equivalents:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:trade_payables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:trade_receivables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:noncurrent_borrowings:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:current_borrowings:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:noncurrent_lease_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:current_lease_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:noncurrent_deferred_payment_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:cash_generated_before_tax:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:taxes_paid_net:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:cash_from_operations:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:cash_from_investing:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:cash_from_financing:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:cash_change:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:opening_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:closing_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:interest_paid_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:lease_payments_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:capex_ppe_intangibles_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2025:deferred_payment_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:noncurrent_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:current_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:total_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:share_capital:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:other_equity:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:noncontrolling_interest:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:total_equity:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:noncurrent_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:current_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:inventory:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:cash_and_cash_equivalents:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:trade_payables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:trade_receivables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:noncurrent_borrowings:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:current_borrowings:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:noncurrent_lease_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:current_lease_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:noncurrent_deferred_payment_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:cash_generated_before_tax:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:taxes_paid_net:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:cash_from_operations:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:cash_from_investing:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:cash_from_financing:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:cash_change:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:opening_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:closing_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:interest_paid_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:lease_payments_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:capex_ppe_intangibles_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "reliance-industries:2026:deferred_payment_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:noncurrent_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:current_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:total_assets:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:share_capital:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:other_equity:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:noncontrolling_interest:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:total_equity:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:noncurrent_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:current_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:inventory:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:cash_and_cash_equivalents:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:trade_payables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:equity_attributable_owners:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:noncurrent_billed_receivables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:noncurrent_unbilled_receivables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:current_billed_receivables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:current_unbilled_receivables:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:noncurrent_lease_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:current_lease_liabilities:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:cash_generated_before_tax:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:taxes_paid_net:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:cash_from_operations:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:cash_from_investing:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:cash_from_financing:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:cash_change:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:opening_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:closing_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:interest_paid_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:lease_payments_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:capex_ppe_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:capex_intangibles_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:rou_acquisition_cash:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2022:cash_fx_adjustment:report2022": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:noncurrent_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:current_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:total_assets:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:share_capital:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:other_equity:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:noncontrolling_interest:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:total_equity:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:noncurrent_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:current_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:inventory:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:cash_and_cash_equivalents:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:trade_payables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:equity_attributable_owners:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:noncurrent_billed_receivables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:noncurrent_unbilled_receivables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:current_billed_receivables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:current_unbilled_receivables:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:noncurrent_lease_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:current_lease_liabilities:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:cash_generated_before_tax:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:taxes_paid_net:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:cash_from_operations:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:cash_from_investing:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:cash_from_financing:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:cash_change:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:opening_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:closing_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:interest_paid_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:lease_payments_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:capex_ppe_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:capex_intangibles_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:rou_acquisition_cash:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2023:cash_fx_adjustment:report2023": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:noncurrent_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:current_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:total_assets:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:share_capital:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:other_equity:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:noncontrolling_interest:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:total_equity:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:noncurrent_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:current_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:inventory:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:cash_and_cash_equivalents:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:trade_payables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:equity_attributable_owners:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:noncurrent_billed_receivables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:noncurrent_unbilled_receivables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:current_billed_receivables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:current_unbilled_receivables:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:noncurrent_lease_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:current_lease_liabilities:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:cash_generated_before_tax:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:taxes_paid_net:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:cash_from_operations:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:cash_from_investing:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:cash_from_financing:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:cash_change:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:opening_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:closing_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:interest_paid_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:lease_payments_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:capex_ppe_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:capex_intangibles_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:rou_acquisition_cash:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2024:cash_fx_adjustment:report2024": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:noncurrent_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:current_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:total_assets:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:share_capital:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:other_equity:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:noncontrolling_interest:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:total_equity:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:noncurrent_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:current_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:inventory:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:cash_and_cash_equivalents:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:trade_payables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:equity_attributable_owners:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:noncurrent_billed_receivables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:noncurrent_unbilled_receivables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:current_billed_receivables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:current_unbilled_receivables:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:noncurrent_lease_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:current_lease_liabilities:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:cash_generated_before_tax:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:taxes_paid_net:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:cash_from_operations:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:cash_from_investing:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:cash_from_financing:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:cash_change:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:opening_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:closing_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:interest_paid_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:lease_payments_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:capex_ppe_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:capex_intangibles_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:rou_acquisition_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:cash_fx_adjustment:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2025:asset_acquisition_cash:report2025": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:noncurrent_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:current_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:total_assets:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:share_capital:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:other_equity:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:noncontrolling_interest:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:total_equity:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:noncurrent_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:current_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:inventory:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:cash_and_cash_equivalents:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:trade_payables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:equity_attributable_owners:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:noncurrent_billed_receivables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:noncurrent_unbilled_receivables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:current_billed_receivables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:current_unbilled_receivables:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:noncurrent_lease_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:current_lease_liabilities:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:cash_generated_before_tax:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:taxes_paid_net:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:cash_from_operations:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:cash_from_investing:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:cash_from_financing:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:cash_change:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:opening_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:closing_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:interest_paid_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:lease_payments_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:capex_ppe_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:capex_intangibles_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:rou_acquisition_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:cash_fx_adjustment:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:asset_acquisition_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tcs:2026:subsidiary_acquisition_cash:report2026": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    }
+  }
+}
