@@ -254,30 +254,49 @@ function latestMetrics(metrics, periodMap) {
   return window.AnalystFinancialDisplay.latestPeriodMetrics(metrics, periodMap);
 }
 
-function renderRatios(metrics, periodMap) {
-  const container = document.getElementById("ratio-content");
-  const rows = latestMetrics(metrics, periodMap);
-  if (!rows.length) {
-    empty(container, "No deterministic calculated metrics are available yet.");
-    return;
+function appendMetricEvidence(card, metric, facts, sourceMap) {
+  for (const input of metric.input_facts || []) {
+    const fact = facts.find((row) => row.id === input.fact_id);
+    const source = fact && sourceMap.get(fact.source_document_id);
+    const link = source ? externalLink(`${window.AnalystFinancialDisplay.metricLabel(fact.metric_code)} · PDF p.${fact.source_page} ↗`, source.source_url) : null;
+    if (link) {
+      const url = new URL(link.href);
+      url.hash = `page=${fact.source_page}`;
+      link.href = url.href;
+      card.append(link);
+    }
   }
+}
+
+function renderRatios(metrics, periodMap, facts, sourceMap) {
+  const container = document.getElementById("ratio-content");
+  const rows = latestMetrics(window.AnalystFinancialDisplay.supportedMetrics(metrics), periodMap);
   const grid = element("div", { className: "metric-grid" });
-  for (const metric of rows) {
+  for (const [code, label] of Object.entries(window.AnalystFinancialDisplay.calculatedLabels)) {
+    const metric = rows.find((row) => row.metric_code === code);
     const card = element("article", { className: "metric-card" });
+    if (!metric) {
+      card.append(element("span", { className: "data-label", text: label }),
+        element("strong", { className: "metric-value", text: "Unavailable" }),
+        element("span", { className: "metric-meta", text: "No published calculation with approved compatible inputs for the latest loaded period." }));
+      grid.append(card);
+      continue;
+    }
     card.append(
-      element("span", { className: "data-label", text: humanize(metric.metric_code) }),
+      element("span", { className: "data-label", text: label }),
       element("strong", { className: "metric-value", text: formatNumber(metric.value, metric.unit) }),
       element("span", {
         className: "metric-meta",
-        text: `${periodLabel(metric.period)} · formula ${metric.formula_version}`,
+        text: `${periodLabel(metric.period)} · formula ${metric.formula_version} · reported consolidated inputs`,
       }),
     );
+    appendMetricEvidence(card, metric, facts, sourceMap);
     grid.append(card);
   }
-  container.replaceChildren(grid);
+  container.replaceChildren(element("p", { className: "muted", text: "Reported group profit includes non-controlling interests; it is not owner PAT or recurring profit. Growth, debt, margin and owner-profit calculations remain unavailable without compatible approved definitions and inputs." }), grid);
 }
 
-function renderSignals(flags, periodMap) {
+function renderSignals(flags, periodMap, metrics, facts, sourceMap) {
   const container = document.getElementById("signal-content");
   if (!flags.length) {
     empty(container, "No active deterministic investigation signals are available.");
@@ -296,6 +315,8 @@ function renderSignals(flags, periodMap) {
         text: `${period ? periodLabel(period) : "Company level"} · rule ${flag.rule_version}`,
       }),
     );
+    const metric = metrics.find((row) => row.id === flag.evidence?.metric_id);
+    if (metric) appendMetricEvidence(card, metric, facts, sourceMap);
     list.append(card);
   }
   container.replaceChildren(list);
@@ -458,12 +479,12 @@ async function loadWorkspace() {
       quality_status: "eq.verified",
     }),
     optionalRows("calculated_metrics", {
-      select: "reporting_period_id,metric_code,value,unit,formula_version,computed_at",
+      select: "id,reporting_period_id,metric_code,value,unit,formula_version,policy_version,input_facts,computed_at",
       company_id: filter,
       order: "computed_at.desc",
     }),
     optionalRows("red_flags", {
-      select: "reporting_period_id,flag_code,title,description,severity,rule_version,computed_at",
+      select: "reporting_period_id,flag_code,title,description,severity,rule_version,evidence,computed_at",
       company_id: filter,
       order: "computed_at.desc",
     }),
@@ -486,8 +507,8 @@ async function loadWorkspace() {
   const periodMap = new Map(periods.map((period) => [period.id, period]));
   const sourceMap = new Map(sources.map((source) => [source.id, source]));
   renderFinancials(facts, periodMap, sourceMap, company);
-  renderRatios(metrics, periodMap);
-  renderSignals(flags, periodMap);
+  renderRatios(metrics, periodMap, facts, sourceMap);
+  renderSignals(flags, periodMap, metrics, facts, sourceMap);
   renderInsights(insights, sourceMap);
   renderPeers(company, universe);
   renderSources(sources);

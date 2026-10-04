@@ -50,3 +50,15 @@ test('stale ratios and ambiguous formula versions are suppressed', () => {
   assert.equal(display.latestPeriodMetrics([ratio('new', '1'), ratio('new', '2')], periods).length, 0);
   assert.equal(display.latestPeriodMetrics([ratio('new', '1')], periods).length, 1);
 });
+
+test('only the explicit reported formula policy is displayed', () => {
+  const metric = { metric_code: 'cfo_to_reported_group_profit', policy_version: 'reported-core-1',
+    formula_version: '1.0', unit: 'ratio', input_facts: [{ fact_id: 'a' }, { fact_id: 'b' }] };
+  assert.equal(display.supportedMetrics([metric]).length, 1);
+  for (const changes of [{ policy_version: 'unknown' }, { formula_version: '2' },
+    { metric_code: 'cfo_to_pat' }, { unit: 'INR' }, { input_facts: [] }]) {
+    assert.equal(display.supportedMetrics([{ ...metric, ...changes }]).length, 0);
+  }
+  assert.match(display.calculatedLabels.cfo_to_reported_group_profit, /group profit/);
+  assert.match(display.calculatedLabels.working_capital, /INR/);
+});
