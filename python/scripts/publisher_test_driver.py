@@ -5,6 +5,7 @@ No network credentials, files or production approvals. Parent process owns the t
 
 import json
 import sys
+from contextlib import redirect_stdout
 from datetime import UTC, datetime
 from pathlib import Path
 from types import SimpleNamespace
@@ -18,6 +19,8 @@ from analyst_os_ingestion.planning import (
 )
 from analyst_os_ingestion.publishing import PublishError, prepare_request, preview, publish
 from scripts.plan_ril_tcs_load import load_catalog
+
+PROTOCOL_STDOUT = sys.stdout
 
 
 class Cursor:
@@ -39,7 +42,10 @@ class Connection:
     })
 
     def execute(self, sql, params=None):
-        print(json.dumps({"sql": sql, "params": params}, default=str), flush=True)
+        print(
+            json.dumps({"sql": sql, "params": params}, default=str),
+            file=PROTOCOL_STDOUT, flush=True,
+        )
         result = json.loads(sys.stdin.readline())
         if "error" in result:
             raise RuntimeError(result["error"])
@@ -53,6 +59,13 @@ class Connection:
 
 
 def run(scenario):
+    if scenario == "noisy_preview":
+        print("warning: TEST ONLY incidental diagnostic")
+        scenario = "preview"
+    if scenario == "malformed_protocol":
+        print("warning: TEST ONLY invalid protocol", file=PROTOCOL_STDOUT, flush=True)
+        sys.stdin.readline()
+        return {}
     catalog = load_catalog(Path(__file__).resolve().parents[2])
     reviews = empty_reviews(catalog)
     if scenario != "pending":
@@ -120,7 +133,8 @@ def run(scenario):
 
 if __name__ == "__main__":
     try:
-        outcome = run(sys.argv[1])
-        print(json.dumps({"result": outcome}), flush=True)
+        with redirect_stdout(sys.stderr):
+            outcome = run(sys.argv[1])
+        print(json.dumps({"result": outcome}), file=PROTOCOL_STDOUT, flush=True)
     except Exception as error:
-        print(json.dumps({"result": {"error": str(error)}}), flush=True)
+        print(json.dumps({"result": {"error": str(error)}}), file=PROTOCOL_STDOUT, flush=True)

@@ -19,8 +19,6 @@ PR #24 is confirmed merged at commit `c60db629cc708319ecea47c6ba23f57426d17875`.
 
 ## Next gate
 
-The [BS/CF review queue](../data/m2/ril-tcs/review/BS_CF_REVIEW_QUEUE.md) identifies the exact remaining 320 candidates: 152 RIL and 168 TCS. It is a review inventory, not a PDF corroboration audit or approval request. Each candidate still needs labelled-row/dated-column source checks and explicit fact review before controlled loading.
+The [consolidated completion package](M2_COMPLETION_PACKAGE.md) now provides the audited 318-fact RIL/TCS BS/CF decision packet and the 255-fact other-company core packet. Two historical dash-to-zero candidates remain unavailable; the six original conflict keys stay withheld under Marky's decision. Fifteen new primary source PDFs are pinned for HDFC Bank, L&T and the proposed Tata/TMPV history, with forty further comparative conflicts withheld.
 
-Remaining gates include the six conflict resolutions, required notes and metric definitions, deterministic derived outputs, reviewed five-year history for the other three companies, live publisher contention/recovery checks, populated HTTP/browser checks and release validation. M2 and issue #14 remain open.
-
-Committed pending templates and example offline plans remain reproducible baseline artifacts. They are not live state; do not overwrite their pending decisions with inferred approvals or reuse old empty snapshots for the next load.
+Actual new reviews, fresh native snapshots/previews and controlled apply/receipt verification remain required before M2 or issue #14 can close. Derived outputs, HTTP/browser checks and deployment are subsequent release gates. The first receipt and original catalog approval remain immutable; regenerate all future plans with the new numeric-display guard.

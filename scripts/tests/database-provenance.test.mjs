@@ -148,10 +148,11 @@ test('a commit without any approved proof rolls back', async () => {
   } finally { await db.exec('rollback'); }
   assert.equal((await db.query("select count(*)::integer as n from public.financial_facts where metric_code='revenue'")).rows[0].n, 0);
 });
-test('all 376 candidate observations preserve P&L, instant BS and duration CF semantics', async () => {
+test('374 explicit numeric observations preserve P&L, instant BS and duration CF semantics', async () => {
   await rollback(async () => {
     await db.exec('set local role service_role');
     for (const e of fixture.entries.slice(0, fixture.candidate_count)) {
+      if (e.observation.raw_value_text === '-') continue;
       await stage(e, { reuse: true });
     }
     await db.exec('set constraints all immediate');
@@ -160,10 +161,39 @@ test('all 376 candidate observations preserve P&L, instant BS and duration CF se
     assert.ok(counts.find(c => c.kind === 'instant' && c.n > 0));
     assert.ok(counts.find(c => c.kind === 'duration' && c.n > 0));
     await db.exec('reset role; set local role anon');
-    assert.equal((await db.query('select count(*)::integer as n from public.financial_facts')).rows[0].n, 376);
+    assert.equal((await db.query('select count(*)::integer as n from public.financial_facts')).rows[0].n, 374);
     assert.equal((await db.query('select count(*)::integer as n from public.source_documents')).rows[0].n, 10);
   });
 });
+test('review proof cannot turn either historical dash into a verified zero', async () => {
+  const dashes = fixture.entries.slice(0, fixture.candidate_count)
+    .filter(e => e.observation.raw_value_text === '-');
+  assert.equal(dashes.length, 2);
+  for (const e of dashes) await rollback(async () => {
+    await rejects(() => stage(e), /facts_explicit_reported_amount/);
+  });
+});
+for (const display of ['1*', '1#', 'NaN', 'Infinity', '', null, '(1)']) {
+  test(`unsupported or wrong-signed display ${JSON.stringify(display)} cannot publish`, async () => {
+    await rollback(async () => {
+      const modified = structuredClone(entry);
+      Object.assign(modified.observation, { raw_value_text: display, raw_value: '1',
+        normalized_value: '10000000' });
+      await rejects(() => stage(modified), /facts_explicit_reported_amount/);
+    });
+  });
+}
+for (const display of ['0', '0.00', '(0)', 'Ϭ']) {
+  test(`explicit zero ${display} passes the numeric guard without becoming approved`, async () => {
+    await rollback(async () => {
+      const modified = structuredClone(entry);
+      Object.assign(modified.observation, { raw_value_text: display, raw_value: '0',
+        normalized_value: '0' });
+      await stage(modified, { proof: false });
+      await rejects(() => db.exec('set constraints all immediate'), /lacks matching approved provenance/);
+    });
+  });
+}
 test('snapshot SQL includes all scoped quality states and round-trips through the Python planner', async () => {
   await rollback(async () => {
     // The legacy fixture has no proof: omit its company by selecting RIL only.
@@ -380,8 +410,8 @@ test('only one preferred fact for a company/period/metric', async () => {
   await rollback(async () => {
     const ids = await stage();
     await rejects(() => db.query(`insert into public.financial_facts
-      (company_id,reporting_period_id,metric_code,raw_value,normalized_value,unit_scale,source_document_id,quality_status,is_preferred)
-      select company_id,reporting_period_id,metric_code,raw_value,normalized_value,unit_scale,
+      (company_id,reporting_period_id,metric_code,raw_value_text,raw_value,normalized_value,unit_scale,source_document_id,quality_status,is_preferred)
+      select company_id,reporting_period_id,metric_code,raw_value_text,raw_value,normalized_value,unit_scale,
         '00000000-0000-0000-0000-000000000002','verified',true
       from public.financial_facts where id=$1`, [ids.factId]), /financial_facts_one_preferred/);
   });

@@ -1,5 +1,7 @@
 # M7 portfolio release checklist
 
+**Current M2 preparation:** [M2_COMPLETION_PACKAGE.md](M2_COMPLETION_PACKAGE.md) consolidates the pending 573-fact/five-company package, explicit scope decisions and load gates. The first 56 facts remain the only loaded subset. Historical baseline queues below are superseded by that dated package; M2 stays open.
+
 A checked item must have evidence. Do not mark an external/runtime item complete because the repository implementation merely exists.
 
 ## Data readiness — blocking

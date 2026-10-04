@@ -1,6 +1,8 @@
 """Review, provenance, target-conflict and retry behavior using the real evidence catalog."""
 
 import copy
+import subprocess
+import sys
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from uuid import UUID
@@ -140,6 +142,28 @@ def test_approved_fact_still_requires_approved_source_and_target(catalog):
     assert reasons(result, entry) == ["source_review_pending", "target_snapshot_missing"]
     reviews.sources[entry["source_key"]] = approval()
     assert reasons(build_load_plan(catalog, reviews, now=NOW), entry) == ["target_snapshot_missing"]
+
+
+def test_approving_historical_dash_cannot_publish_a_fabricated_zero(catalog):
+    entry = next(e for e in catalog["candidates"]
+                 if e["observation"]["raw_value_text"] == "-")
+    reviews, entry = approve_one(catalog, entry)
+    result = plan(catalog, reviews, snapshot())
+    assert reasons(result, entry) == ["source_amount_not_explicit_numeric"]
+    assert result["proposed_facts"] == []
+
+
+def test_explicit_printed_zero_is_still_a_numeric_observation(catalog):
+    # A synthetic zero attestation tests the distinction; no real ledger is changed.
+    changed = copy.deepcopy(catalog)
+    entry = changed["candidates"][0]
+    entry["observation"].update(raw_value="0", raw_value_text="0", normalized_value="0")
+    entry["evidence_sha256"] = digest(entry["observation"])
+    reviews, entry = approve_one(changed, entry)
+    result = plan(changed, reviews, snapshot())
+    assert entry["observation"]["observation_id"] in {
+        o["observation_id"] for o in result["proposed_facts"]
+    }
 
 
 def test_one_approved_insert_proposal_preserves_full_companion_metadata(catalog):
@@ -342,3 +366,21 @@ def test_snapshot_must_export_and_validate_actual_stored_normalized_value(catalo
     entry = catalog["candidates"][0]
     with pytest.raises(ValueError, match="stored normalization"):
         existing(entry, normalized_value=record(entry).normalized_value + 1)
+
+
+def test_load_planning_does_not_import_pdf_engine():
+    script = """
+import sys
+from pathlib import Path
+from analyst_os_ingestion.planning import build_load_plan, empty_reviews
+from scripts.plan_ril_tcs_load import load_catalog
+catalog = load_catalog(Path.cwd())
+build_load_plan(catalog, empty_reviews(catalog))
+assert 'fitz' not in sys.modules
+assert 'pymupdf' not in sys.modules
+"""
+    result = subprocess.run(  # noqa: S603 — fixed test script and interpreter
+        [sys.executable, "-c", script], cwd=ROOT,
+        capture_output=True, text=True, timeout=10, check=True,
+    )
+    assert result.stdout == ""

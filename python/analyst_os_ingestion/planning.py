@@ -10,6 +10,7 @@ from uuid import UUID
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl, field_validator, model_validator
 
+from .amounts import printed_amount
 from .conflicts import fact_key, find_conflicts
 from .loader import _record_from_row
 from .models import FinancialFactRecord
@@ -302,6 +303,9 @@ def build_load_plan(
         fact_review = reviews.facts.get(oid, Review())
         src_review = reviews.sources.get(entry["source_key"], Review())
         reasons = []
+        # Review cannot turn a dash, footnote or unverifiable display into a number.
+        if printed_amount(o["raw_value_text"]) != Decimal(o["raw_value"]):
+            reasons.append("source_amount_not_explicit_numeric")
         if src_review.status != "approved":
             reasons.append(f"source_review_{src_review.status}")
         if fact_review.status != "approved":

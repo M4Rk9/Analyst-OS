@@ -1,0 +1,57 @@
+[
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2023,
+    "source_url": "https://nsearchives.nseindia.com/annual_reports/AR_22007_TATAMOTORS_2022_2023_12062023215502_06122023220000.zip",
+    "listing": {
+      "companyName": "Tata Motors Passenger Vehicles Limited",
+      "fromYr": "2022",
+      "toYr": "2023",
+      "submission_type": "-",
+      "broadcast_dttm": "-",
+      "disseminationDateTime": "-",
+      "timeTaken": "::",
+      "fileName": "https://nsearchives.nseindia.com/annual_reports/AR_22007_TATAMOTORS_2022_2023_12062023215502_06122023220000.zip",
+      "attFileSize": null
+    },
+    "transport_sha256": "165a4b0f7655f5666d8a4374bb74d61a61bb296f81e8f9461ea5ba9817401741",
+    "transport_bytes": 11195917,
+    "retrieved_at": "2026-10-04T13:05:29.805495+00:00",
+    "review_status": "pending",
+    "archive_member": "AR_22007_TATAMOTORS_2022_2023_12062023215502.pdf",
+    "file": "tata-motors_2023_nse.pdf",
+    "sha256": "21d90544da8893c592b9dfc06d7bb74e31f18e4981e8b3a7d576b92f45fd305c",
+    "bytes": 11843273,
+    "page_count": 529,
+    "title": "Integrated Annual Report 2022-23",
+    "publisher": "Tata Motors Limited",
+    "scope_note": "Legacy Tata Motors Limited consolidated group. Re-presented comparative columns may reflect discontinued operations; no silent restatement replacement. FY2026 entity continuity is withheld separately."
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2025,
+    "source_url": "https://nsearchives.nseindia.com/annual_reports/AR_27753_TATAMOTORS_2024_2025_A_29318961_26082025223051.pdf",
+    "listing": {
+      "companyName": "Tata Motors Passenger Vehicles Limited",
+      "fromYr": "2024",
+      "toYr": "2025",
+      "submission_type": "New",
+      "broadcast_dttm": "26-AUG-2025 22:30:51",
+      "disseminationDateTime": "26-AUG-2025 22:30:54",
+      "timeTaken": "00:00:03",
+      "fileName": "https://nsearchives.nseindia.com/annual_reports/AR_27753_TATAMOTORS_2024_2025_A_29318961_26082025223051.pdf",
+      "attFileSize": "27.96 MB"
+    },
+    "transport_sha256": "66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1",
+    "transport_bytes": 29318961,
+    "retrieved_at": "2026-10-04T13:05:44.989060+00:00",
+    "review_status": "pending",
+    "file": "tata-motors_2025_nse.pdf",
+    "sha256": "66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1",
+    "bytes": 29318961,
+    "page_count": 591,
+    "title": "Integrated Annual Report 2024-25",
+    "publisher": "Tata Motors Limited",
+    "scope_note": "Legacy Tata Motors Limited consolidated group. Re-presented comparative columns may reflect discontinued operations; no silent restatement replacement. FY2026 entity continuity is withheld separately."
+  }
+]
