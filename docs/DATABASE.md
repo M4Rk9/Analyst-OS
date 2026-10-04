@@ -45,3 +45,5 @@ Apply `supabase/migrations/` in lexical order using the Supabase SQL editor or C
 ## Review-bound provenance migration
 
 [PROVENANCE_SCHEMA.md](PROVENANCE_SCHEMA.md) documents the private `ingestion` schema, canonical hash contract, deferred publication guards, unverified defaults and read-only upgrade preflight. Review its legacy-demotion and derived-output blockers before applying. Local PostgreSQL tests pass; actual Supabase migration/runtime verification and controlled loading remain pending.
+
+The [controlled publisher](CONTROLLED_PUBLISHING.md) uses the private receipt migration `20261004072747_controlled_load_receipts.sql`; inspect its schema hash before explicit apply. No target migration or loading is performed by merging it.

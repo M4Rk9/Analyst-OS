@@ -2,7 +2,7 @@
   "name": "analyst-os-database-tests",
   "private": true,
   "scripts": {
-    "test:db": "node --test --test-concurrency=1 scripts/tests/database-provenance.test.mjs"
+    "test:db": "node --test --test-concurrency=1 scripts/tests/database-*.test.mjs"
   },
   "devDependencies": {
     "@electric-sql/pglite": "0.5.8"

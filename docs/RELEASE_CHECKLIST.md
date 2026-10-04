@@ -30,6 +30,9 @@ RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric d
 - [ ] Provenance migration preflight reviewed; legacy demotion/derived-output blockers addressed
 - [ ] Private ingestion schema excluded from Data API; review/function grants verified
 - [ ] Reviewed publication guards and target concurrency/retry behavior verified
+- [ ] Publisher schema inventory inspected; plan/schema hashes reviewed before explicit apply
+- [ ] Live lock contention/timeouts, receipt replay and uncertain-COMMIT recovery verified
+- [ ] Controlled load receipt and resulting approved records retained as evidence
 - [ ] RLS enabled on every exposed table in the target project
 - [ ] Browser anon SELECT succeeds only for intended public data
 - [ ] Browser anon INSERT fails on every exposed table

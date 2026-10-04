@@ -23,7 +23,7 @@ Stored numeric amounts are read as text and validated with Decimal; the exporter
 
 Measurements are bounded in SQL before transferring full rows, and fetched counts/serialized sizes are checked again. Output is created exclusively with mode `0600` on POSIX. It must end with `.target-snapshot.json`, which is ignored by Git. Store it in a trusted local directory; protect filesystem access separately on Windows. CLI logs contain counts and the canonical snapshot hash, never the database URL, password, raw server error or review text.
 
-An empty target can yield a complete snapshot only if all requested company records exist and no uninspectable source/fact rows are present. Completeness covers the declared scope at the transaction snapshot, not subsequent database changes. The planner enforces expected project/scope and a maximum snapshot age; a future publisher must still perform a fresh transactional target check.
+An empty target can yield a complete snapshot only if all requested company records exist and no uninspectable source/fact rows are present. Completeness covers the declared scope at the transaction snapshot, not subsequent database changes. The planner enforces expected project/scope and a maximum snapshot age; the [controlled publisher](CONTROLLED_PUBLISHING.md) performs a fresh transactional target check.
 
 ## Local use after target preflight
 
@@ -55,12 +55,12 @@ An empty target can yield a complete snapshot only if all requested company reco
      --output /trusted/local/load-plan.json
    ```
 
-The committed review template is still pending: providing a snapshot does not approve any of the 376 candidates or resolve the six conflict keys. `apply_ready` remains false; a transactional publisher/load receipt is the next implementation step.
+The committed review template is still pending: providing a snapshot does not approve any of the 376 candidates or resolve the six conflict keys. `apply_ready` remains false; the publisher is implemented, but actual reviews, target verification and loading remain pending.
 
 ## Verification status
 
 Python tests cover connection binding, TLS/privilege/session rejection, complete/empty scopes, metadata and hash failures, ambiguous proof, limits, rollback, credential redaction and exclusive file handling. PostgreSQL tests execute the exporter queries and size/count measurements, compare privileged reads with hidden anon rows, round-trip actual database rows through the Python snapshot model, and reject writes in a read-only transaction.
 
-These tests use ephemeral PostgreSQL plus a mocked Python connection adapter. They do not establish live Psycopg/TLS authentication, target configuration or concurrent multi-session behavior. Real Supabase export, project verification and the later writer's concurrency tests remain release gates. No production credential is needed by CI.
+These tests use ephemeral PostgreSQL plus a mocked Python connection adapter. They do not establish live Psycopg/TLS authentication, target configuration or concurrent multi-session behavior. Real Supabase export, project verification and the writer's multi-session concurrency tests remain release gates. No production credential is needed by CI.
 
 References: [Supabase connection methods](https://supabase.com/docs/guides/database/connecting-to-postgres), [Psycopg transactions](https://www.psycopg.org/psycopg3/docs/basic/transactions.html), [PostgreSQL isolation](https://www.postgresql.org/docs/current/transaction-iso.html), [TLS verification](https://www.postgresql.org/docs/current/libpq-ssl.html).

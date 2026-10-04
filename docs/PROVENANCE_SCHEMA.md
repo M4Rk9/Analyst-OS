@@ -4,7 +4,7 @@
 
 ## Private records and hashes
 
-Keep `ingestion` outside the Supabase Data API exposed schemas. Browser roles have no schema usage, table access or function execution. All four tables have RLS, no browser policies and explicit service-role SELECT/INSERT grants. Functions run as the caller, with a fixed `pg_catalog` search path; none use `SECURITY DEFINER`. Privileged credentials remain local.
+Keep `ingestion` outside the Supabase Data API exposed schemas. Browser roles have no schema usage, table access or function execution. All five tables (including the subsequent receipt migration) have RLS, no browser policies and explicit service-role SELECT/INSERT grants. Functions run as the caller, with a fixed `pg_catalog` search path; none use `SECURITY DEFINER`. Privileged credentials remain local.
 
 | Table | Retained evidence |
 |---|---|
@@ -12,12 +12,13 @@ Keep `ingestion` outside the Supabase Data API exposed schemas. Browser roles ha
 | `review_ledgers` | Catalog-bound source/fact decisions, reviewer text, timestamp and rationale |
 | `source_provenance` | Source UUID and the exact catalog/review-ledger pair |
 | `fact_provenance` | Fact/source UUIDs, observation ID, complete observation/definition and their hashes |
+| `load_receipts` | Atomic import/request identity, input/schema hashes and inserted/already-present observation evidence |
 
 Hash UTF-8 text from Python `json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=False)` and store it verbatim. Generated JSONB columns provide query access; PostgreSQL checks hashes of the stored text bytes. Do not hash `jsonb::text`, reformat JSON or drop companion fields. `build_catalog()` now returns the full digest `payload`; existing catalog/plan digests are unchanged.
 
 Full observation JSON preserves reporting basis, instant/duration semantics, `as_of`, printed/PDF-page references, column role, corrections and source identity. Review text is an attestation, **not** authenticated identity, a digital signature or proof of document authenticity. The trusted local workflow must authenticate filings and reviewers first.
 
-Records are append-only. New decisions require a new ledger; the service role cannot edit, delete or truncate old proof. Foreign keys retain corresponding core records. A future snapshot exporter must inspect all provenance and reject ambiguous matches rather than silently selecting a ledger.
+Records are append-only. New decisions require a new ledger; the service role cannot edit, delete or truncate old proof. Foreign keys retain corresponding core records. The snapshot exporter inspects all provenance and rejects ambiguous matches rather than silently selecting a ledger.
 
 ## Publication and integrity
 
@@ -27,7 +28,7 @@ Deferred triggers validate the final transaction. Verified sources require a man
 
 The initial contract accepts consolidated April–March annual-report current-year columns in the selected fiscal window, including instant balance-sheet and duration P&L/cash-flow values. All same-key catalog observations are checked for competing normalized values/currencies. The six RIL conflict keys remain blocked even with an approval entry; no resolution override exists. Publication dates remain NULL because the current catalogs do not establish them. Report-year labels and retrieval times do not establish publication dates.
 
-SQL checks do not establish target completeness, authenticate PDF bytes independently or detect conflicts across separately submitted catalogs. The future publisher still needs a privileged complete snapshot, UUID resolution, fresh transactional target checks, existing-record conflict/idempotence handling and a load receipt. Legacy/unverified rows are not approval evidence.
+SQL checks do not establish target completeness, authenticate PDF bytes independently or detect conflicts across separately submitted catalogs. The [controlled publisher](CONTROLLED_PUBLISHING.md) implements complete snapshots, UUID resolution, fresh transactional checks, conflict/idempotence handling and atomic receipts; actual target verification and loading remain pending. Legacy/unverified rows are not approval evidence.
 
 ## Upgrade preflight and effects
 
@@ -41,7 +42,7 @@ Run [the privileged read-only preflight](../supabase/preflight_reviewed_provenan
 
 Apply migrations in order through the trusted migration role. A failure rolls back demotion and DDL together. Existing AI insights become unavailable when their source is demoted under the existing policy. Do not bypass triggers or invent backfilled reviews.
 
-After applying to Supabase staging/target, verify PostgreSQL compatibility, service-role privileges/BYPASSRLS, schema exposure, grants, RLS and rejected browser INSERT/UPDATE/DELETE. Run the Supabase security/performance advisors and retain results. WASM PostgreSQL tests do not verify Supabase Auth, PostgREST or deployment configuration. Row locks and unique indexes are implemented; multi-session concurrency/retry testing remains required for the future writer.
+After applying to Supabase staging/target, verify PostgreSQL compatibility, service-role privileges/BYPASSRLS, schema exposure, grants, RLS and rejected browser INSERT/UPDATE/DELETE. Run the Supabase security/performance advisors and retain results. WASM PostgreSQL tests do not verify Supabase Auth, PostgREST or deployment configuration. Row locks and unique indexes are implemented; multi-session concurrency/retry testing remains required for the controlled writer.
 
 ## Local validation
 

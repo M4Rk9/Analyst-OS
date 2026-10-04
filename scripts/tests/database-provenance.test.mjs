@@ -123,7 +123,7 @@ test('private proof tables have RLS and no browser grants or definer functions',
     has_table_privilege('anon',c.oid,'SELECT') as anon_read,
     has_table_privilege('authenticated',c.oid,'INSERT') as browser_write
     from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname='ingestion' and c.relkind='r'`)).rows;
-  assert.equal(rows.length, 4);
+  assert.equal(rows.length, 5);
   for (const row of rows) assert.ok(row.relrowsecurity && !row.anon_read && !row.browser_write);
   const funcs = (await db.query(`select p.prosecdef,has_function_privilege('anon',p.oid,'EXECUTE') as callable
     from pg_proc p join pg_namespace n on n.oid=p.pronamespace where n.nspname='ingestion'`)).rows;
