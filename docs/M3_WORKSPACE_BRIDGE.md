@@ -1,5 +1,7 @@
 # Loaded history workspace and analytics preview
 
+**Publication follow-up:** [M3 controlled publication](M3_CONTROLLED_PUBLICATION.md) supersedes this bridge's publication-next-step guidance. Its new command generates a fresh migration-bound plan and supports explicit native apply; the command below remains read-only.
+
 M2 is closed after the verified 629-fact controlled load. This bridge prepares the next runtime stage without publishing derived database rows or changing approved financial facts.
 
 ## Frontend bindings

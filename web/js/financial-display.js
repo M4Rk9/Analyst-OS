@@ -64,6 +64,20 @@
     return labels[code] || String(code || "").replaceAll("_", " ");
   }
 
+  const calculatedLabels = Object.freeze({
+    current_ratio: "Current ratio",
+    working_capital: "Reported working capital (INR)",
+    cfo_to_reported_group_profit: "CFO / reported consolidated group profit",
+  });
+
+  function supportedMetrics(metrics) {
+    return metrics.filter((m) => Object.hasOwn(calculatedLabels, m.metric_code)
+      && m.policy_version === "reported-core-1" && m.formula_version === "1.0"
+      && m.unit === (m.metric_code === "working_capital" ? "INR" : "ratio")
+      && Array.isArray(m.input_facts) && m.input_facts.length === 2
+      && m.input_facts.every((input) => input && typeof input.fact_id === "string"));
+  }
+
   function latestPeriodMetrics(metrics, periodMap) {
     const dated = metrics.map((metric) => ({ ...metric, period: periodMap.get(metric.reporting_period_id) }))
       .filter((metric) => metric.period);
@@ -78,6 +92,6 @@
   }
 
   global.AnalystFinancialDisplay = Object.freeze({
-    labels, numberValue, trendSegments, metricLabel, latestPeriodMetrics,
+    labels, numberValue, trendSegments, metricLabel, latestPeriodMetrics, calculatedLabels, supportedMetrics,
   });
 })(window);
