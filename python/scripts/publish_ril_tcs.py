@@ -13,8 +13,8 @@ from analyst_os_ingestion.snapshot import connection_parameters
 from scripts.plan_ril_tcs_load import load_catalog, read_json
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+def main(catalog_loader=load_catalog, description=__doc__) -> int:
+    parser = argparse.ArgumentParser(description=description)
     parser.add_argument("--reviews", type=Path, required=True)
     parser.add_argument("--target-snapshot", type=Path, required=True)
     parser.add_argument("--reviewed-plan", type=Path, required=True)
@@ -26,7 +26,7 @@ def main() -> int:
     args = parser.parse_args()
     try:
         request = prepare_request(
-            load_catalog(Path(__file__).resolve().parents[2]),
+            catalog_loader(Path(__file__).resolve().parents[2]),
             ReviewLedger.model_validate(read_json(args.reviews)),
             TargetSnapshot.model_validate(read_json(args.target_snapshot)),
             read_json(args.reviewed_plan),

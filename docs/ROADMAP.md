@@ -1,5 +1,7 @@
 # Roadmap
 
+**Current M2 preparation:** [M2_COMPLETION_PACKAGE.md](M2_COMPLETION_PACKAGE.md) consolidates the pending 573-fact/five-company package, explicit scope decisions and load gates. The first 56 facts remain the only loaded subset. Historical baseline queues below are superseded by that dated package; M2 stays open.
+
 Exactly eight milestones are used unless a compelling technical reason requires otherwise.
 
 ## M0 — Foundation — Completed

@@ -1,5 +1,7 @@
 # Analyst OS
 
+**M2 update (2026-10-04):** the first 56-fact RIL/TCS load is verified. The [consolidated completion package](docs/M2_COMPLETION_PACKAGE.md) now prepares 573 additional source-bound facts across all five companies, fifteen new source PDFs and an explicit Tata FY2026 scope decision. New reviews and controlled loads remain pending; conflict keys and printed dashes stay unavailable.
+
 Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspace built as a flagship portfolio project. It demonstrates financial analytics, Python data engineering, PostgreSQL/Supabase, local AI with Ollama, secure frontend engineering, testing, and deployment discipline.
 
 > **Positioning:** research and analysis tool only. Analyst OS does not provide investment advice, BUY/SELL signals, target prices, company investment rankings, or guaranteed returns.

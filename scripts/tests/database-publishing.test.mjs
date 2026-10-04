@@ -59,17 +59,19 @@ async function counts(db) {
     (select count(*)::integer from ingestion.load_receipts) as receipts`)).rows[0];
 }
 
-test('publisher loads all 376 candidates with atomic proof and one durable replay-safe receipt', async () => {
+test('publisher loads 374 numeric candidates, withholding two dashes, with replay-safe receipt', async () => {
   const db = await database();
   try {
     const { result } = await drive(db, 'all');
     assert.ok(!result.error, result.error);
-    assert.equal(result.inserted, 376);
+    assert.equal(result.inserted, 374);
     assert.equal(result.replayed, true);
-    assert.deepEqual(await counts(db), { facts: 376, sources: 10, proofs: 376, receipts: 1 });
+    assert.deepEqual(await counts(db), { facts: 374, sources: 10, proofs: 374, receipts: 1 });
+    assert.equal((await db.query(`select count(*)::integer as n from public.financial_facts
+      where raw_value_text='-'`)).rows[0].n, 0);
     await assert.rejects(() => db.exec('delete from ingestion.load_receipts'), /append-only/);
     await db.exec('set role anon');
-    assert.equal((await db.query('select count(*)::integer as n from public.financial_facts')).rows[0].n, 376);
+    assert.equal((await db.query('select count(*)::integer as n from public.financial_facts')).rows[0].n, 374);
     await assert.rejects(() => db.query('select * from ingestion.load_receipts'), /permission denied/);
   } finally { await db.close(); }
 });
@@ -127,6 +129,16 @@ test('disabled publication triggers fail schema audit', async () => {
     const { result } = await drive(db, 'one');
     assert.match(result.error, /disabled target integrity trigger/);
     assert.equal((await counts(db)).facts, 0);
+  } finally { await db.close(); }
+});
+test('a missing explicit-number constraint stops the native publisher before writes', async () => {
+  const db = await database();
+  try {
+    await db.exec('alter table public.financial_facts drop constraint facts_explicit_reported_amount');
+    const { result, insertStatements } = await drive(db, 'one');
+    assert.match(result.error, /financial integrity constraints are missing/);
+    assert.equal(insertStatements, 0);
+    assert.deepEqual(await counts(db), { facts: 0, sources: 0, proofs: 0, receipts: 0 });
   } finally { await db.close(); }
 });
 test('browser write grants fail schema audit', async () => {

@@ -1196,6 +1196,7 @@
       "observation_id": "reliance-industries:2023:deferred_payment_cash:report2023",
       "reasons": [
         "fact_review_pending",
+        "source_amount_not_explicit_numeric",
         "source_review_pending",
         "target_snapshot_missing"
       ],
@@ -1516,6 +1517,7 @@
       "observation_id": "reliance-industries:2024:cash_demerger_deduction:report2024",
       "reasons": [
         "fact_review_pending",
+        "source_amount_not_explicit_numeric",
         "source_review_pending",
         "target_snapshot_missing"
       ],

@@ -1,0 +1,1132 @@
+[
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "bank_income",
+    "lhs": [
+      "bank_interest_earned",
+      "bank_other_income"
+    ],
+    "rhs": "bank_total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "hdfc-bank",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "bank_cash_definition",
+    "lhs": [
+      "bank_cash_rbi",
+      "bank_balances_call_money"
+    ],
+    "rhs": "bank_closing_cash",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "lt_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "larsen-toubro",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "equity_and_liabilities",
+    "lhs": [
+      "total_equity",
+      "total_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2022,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2022,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2023,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2023,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2024,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2024,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0.00",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2025,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2025,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2026,
+    "column_role": "current_year",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "income",
+    "lhs": [
+      "tata_reported_revenue",
+      "other_income"
+    ],
+    "rhs": "total_income",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "balance_sheet",
+    "lhs": [
+      "total_equity_liabilities"
+    ],
+    "rhs": "total_assets",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  },
+  {
+    "company_slug": "tata-motors",
+    "report_fiscal_year": 2026,
+    "column_role": "comparative",
+    "check": "closing_cash",
+    "lhs": [
+      "closing_cash"
+    ],
+    "rhs": "cash_and_cash_equivalents",
+    "difference_inr_crore": "0",
+    "result": "pass"
+  }
+]

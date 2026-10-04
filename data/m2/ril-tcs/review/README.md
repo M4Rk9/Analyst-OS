@@ -1,5 +1,7 @@
 # RIL/TCS review-bound import planning
 
+**BS/CF audit update:** [318 explicit-number candidates are ready for review](BS_CF_DECISION_PACKET.md); two printed-dash candidates remain unavailable. The numeric-display guard updates the pending plan while preserving the original catalog, source approvals and first-load receipt. See [the consolidated package](../../../../docs/M2_COMPLETION_PACKAGE.md) for all-five-company review and native load gates.
+
 > **Live status update, 2026-10-04:** The approved 56-fact P&L subset and ten sources are now loaded and independently verified. The remaining 320 candidates are pending and six conflict keys are withheld. See [approved load evidence and remaining gates](../../../../docs/M2_APPROVED_LOAD_STATUS.md). Statements below about zero production loads or all 376 candidates being pending describe the committed offline baseline, not the current target. Pending templates remain unchanged.
 
 The offline planner combines 764 observations from batches 1 and 2, selects 376 current-year candidates, and withholds six unresolved conflicting keys. It preserves the full companion metadata, including source hashes/pages/labels, reporting basis, source column, instant-versus-duration measurement, as-of dates and exact metric definitions.

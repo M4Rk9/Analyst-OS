@@ -142,6 +142,28 @@ def test_approved_fact_still_requires_approved_source_and_target(catalog):
     assert reasons(build_load_plan(catalog, reviews, now=NOW), entry) == ["target_snapshot_missing"]
 
 
+def test_approving_historical_dash_cannot_publish_a_fabricated_zero(catalog):
+    entry = next(e for e in catalog["candidates"]
+                 if e["observation"]["raw_value_text"] == "-")
+    reviews, entry = approve_one(catalog, entry)
+    result = plan(catalog, reviews, snapshot())
+    assert reasons(result, entry) == ["source_amount_not_explicit_numeric"]
+    assert result["proposed_facts"] == []
+
+
+def test_explicit_printed_zero_is_still_a_numeric_observation(catalog):
+    # A synthetic zero attestation tests the distinction; no real ledger is changed.
+    changed = copy.deepcopy(catalog)
+    entry = changed["candidates"][0]
+    entry["observation"].update(raw_value="0", raw_value_text="0", normalized_value="0")
+    entry["evidence_sha256"] = digest(entry["observation"])
+    reviews, entry = approve_one(changed, entry)
+    result = plan(changed, reviews, snapshot())
+    assert entry["observation"]["observation_id"] in {
+        o["observation_id"] for o in result["proposed_facts"]
+    }
+
+
 def test_one_approved_insert_proposal_preserves_full_companion_metadata(catalog):
     entry = next(
         e for e in catalog["candidates"] if e["observation"]["measurement_type"] == "instant"

@@ -188,6 +188,7 @@ def schema_inventory(connection) -> tuple[dict, str]:
         raise PublishError("unexpected private function definitions or grants")
     facts = next(t for t in tables if t["table"] == "financial_facts")
     required = {
+        "facts_explicit_reported_amount",
         "facts_exact_normalization",
         "facts_finite_values",
         "facts_preferred_verified",

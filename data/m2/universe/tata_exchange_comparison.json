@@ -1,0 +1,82 @@
+[
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2023,
+    "statement": "bs",
+    "original_pdf_page": 355,
+    "exchange_pdf_page": 356,
+    "numeric_tokens_match": true,
+    "original_sha256": "e217b1a3f5cfb2d8997d6c822b589f5593797b23b08bfadaef5216d4aadc7b83",
+    "exchange_sha256": "21d90544da8893c592b9dfc06d7bb74e31f18e4981e8b3a7d576b92f45fd305c"
+  },
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2023,
+    "statement": "pnl",
+    "original_pdf_page": 356,
+    "exchange_pdf_page": 357,
+    "numeric_tokens_match": true,
+    "original_sha256": "e217b1a3f5cfb2d8997d6c822b589f5593797b23b08bfadaef5216d4aadc7b83",
+    "exchange_sha256": "21d90544da8893c592b9dfc06d7bb74e31f18e4981e8b3a7d576b92f45fd305c"
+  },
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2023,
+    "statement": "cf",
+    "original_pdf_page": 357,
+    "exchange_pdf_page": 358,
+    "numeric_tokens_match": true,
+    "original_sha256": "e217b1a3f5cfb2d8997d6c822b589f5593797b23b08bfadaef5216d4aadc7b83",
+    "exchange_sha256": "21d90544da8893c592b9dfc06d7bb74e31f18e4981e8b3a7d576b92f45fd305c"
+  },
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2023,
+    "statement": "cf",
+    "original_pdf_page": 358,
+    "exchange_pdf_page": 359,
+    "numeric_tokens_match": true,
+    "original_sha256": "e217b1a3f5cfb2d8997d6c822b589f5593797b23b08bfadaef5216d4aadc7b83",
+    "exchange_sha256": "21d90544da8893c592b9dfc06d7bb74e31f18e4981e8b3a7d576b92f45fd305c"
+  },
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2025,
+    "statement": "bs",
+    "original_pdf_page": 312,
+    "exchange_pdf_page": 313,
+    "numeric_tokens_match": true,
+    "original_sha256": "5e90978857f304a9f08b5eade121e14256756d4c8db0f87cf964f54d512ce360",
+    "exchange_sha256": "66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1"
+  },
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2025,
+    "statement": "pnl",
+    "original_pdf_page": 313,
+    "exchange_pdf_page": 314,
+    "numeric_tokens_match": true,
+    "original_sha256": "5e90978857f304a9f08b5eade121e14256756d4c8db0f87cf964f54d512ce360",
+    "exchange_sha256": "66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1"
+  },
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2025,
+    "statement": "cf",
+    "original_pdf_page": 315,
+    "exchange_pdf_page": 316,
+    "numeric_tokens_match": true,
+    "original_sha256": "5e90978857f304a9f08b5eade121e14256756d4c8db0f87cf964f54d512ce360",
+    "exchange_sha256": "66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1"
+  },
+  {
+    "company_slug": "tata-motors",
+    "fiscal_year": 2025,
+    "statement": "cf",
+    "original_pdf_page": 316,
+    "exchange_pdf_page": 317,
+    "numeric_tokens_match": true,
+    "original_sha256": "5e90978857f304a9f08b5eade121e14256756d4c8db0f87cf964f54d512ce360",
+    "exchange_sha256": "66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1"
+  }
+]

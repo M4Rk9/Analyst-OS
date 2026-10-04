@@ -295,6 +295,9 @@ def build_load_plan(
         for f in target.facts:
             existing[fact_key(f.record)].append(f)
         source_map = {(s.company_slug, str(s.source_url)): s for s in target.sources}
+    # Local import avoids the source-review module's catalog-digest import cycle.
+    from .source_review import printed_amount
+
     blocked, proposed, unchanged = [], [], []
     for entry in catalog["candidates"]:
         o = entry["observation"]
@@ -302,6 +305,9 @@ def build_load_plan(
         fact_review = reviews.facts.get(oid, Review())
         src_review = reviews.sources.get(entry["source_key"], Review())
         reasons = []
+        # Review cannot turn a dash, footnote or unverifiable display into a number.
+        if printed_amount(o["raw_value_text"]) != Decimal(o["raw_value"]):
+            reasons.append("source_amount_not_explicit_numeric")
         if src_review.status != "approved":
             reasons.append(f"source_review_{src_review.status}")
         if fact_review.status != "approved":

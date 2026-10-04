@@ -1,0 +1,768 @@
+{
+  "larsen-toubro": {
+    "metrics": [
+      {
+        "metric_code": "total_assets",
+        "statement": "bs",
+        "labels": [
+          "TOTAL ASSETS"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated total assets as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cash_and_cash_equivalents",
+        "statement": "bs",
+        "labels": [
+          "Cash and cash equivalents"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated cash and cash equivalents as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "inventory",
+        "statement": "bs",
+        "labels": [
+          "Inventories"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated inventory as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "current_receivables",
+        "statement": "bs",
+        "labels": [
+          "Trade receivables"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated current receivables as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "share_capital",
+        "statement": "bs",
+        "labels": [
+          "Equity share capital"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated share capital as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "other_equity",
+        "statement": "bs",
+        "labels": [
+          "Other equity"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated other equity as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "total_equity_liabilities",
+        "statement": "bs",
+        "labels": [
+          "TOTAL EQUITY AND LIABILITIES"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated total equity liabilities as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "noncurrent_assets",
+        "statement": "bs",
+        "labels": [
+          "Sub-total - Non-current assets"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated noncurrent assets as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "current_assets",
+        "statement": "bs",
+        "labels": [
+          "Sub-total - Current assets"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated current assets as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "total_equity",
+        "statement": "bs",
+        "labels": [
+          "TOTAL EQUITY"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated total equity as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "total_liabilities",
+        "statement": "bs",
+        "labels": [
+          "TOTAL LIABILITIES"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated total liabilities as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "current_liabilities",
+        "statement": "bs",
+        "labels": [
+          "Sub-total - Current liabilities"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated current liabilities as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "noncurrent_liabilities",
+        "statement": "bs",
+        "labels": [
+          "Sub-total - Non-current liabilities"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated noncurrent liabilities as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "lt_reported_revenue",
+        "statement": "pnl",
+        "labels": [
+          "Revenue from operations"
+        ],
+        "measurement_type": "duration",
+        "definition": "L&T reported consolidated revenue from operations under the statement\u2019s continuing/discontinued-operation scope. Do not treat different report scopes as comparable without the source notes."
+      },
+      {
+        "metric_code": "other_income",
+        "statement": "pnl",
+        "labels": [
+          "Other income (net)"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated other income as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "total_income",
+        "statement": "pnl",
+        "labels": [
+          "Total Income"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated total income as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "lt_corporate_finance_costs",
+        "statement": "pnl",
+        "labels": [
+          "Finance costs"
+        ],
+        "measurement_type": "duration",
+        "definition": "L&T consolidated Finance costs line; excludes separately presented finance cost of financial services business and finance lease activity. Not total group interest or an EBITDA adjustment."
+      },
+      {
+        "metric_code": "total_expenses",
+        "statement": "pnl",
+        "labels": [
+          "Total Expenses"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated total expenses as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "profit_for_year",
+        "statement": "pnl",
+        "labels": [
+          "Profit for the year",
+          "Profit for the period",
+          "Net profit after tax from continuing operations & discontinued operations"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated profit for year as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cfo",
+        "statement": "cf",
+        "labels": [
+          "Net cash generated from operating activities",
+          "Net cash (used in)/from operating activities",
+          "Net cash from operating activities",
+          "Net cash generated from/(used in) operating activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cfo as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cfi",
+        "statement": "cf",
+        "labels": [
+          "Net cash used in investing activities",
+          "Net cash (used in)/from investing activities",
+          "Net cash generated from/(used in) investing activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cfi as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cff",
+        "statement": "cf",
+        "labels": [
+          "Net cash generated from/(used in) financing activities",
+          "Net cash (used in)/from financing activities",
+          "Net cash used in financing activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cff as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "closing_cash",
+        "statement": "cf",
+        "labels": [
+          "Cash and cash equivalents at end of the year",
+          "Cash and cash equivalents at end of the year [Note 14]"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated closing cash as printed in the specified statement; signed INR crore. No derived proxy."
+      }
+    ],
+    "pages": {
+      "2022": {
+        "bs": [
+          496,
+          497
+        ],
+        "pnl": [
+          498,
+          499
+        ],
+        "cf": [
+          502,
+          503
+        ]
+      },
+      "2023": {
+        "bs": [
+          568,
+          569
+        ],
+        "pnl": [
+          570,
+          571
+        ],
+        "cf": [
+          574,
+          575
+        ]
+      },
+      "2024": {
+        "bs": [
+          526,
+          527
+        ],
+        "pnl": [
+          528,
+          529
+        ],
+        "cf": [
+          532,
+          533
+        ]
+      },
+      "2025": {
+        "bs": [
+          590,
+          591
+        ],
+        "pnl": [
+          592,
+          593
+        ],
+        "cf": [
+          596,
+          597
+        ]
+      },
+      "2026": {
+        "bs": [
+          616,
+          617
+        ],
+        "pnl": [
+          618,
+          619
+        ],
+        "cf": [
+          622,
+          623
+        ]
+      }
+    }
+  },
+  "tata-motors": {
+    "metrics": [
+      {
+        "metric_code": "total_assets",
+        "statement": "bs",
+        "labels": [
+          "TOTAL ASSETS"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated total assets as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cash_and_cash_equivalents",
+        "statement": "bs",
+        "labels": [
+          "Cash and cash equivalents"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated cash and cash equivalents as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "inventory",
+        "statement": "bs",
+        "labels": [
+          "Inventories"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated inventory as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "current_receivables",
+        "statement": "bs",
+        "labels": [
+          "Trade receivables"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated current receivables as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "share_capital",
+        "statement": "bs",
+        "labels": [
+          "Equity share capital"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated share capital as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "other_equity",
+        "statement": "bs",
+        "labels": [
+          "Other equity"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated other equity as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "total_equity_liabilities",
+        "statement": "bs",
+        "labels": [
+          "TOTAL EQUITY AND LIABILITIES"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated total equity liabilities as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "tata_reported_revenue",
+        "statement": "pnl",
+        "labels": [
+          "Total revenue from operations"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated total revenue from operations of the original Tata Motors legal entity, renamed TMPV in FY2026, under the packet\u2019s PROPOSED entity-continuity mapping. Continuing/discontinued scope follows each original report; FY2026 has a demerger series break. No pro-forma or harmonized growth series."
+      },
+      {
+        "metric_code": "other_income",
+        "statement": "pnl",
+        "labels": [
+          "Other income",
+          "Other income (includes government incentives)"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated other income as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "total_income",
+        "statement": "pnl",
+        "labels": [
+          "Total income (I+II)",
+          "III. Total Income (I+II)"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated total income as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "finance_costs",
+        "statement": "pnl",
+        "labels": [
+          "Finance costs"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated finance costs as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "total_expenses",
+        "statement": "pnl",
+        "labels": [
+          "Total Expenses (IV)"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated total expenses as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "profit_for_year",
+        "statement": "pnl",
+        "labels": [
+          "Profit/(loss) for the year (IX+X)",
+          "XI. Profit/(loss) for the year (IX+X)",
+          "Profit for the year (IX-X)",
+          "Profit for the year (XI+XIV)",
+          "Profit for the year (XI+XV)"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated profit for year as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cfo",
+        "statement": "cf",
+        "labels": [
+          "Net cash from operating activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cfo as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cfi",
+        "statement": "cf",
+        "labels": [
+          "Net cash used in investing activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cfi as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cff",
+        "statement": "cf",
+        "labels": [
+          "Net cash used in financing activities",
+          "Net cash (used in)/from financing activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cff as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "closing_cash",
+        "statement": "cf",
+        "labels": [
+          "Cash and cash equivalents as at March 31, (closing balance)"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated closing cash as printed in the specified statement; signed INR crore. No derived proxy."
+      }
+    ],
+    "pages": {
+      "2022": {
+        "bs": [
+          290
+        ],
+        "pnl": [
+          291
+        ],
+        "cf": [
+          292,
+          293
+        ]
+      },
+      "2023": {
+        "bs": [
+          356
+        ],
+        "pnl": [
+          357
+        ],
+        "cf": [
+          358,
+          359
+        ]
+      },
+      "2024": {
+        "bs": [
+          280
+        ],
+        "pnl": [
+          281
+        ],
+        "cf": [
+          282,
+          283
+        ]
+      },
+      "2025": {
+        "bs": [
+          313
+        ],
+        "pnl": [
+          314
+        ],
+        "cf": [
+          316,
+          317
+        ]
+      },
+      "2026": {
+        "bs": [
+          331
+        ],
+        "pnl": [
+          332
+        ],
+        "cf": [
+          334,
+          335
+        ]
+      }
+    }
+  },
+  "hdfc-bank": {
+    "metrics": [
+      {
+        "metric_code": "bank_share_capital",
+        "statement": "bs",
+        "labels": [
+          "Capital"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank share capital as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_reserves_surplus",
+        "statement": "bs",
+        "labels": [
+          "Reserves and surplus"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank reserves surplus as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_deposits",
+        "statement": "bs",
+        "labels": [
+          "Deposits"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank deposits as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_borrowings",
+        "statement": "bs",
+        "labels": [
+          "Borrowings"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank borrowings as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_advances",
+        "statement": "bs",
+        "labels": [
+          "Advances"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank advances as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_investments",
+        "statement": "bs",
+        "labels": [
+          "Investments"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank investments as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_cash_rbi",
+        "statement": "bs",
+        "labels": [
+          "Cash and balances with Reserve Bank of India"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank cash rbi as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_balances_call_money",
+        "statement": "bs",
+        "labels": [
+          "Balances with banks and money at call and short notice"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank balances call money as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_total_assets",
+        "statement": "bs",
+        "labels": [
+          "Total"
+        ],
+        "measurement_type": "instant",
+        "definition": "Reported consolidated bank total assets as printed in the specified statement; signed INR crore. No derived proxy.",
+        "occurrence": 1
+      },
+      {
+        "metric_code": "bank_interest_earned",
+        "statement": "pnl",
+        "labels": [
+          "Interest earned"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated bank interest earned as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_other_income",
+        "statement": "pnl",
+        "labels": [
+          "Other income"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated bank other income as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_total_income",
+        "statement": "pnl",
+        "labels": [
+          "Total"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated bank total income as printed in the specified statement; signed INR crore. No derived proxy.",
+        "occurrence": 0
+      },
+      {
+        "metric_code": "bank_interest_expended",
+        "statement": "pnl",
+        "labels": [
+          "Interest expended"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated bank interest expended as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_operating_expenses",
+        "statement": "pnl",
+        "labels": [
+          "Operating expenses"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated bank operating expenses as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_owner_profit",
+        "statement": "pnl",
+        "labels": [
+          "Consolidated Net Profit for the year attributable to the group"
+        ],
+        "measurement_type": "duration",
+        "definition": "HDFC consolidated net profit attributable to the group after minority interest, as printed; excludes minority interest. Not consolidated profit before minority interest."
+      },
+      {
+        "metric_code": "cfo",
+        "statement": "cf",
+        "labels": [
+          "Net cash flows from operating activities",
+          "Net cash flow from operating activities",
+          "Net cash flow (used in) / from operating activities",
+          "Net cash flows from / (used in) operating activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cfo as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cfi",
+        "statement": "cf",
+        "labels": [
+          "Net cash flow from / (used in) investing activities",
+          "Net cash flow used in investing activities",
+          "Net cash flow from / (used) in investing activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cfi as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "cff",
+        "statement": "cf",
+        "labels": [
+          "Net cash flow used in financing activities",
+          "Net cash flow from financing activities",
+          "Net cash flow from / (used in) financing activities",
+          "Net cash flow (used) / from financing activities"
+        ],
+        "measurement_type": "duration",
+        "definition": "Reported consolidated cff as printed in the specified statement; signed INR crore. No derived proxy."
+      },
+      {
+        "metric_code": "bank_closing_cash",
+        "statement": "cf",
+        "labels": [
+          "Cash and cash equivalents at the end of the year",
+          "Cash and cash equivalents as at March 31st",
+          "Cash and cash equivalents as at the year end (Schedule 6 + 7)"
+        ],
+        "measurement_type": "instant",
+        "definition": "HDFC cash-flow closing cash equivalents including RBI balances and bank balances/money at call and short notice, per cash-flow note. Not the BS cash/RBI component alone."
+      }
+    ],
+    "pages": {
+      "2022": {
+        "bs": [
+          322
+        ],
+        "pnl": [
+          323
+        ],
+        "cf": [
+          324
+        ]
+      },
+      "2023": {
+        "bs": [
+          338
+        ],
+        "pnl": [
+          339
+        ],
+        "cf": [
+          340
+        ]
+      },
+      "2024": {
+        "bs": [
+          437
+        ],
+        "pnl": [
+          438
+        ],
+        "cf": [
+          439,
+          440
+        ]
+      },
+      "2025": {
+        "bs": [
+          442
+        ],
+        "pnl": [
+          443
+        ],
+        "cf": [
+          444,
+          445
+        ]
+      },
+      "2026": {
+        "bs": [
+          496
+        ],
+        "pnl": [
+          497
+        ],
+        "cf": [
+          498,
+          499
+        ]
+      }
+    }
+  }
+}
