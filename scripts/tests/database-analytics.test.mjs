@@ -188,3 +188,40 @@ test('a source fact changed after dry run prevents any derived publication', asy
     assert.equal((await counts(db)).receipts, 0);
   } finally { await db.close(); }
 });
+
+test('staged 56 + 318 RIL/TCS loads retain original ledgers and publish under the selected latest approval', async () => {
+  const db = await database();
+  try {
+    const { result } = await drive(db, 'staged');
+    assert.ok(!result.error, result.error);
+    assert.deepEqual(result, { metrics: 43, flags: 1, unavailable: 32, replayed: true });
+    assert.equal((await db.query(`select count(distinct p.review_ledger_sha256)::integer as n
+      from ingestion.fact_provenance p join public.financial_facts f on f.id=p.fact_id
+      join public.companies c on c.id=f.company_id where c.slug in ('reliance-industries','tcs')`)).rows[0].n, 2);
+    assert.deepEqual(await counts(db), { facts: 629, metrics: 43, flags: 1, receipts: 1, proofs: 43 });
+  } finally { await db.close(); }
+});
+
+for (const scenario of ['staged_unselected_fact', 'staged_unselected_source', 'staged_wrong_catalog']) {
+  test(`${scenario} cannot reuse a historic approval to bypass the selected packet`, async () => {
+    const db = await database();
+    try {
+      const { result } = await drive(db, scenario);
+      assert.match(result.error, /derived input approval provenance mismatch/);
+      assert.deepEqual(await counts(db), { facts: 629, metrics: 0, flags: 0, receipts: 0, proofs: 0 });
+    } finally { await db.close(); }
+  });
+}
+
+test('the original guard reproduces the real staged-ledger failure', async () => {
+  const db = await database();
+  try {
+    const original = await readFile('supabase/migrations/20261004161801_controlled_reported_analytics.sql', 'utf8');
+    const definition = original.slice(original.indexOf('create function analytics.check_publication()'),
+      original.indexOf('create trigger requests_immutable')).replace('create function', 'create or replace function');
+    await db.exec(definition);
+    const { result } = await drive(db, 'staged');
+    assert.match(result.error, /derived input approval provenance mismatch/);
+    assert.equal((await counts(db)).metrics, 0);
+  } finally { await db.close(); }
+});
