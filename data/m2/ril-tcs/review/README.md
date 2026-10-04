@@ -1,5 +1,7 @@
 # RIL/TCS review-bound import planning
 
+> **Live status update, 2026-10-04:** The approved 56-fact P&L subset and ten sources are now loaded and independently verified. The remaining 320 candidates are pending and six conflict keys are withheld. See [approved load evidence and remaining gates](../../../../docs/M2_APPROVED_LOAD_STATUS.md). Statements below about zero production loads or all 376 candidates being pending describe the committed offline baseline, not the current target. Pending templates remain unchanged.
+
 The offline planner combines 764 observations from batches 1 and 2, selects 376 current-year candidates, and withholds six unresolved conflicting keys. It preserves the full companion metadata, including source hashes/pages/labels, reporting basis, source column, instant-versus-duration measurement, as-of dates and exact metric definitions.
 
 The committed plan proposes **zero inserts**: all source/fact reviews are pending and no target snapshot has been supplied. A merged evidence PR, valid arithmetic or a CSV schema pass is not an approval. The separate provenance schema, snapshot exporter and controlled publisher are now implemented; this offline component still does not complete an M2 load.
