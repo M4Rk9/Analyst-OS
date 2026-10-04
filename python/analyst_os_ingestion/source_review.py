@@ -2,32 +2,20 @@
 
 import hashlib
 import re
-from decimal import Decimal, InvalidOperation
+from decimal import Decimal
 from pathlib import Path
 
 import fitz
 
+from .amounts import printed_amount
 from .planning import digest
 
-GLYPHS = str.maketrans("ϬϭϮϯϰϱϲϳϴϵ", "0123456789")
 MAX_PDF_BYTES = 40_000_000
 
 
 def compact_label(text: str) -> str:
     return re.sub(r"\s", "", text).casefold()
 
-
-def printed_amount(text: str) -> Decimal | None:
-    """Only explicit numeric text; dashes and footnoted amounts remain unavailable."""
-    value = re.sub(r"[,\s]", "", text.translate(GLYPHS))
-    if not re.fullmatch(r"(?:-?\d+(?:\.\d+)?|\(\d+(?:\.\d+)?\))", value):
-        return None
-    if value.startswith("("):
-        value = "-" + value[1:-1]
-    try:
-        return Decimal(value)
-    except InvalidOperation:
-        return None
 
 
 def page_lines(page) -> list[dict]:

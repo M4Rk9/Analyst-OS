@@ -27,30 +27,41 @@ async function drive(db, scenario, inject) {
   let stderr = '', result, insertStatements = 0;
   child.stderr.on('data', chunk => { stderr += chunk; });
   const lines = createInterface({ input: child.stdout });
-  const closed = new Promise((resolve, reject) => {
-    child.on('error', reject);
-    child.on('close', code => code === 0 ? resolve() : reject(new Error(stderr)));
+  const closed = new Promise(resolve => {
+    child.on('error', error => resolve({ error }));
+    child.on('close', code => resolve({ code }));
   });
-  for await (const line of lines) {
-    const message = JSON.parse(line);
-    if (message.result) { result = message.result; continue; }
-    let sql = message.sql, index = 0;
-    if (/^\s*insert\b/i.test(sql)) insertStatements++;
-    sql = sql.replace(/%s/g, () => `$${++index}`);
-    try {
-      if (inject && await inject(db, message)) throw Error('TEST ONLY injected failure');
-      let rows;
-      if (message.params == null) rows = (await db.exec(sql))[0]?.rows ?? [];
-      else rows = (await db.query(sql, message.params)).rows;
-      // PGlite has no TLS transport. Unit tests separately require actual SSL=true.
-      if (sql.includes("current_setting('transaction_read_only')")) rows[0].ssl = true;
-      child.stdin.write(JSON.stringify({ rows }) + '\n');
-    } catch (error) {
-      child.stdin.write(JSON.stringify({ error: error.message }) + '\n');
+  const timeout = setTimeout(() => child.kill(), 120_000);
+  try {
+    for await (const line of lines) {
+      const message = JSON.parse(line);
+      if (message.result) { result = message.result; continue; }
+      let sql = message.sql, index = 0;
+      if (/^\s*insert\b/i.test(sql)) insertStatements++;
+      sql = sql.replace(/%s/g, () => `$${++index}`);
+      try {
+        if (inject && await inject(db, message)) throw Error('TEST ONLY injected failure');
+        let rows;
+        if (message.params == null) rows = (await db.exec(sql))[0]?.rows ?? [];
+        else rows = (await db.query(sql, message.params)).rows;
+        // PGlite has no TLS transport. Unit tests separately require actual SSL=true.
+        if (sql.includes("current_setting('transaction_read_only')")) rows[0].ssl = true;
+        child.stdin.write(JSON.stringify({ rows }) + '\n');
+      } catch (error) {
+        child.stdin.write(JSON.stringify({ error: error.message }) + '\n');
+      }
     }
+    const exit = await closed;
+    if (exit.error) throw exit.error;
+    if (exit.code !== 0) throw new Error(stderr || `Publisher exited with code ${exit.code}`);
+    return { result, insertStatements };
+  } finally {
+    clearTimeout(timeout);
+    lines.close();
+    child.stdin.destroy();
+    if (child.exitCode === null && child.signalCode === null) child.kill();
+    await closed;
   }
-  await closed;
-  return { result, insertStatements };
 }
 async function counts(db) {
   return (await db.query(`select (select count(*)::integer from public.financial_facts) as facts,
@@ -75,7 +86,7 @@ test('publisher loads 374 numeric candidates, withholding two dashes, with repla
     await assert.rejects(() => db.query('select * from ingestion.load_receipts'), /permission denied/);
   } finally { await db.close(); }
 });
-for (const scenario of ['preview', 'pending']) {
+for (const scenario of ['preview', 'pending', 'noisy_preview']) {
   test(`${scenario} cannot insert anything`, async () => {
     const db = await database();
     try {
@@ -184,4 +195,9 @@ test('post-insert verification failure rolls back the whole load', async () => {
     assert.match(result.error, /post-insert verification failed/);
     assert.deepEqual(await counts(db), { facts: 0, sources: 0, proofs: 0, receipts: 0 });
   } finally { await db.close(); }
+});
+
+// A broken frame must reap the child waiting for its SQL response.
+test('malformed publisher protocol fails promptly without orphaning Python', { timeout: 5000 }, async () => {
+  await assert.rejects(() => drive(null, "malformed_protocol"), SyntaxError);
 });

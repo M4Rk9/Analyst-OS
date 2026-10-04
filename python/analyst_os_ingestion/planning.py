@@ -10,6 +10,7 @@ from uuid import UUID
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl, field_validator, model_validator
 
+from .amounts import printed_amount
 from .conflicts import fact_key, find_conflicts
 from .loader import _record_from_row
 from .models import FinancialFactRecord
@@ -295,9 +296,6 @@ def build_load_plan(
         for f in target.facts:
             existing[fact_key(f.record)].append(f)
         source_map = {(s.company_slug, str(s.source_url)): s for s in target.sources}
-    # Local import avoids the source-review module's catalog-digest import cycle.
-    from .source_review import printed_amount
-
     blocked, proposed, unchanged = [], [], []
     for entry in catalog["candidates"]:
         o = entry["observation"]

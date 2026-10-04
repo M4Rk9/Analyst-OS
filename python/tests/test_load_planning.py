@@ -1,6 +1,8 @@
 """Review, provenance, target-conflict and retry behavior using the real evidence catalog."""
 
 import copy
+import subprocess
+import sys
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from uuid import UUID
@@ -364,3 +366,21 @@ def test_snapshot_must_export_and_validate_actual_stored_normalized_value(catalo
     entry = catalog["candidates"][0]
     with pytest.raises(ValueError, match="stored normalization"):
         existing(entry, normalized_value=record(entry).normalized_value + 1)
+
+
+def test_load_planning_does_not_import_pdf_engine():
+    script = """
+import sys
+from pathlib import Path
+from analyst_os_ingestion.planning import build_load_plan, empty_reviews
+from scripts.plan_ril_tcs_load import load_catalog
+catalog = load_catalog(Path.cwd())
+build_load_plan(catalog, empty_reviews(catalog))
+assert 'fitz' not in sys.modules
+assert 'pymupdf' not in sys.modules
+"""
+    result = subprocess.run(  # noqa: S603 — fixed test script and interpreter
+        [sys.executable, "-c", script], cwd=ROOT,
+        capture_output=True, text=True, timeout=10, check=True,
+    )
+    assert result.stdout == ""
