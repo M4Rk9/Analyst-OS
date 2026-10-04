@@ -26,7 +26,8 @@ SETTINGS_SQL = (
 )
 CONTEXT_SQL = """
 select current_user as database_role, current_database() as database_name,
-    current_timestamp::text as captured_at,
+    to_char(current_timestamp at time zone 'UTC',
+        'YYYY-MM-DD"T"HH24:MI:SS.US"Z"') as captured_at,
     current_setting('transaction_read_only') as read_only,
     current_setting('transaction_isolation') as isolation,
     current_setting('row_security') as row_security,
@@ -268,26 +269,31 @@ def collect_snapshot(connection, *, project_ref: str, scope=DEFAULT_SCOPE) -> Ta
             and context["isolation"] == "repeatable read"
         ):
             raise SnapshotError("require TLS and a privileged read-only repeatable-read session")
-        rows = {}
-        total_bytes = 0
-        for name, query in QUERIES.items():
-            # Explicit cap in SQL and Python; reaching the cap is a failure, never completeness.
-            params = (scope, MAX_ROWS + 1)
-            measure = connection.execute(MEASURE_QUERIES[name], params).fetchone()
-            if measure["row_count"] > MAX_ROWS:
-                raise SnapshotError("row limit exceeded; a truncated snapshot cannot be issued")
-            total_bytes += int(measure["byte_count"])
-            if total_bytes > MAX_BYTES:
-                raise SnapshotError("target evidence exceeds snapshot size limit")
-            rows[name] = connection.execute(query + " limit %s", params).fetchall()
-            if len(rows[name]) != measure["row_count"]:
-                raise SnapshotError("read count mismatch; no complete snapshot can be issued")
-        if len(json.dumps(rows, default=str).encode("utf-8")) > MAX_BYTES:
-            raise SnapshotError("target evidence exceeds snapshot size limit")
-        return build_snapshot(rows, project_ref=project_ref, scope=scope,
-                              captured_at=context["captured_at"])
+        return read_snapshot(connection, project_ref=project_ref, scope=scope,
+                             captured_at=context["captured_at"])
     finally:
         connection.rollback()
+
+
+def read_snapshot(connection, *, project_ref: str, scope, captured_at) -> TargetSnapshot:
+    """Read inside a caller-verified transaction; do not begin, commit or rollback."""
+    scope = validate_scope(scope)
+    rows = {}
+    total_bytes = 0
+    for name, query in QUERIES.items():
+        params = (scope, MAX_ROWS + 1)
+        measure = connection.execute(MEASURE_QUERIES[name], params).fetchone()
+        if measure["row_count"] > MAX_ROWS:
+            raise SnapshotError("row limit exceeded; a truncated snapshot cannot be issued")
+        total_bytes += int(measure["byte_count"])
+        if total_bytes > MAX_BYTES:
+            raise SnapshotError("target evidence exceeds snapshot size limit")
+        rows[name] = connection.execute(query + " limit %s", params).fetchall()
+        if len(rows[name]) != measure["row_count"]:
+            raise SnapshotError("read count mismatch; no complete snapshot can be issued")
+    if len(json.dumps(rows, default=str).encode("utf-8")) > MAX_BYTES:
+        raise SnapshotError("target evidence exceeds snapshot size limit")
+    return build_snapshot(rows, project_ref=project_ref, scope=scope, captured_at=captured_at)
 
 
 def write_snapshot(snapshot: TargetSnapshot, path: Path) -> str:
