@@ -13,6 +13,10 @@ const fixture = JSON.parse(execFileSync(process.env.PYTHON ?? 'python',
   ['-m', 'scripts.database_test_fixture'], {
     env: { ...process.env, PYTHONPATH: 'python' }, maxBuffer: 5 * 1024 * 1024,
   }).toString());
+const snapshotStatements = JSON.parse(execFileSync(process.env.PYTHON ?? 'python', ['-c',
+  'import json; from analyst_os_ingestion.snapshot import QUERIES,MEASURE_QUERIES,CONTEXT_SQL; print(json.dumps({"rows":QUERIES,"measures":MEASURE_QUERIES,"context":CONTEXT_SQL}))'],
+  { env: { ...process.env, PYTHONPATH: 'python' } }).toString());
+const snapshotSQL = snapshotStatements.rows;
 const entry = fixture.entries.find(e => e.observation.company_slug === 'tcs'
   && e.observation.metric_code === 'revenue' && e.observation.fiscal_year === 2022);
 const migrationPaths = (await readdir('supabase/migrations')).filter(p => p.endsWith('.sql')).sort();
@@ -159,6 +163,56 @@ test('all 376 candidate observations preserve P&L, instant BS and duration CF se
     assert.equal((await db.query('select count(*)::integer as n from public.financial_facts')).rows[0].n, 376);
     assert.equal((await db.query('select count(*)::integer as n from public.source_documents')).rows[0].n, 10);
   });
+});
+test('snapshot SQL includes all scoped quality states and round-trips through the Python planner', async () => {
+  await rollback(async () => {
+    // The legacy fixture has no proof: omit its company by selecting RIL only.
+    await db.exec('set local role service_role');
+    const ril = fixture.entries.slice(0, fixture.candidate_count)
+      .filter(e => e.observation.company_slug === 'reliance-industries');
+    for (const e of ril) await stage(e, { reuse: true, sourceStatus: 'pending',
+      factStatus: 'unverified', preferred: false });
+    await db.exec('set constraints all immediate');
+    const scope = ['reliance-industries'];
+    const rows = {};
+    for (const [name, query] of Object.entries(snapshotSQL)) {
+      rows[name] = (await db.query(query.replace('%s', '$1') + ' limit $2', [scope, 10001])).rows;
+      const measured = (await db.query(snapshotStatements.measures[name]
+        .replace('%s', '$1').replace('%s', '$2'), [scope, 10001])).rows[0];
+      assert.equal(measured.row_count, rows[name].length);
+      assert.ok(Number(measured.byte_count) < 5 * 1024 * 1024);
+    }
+    assert.equal(rows.facts.length, ril.length);
+    assert.ok(rows.facts.every(f => f.quality_status === 'unverified' && !f.is_preferred));
+    const result = JSON.parse(execFileSync(process.env.PYTHON ?? 'python', ['-c',
+      `import json,sys; from analyst_os_ingestion.snapshot import build_snapshot
+from analyst_os_ingestion.planning import TargetSnapshot,digest
+rows=json.load(sys.stdin)
+target=build_snapshot(rows,project_ref='abcdefghijklmnopqrst',scope=['reliance-industries'],captured_at='2026-10-04T07:00:00Z')
+payload=target.model_dump(mode='json'); TargetSnapshot.model_validate(payload)
+print(json.dumps({'facts':len(target.facts),'sources':len(target.sources),'digest':digest(payload)}))`],
+      { input: JSON.stringify(rows), env: { ...process.env, PYTHONPATH: 'python' },
+        maxBuffer: 5 * 1024 * 1024 }).toString());
+    assert.equal(result.facts, ril.length);
+    assert.equal(result.sources, 5);
+    assert.match(result.digest, /^[0-9a-f]{64}$/);
+    await db.exec('reset role; set local role anon');
+    assert.equal((await db.query('select count(*)::integer as n from public.financial_facts')).rows[0].n, 0);
+  });
+});
+test('snapshot SQL reads are permitted and writes rejected in a read-only transaction', async () => {
+  await db.exec('begin isolation level repeatable read read only; set local role service_role; set local row_security=off');
+  try {
+    const context = (await db.query(snapshotStatements.context)).rows[0];
+    assert.equal(context.read_only, 'on');
+    assert.equal(context.isolation, 'repeatable read');
+    assert.equal(context.row_security, 'off');
+    assert.equal(context.privileged, true);
+    for (const query of Object.values(snapshotSQL)) {
+      await db.query(query.replace('%s', '$1') + ' limit $2', [['reliance-industries', 'tcs'], 10001]);
+    }
+    await rejects(() => db.exec('update public.financial_facts set id=id'), /read-only transaction/);
+  } finally { await db.exec('rollback'); }
 });
 for (const status of ['pending', 'rejected']) {
   for (const scope of ['sources', 'facts']) {

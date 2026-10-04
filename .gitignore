@@ -36,3 +36,4 @@ Thumbs.db
 # Database test tooling (development only)
 node_modules/
 supabase/.temp/
+*.target-snapshot.json
