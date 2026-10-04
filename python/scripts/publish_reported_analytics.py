@@ -16,6 +16,17 @@ from scripts.plan_universe_history import load_catalog as universe_catalog
 from scripts.preview_approved_history import PROJECT, write_private
 
 
+def save_committed_receipt(output, result):
+    """A local disk error cannot turn a known database commit into a failed load."""
+    try:
+        write_private(output / "analytics.receipt.json", result)
+    except Exception:
+        raise SnapshotError(
+            "database commit confirmed; local receipt save failed. Recover durable receipt "
+            f"import_id={result['receipt']['import_id']} before retry"
+        ) from None
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--ssl-root-cert", type=Path, required=True)
@@ -97,7 +108,7 @@ def main():
                     expected_plan_sha256=args.expected_plan_sha256,
                     expected_schema_sha256=args.expected_schema_sha256,
                 )
-                write_private(output / "analytics.receipt.json", result)
+                save_committed_receipt(output, result)
                 summary = {
                     "mode": "apply",
                     "replayed": result["replayed"],
