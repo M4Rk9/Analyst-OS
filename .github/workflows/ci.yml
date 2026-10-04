@@ -46,6 +46,9 @@ jobs:
           npm ci --ignore-scripts
           npm run test:db
 
+      - name: Frontend financial semantics
+        run: node --test scripts/tests/frontend-*.test.mjs
+
       - name: Database test dependency audit
         run: npm audit --audit-level=high
 
