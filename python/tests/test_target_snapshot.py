@@ -1,3 +1,4 @@
+from types import SimpleNamespace
 """Read-only export completeness, provenance, connection and file-safety tests."""
 
 import copy
@@ -92,6 +93,8 @@ class Cursor:
 
 class Connection:
     def __init__(self, rows):
+        self.pgconn = SimpleNamespace(ssl_in_use=True)
+        self.info = SimpleNamespace(get_parameters=lambda: {"sslmode": "verify-full", "sslrootcert": "test-only-ca.pem"})
         self.rows = rows
         self.calls = []
         self.rolled_back = False
@@ -243,7 +246,7 @@ def test_export_uses_one_read_only_transaction_and_always_rolls_back(rows):
 
 
 @pytest.mark.parametrize("field,value", [
-    ("privileged", False), ("ssl", False), ("read_only", "off"),
+    ("privileged", False), ("read_only", "off"),
     ("row_security", "on"), ("isolation", "read committed"), ("database_name", "other"),
     ("database_role", "anon"),
 ])
@@ -355,3 +358,27 @@ def test_cli_redacts_driver_failures_and_leaves_no_export(rows, tmp_path, monkey
     assert main() == 1
     assert "secret" not in capsys.readouterr().err
     assert not output.exists()
+
+
+def test_pooler_backend_without_tls_accepts_verified_client(rows):
+    connection = Connection(rows)
+    connection.context["ssl"] = False
+    collect_snapshot(connection, project_ref=PROJECT)
+    assert connection.rolled_back
+
+
+@pytest.mark.parametrize("active,mode,ca", [
+    (False, "verify-full", "test-ca.pem"),
+    (True, "require", "test-ca.pem"),
+    (True, "verify-ca", "test-ca.pem"),
+    (True, "disable", "test-ca.pem"),
+    (True, "verify-full", ""),
+])
+def test_backend_tls_cannot_substitute_for_verified_client(rows, active, mode, ca):
+    connection = Connection(rows)
+    connection.pgconn.ssl_in_use = active
+    connection.info.get_parameters = lambda: {"sslmode": mode, "sslrootcert": ca}
+    with pytest.raises(SnapshotError, match="require TLS"):
+        collect_snapshot(connection, project_ref=PROJECT)
+    assert connection.rolled_back
+    assert len(connection.calls) == 2 + len(SETTINGS_SQL)

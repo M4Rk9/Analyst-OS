@@ -253,6 +253,23 @@ def build_snapshot(rows: dict, *, project_ref: str, scope, captured_at) -> Targe
     )
 
 
+def client_tls_verified(connection) -> bool:
+    """Check the client transport; pg_stat_ssl describes the proxy's backend leg.
+
+    Require both active TLS and certificate/hostname verification. Unknown
+    transport information fails closed; never log connection parameters.
+    """
+    try:
+        params = connection.info.get_parameters()
+        return (
+            connection.pgconn.ssl_in_use is True
+            and params.get("sslmode") == "verify-full"
+            and bool(params.get("sslrootcert"))
+        )
+    except (AttributeError, TypeError, ValueError):
+        return False
+
+
 def collect_snapshot(connection, *, project_ref: str, scope=DEFAULT_SCOPE) -> TargetSnapshot:
     """One read-only RR transaction; always rollback, including on success."""
     scope = validate_scope(scope)
@@ -262,7 +279,7 @@ def collect_snapshot(connection, *, project_ref: str, scope=DEFAULT_SCOPE) -> Ta
             connection.execute(statement)
         context = connection.execute(CONTEXT_SQL).fetchone()
         if not (
-            context["privileged"] is True and context["ssl"] is True
+            context["privileged"] is True and client_tls_verified(connection)
             and context["database_name"] == "postgres"
             and context["database_role"] not in {"anon", "authenticated"}
             and context["read_only"] == "on" and context["row_security"] == "off"

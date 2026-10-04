@@ -7,6 +7,7 @@ import json
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+from types import SimpleNamespace
 
 from analyst_os_ingestion.planning import (
     Review,
@@ -31,6 +32,10 @@ class Cursor:
 
 
 class Connection:
+    # TEST ONLY: synthetic client transport, never a live TLS attestation.
+    pgconn = SimpleNamespace(ssl_in_use=True)
+    info = SimpleNamespace(get_parameters=lambda: {"sslmode": "verify-full", "sslrootcert": "test-only-ca.pem"})
+
     def execute(self, sql, params=None):
         print(json.dumps({"sql": sql, "params": params}, default=str), flush=True)
         result = json.loads(sys.stdin.readline())

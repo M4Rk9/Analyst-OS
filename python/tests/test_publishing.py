@@ -182,3 +182,26 @@ def test_cli_preserves_uncertain_commit_diagnostic_when_close_fails(
     assert cli.main() == 1
     assert "commit outcome uncertain; import_id=TEST" in capsys.readouterr().err
     connection.close.assert_called_once()
+
+
+@pytest.mark.parametrize("apply", [False, True])
+@pytest.mark.parametrize("active,mode,accepted", [
+    (True, "verify-full", True), (False, "verify-full", False),
+    (True, "require", False), (True, "verify-ca", False),
+])
+def test_publisher_checks_client_tls_even_with_pooler_backend(apply, active, mode, accepted):
+    from types import SimpleNamespace
+    from analyst_os_ingestion.publishing import _context
+    context = {"privileged": True, "ssl": False, "database_name": "postgres",
+               "row_security": "off", "read_only": "off" if apply else "on",
+               "isolation": "read committed" if apply else "repeatable read"}
+    connection = SimpleNamespace(
+        pgconn=SimpleNamespace(ssl_in_use=active),
+        info=SimpleNamespace(get_parameters=lambda: {"sslmode": mode, "sslrootcert": "test-ca.pem"}),
+        execute=lambda _: SimpleNamespace(fetchone=lambda: context),
+    )
+    if accepted:
+        assert _context(connection, apply=apply) == context
+    else:
+        with pytest.raises(PublishError, match="unsafe"):
+            _context(connection, apply=apply)
