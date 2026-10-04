@@ -1,0 +1,1274 @@
+{
+  "verified_date_utc": "2026-10-04",
+  "project_ref": "swahxcccptpfxwvhgfxz",
+  "facts": 629,
+  "company_counts": {
+    "reliance-industries": 176,
+    "tcs": 198,
+    "hdfc-bank": 93,
+    "larsen-toubro": 99,
+    "tata-motors": 63
+  },
+  "fact_provenance": 629,
+  "source_documents": 24,
+  "reporting_periods": 24,
+  "catalogs": 2,
+  "review_ledgers": 3,
+  "load_receipts": 3,
+  "mismatches": 0,
+  "orphan_facts": 0,
+  "missing_source_proofs": 0,
+  "withheld_conflict_keys": 46,
+  "unavailable_printed_dash_candidates": 2,
+  "schema_sha256": "8be735c5872b0ed9fa14f00a1d9fedc51afb70c9d122dd13905e32d55d0413b6",
+  "receipts": [
+    {
+      "version": 1,
+      "outcome": "committed",
+      "import_id": "843757eb-2755-4d17-8343-cf6145be9634",
+      "request_sha256": "308ddde7578a6d857576c2d1091112c291e2f4566e8249d59e07571c8518fbac",
+      "project_ref": "swahxcccptpfxwvhgfxz",
+      "catalog_sha256": "e8d4dc3d24cbef2ef81c37f2eadefcd40b0862d66cf73e65da1ec6549eab6c41",
+      "review_ledger_sha256": "f9c76a247df7bf5afc2f0cf34fc4d503fc57a7762e20e09661b655b48d4d23ec",
+      "reviewed_plan_sha256": "34122b5d393429b85d57aff620e7ddec597a72c01db301ff31a8cc4877ea601b",
+      "schema_sha256": "8be735c5872b0ed9fa14f00a1d9fedc51afb70c9d122dd13905e32d55d0413b6",
+      "recorded_at": "2026-10-04T15:16:04.987739Z",
+      "before_snapshot_sha256": "68f4484d79e27a74aa71c313da97919d094e27455f6f172ccea077009f2f64d6",
+      "after_snapshot_sha256": "ea250d72065f24f669da92358765983bd40f91645290d38bfa13f630fd7dc7b1",
+      "receipt_sha256": "b4a674e2f532013d70e4471d819918777d2e3f46541dec4860ee8203e9eaeb9c",
+      "inserted": 318,
+      "already_present": 56
+    },
+    {
+      "version": 1,
+      "outcome": "committed",
+      "import_id": "29ec689a-17c3-4e01-a4ff-bb91ff9594e4",
+      "request_sha256": "eb63e4b31ba2af66acfc76d820f5cd3d667f34e715802ef9cb5681a9c5f6e322",
+      "project_ref": "swahxcccptpfxwvhgfxz",
+      "catalog_sha256": "520c66905ec178c2c5ed630d98fd92ac25d40dcfd1dda1a5a4cd653d41110c8f",
+      "review_ledger_sha256": "32cdbc5cb2f352f97dbeeac485319328e4000bfadcc50b50b5e6507bf30f4293",
+      "reviewed_plan_sha256": "6ca24b362e0203d43d0a7a696701bc7c8278aae57d052a473cabd3d7c228535c",
+      "schema_sha256": "8be735c5872b0ed9fa14f00a1d9fedc51afb70c9d122dd13905e32d55d0413b6",
+      "recorded_at": "2026-10-04T15:21:04.300772Z",
+      "before_snapshot_sha256": "78aebdb0936bb38f50ac87571d81a5382cb065bfe4d672934fc8df7e540baebf",
+      "after_snapshot_sha256": "29e97fe01193e88cb15e0983c37b183b8aa59acc22bde55e36d4a1c02049e4b1",
+      "receipt_sha256": "3f9065a3ef5808417ba402b82b9f1aa26ec5c42b20f76f872ae550d48ecbf1fb",
+      "inserted": 255,
+      "already_present": 0
+    }
+  ],
+  "analytics_scope": "Offline post-load check of existing formulas against all exactly matched loaded approved inputs; no derived database writes. CFO/group profit preserves reported consolidated definitions, not recurring earnings. No inter-year comparability or bank industrial-ratio mapping inferred.",
+  "analytics_checks": 75,
+  "analytics_available": 43,
+  "analytics_unavailable": 32,
+  "calculations": [
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2022,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2022,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2022,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        "hdfc-bank:2022:cfo:report2022",
+        null
+      ],
+      "input_normalized_inr": [
+        "-119595700000.00",
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2023,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2023,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2023,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        "hdfc-bank:2023:cfo:report2023",
+        null
+      ],
+      "input_normalized_inr": [
+        "208137000000.00",
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2024,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2024,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2024,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        "hdfc-bank:2024:cfo:report2024",
+        null
+      ],
+      "input_normalized_inr": [
+        "190693400000.00",
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2025,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2025,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2025,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        "hdfc-bank:2025:cfo:report2025",
+        null
+      ],
+      "input_normalized_inr": [
+        "1272418400000.00",
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2026,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2026,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "hdfc-bank",
+      "fiscal_year": 2026,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        "hdfc-bank:2026:cfo:report2026",
+        null
+      ],
+      "input_normalized_inr": [
+        "1135063800000.00",
+        null
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2022,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2022,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2022,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.839249311850000575857740104",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2022:cfo:report2022",
+        "larsen-toubro:2022:profit_for_year:report2022"
+      ],
+      "input_normalized_inr": [
+        "191635800000.00",
+        "104192400000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2023,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.364971885834899722020641098",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2023:current_assets:report2023",
+        "larsen-toubro:2023:current_liabilities:report2023"
+      ],
+      "input_normalized_inr": [
+        "2212155200000.00",
+        "1620659900000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2023,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "591495300000.00",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2023:current_assets:report2023",
+        "larsen-toubro:2023:current_liabilities:report2023"
+      ],
+      "input_normalized_inr": [
+        "2212155200000.00",
+        "1620659900000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2023,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.817704151909482531590615628",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2023:cfo:report2023",
+        "larsen-toubro:2023:profit_for_year:report2023"
+      ],
+      "input_normalized_inr": [
+        "227769600000.00",
+        "125306200000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2024,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2024,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2024,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.174899498941924860584932238",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2024:cfo:report2024",
+        "larsen-toubro:2024:profit_for_year:report2024"
+      ],
+      "input_normalized_inr": [
+        "182662800000.00",
+        "155471000000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2025,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.213958396976990249585460084",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2025:current_assets:report2025",
+        "larsen-toubro:2025:current_liabilities:report2025"
+      ],
+      "input_normalized_inr": [
+        "2451842700000.00",
+        "2019709000000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2025,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "432133700000.00",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2025:current_assets:report2025",
+        "larsen-toubro:2025:current_liabilities:report2025"
+      ],
+      "input_normalized_inr": [
+        "2451842700000.00",
+        "2019709000000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2025,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        "larsen-toubro:2025:profit_for_year:report2025"
+      ],
+      "input_normalized_inr": [
+        null,
+        "176733300000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2026,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.253968597893894129129577269",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2026:current_assets:report2026",
+        "larsen-toubro:2026:current_liabilities:report2026"
+      ],
+      "input_normalized_inr": [
+        "2928411300000.00",
+        "2335314700000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2026,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "593096600000.00",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2026:current_assets:report2026",
+        "larsen-toubro:2026:current_liabilities:report2026"
+      ],
+      "input_normalized_inr": [
+        "2928411300000.00",
+        "2335314700000.00"
+      ]
+    },
+    {
+      "company_slug": "larsen-toubro",
+      "fiscal_year": 2026,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "0.8832476516681544886851663090",
+      "status": "available",
+      "input_observation_ids": [
+        "larsen-toubro:2026:cfo:report2026",
+        "larsen-toubro:2026:profit_for_year:report2026"
+      ],
+      "input_normalized_inr": [
+        "167409700000.00",
+        "189538800000.00"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2022,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.124268617452099707770959820",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2022:current_assets:report2022",
+        "reliance-industries:2022:current_liabilities:report2022"
+      ],
+      "input_normalized_inr": [
+        "3470190000000",
+        "3086620000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2022,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "383570000000",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2022:current_assets:report2022",
+        "reliance-industries:2022:current_liabilities:report2022"
+      ],
+      "input_normalized_inr": [
+        "3470190000000",
+        "3086620000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2022,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.630982386321762841771685460",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2022:cash_from_operations:report2022",
+        "reliance-industries:2022:profit_for_year:report2022"
+      ],
+      "input_normalized_inr": [
+        "1106540000000",
+        "678450000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2023,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.074677252661449476048849885",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2023:current_assets:report2023",
+        "reliance-industries:2023:current_liabilities:report2023"
+      ],
+      "input_normalized_inr": [
+        "4252960000000",
+        "3957430000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2023,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "295530000000",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2023:current_assets:report2023",
+        "reliance-industries:2023:current_liabilities:report2023"
+      ],
+      "input_normalized_inr": [
+        "4252960000000",
+        "3957430000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2023,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.552640103660511823777129900",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2023:cash_from_operations:report2023",
+        "reliance-industries:2023:profit_for_year:report2023"
+      ],
+      "input_normalized_inr": [
+        "1150320000000",
+        "740880000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2024,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.183037343312353567357128297",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2024:current_assets:report2024",
+        "reliance-industries:2024:current_liabilities:report2024"
+      ],
+      "input_normalized_inr": [
+        "4701000000000",
+        "3973670000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2024,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "727330000000",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2024:current_assets:report2024",
+        "reliance-industries:2024:current_liabilities:report2024"
+      ],
+      "input_normalized_inr": [
+        "4701000000000",
+        "3973670000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2024,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "2.009465957985320172108327006",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2024:cash_from_operations:report2024",
+        "reliance-industries:2024:profit_for_year:report2024"
+      ],
+      "input_normalized_inr": [
+        "1587880000000",
+        "790200000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2025,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.100351084438782819122090550",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2025:current_assets:report2025",
+        "reliance-industries:2025:current_liabilities:report2025"
+      ],
+      "input_normalized_inr": [
+        "4992700000000",
+        "4537370000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2025,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "455330000000",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2025:current_assets:report2025",
+        "reliance-industries:2025:current_liabilities:report2025"
+      ],
+      "input_normalized_inr": [
+        "4992700000000",
+        "4537370000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2025,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "2.197825578964198305230663272",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2025:cash_from_operations:report2025",
+        "reliance-industries:2025:profit_for_year:report2025"
+      ],
+      "input_normalized_inr": [
+        "1787030000000",
+        "813090000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2026,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "1.097911516589253843851500405",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2026:current_assets:report2026",
+        "reliance-industries:2026:current_liabilities:report2026"
+      ],
+      "input_normalized_inr": [
+        "5942490000000",
+        "5412540000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2026,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "529950000000",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2026:current_assets:report2026",
+        "reliance-industries:2026:current_liabilities:report2026"
+      ],
+      "input_normalized_inr": [
+        "5942490000000",
+        "5412540000000"
+      ]
+    },
+    {
+      "company_slug": "reliance-industries",
+      "fiscal_year": 2026,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "2.006318273910228293335004282",
+      "status": "available",
+      "input_observation_ids": [
+        "reliance-industries:2026:cash_from_operations:report2026",
+        "reliance-industries:2026:profit_for_year:report2026"
+      ],
+      "input_normalized_inr": [
+        "1921130000000",
+        "957540000000"
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2022,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2022,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2022,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        "tata-motors:2022:cfo:report2022",
+        "tata-motors:2022:profit_for_year:report2022"
+      ],
+      "input_normalized_inr": [
+        "142828300000.00",
+        "-113087600000.00"
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2023,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2023,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2023,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "13.15602984530850933316479979",
+      "status": "available",
+      "input_observation_ids": [
+        "tata-motors:2023:cfo:report2023",
+        "tata-motors:2023:profit_for_year:report2023"
+      ],
+      "input_normalized_inr": [
+        "353880100000.00",
+        "26898700000.00"
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2024,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2024,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2024,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2025,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2025,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2025,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "2.241713737610572311627411276",
+      "status": "available",
+      "input_observation_ids": [
+        "tata-motors:2025:cfo:report2025",
+        "tata-motors:2025:profit_for_year:report2025"
+      ],
+      "input_normalized_inr": [
+        "631020000000",
+        "281490000000"
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2026,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2026,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": null,
+      "status": "unavailable",
+      "input_observation_ids": [
+        null,
+        null
+      ],
+      "input_normalized_inr": [
+        null,
+        null
+      ]
+    },
+    {
+      "company_slug": "tata-motors",
+      "fiscal_year": 2026,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "0.1577953899207453566458950935",
+      "status": "available",
+      "input_observation_ids": [
+        "tata-motors:2026:cfo:report2026",
+        "tata-motors:2026:profit_for_year:report2026"
+      ],
+      "input_normalized_inr": [
+        "130410000000",
+        "826450000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2022,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "2.557436660291374465774125759",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2022:current_assets:report2022",
+        "tcs:2022:current_liabilities:report2022"
+      ],
+      "input_normalized_inr": [
+        "1083100000000",
+        "423510000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2022,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "659590000000",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2022:current_assets:report2022",
+        "tcs:2022:current_liabilities:report2022"
+      ],
+      "input_normalized_inr": [
+        "1083100000000",
+        "423510000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2022,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.039012718146115633696585087",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2022:cash_from_operations:report2022",
+        "tcs:2022:profit_for_year:report2022"
+      ],
+      "input_normalized_inr": [
+        "399490000000",
+        "384490000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2023,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "2.531567105927728545846916755",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2023:current_assets:report2023",
+        "tcs:2023:current_liabilities:report2023"
+      ],
+      "input_normalized_inr": [
+        "1102700000000",
+        "435580000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2023,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "667120000000",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2023:current_assets:report2023",
+        "tcs:2023:current_liabilities:report2023"
+      ],
+      "input_normalized_inr": [
+        "1102700000000",
+        "435580000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2023,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "0.9920100229298158523036191287",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2023:cash_from_operations:report2023",
+        "tcs:2023:profit_for_year:report2023"
+      ],
+      "input_normalized_inr": [
+        "419650000000",
+        "423030000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2024,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "2.450633350685406906125281971",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2024:current_assets:report2024",
+        "tcs:2024:current_liabilities:report2024"
+      ],
+      "input_normalized_inr": [
+        "1129840000000",
+        "461040000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2024,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "668800000000",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2024:current_assets:report2024",
+        "tcs:2024:current_liabilities:report2024"
+      ],
+      "input_normalized_inr": [
+        "1129840000000",
+        "461040000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2024,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "0.9617996051975097073689234040",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2024:cash_from_operations:report2024",
+        "tcs:2024:profit_for_year:report2024"
+      ],
+      "input_normalized_inr": [
+        "443380000000",
+        "460990000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2025,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "2.320918473236354031056017811",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2025:current_assets:report2025",
+        "tcs:2025:current_liabilities:report2025"
+      ],
+      "input_normalized_inr": [
+        "1230110000000",
+        "530010000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2025,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "700100000000",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2025:current_assets:report2025",
+        "tcs:2025:current_liabilities:report2025"
+      ],
+      "input_normalized_inr": [
+        "1230110000000",
+        "530010000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2025,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.002274730003893681988646843",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2025:cash_from_operations:report2025",
+        "tcs:2025:profit_for_year:report2025"
+      ],
+      "input_normalized_inr": [
+        "489080000000",
+        "487970000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2026,
+      "metric": "current_ratio",
+      "formula_version": "1.0",
+      "value": "2.227812982237252519946153594",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2026:current_assets:report2026",
+        "tcs:2026:current_liabilities:report2026"
+      ],
+      "input_normalized_inr": [
+        "1357050000000",
+        "609140000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2026,
+      "metric": "working_capital_inr",
+      "formula_version": "1.0",
+      "value": "747910000000",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2026:current_assets:report2026",
+        "tcs:2026:current_liabilities:report2026"
+      ],
+      "input_normalized_inr": [
+        "1357050000000",
+        "609140000000"
+      ]
+    },
+    {
+      "company_slug": "tcs",
+      "fiscal_year": 2026,
+      "metric": "cfo_to_reported_group_profit",
+      "formula_version": "1.0",
+      "value": "1.053382941723621951712702714",
+      "status": "available",
+      "input_observation_ids": [
+        "tcs:2026:cash_from_operations:report2026",
+        "tcs:2026:profit_for_year:report2026"
+      ],
+      "input_normalized_inr": [
+        "520940000000",
+        "494540000000"
+      ]
+    }
+  ],
+  "remaining_release_gates": [
+    "Derived output publication and frontend binding",
+    "HTTP Data API and browser runtime verification",
+    "Live multi-session contention/recovery checks",
+    "Cloudflare Pages deployment and headers",
+    "AI runtime verification",
+    "Final release CI and screenshots"
+  ]
+}

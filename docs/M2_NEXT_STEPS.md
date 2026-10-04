@@ -1,5 +1,8 @@
 # M2 remaining work after RIL/TCS batches 1 and 2
 
+**Superseded status (2026-10-04):** the approved loads have committed and all 629 facts were independently verified. See [M2_FIVE_COMPANY_LOAD_STATUS.md](M2_FIVE_COMPANY_LOAD_STATUS.md). The preparation/preview instructions below are historical; do not apply these plans again as a new load.
+
+
 **Current M2 preparation:** [M2_COMPLETION_PACKAGE.md](M2_COMPLETION_PACKAGE.md) consolidates the pending 573-fact/five-company package, explicit scope decisions and load gates. The first 56 facts remain the only loaded subset. Historical baseline queues below are superseded by that dated package; M2 stays open.
 
 > **Live status update, 2026-10-04:** The approved 56-fact P&L subset and ten sources are now loaded and independently verified. The remaining 320 candidates are pending and six conflict keys are withheld. See [approved load evidence and remaining gates](M2_APPROVED_LOAD_STATUS.md). Statements below about zero production loads or all 376 candidates being pending describe the committed offline baseline, not the current target. Pending templates remain unchanged.
