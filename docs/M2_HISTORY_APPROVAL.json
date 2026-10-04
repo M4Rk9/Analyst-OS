@@ -1,0 +1,139 @@
+{
+  "reviewer": "Marky",
+  "reviewed_at": "2026-10-04T14:06:27Z",
+  "rationale": "I accept the cited evidence, source selection and stated definitions.",
+  "tata_scope": "Original Tata Motors legal entity continues into TMPV; FY2026 series break; new CV company remains separate.",
+  "withheld_conflict_keys": 46,
+  "unavailable_dash_candidates": 2,
+  "new_source_approvals": {
+    "hdfc-bank:c4238074fceef5757349c76ce4f9aee9a01bad8f79cd5e179e15a6234e712338": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:6e008a43c6fd4576e2f2e1e5b42dcff343dfa76bda5c9d6518f5027be576810d": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:fcd7ef37de26997fed3bcf2b7cfb9eb90f08d4e2617f5f3f967a1ac621c2a73e": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:875360e8667a46c33d0e33859b4cf363a6cdf68754e3220db9ce77b62fae434a": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "hdfc-bank:92de3c75b6fc05afe8731e97705c9d3534cc192e677af02f4b325e3d82eafca6": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:f127e5a6b13601376ba6ff0ad0a6073308cca3c3b4c7ff4b2efa049fdd4f3d9d": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:410c3010df8c34b0d70872c42a938257a5581e63edbde649f7ccfb53dd211585": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:012acee24d17d429fe5787db91df2c64f1cce88e1c0c3bcd70679712ece4c483": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:7db5b698f798ab63a4abebc2dbd8b1f107d64168b9d290259639e5540f38aa65": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "larsen-toubro:e356bc6534fd2afe33bf11ad075a45e437c4ecb643ec2af39f9853f44cefe8a1": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:2d7c3bfb4807d7d232e3cd6c9599ff6f25ae3b01925e680a9b4dc8dcc21c1db8": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:21d90544da8893c592b9dfc06d7bb74e31f18e4981e8b3a7d576b92f45fd305c": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:db02424e0ed1620452e32df320a540f923bf837193e5896757d27e27d24efd48": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:66eeb401f27cc674443aba27d949bca0231ac405e0dc10aae189096da78466c1": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    },
+    "tata-motors:88bf67991efaa3f1e5330c67fffde7c2232465f5c7af1478098babbea2af9778": {
+      "status": "approved",
+      "reviewer": "Marky",
+      "reviewed_at": "2026-10-04T14:06:27Z",
+      "rationale": "I accept the cited evidence, source selection and stated definitions."
+    }
+  },
+  "candidate_ledger_note": "All 15 new sources are approved here. The universe candidate ledger contains only the 14 source keys used by approved conflict-free facts; the remaining source has no selected facts and is not scheduled for loading.",
+  "packets": {
+    "ril-tcs": {
+      "review_ledger_sha256": "f9c76a247df7bf5afc2f0cf34fc4d503fc57a7762e20e09661b655b48d4d23ec",
+      "catalog_sha256": "e8d4dc3d24cbef2ef81c37f2eadefcd40b0862d66cf73e65da1ec6549eab6c41",
+      "newly_approved": 318,
+      "offline_plan_sha256": "21f201500d71250180106edd7a8b8d9a30287e63259d925e9c91a4eb3681beef",
+      "offline_summary": {
+        "evidence_observations": 764,
+        "candidate_facts": 376,
+        "unresolved_conflicting_keys": 6,
+        "withheld_current_year_facts": 6,
+        "blocked_candidates": 376,
+        "proposed_inserts": 0,
+        "already_present": 0,
+        "production_writes": 0
+      }
+    },
+    "universe": {
+      "review_ledger_sha256": "32cdbc5cb2f352f97dbeeac485319328e4000bfadcc50b50b5e6507bf30f4293",
+      "catalog_sha256": "520c66905ec178c2c5ed630d98fd92ac25d40dcfd1dda1a5a4cd653d41110c8f",
+      "newly_approved": 255,
+      "offline_plan_sha256": "993b1f6c46717b5e188414a70fe53bb124d94c56428b15564e5f97ff31151b2c",
+      "offline_summary": {
+        "evidence_observations": 590,
+        "candidate_facts": 255,
+        "unresolved_conflicting_keys": 40,
+        "withheld_current_year_facts": 40,
+        "blocked_candidates": 255,
+        "proposed_inserts": 0,
+        "already_present": 0,
+        "production_writes": 0
+      }
+    }
+  },
+  "native_preview_status": "blocked: native TLS credential is unavailable; no financial writes performed",
+  "live_explicit_amount_constraint": "applied and convalidated=true on 2026-10-04; original 56 facts retained",
+  "prior_review_ledger_sha256": "2635bc19f2c31b2896d651a2033b2b672b5d532e9f99d132c1a329a67feea792",
+  "approval_statement": "I approve the exact 318 RIL/TCS BS/CF observations and 255 HDFC Bank/L&T/Tata observations in the decision packets, plus the fifteen newly pinned source PDFs. Record me as reviewer Marky. I accept the cited evidence and definitions, including Tata Motors continuity into TMPV with a FY2026 series break and the new CV company kept separate. Keep all 46 conflict keys withheld and the two printed-dash candidates unavailable. My rationale is that I accept the cited evidence, source selection and stated definitions. Prepare fresh controlled load previews."
+}

@@ -1,5 +1,7 @@
 # M2 consolidated completion package
 
+Current decision: Marky approved the exact 573-fact package and fifteen new sources on 2026-10-04. The explicit-number constraint is live and validated; financial publication remains pending. See [approval records and native preview instructions](M2_APPROVED_HISTORY_PREVIEW.md). The preparation-time inventory and findings below are retained for audit.
+
 Baseline: PR #25 merged at `1d27e28c8412097b38d37f41e9e9ed177464626a`. Preparation performed on 2026-10-04. **M2 remains open pending explicit new review and controlled publication.** This package completes the source retrieval, core normalization, source-row audit, conflict recording and loading-tool preparation that can proceed under the existing approval boundary.
 
 ## Verified facts versus review gaps
