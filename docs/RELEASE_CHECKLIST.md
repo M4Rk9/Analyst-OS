@@ -27,17 +27,17 @@ RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric d
 ## Supabase production verification — blocking
 
 - [ ] All migrations applied in order
-- [ ] Provenance migration preflight reviewed; legacy demotion/derived-output blockers addressed
-- [ ] Private ingestion schema excluded from Data API; review/function grants verified
+- [x] Provenance migration preflight reviewed; legacy demotion/derived-output blockers addressed — [live evidence](SUPABASE_VERIFICATION.md)
+- [x] Private ingestion schema excluded from Data API; review/function grants verified — [live evidence](SUPABASE_VERIFICATION.md)
 - [ ] Reviewed publication guards and target concurrency/retry behavior verified
 - [ ] Publisher schema inventory inspected; plan/schema hashes reviewed before explicit apply
 - [ ] Live lock contention/timeouts, receipt replay and uncertain-COMMIT recovery verified
 - [ ] Controlled load receipt and resulting approved records retained as evidence
-- [ ] RLS enabled on every exposed table in the target project
+- [x] RLS enabled on every exposed table in the target project — [live evidence](SUPABASE_VERIFICATION.md)
 - [ ] Browser anon SELECT succeeds only for intended public data
-- [ ] Browser anon INSERT fails on every exposed table
-- [ ] Browser anon UPDATE fails on every exposed table
-- [ ] Browser anon DELETE fails on every exposed table
+- [x] Browser anon INSERT fails on every exposed table — live SQL role probes
+- [x] Browser anon UPDATE fails on every exposed table — live SQL role probes
+- [x] Browser anon DELETE fails on every exposed table — live SQL role probes
 - [ ] AI insight visibility follows the validated/verified-source policy
 - [ ] Privileged credential exists only in the controlled local pipeline environment
 

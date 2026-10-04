@@ -1,6 +1,6 @@
 # Review-bound database provenance
 
-`20261003201012_reviewed_provenance.sql` supplies storage and integrity checks for the offline planner. It is locally tested and **not applied to a real Supabase project**. It does not approve filings, resolve conflicts, export a snapshot or load history. The committed review template remains pending and the plan remains zero-write.
+`20261003201012_reviewed_provenance.sql` supplies storage and integrity checks for the offline planner. It is locally tested and now [applied to the Analyst-OS target with initial access verification](SUPABASE_VERIFICATION.md). It does not approve filings, resolve conflicts, export a snapshot or load history. The committed review template remains pending and the plan remains zero-write.
 
 ## Private records and hashes
 
@@ -32,7 +32,7 @@ SQL checks do not establish target completeness, authenticate PDF bytes independ
 
 ## Upgrade preflight and effects
 
-Run [the privileged read-only preflight](../supabase/preflight_reviewed_provenance.sql) against the intended project and retain its identity/results. No target was inspected for this change.
+Run [the privileged read-only preflight](../supabase/preflight_reviewed_provenance.sql) against the intended project and retain its identity/results. The original implementation did not inspect a target; the later [live preflight and deployment record](SUPABASE_VERIFICATION.md) records the intended project.
 
 | Result | Required action |
 |---|---|
@@ -42,7 +42,7 @@ Run [the privileged read-only preflight](../supabase/preflight_reviewed_provenan
 
 Apply migrations in order through the trusted migration role. A failure rolls back demotion and DDL together. Existing AI insights become unavailable when their source is demoted under the existing policy. Do not bypass triggers or invent backfilled reviews.
 
-After applying to Supabase staging/target, verify PostgreSQL compatibility, service-role privileges/BYPASSRLS, schema exposure, grants, RLS and rejected browser INSERT/UPDATE/DELETE. Run the Supabase security/performance advisors and retain results. WASM PostgreSQL tests do not verify Supabase Auth, PostgREST or deployment configuration. Row locks and unique indexes are implemented; multi-session concurrency/retry testing remains required for the controlled writer.
+After applying to Supabase staging/target, verify PostgreSQL compatibility, service-role privileges/BYPASSRLS, schema exposure, grants, RLS and rejected browser INSERT/UPDATE/DELETE. Run the Supabase security/performance advisors and retain results. WASM PostgreSQL tests do not verify Supabase Auth, PostgREST or deployment configuration. Row locks and unique indexes are implemented; multi-session concurrency/retry testing remains required for the controlled writer. Initial target migrations, grants, SQL browser-role denials and Data API exposure were checked; this does not verify the live publisher.
 
 ## Local validation
 

@@ -1,6 +1,6 @@
 # Controlled RIL/TCS publishing
 
-The local publisher is implemented and tested. No real review is approved, target migration applied or production fact loaded by this change. All 376 committed candidates remain pending; six conflict keys remain withheld. M2 and issue #14 remain open.
+The local publisher is implemented and tested. The [initial live schema upgrade and access verification](SUPABASE_VERIFICATION.md) is complete. No real review is approved or production fact loaded. All 376 committed candidates remain pending; six conflict keys remain withheld. M2 and issue #14 remain open.
 
 ## Operator prerequisites
 
