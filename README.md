@@ -1,6 +1,6 @@
 # Analyst OS
 
-**M2 update (2026-10-04):** the first 56-fact RIL/TCS load is verified. The [consolidated completion package](docs/M2_COMPLETION_PACKAGE.md) now prepares 573 additional source-bound facts across all five companies, fifteen new source PDFs and an explicit Tata FY2026 scope decision. New reviews and controlled loads remain pending; conflict keys and printed dashes stay unavailable.
+**M2 update (2026-10-04):** [five-company controlled loading is independently verified](docs/M2_FIVE_COMPANY_LOAD_STATUS.md): 629 approved primary-source facts, preserved approval/provenance, 46 withheld conflict keys and two unavailable printed-dash candidates. M2 selected history population is complete; derived-output publication and production deployment verification remain open.
 
 Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspace built as a flagship portfolio project. It demonstrates financial analytics, Python data engineering, PostgreSQL/Supabase, local AI with Ollama, secure frontend engineering, testing, and deployment discipline.
 
@@ -8,10 +8,10 @@ Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspac
 
 ## Current status
 
-Repository engineering is implemented through **M6 — Security & Performance Hardening**. The project is **not yet production-ready** because two evidence-based release gates remain:
+Repository engineering is implemented through **M6 — Security & Performance Hardening**. The project is **not yet production-ready** because runtime release gates remain:
 
-1. **M2 data population:** the [RIL/TCS P&L batch](data/m2/ril-tcs/batch1/README.md) and [balance-sheet/cash-flow batch](data/m2/ril-tcs/batch2/README.md) contain 764 observations and 376 validation-only candidates. The [offline planner](data/m2/ril-tcs/review/README.md), [database provenance safeguards](docs/PROVENANCE_SCHEMA.md) [read-only snapshot exporter](docs/TARGET_SNAPSHOT.md) and [controlled publisher](docs/CONTROLLED_PUBLISHING.md) are locally tested. A [56-fact P&L decision packet](data/m2/ril-tcs/review/PNL_DECISION_PACKET.md) now corroborates exact report rows and columns. Six conflicts, real reviews, remaining inputs, other-company history, a live publisher snapshot, concurrency verification and controlled loading remain pending. The [initial Supabase upgrade and access checks](docs/SUPABASE_VERIFICATION.md) passed on the live project. See [M2 next steps](docs/M2_NEXT_STEPS.md).
-2. **M7 deployment verification:** the real Supabase and Cloudflare Pages projects still need runtime RLS, security-header, browser, accessibility, and deployment checks.
+1. **M3/M4 runtime outputs:** publish definition-compatible deterministic analytics and validated AI outputs through controlled paths, then verify frontend binding. The [M2 load verification](docs/M2_FIVE_COMPANY_LOAD_STATUS.md) includes the post-load formula rerun; it does not publish derived database rows.
+2. **M7 deployment verification:** complete HTTP Data API, concurrency/recovery, Cloudflare Pages, security-header, browser and accessibility checks.
 
 No synthetic production financial values are used merely to make the UI appear complete.
 
@@ -144,7 +144,7 @@ A milestone is not considered verified while its required gate is failing.
 |---|---|
 | M0 — Foundation | Completed |
 | M1 — Data Foundation | Completed in repository |
-| M2 — Financial Data Pipeline | In progress — verified data population pending |
+| M2 — Financial Data Pipeline | Completed — 629 approved facts independently verified |
 | M3 — Financial Analytics | Completed in repository |
 | M4 — AI Insight Pipeline | Completed in repository |
 | M5 — Interactive Frontend | Completed in repository |

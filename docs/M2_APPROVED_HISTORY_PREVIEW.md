@@ -1,5 +1,8 @@
 # Approved M2 history: native preview handoff
 
+**Superseded status (2026-10-04):** the approved loads have committed and all 629 facts were independently verified. See [M2_FIVE_COMPANY_LOAD_STATUS.md](M2_FIVE_COMPANY_LOAD_STATUS.md). The preparation/preview instructions below are historical; do not apply these plans again as a new load.
+
+
 Marky approved the exact 318 RIL/TCS BS/CF observations and 255 HDFC Bank/L&T/Tata observations on 2026-10-04 at 14:06:27 UTC. The rationale is: “I accept the cited evidence, source selection and stated definitions.” The original 56 P&L approvals retain their original reviewer time and rationale.
 
 The approval includes all fifteen newly pinned source PDFs and original Tata Motors legal-entity continuity into TMPV with a FY2026 series break. The new CV company remains separate. All 46 conflict keys remain withheld and the two printed-dash candidates remain unavailable.

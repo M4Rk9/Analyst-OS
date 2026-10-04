@@ -1,19 +1,18 @@
 # M7 portfolio release checklist
 
-**Current M2 preparation:** [M2_COMPLETION_PACKAGE.md](M2_COMPLETION_PACKAGE.md) consolidates the pending 573-fact/five-company package, explicit scope decisions and load gates. The first 56 facts remain the only loaded subset. Historical baseline queues below are superseded by that dated package; M2 stays open.
+**M2 verified complete (2026-10-04):** [five-company controlled load evidence](M2_FIVE_COMPANY_LOAD_STATUS.md) and [post-load checks](M2_POST_LOAD_VERIFICATION.json) supersede the historical preparation queues.
 
 A checked item must have evidence. Do not mark an external/runtime item complete because the repository implementation merely exists.
 
 ## Data readiness — blocking
 
-RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric decisions, six conflicting keys, other-company history and controlled loading remain pending; see [M2_NEXT_STEPS.md](M2_NEXT_STEPS.md). No blocking item is completed by merging the evidence batches alone.
-
-- [ ] Verified primary filings selected for all five initial companies
-- [ ] Approximately five years of financial history reviewed where available
-- [ ] Reporting periods, currency, units, and source provenance verified
-- [ ] Conflicting source values resolved or explicitly recorded
-- [ ] No fabricated production financial data
-- [ ] Verified data loaded into the target Supabase project
+Selected core history is reviewed and loaded: 629 facts, 46 explicitly withheld conflicts and two unavailable printed dashes. Coverage limitations and the Tata FY2024 gap are recorded in the linked verification evidence.
+- [x] Verified primary filings selected for all five initial companies
+- [x] Approximately five years of financial history reviewed where available
+- [x] Reporting periods, currency, units, and source provenance verified
+- [x] Conflicting source values resolved or explicitly recorded
+- [x] No fabricated production financial data
+- [x] Verified data loaded into the target Supabase project
 
 ## Repository quality
 
@@ -23,7 +22,7 @@ RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric d
 - [x] M4 local source-backed AI pipeline implemented
 - [x] M5 interactive static frontend implemented
 - [x] M6 security/frontend integration merged with green CI
-- [ ] M2 verified-data population complete
+- [x] M2 verified-data population complete
 - [ ] Final release-commit CI green
 
 ## Supabase production verification — blocking
@@ -32,9 +31,9 @@ RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric d
 - [x] Provenance migration preflight reviewed; legacy demotion/derived-output blockers addressed — [live evidence](SUPABASE_VERIFICATION.md)
 - [x] Private ingestion schema excluded from Data API; review/function grants verified — [live evidence](SUPABASE_VERIFICATION.md)
 - [ ] Reviewed publication guards and target concurrency/retry behavior verified
-- [ ] Publisher schema inventory inspected; plan/schema hashes reviewed before explicit apply
+- [x] Publisher schema inventory inspected; plan/schema hashes reviewed before explicit apply
 - [ ] Live lock contention/timeouts, receipt replay and uncertain-COMMIT recovery verified
-- [ ] Controlled load receipt and resulting approved records retained as evidence
+- [x] Controlled load receipt and resulting approved records retained as evidence
 - [x] RLS enabled on every exposed table in the target project — [live evidence](SUPABASE_VERIFICATION.md)
 - [ ] Browser anon SELECT succeeds only for intended public data
 - [x] Browser anon INSERT fails on every exposed table — live SQL role probes
@@ -85,4 +84,4 @@ RIL/TCS evidence batches contain 376 validation-only candidates. Source/metric d
 
 ## Release decision
 
-Release may be described as **portfolio-ready / deployed** only after every blocking item above is checked with evidence. Until then, the honest status is **repository implementation complete through M6; verified data population and production deployment pending**.
+Release may be described as **portfolio-ready / deployed** only after every blocking item above is checked with evidence. Until then, the honest status is **repository implementation complete through M6 and M2 selected history loaded/verified; derived runtime outputs and production deployment verification pending**.

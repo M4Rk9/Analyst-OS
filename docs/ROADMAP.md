@@ -1,6 +1,6 @@
 # Roadmap
 
-**Current M2 preparation:** [M2_COMPLETION_PACKAGE.md](M2_COMPLETION_PACKAGE.md) consolidates the pending 573-fact/five-company package, explicit scope decisions and load gates. The first 56 facts remain the only loaded subset. Historical baseline queues below are superseded by that dated package; M2 stays open.
+**M2 verified complete (2026-10-04):** [five-company load evidence](M2_FIVE_COMPANY_LOAD_STATUS.md) records 629 approved facts and post-load formula checks. Historical preparation queues are superseded; runtime derived outputs and deployment remain release gates.
 
 Exactly eight milestones are used unless a compelling technical reason requires otherwise.
 
@@ -24,7 +24,7 @@ Exactly eight milestones are used unless a compelling technical reason requires 
 
 **Runtime note:** the target Supabase project must still receive the migrations and pass anon-key runtime verification before M7 can be released.
 
-## M2 — Financial Data Pipeline — In progress
+## M2 — Financial Data Pipeline — Completed for selected primary-source history
 
 Implemented and verified in repository:
 
@@ -36,14 +36,7 @@ Implemented and verified in repository:
 - duplicate/conflict detection with fail-closed behavior
 - ingestion tests and validation-only CLI
 
-Still required before M2 is complete:
-
-- Select verified primary filings for the five-company universe
-- Normalize and review approximately five years of history where available
-- Resolve or explicitly record source conflicts
-- Load verified records into the target Supabase project
-
-No production financial values will be fabricated to satisfy the milestone.
+Verified on the live target: selected five-company primary filings, exact approved observations and definitions, controlled native loads, every fact/source/approval fingerprint, explicit withheld conflicts and unavailable dashes. See [the verification record](M2_FIVE_COMPANY_LOAD_STATUS.md) and its post-load deterministic checks. Selected core coverage does not imply full note transcription, resolved disagreements or comparable-growth inputs.
 
 ## M3 — Financial Analytics — Completed in repository
 
@@ -116,7 +109,7 @@ Repository-side release preparation now includes:
 
 Still blocking a real release:
 
-- M2 verified five-company data population
+- M3/M4 validated derived-output publication and frontend binding
 - target Supabase project configuration and runtime RLS verification
 - Cloudflare Pages production deployment
 - real-browser functional/security/accessibility checks
