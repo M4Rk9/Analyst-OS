@@ -2,15 +2,19 @@
 
 The offline planner combines 764 observations from batches 1 and 2, selects 376 current-year candidates, and withholds six unresolved conflicting keys. It preserves the full companion metadata, including source hashes/pages/labels, reporting basis, source column, instant-versus-duration measurement, as-of dates and exact metric definitions.
 
-The committed plan proposes **zero inserts**: all source/fact reviews are pending and no target snapshot has been supplied. A merged evidence PR, valid arithmetic or a CSV schema pass is not an approval. This is a tested planning component, not a database publisher or a completed M2 load.
+The committed plan proposes **zero inserts**: all source/fact reviews are pending and no target snapshot has been supplied. A merged evidence PR, valid arithmetic or a CSV schema pass is not an approval. The separate provenance schema, snapshot exporter and controlled publisher are now implemented; this offline component still does not complete an M2 load.
 
 | Artifact | Purpose |
 |---|---|
+| [PNL_DECISION_PACKET.md](PNL_DECISION_PACKET.md) | First 56 P&L decisions with exact IDs, values, sources and definitions; still pending |
+| `pnl_source_audit.json` | PDF label-row/dated-column checks for all 120 P&L observations, not approvals |
+| `official_retrieval_receipt.json` | Fresh issuer re-fetch results for all ten pinned PDFs |
+| [SOURCE_REVIEW_NOTES.md](SOURCE_REVIEW_NOTES.md) | Actual visual inspection scope and TCS FY2026 file-size correction |
 | `pnl_metric_definitions.json` | Six explicit group P&L definitions; combines with batch2's 43 metric definitions |
 | `catalog_index.json` | Source-review keys and all 376 candidate IDs, evidence/definition fingerprints and page/measurement references |
 | `review_template.json` | Empty, pending review ledger bound to the entire catalog digest |
 | `load_plan.json` | Reproducible current dry run: 376 blocked candidates, six withheld keys, no inserts or writes |
-| `target_snapshot_schema.json` | Format contract for a future privileged, complete target export; not an actual snapshot |
+| `target_snapshot_schema.json` | Format contract for the implemented privileged target exporter; not an actual snapshot |
 
 ## Run the current plan
 
@@ -36,18 +40,32 @@ These records are explicit attestations from a trusted local workflow. They do n
 
 ## Target snapshot contract
 
-A later target export must conform to `target_snapshot_schema.json` and include:
+A target export must conform to `target_snapshot_schema.json` and include:
 
 - The exact Supabase `project_ref`, a timezone-aware capture time, `complete=true`, and both company slugs in the scope.
 - Every source document and financial observation for the scoped companies, including unverified, conflicting and non-preferred rows. Use a privileged, trusted exporter; an anon export cannot establish completeness because RLS hides relevant rows. Completeness is attested by the exporter, not independently proven by the planner.
-- For each existing fact, its database ID, source-backed `record`, the **actual stored** `normalized_value`, basis, measurement/as-of metadata, definition fingerprint, quality status and preferred flag. Stored normalization must equal raw value times scale. The current schema does not persist all this metadata; do not invent it for legacy records. Such records need a reviewed provenance mapping/schema extension before this contract can be satisfied.
+- For each existing fact, its database ID, source-backed `record`, the **actual stored** `normalized_value`, basis, measurement/as-of metadata, definition fingerprint, quality status and preferred flag. Stored normalization must equal raw value times scale. The provenance migration persists this metadata privately. Do not invent it for legacy records; they need reviewed source/provenance mapping before this contract can be satisfied.
 
 A target-aware invocation adds `--target-snapshot /trusted/path/snapshot.json --expected-project-ref <actual-project-ref>`. No target file or project reference is fabricated as a default. Snapshots must be no more than 24 hours old and not future-dated. The API requires an explicit expected project reference even if the snapshot itself names a project.
 
 The planner blocks a different value/currency, source-URL/hash replacement, different period start/basis/measurement/definition, an existing pending/rejected/conflicting source, or a silent preferred-source replacement. Identical, verified, preferred observations produce `already_present`, not another insert. Existing unverified facts are not silently upgraded. Plan output hashes bind the review ledger and snapshot for later audit.
 
-## Before any writer
+## Controlled loading remains separate
 
-`apply_ready` is always false. There is no network client, credential handling, SQL generation or `--apply` mode. Proposal rows retain a nested source-backed record and companion provenance rather than dropping metadata through the CSV loader.
+The offline planner's `apply_ready` remains false and it has no network client, credentials, SQL generation or apply mode. The separate [controlled publisher](../../../../docs/CONTROLLED_PUBLISHING.md) resolves UUIDs and commits approved facts, provenance and an immutable receipt atomically after a fresh locked target check. The [snapshot exporter](../../../../docs/TARGET_SNAPSHOT.md) and [provenance schema](../../../../docs/PROVENANCE_SCHEMA.md) are implemented and locally tested, but actual target preflight/migration/runtime verification and loading remain pending.
 
-Still required: persist review/definition/measurement provenance in a reviewed schema extension; replace implicit verification defaults with explicit status handling; resolve company/period/source/fact IDs; create and verify a privileged snapshot exporter; implement atomic, idempotent writes with a fresh in-transaction conflict check; verify target migrations and runtime RLS; and produce a real load receipt. A stale offline snapshot must never be used as authorization for a later write. Analytics/AI and other-company coverage remain separate gates in [M2_NEXT_STEPS.md](../../../../docs/M2_NEXT_STEPS.md).
+The focused packet corroborates the 56 P&L candidates; it does not audit the other 320 balance-sheet/cash-flow candidates or resolve the six conflict keys. Real reviews, remaining definitions, derived-output provenance, other-company history and release gates remain in [M2_NEXT_STEPS.md](../../../../docs/M2_NEXT_STEPS.md).
+
+## Reproduce the P&L corroboration
+
+Provide a trusted directory containing all ten exact pinned **official** PDFs, using manifest filenames. For TCS FY2026, use the official reacquired copy; the differing upload is rejected. The script performs no downloads, database calls, approvals or financial-value substitutions:
+
+```bash
+PYTHONPATH=python python python/scripts/audit_ril_tcs_pnl.py \
+  --source-root /trusted/local/official-reports \
+  --output-dir data/m2/ril-tcs/review
+```
+
+It validates PDF hashes, byte/page counts and all 120 signed amounts against exact labels and dated columns. A matching number elsewhere on the page or in the wrong column does not pass. Unavailable, dashed and footnoted numeric text is not guessed. The geometry method is scoped to these P&L layouts; unsupported/ambiguous layouts stop instead of falling back to page-wide matching. Digit-glyph cleanup is explicitly recorded and requires the visual check noted above. PDF rendering/geometry may vary between PyMuPDF versions; retain the original audit if replay output differs and investigate rather than rehashing approval records.
+
+The TCS size correction changes the catalog digest; the committed pending artifacts have been regenerated. A previous private approved ledger must undergo a new review, never an automatic hash rewrite.

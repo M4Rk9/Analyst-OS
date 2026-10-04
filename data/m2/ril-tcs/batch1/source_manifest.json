@@ -176,7 +176,7 @@
     "report_fiscal_year": 2026,
     "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
     "sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
-    "bytes": 30438344,
+    "bytes": 22126348,
     "pdf_page": 167,
     "printed_pages": "197",
     "publisher": "Tata Consultancy Services Limited",
@@ -189,6 +189,7 @@
     "official_bytes": 22126348,
     "uploaded_sha256": "e63271f157389386caac416cb70d2443b3e864ba35053706135a879d0aaba691",
     "extraction_file": "ril_tcs_batch/source-documents/TCS_Annual_Report_2025-26.pdf",
-    "source_file_local_path": "ril_tcs_batch/source-documents/TCS_Annual_Report_2025-26.pdf"
+    "source_file_local_path": "ril_tcs_batch/source-documents/TCS_Annual_Report_2025-26.pdf",
+    "uploaded_bytes": 30438344
   }
 ]

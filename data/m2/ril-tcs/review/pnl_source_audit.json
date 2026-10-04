@@ -1,0 +1,4702 @@
+{
+  "version": 1,
+  "catalog_sha256": "e8d4dc3d24cbef2ef81c37f2eadefcd40b0862d66cf73e65da1ec6549eab6c41",
+  "method": "PyMuPDF text-line geometry; exact label, dated column and signed amount",
+  "digit_glyph_map": "ϬϭϮϯϰϱϲϳϴϵ -> 0123456789; whitespace/grouping removed",
+  "sources": [
+    {
+      "source_key": "reliance-industries:12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2022,
+      "source_url": "https://www.ril.com/ar2021-22/pdf/RIL-Integrated-Annual-Report-2021-22.pdf",
+      "sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "bytes": 24650147,
+      "page_count": 247,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "reliance-industries:668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2023,
+      "source_url": "https://www.ril.com/ar2022-23/pdf/RIL-Integrated-Annual-Report-2022-23.pdf",
+      "sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "bytes": 18035699,
+      "page_count": 267,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "reliance-industries:d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2024,
+      "source_url": "https://www.ril.com/sites/default/files/reports/RIL-Integrated-Annual-Report-2023-24.pdf",
+      "sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "bytes": 15471517,
+      "page_count": 159,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "reliance-industries:bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2025,
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "bytes": 11762229,
+      "page_count": 146,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "reliance-industries:ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2026,
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "bytes": 9681400,
+      "page_count": 147,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "tcs:6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2022,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/ar/annual-report-2021-2022.pdf",
+      "sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "bytes": 9686807,
+      "page_count": 420,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "tcs:2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2023,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2022-23/ar/annual-report-2022-2023.pdf",
+      "sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "bytes": 10812472,
+      "page_count": 346,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "tcs:4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2024,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/ar/annual-report-2023-2024.pdf",
+      "sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "bytes": 16745229,
+      "page_count": 340,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "tcs:62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2025,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/ar/annual-report-2024-2025.pdf",
+      "sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "bytes": 23905717,
+      "page_count": 336,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    },
+    {
+      "source_key": "tcs:a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2026,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "bytes": 22126348,
+      "page_count": 360,
+      "pnl_rows_checked": 12,
+      "result": "pinned_pdf_bytes_and_pages_match",
+      "review_status": "pending"
+    }
+  ],
+  "pnl_observations": [
+    {
+      "observation_id": "reliance-industries:2022:revenue:report2022",
+      "evidence_sha256": "57bf6bd3429983e08cc8097702393931381fdb88aff240ddde6cf8661ea5d82a",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          643.0184936523438,
+          156.4625244140625,
+          743.66015625,
+          169.31752014160156
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          1041.4775390625,
+          94.19698333740234,
+          1067.52587890625,
+          105.3379898071289
+        ]
+      },
+      "amount": {
+        "text": "7,21,634",
+        "bbox": [
+          1037.406005859375,
+          156.48504638671875,
+          1067.51318359375,
+          169.3400421142578
+        ]
+      },
+      "raw_value": "721634",
+      "normalized_value": "7216340000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2021:revenue:report2022",
+      "evidence_sha256": "1c86fd6fcb6334d517000461cd49b51de6bc813547d6d1cbd98be1bb0c40068b",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          643.0184936523438,
+          156.4625244140625,
+          743.66015625,
+          169.31752014160156
+        ]
+      },
+      "year_header": {
+        "text": "2020-21",
+        "bbox": [
+          1116.383544921875,
+          94.30748748779297,
+          1142.5306396484375,
+          105.25348663330078
+        ]
+      },
+      "amount": {
+        "text": "4,86,326",
+        "bbox": [
+          1109.06103515625,
+          156.48504638671875,
+          1142.5162353515625,
+          169.3400421142578
+        ]
+      },
+      "raw_value": "486326",
+      "normalized_value": "4863260000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:other_income:report2022",
+      "evidence_sha256": "313647c2427295cc91740393afb28a1d093b5a2246b698ed742ed7b55137340a",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          643.0185546875,
+          166.91001892089844,
+          695.4300537109375,
+          179.18751525878906
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          1041.4775390625,
+          94.19698333740234,
+          1067.52587890625,
+          105.3379898071289
+        ]
+      },
+      "amount": {
+        "text": "14,947",
+        "bbox": [
+          1044.2310791015625,
+          166.737548828125,
+          1067.5194091796875,
+          179.36753845214844
+        ]
+      },
+      "raw_value": "14947",
+      "normalized_value": "149470000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2021:other_income:report2022",
+      "evidence_sha256": "e5635531cd1573a43d034814c3374613f13283f1335d0d9046b30a8bb5b8b23b",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          643.0185546875,
+          166.91001892089844,
+          695.4300537109375,
+          179.18751525878906
+        ]
+      },
+      "year_header": {
+        "text": "2020-21",
+        "bbox": [
+          1116.383544921875,
+          94.30748748779297,
+          1142.5306396484375,
+          105.25348663330078
+        ]
+      },
+      "amount": {
+        "text": "16,327",
+        "bbox": [
+          1120.506103515625,
+          166.9325408935547,
+          1142.5177001953125,
+          179.2100372314453
+        ]
+      },
+      "raw_value": "16327",
+      "normalized_value": "163270000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:total_income:report2022",
+      "evidence_sha256": "a3e24def014a0cfa694912af4f0db9b4b5c41375e9916e774d1c72c109798540",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          643.0185546875,
+          176.7125244140625,
+          694.0460815429688,
+          189.56752014160156
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          1041.4775390625,
+          94.19698333740234,
+          1067.52587890625,
+          105.3379898071289
+        ]
+      },
+      "amount": {
+        "text": "7,36,581",
+        "bbox": [
+          1037.3160400390625,
+          176.73504638671875,
+          1067.5162353515625,
+          189.5900421142578
+        ]
+      },
+      "raw_value": "736581",
+      "normalized_value": "7365810000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2021:total_income:report2022",
+      "evidence_sha256": "a13c64fc07d605eed1424fb243c5aa79b96910ec565bb9a3acf7af54449b23be",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          643.0185546875,
+          176.7125244140625,
+          694.0460815429688,
+          189.56752014160156
+        ]
+      },
+      "year_header": {
+        "text": "2020-21",
+        "bbox": [
+          1116.383544921875,
+          94.30748748779297,
+          1142.5306396484375,
+          105.25348663330078
+        ]
+      },
+      "amount": {
+        "text": "5,02,653",
+        "bbox": [
+          1109.3160400390625,
+          176.73504638671875,
+          1142.5213623046875,
+          189.5900421142578
+        ]
+      },
+      "raw_value": "502653",
+      "normalized_value": "5026530000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:finance_costs:report2022",
+      "evidence_sha256": "fb6ce1e445e4a94a2edabf9c7b326ad831622985fb00da8cec1eb99f6e721ca2",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          643.0260009765625,
+          247.6250457763672,
+          696.7874755859375,
+          259.9025573730469
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          1041.4775390625,
+          94.19698333740234,
+          1067.52587890625,
+          105.3379898071289
+        ]
+      },
+      "amount": {
+        "text": "14,584",
+        "bbox": [
+          1043.166015625,
+          247.4300537109375,
+          1067.5269775390625,
+          260.06005859375
+        ]
+      },
+      "raw_value": "14584",
+      "normalized_value": "145840000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2021:finance_costs:report2022",
+      "evidence_sha256": "e7a80afa8377901a7165e235257623ec7ec4b299f9c5df0481dbbd920c76371e",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          643.0260009765625,
+          247.6250457763672,
+          696.7874755859375,
+          259.9025573730469
+        ]
+      },
+      "year_header": {
+        "text": "2020-21",
+        "bbox": [
+          1116.383544921875,
+          94.30748748779297,
+          1142.5306396484375,
+          105.25348663330078
+        ]
+      },
+      "amount": {
+        "text": "21,189",
+        "bbox": [
+          1122.028564453125,
+          247.6250457763672,
+          1142.53369140625,
+          259.9025573730469
+        ]
+      },
+      "raw_value": "21189",
+      "normalized_value": "211890000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:total_expenses:report2022",
+      "evidence_sha256": "2323b88748bc5401be1f8750ae529a7a9be9dab43ab6e60d33288969b3afb85b",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          643.0335083007812,
+          277.550048828125,
+          701.3057250976562,
+          290.4050598144531
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          1041.4775390625,
+          94.19698333740234,
+          1067.52587890625,
+          105.3379898071289
+        ]
+      },
+      "amount": {
+        "text": "6,55,555",
+        "bbox": [
+          1033.87353515625,
+          277.57257080078125,
+          1067.5311279296875,
+          290.4275817871094
+        ]
+      },
+      "raw_value": "655555",
+      "normalized_value": "6555550000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2021:total_expenses:report2022",
+      "evidence_sha256": "0637ff9d29bd8e0db822ccf7b08aabde9f4f10fc2aa1433235ed988207374ec9",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          643.0335083007812,
+          277.550048828125,
+          701.3057250976562,
+          290.4050598144531
+        ]
+      },
+      "year_header": {
+        "text": "2020-21",
+        "bbox": [
+          1116.383544921875,
+          94.30748748779297,
+          1142.5306396484375,
+          105.25348663330078
+        ]
+      },
+      "amount": {
+        "text": "4,53,350",
+        "bbox": [
+          1108.821044921875,
+          277.57257080078125,
+          1142.5335693359375,
+          290.4275817871094
+        ]
+      },
+      "raw_value": "453350",
+      "normalized_value": "4533500000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:profit_for_year:report2022",
+      "evidence_sha256": "122745c1637bae8dcc3af79b0abeb5da66f06ac45cc7e5a26c50354c37940d26",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "current_year",
+      "label": {
+        "text": "Profit for the Year",
+        "bbox": [
+          643.03369140625,
+          377.3676452636719,
+          710.7806396484375,
+          390.22265625
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          1041.4775390625,
+          94.19698333740234,
+          1067.52587890625,
+          105.3379898071289
+        ]
+      },
+      "amount": {
+        "text": "67,845",
+        "bbox": [
+          1042.03369140625,
+          377.39013671875,
+          1067.53076171875,
+          390.2451477050781
+        ]
+      },
+      "raw_value": "67845",
+      "normalized_value": "678450000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2021:profit_for_year:report2022",
+      "evidence_sha256": "c61908fe11e655fe23c3d5b68f4d9db4551c58df54401634651e716ce0f3ff27",
+      "source_sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "source_page": 198,
+      "column_role": "comparative",
+      "label": {
+        "text": "Profit for the Year",
+        "bbox": [
+          643.03369140625,
+          377.3676452636719,
+          710.7806396484375,
+          390.22265625
+        ]
+      },
+      "year_header": {
+        "text": "2020-21",
+        "bbox": [
+          1116.383544921875,
+          94.30748748779297,
+          1142.5306396484375,
+          105.25348663330078
+        ]
+      },
+      "amount": {
+        "text": "53,739",
+        "bbox": [
+          1117.4761962890625,
+          377.39013671875,
+          1142.53369140625,
+          390.2451477050781
+        ]
+      },
+      "raw_value": "53739",
+      "normalized_value": "537390000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:revenue:report2023",
+      "evidence_sha256": "1ed7656622bd04e0ec6f7279c8ba28c5bebc2e16d0320850a8cecf734bf00af4",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          54.000099182128906,
+          196.23300170898438,
+          150.03309631347656,
+          206.20350646972656
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          444.9930114746094,
+          98.68199920654297,
+          468.9928283691406,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": " 8,91,311 ",
+        "bbox": [
+          434.27099609375,
+          196.14801025390625,
+          471.21197509765625,
+          206.2884979248047
+        ]
+      },
+      "raw_value": "891311",
+      "normalized_value": "8913110000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:revenue:report2023",
+      "evidence_sha256": "2f5103fb72e14bfb7e57f083a5f19a7094db36c6541715b77c0b1434a8494137",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          54.000099182128906,
+          196.23300170898438,
+          150.03309631347656,
+          206.20350646972656
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          513.0239868164062,
+          98.68199920654297,
+          537.0239868164062,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": " 7,17,635 ",
+        "bbox": [
+          502.302001953125,
+          196.14801025390625,
+          539.2431030273438,
+          206.2884979248047
+        ]
+      },
+      "raw_value": "717635",
+      "normalized_value": "7176350000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:other_income:report2023",
+      "evidence_sha256": "3d56139e102077f250c4725414765ad5958350506c5a8187101cd5b1a87a019e",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          54.000099182128906,
+          212.0159912109375,
+          103.36808776855469,
+          221.646484375
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          444.9930114746094,
+          98.68199920654297,
+          468.9928283691406,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "11,734",
+        "bbox": [
+          443.8240051269531,
+          211.9309844970703,
+          468.9924621582031,
+          221.67198181152344
+        ]
+      },
+      "raw_value": "11734",
+      "normalized_value": "117340000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:other_income:report2023",
+      "evidence_sha256": "f63851878c728efd09dd2ec2e2a6bf45669def47e5ba7db9795a443e775bdf1b",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          54.000099182128906,
+          212.0159912109375,
+          103.36808776855469,
+          221.646484375
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          513.0239868164062,
+          98.68199920654297,
+          537.0239868164062,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "14,943",
+        "bbox": [
+          511.9830017089844,
+          212.0159912109375,
+          537.0240478515625,
+          221.646484375
+        ]
+      },
+      "raw_value": "14943",
+      "normalized_value": "149430000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_income:report2023",
+      "evidence_sha256": "2dad5d7bad3e19df1802d47127ab8db0fa2b707e91079ac44bcd5a80d6526f86",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          54.000099182128906,
+          227.238037109375,
+          103.39275360107422,
+          237.37852478027344
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          444.9930114746094,
+          98.68199920654297,
+          468.9928283691406,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": " 9,03,045 ",
+        "bbox": [
+          434.27099609375,
+          227.238037109375,
+          471.21197509765625,
+          237.37852478027344
+        ]
+      },
+      "raw_value": "903045",
+      "normalized_value": "9030450000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:total_income:report2023",
+      "evidence_sha256": "f16aed612ea346fc5515217490ae22f382f57344d389036171d094d3a759064b",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          54.000099182128906,
+          227.238037109375,
+          103.39275360107422,
+          237.37852478027344
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          513.0239868164062,
+          98.68199920654297,
+          537.0239868164062,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": " 7,32,578 ",
+        "bbox": [
+          502.302001953125,
+          227.238037109375,
+          539.2431030273438,
+          237.37852478027344
+        ]
+      },
+      "raw_value": "732578",
+      "normalized_value": "7325780000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:finance_costs:report2023",
+      "evidence_sha256": "54f40777d0190e8f144e18f0df691c8ad7d1e3e4c322c649bdff563012126375",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          54.000099182128906,
+          336.3750305175781,
+          103.57975769042969,
+          346.0055236816406
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          444.9930114746094,
+          98.68199920654297,
+          468.9928283691406,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "19,571",
+        "bbox": [
+          443.8240051269531,
+          336.2900390625,
+          468.9924621582031,
+          346.0310363769531
+        ]
+      },
+      "raw_value": "19571",
+      "normalized_value": "195710000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:finance_costs:report2023",
+      "evidence_sha256": "6e677b631e0153bf7cd69fe76bf4ec1dd8a9f89fce4d1ef8e826647a896242fd",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          54.000099182128906,
+          336.3750305175781,
+          103.57975769042969,
+          346.0055236816406
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          513.0239868164062,
+          98.68199920654297,
+          537.0239868164062,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "14,584",
+        "bbox": [
+          511.9830017089844,
+          336.3750305175781,
+          537.0240478515625,
+          346.0055236816406
+        ]
+      },
+      "raw_value": "14584",
+      "normalized_value": "145840000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_expenses:report2023",
+      "evidence_sha256": "1e2e64ffa505da8d745c71e6780a5f2f0a5f4e06c5d304af543590e3484e438c",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          54.000099182128906,
+          382.68701171875,
+          111.23059844970703,
+          392.8275146484375
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          444.9930114746094,
+          98.68199920654297,
+          468.9928283691406,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "8,09,023",
+        "bbox": [
+          436.489013671875,
+          382.68701171875,
+          468.99298095703125,
+          392.8275146484375
+        ]
+      },
+      "raw_value": "809023",
+      "normalized_value": "8090230000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:total_expenses:report2023",
+      "evidence_sha256": "b785e6c34d13401ccc5b3b5bdfec9d95ad02c23ae86c8fbb803b48a38e0cfafa",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          54.000099182128906,
+          382.68701171875,
+          111.23059844970703,
+          392.8275146484375
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          513.0239868164062,
+          98.68199920654297,
+          537.0239868164062,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "6,53,555",
+        "bbox": [
+          504.5199890136719,
+          382.68701171875,
+          537.0241088867188,
+          392.8275146484375
+        ]
+      },
+      "raw_value": "653555",
+      "normalized_value": "6535550000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:profit_for_year:report2023",
+      "evidence_sha256": "ea767fe664b2523c45edb5de58d7b18840ced97c9caa950f0f55c8af0b6d4826",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "current_year",
+      "label": {
+        "text": "Profit for the Year",
+        "bbox": [
+          54.0,
+          564.1810302734375,
+          122.62899780273438,
+          574.321533203125
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          444.9930114746094,
+          98.68199920654297,
+          468.9928283691406,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "74,088",
+        "bbox": [
+          443.42498779296875,
+          564.1820068359375,
+          468.9929504394531,
+          574.322509765625
+        ]
+      },
+      "raw_value": "74088",
+      "normalized_value": "740880000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2022:profit_for_year:report2023",
+      "evidence_sha256": "3cea7d4d3532954a471f870159e4a432bee3941da80bb23f7c99e04d3723b539",
+      "source_sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "source_page": 209,
+      "column_role": "comparative",
+      "label": {
+        "text": "Profit for the Year",
+        "bbox": [
+          54.0,
+          564.1810302734375,
+          122.62899780273438,
+          574.321533203125
+        ]
+      },
+      "year_header": {
+        "text": "2021-22",
+        "bbox": [
+          513.0239868164062,
+          98.68199920654297,
+          537.0239868164062,
+          106.89299774169922
+        ]
+      },
+      "amount": {
+        "text": "67,845",
+        "bbox": [
+          511.45599365234375,
+          564.1820068359375,
+          537.0241088867188,
+          574.322509765625
+        ]
+      },
+      "raw_value": "67845",
+      "normalized_value": "678450000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:revenue:report2024",
+      "evidence_sha256": "5b3b3712b426daeeb61d28140bbc9aa0f01d1a9fe0d6f8d13063a6d4592d3b6f",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          53.02360153198242,
+          203.4775848388672,
+          151.700439453125,
+          215.4215850830078
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          444.9117126464844,
+          116.29730987548828,
+          471.9708557128906,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": "9,14,472 ",
+        "bbox": [
+          435.0093078613281,
+          203.4775848388672,
+          473.5693359375,
+          215.4215850830078
+        ]
+      },
+      "raw_value": "914472",
+      "normalized_value": "9144720000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:revenue:report2024",
+      "evidence_sha256": "f38f99c317a06dea0c68baa729eee8d30867d88cae1e725a618099724394086f",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          53.02360153198242,
+          203.4775848388672,
+          151.700439453125,
+          215.4215850830078
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          513.1939697265625,
+          116.29730987548828,
+          540.002197265625,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": " 8,91,311 ",
+        "bbox": [
+          501.4407958984375,
+          203.4775848388672,
+          541.6009521484375,
+          215.4215850830078
+        ]
+      },
+      "raw_value": "891311",
+      "normalized_value": "8913110000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:other_income:report2024",
+      "evidence_sha256": "2694201b9a505a13b533b70fc0de743929ecef8e2110bbb0d90f2cd4961aa0f9",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          53.02360153198242,
+          218.08551025390625,
+          102.26280212402344,
+          228.8614959716797
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          444.9117126464844,
+          116.29730987548828,
+          471.9708557128906,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": " 16,057 ",
+        "bbox": [
+          441.065185546875,
+          218.08551025390625,
+          473.8332214355469,
+          228.8614959716797
+        ]
+      },
+      "raw_value": "16057",
+      "normalized_value": "160570000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:other_income:report2024",
+      "evidence_sha256": "32556667572711de01bdf119c84db3a858a80fea7cbd26b039876bde6d787730",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          53.02360153198242,
+          218.08551025390625,
+          102.26280212402344,
+          228.8614959716797
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          513.1939697265625,
+          116.29730987548828,
+          540.002197265625,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": " 11,734 ",
+        "bbox": [
+          509.0967102050781,
+          218.08551025390625,
+          541.8648681640625,
+          228.8614959716797
+        ]
+      },
+      "raw_value": "11734",
+      "normalized_value": "117340000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_income:report2024",
+      "evidence_sha256": "f83180e2f668d2eddb38756992cd098b6436733321de5dc98cbb0f834c041a8e",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          53.02360153198242,
+          231.12559509277344,
+          102.90361785888672,
+          243.06959533691406
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          444.9117126464844,
+          116.29730987548828,
+          471.9708557128906,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": "9,30,529",
+        "bbox": [
+          435.0093078613281,
+          231.12559509277344,
+          471.9693298339844,
+          243.06959533691406
+        ]
+      },
+      "raw_value": "930529",
+      "normalized_value": "9305290000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_income:report2024",
+      "evidence_sha256": "3749c3bddf019f3deee7b0dac47a8450d9937fc7aa62ee7f6925c70e7bf34667",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          53.02360153198242,
+          231.12559509277344,
+          102.90361785888672,
+          243.06959533691406
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          513.1939697265625,
+          116.29730987548828,
+          540.002197265625,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": " 9,03,045 ",
+        "bbox": [
+          501.4407958984375,
+          231.12559509277344,
+          541.6009521484375,
+          243.06959533691406
+        ]
+      },
+      "raw_value": "903045",
+      "normalized_value": "9030450000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:finance_costs:report2024",
+      "evidence_sha256": "1962f2790b94b8735e5e26fe0de0c86ae7aa239c90e6c50e6acd9a3bddd5a05d",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          53.02360153198242,
+          328.6776123046875,
+          102.4307861328125,
+          339.45361328125
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          444.9117126464844,
+          116.29730987548828,
+          471.9708557128906,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": " 23,118 ",
+        "bbox": [
+          441.065185546875,
+          328.6776123046875,
+          473.8332214355469,
+          339.45361328125
+        ]
+      },
+      "raw_value": "23118",
+      "normalized_value": "231180000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:finance_costs:report2024",
+      "evidence_sha256": "8378279fda9fd561184f73d0d6d4cebd055e34ceb094b371d894432b11ccdbf6",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          53.02360153198242,
+          328.6776123046875,
+          102.4307861328125,
+          339.45361328125
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          513.1939697265625,
+          116.29730987548828,
+          540.002197265625,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": " 19,571 ",
+        "bbox": [
+          509.0967102050781,
+          328.6776123046875,
+          541.8648681640625,
+          339.45361328125
+        ]
+      },
+      "raw_value": "19571",
+      "normalized_value": "195710000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_expenses:report2024",
+      "evidence_sha256": "53183c2058ca567eab2126081c19f8eaf7efc2dc59ad207cfcc935cd2debee9f",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          53.02360153198242,
+          369.3656311035156,
+          110.966796875,
+          381.30963134765625
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          444.9117126464844,
+          116.29730987548828,
+          471.9708557128906,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": "8,26,189",
+        "bbox": [
+          435.0093078613281,
+          369.3656311035156,
+          471.9693298339844,
+          381.30963134765625
+        ]
+      },
+      "raw_value": "826189",
+      "normalized_value": "8261890000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:total_expenses:report2024",
+      "evidence_sha256": "ba37c2fc721064dba2b9bffde27dcdd139f0d4b16f2c978b8737bfaa3fcc78e5",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          53.02360153198242,
+          369.3656311035156,
+          110.966796875,
+          381.30963134765625
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          513.1939697265625,
+          116.29730987548828,
+          540.002197265625,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": " 8,09,023 ",
+        "bbox": [
+          501.4407958984375,
+          369.3656311035156,
+          541.6009521484375,
+          381.30963134765625
+        ]
+      },
+      "raw_value": "809023",
+      "normalized_value": "8090230000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:profit_for_year:report2024",
+      "evidence_sha256": "c7f624944ab99e044ae40ad46e7619a4f2a93dee463bf5b3dc8f7a2813e298af",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "current_year",
+      "label": {
+        "text": "Profit for the Year",
+        "bbox": [
+          53.02360153198242,
+          493.7816162109375,
+          122.23480224609375,
+          505.7256164550781
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          444.9117126464844,
+          116.29730987548828,
+          471.9708557128906,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": "79,020",
+        "bbox": [
+          442.9291076660156,
+          493.7816162109375,
+          471.9691162109375,
+          505.7256164550781
+        ]
+      },
+      "raw_value": "79020",
+      "normalized_value": "790200000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2023:profit_for_year:report2024",
+      "evidence_sha256": "7d57a2e4be4331e67b5cf69271c8f7d9a4c288bf36f927ac58bb793ffcf878f8",
+      "source_sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "source_page": 111,
+      "column_role": "comparative",
+      "label": {
+        "text": "Profit for the Year",
+        "bbox": [
+          53.02360153198242,
+          493.7816162109375,
+          122.23480224609375,
+          505.7256164550781
+        ]
+      },
+      "year_header": {
+        "text": "2022-23",
+        "bbox": [
+          513.1939697265625,
+          116.29730987548828,
+          540.002197265625,
+          126.74830627441406
+        ]
+      },
+      "amount": {
+        "text": "74,088",
+        "bbox": [
+          510.9606018066406,
+          493.7816162109375,
+          540.000732421875,
+          505.7256164550781
+        ]
+      },
+      "raw_value": "74088",
+      "normalized_value": "740880000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:revenue:report2025",
+      "evidence_sha256": "fe0f8e01fd0a01eff985ec78a33d5ab402e529728e9236725619045c86628901",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          53.02360153198242,
+          207.19239807128906,
+          149.34678649902344,
+          216.24839782714844
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          442.72088623046875,
+          126.40438842773438,
+          471.9655456542969,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 9,80,136 ",
+        "bbox": [
+          435.6173095703125,
+          207.19239807128906,
+          473.873291015625,
+          216.24839782714844
+        ]
+      },
+      "raw_value": "980136",
+      "normalized_value": "9801360000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:revenue:report2025",
+      "evidence_sha256": "5628264408da4b142b1a061d8508981b2a1c9041903ad3b771cb5ced3f641d09",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          53.02360153198242,
+          207.19239807128906,
+          149.34678649902344,
+          216.24839782714844
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          510.93231201171875,
+          126.40438842773438,
+          539.9968872070312,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": "9,14,472 ",
+        "bbox": [
+          505.5527038574219,
+          207.19239807128906,
+          541.9049072265625,
+          216.24839782714844
+        ]
+      },
+      "raw_value": "914472",
+      "normalized_value": "9144720000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:other_income:report2025",
+      "evidence_sha256": "5701118268026ed6816723f135d113f649e42fcd51cce8399573bb1512140e38",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          53.02360153198242,
+          220.7924346923828,
+          102.54359436035156,
+          229.8484344482422
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          442.72088623046875,
+          126.40438842773438,
+          471.9655456542969,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 17,978 ",
+        "bbox": [
+          443.2651062011719,
+          220.7924346923828,
+          473.9451904296875,
+          229.8484344482422
+        ]
+      },
+      "raw_value": "17978",
+      "normalized_value": "179780000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:other_income:report2025",
+      "evidence_sha256": "f93c121b044698b06b1ebbfa40417b94458cdac82d2599a041d50d90cb8249c6",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          53.02360153198242,
+          220.7924346923828,
+          102.54359436035156,
+          229.8484344482422
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          510.93231201171875,
+          126.40438842773438,
+          539.9968872070312,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 16,057 ",
+        "bbox": [
+          511.2966003417969,
+          220.7924346923828,
+          541.9766235351562,
+          229.8484344482422
+        ]
+      },
+      "raw_value": "16057",
+      "normalized_value": "160570000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_income:report2025",
+      "evidence_sha256": "b4bf9e1f13c0175bb8d7fc752a75198172c1f4418da7712b54d87744ae54b72d",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          53.02360153198242,
+          234.3925323486328,
+          101.45960998535156,
+          243.4485321044922
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          442.72088623046875,
+          126.40438842773438,
+          471.9655456542969,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 9,98,114 ",
+        "bbox": [
+          435.6173095703125,
+          234.3925323486328,
+          473.873291015625,
+          243.4485321044922
+        ]
+      },
+      "raw_value": "998114",
+      "normalized_value": "9981140000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_income:report2025",
+      "evidence_sha256": "582b24959d8ac8c7590323104219f9c84b5c994c8e8b4798416494b17557868b",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          53.02360153198242,
+          234.3925323486328,
+          101.45960998535156,
+          243.4485321044922
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          510.93231201171875,
+          126.40438842773438,
+          539.9968872070312,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": "9,30,529",
+        "bbox": [
+          505.5527038574219,
+          234.3925323486328,
+          540.0009155273438,
+          243.4485321044922
+        ]
+      },
+      "raw_value": "930529",
+      "normalized_value": "9305290000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:finance_costs:report2025",
+      "evidence_sha256": "754a27c04708013f60d8a521c8c1cbbfb577441bc47c33518d5de252f1c2c6f4",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          53.02360153198242,
+          329.5924377441406,
+          103.79158782958984,
+          338.6484375
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          442.72088623046875,
+          126.40438842773438,
+          471.9655456542969,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 24,269 ",
+        "bbox": [
+          443.2651062011719,
+          329.5924377441406,
+          473.9451904296875,
+          338.6484375
+        ]
+      },
+      "raw_value": "24269",
+      "normalized_value": "242690000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:finance_costs:report2025",
+      "evidence_sha256": "0358da30a628eba22f20192d0288057ab272f6eae9b31c970657d164eeab6a18",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          53.02360153198242,
+          329.5924377441406,
+          103.79158782958984,
+          338.6484375
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          510.93231201171875,
+          126.40438842773438,
+          539.9968872070312,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 23,118 ",
+        "bbox": [
+          511.2966003417969,
+          329.5924377441406,
+          541.9766235351562,
+          338.6484375
+        ]
+      },
+      "raw_value": "23118",
+      "normalized_value": "231180000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_expenses:report2025",
+      "evidence_sha256": "8f4c89940deaf152924e2103b151fff1c719f6be9b4b3e574fd4ae3b96955d96",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          53.02360153198242,
+          370.39251708984375,
+          109.0156021118164,
+          379.4485168457031
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          442.72088623046875,
+          126.40438842773438,
+          471.9655456542969,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 8,92,097 ",
+        "bbox": [
+          435.6173095703125,
+          370.39251708984375,
+          473.873291015625,
+          379.4485168457031
+        ]
+      },
+      "raw_value": "892097",
+      "normalized_value": "8920970000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:total_expenses:report2025",
+      "evidence_sha256": "ac732781342b7ffea784b36b6ef112990689ec1aa6b61039ac0a836d66216440",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          53.02360153198242,
+          370.39251708984375,
+          109.0156021118164,
+          379.4485168457031
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          510.93231201171875,
+          126.40438842773438,
+          539.9968872070312,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": "8,26,189",
+        "bbox": [
+          505.5527038574219,
+          370.39251708984375,
+          540.0009155273438,
+          379.4485168457031
+        ]
+      },
+      "raw_value": "826189",
+      "normalized_value": "8261890000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:profit_for_year:report2025",
+      "evidence_sha256": "3f0ce46102b1a0b977606d489c7eb8cedb46e9f78880051adc8497f87f53fb1a",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "current_year",
+      "label": {
+        "text": "Profit for the year",
+        "bbox": [
+          53.02360153198242,
+          465.592529296875,
+          120.09000396728516,
+          474.6485290527344
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          442.72088623046875,
+          126.40438842773438,
+          471.9655456542969,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 81,309 ",
+        "bbox": [
+          442.7290954589844,
+          465.592529296875,
+          473.8730773925781,
+          474.6485290527344
+        ]
+      },
+      "raw_value": "81309",
+      "normalized_value": "813090000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2024:profit_for_year:report2025",
+      "evidence_sha256": "d16a00f47d499c63e569052b6a44d716ecbcd31ca606fff1394a708bfcfde31f",
+      "source_sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "source_page": 100,
+      "column_role": "comparative",
+      "label": {
+        "text": "Profit for the year",
+        "bbox": [
+          53.02360153198242,
+          465.592529296875,
+          120.09000396728516,
+          474.6485290527344
+        ]
+      },
+      "year_header": {
+        "text": "2023-24",
+        "bbox": [
+          510.93231201171875,
+          126.40438842773438,
+          539.9968872070312,
+          134.32838439941406
+        ]
+      },
+      "amount": {
+        "text": " 79,020 ",
+        "bbox": [
+          510.7605895996094,
+          465.592529296875,
+          541.90478515625,
+          474.6485290527344
+        ]
+      },
+      "raw_value": "79020",
+      "normalized_value": "790200000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2026:revenue:report2026",
+      "evidence_sha256": "1bf34c6776d7011c6602e3ccb81a0129a3e49fa83b8ea4b7d4d89a5b2a178423",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          53.023651123046875,
+          215.3682403564453,
+          147.5420684814453,
+          225.9202423095703
+        ]
+      },
+      "year_header": {
+        "text": "2025-26",
+        "bbox": [
+          444.4084777832031,
+          134.99020385742188,
+          471.9681091308594,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "10,75,675",
+        "bbox": [
+          435.7676696777344,
+          215.3682403564453,
+          471.9676818847656,
+          225.9202423095703
+        ]
+      },
+      "raw_value": "1075675",
+      "normalized_value": "10756750000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:revenue:report2026",
+      "evidence_sha256": "5d797641e51a2c53d2d5f82fd2ea8519348c73b26f84f2c8d7adef71562b1925",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from Operations",
+        "bbox": [
+          53.023651123046875,
+          215.3682403564453,
+          147.5420684814453,
+          225.9202423095703
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          512.3574829101562,
+          134.99020385742188,
+          539.9983520507812,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "9,80,136",
+        "bbox": [
+          508.3516845703125,
+          215.3682403564453,
+          539.999755859375,
+          225.9202423095703
+        ]
+      },
+      "raw_value": "980136",
+      "normalized_value": "9801360000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2026:other_income:report2026",
+      "evidence_sha256": "7b616c1c97c58e901a6a01e06ded1fc6fdd061c083c41294d789aa3484ba7743",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          53.023681640625,
+          229.1442413330078,
+          100.39888763427734,
+          239.5442352294922
+        ]
+      },
+      "year_header": {
+        "text": "2025-26",
+        "bbox": [
+          444.4084777832031,
+          134.99020385742188,
+          471.9681091308594,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "28,962",
+        "bbox": [
+          448.91168212890625,
+          229.1442413330078,
+          471.9677429199219,
+          239.5442352294922
+        ]
+      },
+      "raw_value": "28962",
+      "normalized_value": "289620000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:other_income:report2026",
+      "evidence_sha256": "9f82c6a9f62c0f7c76e71fcff1731f69ea60740755c2e12fde8a061726ed1e54",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other Income",
+        "bbox": [
+          53.023681640625,
+          229.1442413330078,
+          100.39888763427734,
+          239.5442352294922
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          512.3574829101562,
+          134.99020385742188,
+          539.9983520507812,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "17,978",
+        "bbox": [
+          516.9436645507812,
+          229.1442413330078,
+          539.9996948242188,
+          239.5442352294922
+        ]
+      },
+      "raw_value": "17978",
+      "normalized_value": "179780000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2026:total_income:report2026",
+      "evidence_sha256": "1cdead9c45dac95a21dfef271442c128d8d9e781c282c3ba202e1a14ad8be954",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          53.023651123046875,
+          242.53627014160156,
+          100.62285614013672,
+          253.08827209472656
+        ]
+      },
+      "year_header": {
+        "text": "2025-26",
+        "bbox": [
+          444.4084777832031,
+          134.99020385742188,
+          471.9681091308594,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "11,04,637",
+        "bbox": [
+          435.76763916015625,
+          242.53627014160156,
+          471.9676513671875,
+          253.08827209472656
+        ]
+      },
+      "raw_value": "1104637",
+      "normalized_value": "11046370000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_income:report2026",
+      "evidence_sha256": "709a9e56c48f36abd425666edc902f1ae9c72ff37759f6547cbae10cdf6630c8",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Income",
+        "bbox": [
+          53.023651123046875,
+          242.53627014160156,
+          100.62285614013672,
+          253.08827209472656
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          512.3574829101562,
+          134.99020385742188,
+          539.9983520507812,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "9,98,114",
+        "bbox": [
+          508.35162353515625,
+          242.53627014160156,
+          539.9996948242188,
+          253.08827209472656
+        ]
+      },
+      "raw_value": "998114",
+      "normalized_value": "9981140000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2026:finance_costs:report2026",
+      "evidence_sha256": "ffa614ad03627443661805292a0d3a3f80ce556384eff2944550f6c0e352fc49",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          53.023590087890625,
+          337.7442321777344,
+          102.0307846069336,
+          348.14422607421875
+        ]
+      },
+      "year_header": {
+        "text": "2025-26",
+        "bbox": [
+          444.4084777832031,
+          134.99020385742188,
+          471.9681091308594,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "27,061",
+        "bbox": [
+          448.9115905761719,
+          337.7442321777344,
+          471.9676513671875,
+          348.14422607421875
+        ]
+      },
+      "raw_value": "27061",
+      "normalized_value": "270610000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:finance_costs:report2026",
+      "evidence_sha256": "401bf530c706b99acfd23ebbe74804d3fc829557a7b52a3099a52d4048eaa278",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance Costs",
+        "bbox": [
+          53.023590087890625,
+          337.7442321777344,
+          102.0307846069336,
+          348.14422607421875
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          512.3574829101562,
+          134.99020385742188,
+          539.9983520507812,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "24,269",
+        "bbox": [
+          516.943603515625,
+          337.7442321777344,
+          539.9996337890625,
+          348.14422607421875
+        ]
+      },
+      "raw_value": "24269",
+      "normalized_value": "242690000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2026:total_expenses:report2026",
+      "evidence_sha256": "4adabb99459727b3dd42d04b7eab31bff74746b5c72405dee006ef8270b97f40",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "current_year",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          53.0235595703125,
+          378.3041687011719,
+          108.95075988769531,
+          388.8561706542969
+        ]
+      },
+      "year_header": {
+        "text": "2025-26",
+        "bbox": [
+          444.4084777832031,
+          134.99020385742188,
+          471.9681091308594,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "9,81,475",
+        "bbox": [
+          440.3195495605469,
+          378.3041687011719,
+          471.9675598144531,
+          388.8561706542969
+        ]
+      },
+      "raw_value": "981475",
+      "normalized_value": "9814750000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:total_expenses:report2026",
+      "evidence_sha256": "d69ea78705f8ccbeb7924578efbe01dc0aa825b5c00e92d4d533fc32f2158812",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "comparative",
+      "label": {
+        "text": "Total Expenses",
+        "bbox": [
+          53.0235595703125,
+          378.3041687011719,
+          108.95075988769531,
+          388.8561706542969
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          512.3574829101562,
+          134.99020385742188,
+          539.9983520507812,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "8,92,097",
+        "bbox": [
+          508.3515625,
+          378.3041687011719,
+          539.9996337890625,
+          388.8561706542969
+        ]
+      },
+      "raw_value": "892097",
+      "normalized_value": "8920970000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2026:profit_for_year:report2026",
+      "evidence_sha256": "6a108faa48c6b5537fd66c5ecfcfaa9889dc91bfff2acd4395e298a24fe15313",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "current_year",
+      "label": {
+        "text": "Profit for the year",
+        "bbox": [
+          53.023590087890625,
+          473.1761779785156,
+          117.95879364013672,
+          483.7281799316406
+        ]
+      },
+      "year_header": {
+        "text": "2025-26",
+        "bbox": [
+          444.4084777832031,
+          134.99020385742188,
+          471.9681091308594,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "95,754",
+        "bbox": [
+          447.0395812988281,
+          473.1761779785156,
+          471.96759033203125,
+          483.7281799316406
+        ]
+      },
+      "raw_value": "95754",
+      "normalized_value": "957540000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "reliance-industries:2025:profit_for_year:report2026",
+      "evidence_sha256": "f7e63037f6d3022d7570ef5b09faee1768e308c0ba55b40e37e62d13834b853d",
+      "source_sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "source_page": 101,
+      "column_role": "comparative",
+      "label": {
+        "text": "Profit for the year",
+        "bbox": [
+          53.023590087890625,
+          473.1761779785156,
+          117.95879364013672,
+          483.7281799316406
+        ]
+      },
+      "year_header": {
+        "text": "2024-25",
+        "bbox": [
+          512.3574829101562,
+          134.99020385742188,
+          539.9983520507812,
+          144.22320556640625
+        ]
+      },
+      "amount": {
+        "text": "81,309",
+        "bbox": [
+          515.0715942382812,
+          473.1761779785156,
+          539.9996337890625,
+          483.7281799316406
+        ]
+      },
+      "raw_value": "81309",
+      "normalized_value": "813090000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:revenue:report2022",
+      "evidence_sha256": "2e6ea50969a5225bca043638b3c94e3e6044dfa6dc357d54ab992efef4dd1a31",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          28.348876953125,
+          79.03388214111328,
+          96.6219711303711,
+          87.63688659667969
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          227.05430603027344,
+          66.67887878417969,
+          271.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "1,91,754",
+        "bbox": [
+          252.74227905273438,
+          79.03388214111328,
+          277.8981628417969,
+          87.63688659667969
+        ]
+      },
+      "raw_value": "191754",
+      "normalized_value": "1917540000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2021:revenue:report2022",
+      "evidence_sha256": "ead486a2f620316818a8f600572db161070d13877a463e24b769aac60ea322fb",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          28.348876953125,
+          79.03388214111328,
+          96.6219711303711,
+          87.63688659667969
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2021",
+        "bbox": [
+          292.0542907714844,
+          66.67887878417969,
+          336.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "1,64,177",
+        "bbox": [
+          317.7393798828125,
+          79.03388214111328,
+          342.895263671875,
+          87.63688659667969
+        ]
+      },
+      "raw_value": "164177",
+      "normalized_value": "1641770000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:other_income:report2022",
+      "evidence_sha256": "e3f5694aabe110711950fd4b77231c6acfe68f3b691262af6fa1a0397d312328",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          28.342559814453125,
+          91.35388946533203,
+          66.03546905517578,
+          99.95689392089844
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          227.05430603027344,
+          66.67887878417969,
+          271.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": " 4,018 ",
+        "bbox": [
+          259.93890380859375,
+          91.35388946533203,
+          279.5003662109375,
+          99.95689392089844
+        ]
+      },
+      "raw_value": "4018",
+      "normalized_value": "40180000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2021:other_income:report2022",
+      "evidence_sha256": "e3ebc947cbe20f0c68bd6455afc98f5b5eeaa14d62ab48c59d89bf051fdf729a",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          28.342559814453125,
+          91.35388946533203,
+          66.03546905517578,
+          99.95689392089844
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2021",
+        "bbox": [
+          292.0542907714844,
+          66.67887878417969,
+          336.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "3,134 ",
+        "bbox": [
+          326.5390930175781,
+          91.35388946533203,
+          344.5003662109375,
+          99.95689392089844
+        ]
+      },
+      "raw_value": "3134",
+      "normalized_value": "31340000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:total_income:report2022",
+      "evidence_sha256": "efbfcaabe6b37d5a7de0165319d9637c7a71988aa8e32597c2cf30cb50de1ffe",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          28.34747314453125,
+          103.60389709472656,
+          73.99728393554688,
+          112.96289825439453
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          227.05430603027344,
+          66.67887878417969,
+          271.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "1,95,772",
+        "bbox": [
+          251.79330444335938,
+          103.60377502441406,
+          277.9004821777344,
+          112.96277618408203
+        ]
+      },
+      "raw_value": "195772",
+      "normalized_value": "1957720000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2021:total_income:report2022",
+      "evidence_sha256": "07ceaf08f30ac5308cc8bcd0afdca93784be136610103a1f3faa3aaa4d970adf",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          28.34747314453125,
+          103.60389709472656,
+          73.99728393554688,
+          112.96289825439453
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2021",
+        "bbox": [
+          292.0542907714844,
+          66.67887878417969,
+          336.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "1,67,311",
+        "bbox": [
+          316.7933044433594,
+          103.60377502441406,
+          342.9004821777344,
+          112.96277618408203
+        ]
+      },
+      "raw_value": "167311",
+      "normalized_value": "1673110000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:finance_costs:report2022",
+      "evidence_sha256": "40e0cdc83143303b03231b39aedc98707d435590c8be70efc26ee55ed62d3fd5",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          36.9031982421875,
+          152.9538116455078,
+          72.83777618408203,
+          161.5568084716797
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          227.05430603027344,
+          66.67887878417969,
+          271.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": " 784 ",
+        "bbox": [
+          264.9569091796875,
+          152.9538116455078,
+          279.5035705566406,
+          161.5568084716797
+        ]
+      },
+      "raw_value": "784",
+      "normalized_value": "7840000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2021:finance_costs:report2022",
+      "evidence_sha256": "3cbef4fa15066250f107db31dc90ce1efc8d07a714c2a667ef10ef127b8fc387",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          36.9031982421875,
+          152.9538116455078,
+          72.83777618408203,
+          161.5568084716797
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2021",
+        "bbox": [
+          292.0542907714844,
+          66.67887878417969,
+          336.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "637 ",
+        "bbox": [
+          331.5605163574219,
+          152.9538116455078,
+          344.5007019042969,
+          161.5568084716797
+        ]
+      },
+      "raw_value": "637",
+      "normalized_value": "6370000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:total_expenses:report2022",
+      "evidence_sha256": "7795ebc9937381cd8d89070da5a847d81c8fb703719a9d0e3b2de1246544a6b4",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          28.34759521484375,
+          189.8435821533203,
+          81.47550201416016,
+          199.20257568359375
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          227.05430603027344,
+          66.67887878417969,
+          271.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "1,44,085",
+        "bbox": [
+          251.7805938720703,
+          189.8435821533203,
+          277.9003601074219,
+          199.20257568359375
+        ]
+      },
+      "raw_value": "144085",
+      "normalized_value": "1440850000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2021:total_expenses:report2022",
+      "evidence_sha256": "aeb84f52ee69661623ba57820fabb506a8332e746f04764c893684a881227dc9",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          28.34759521484375,
+          189.8435821533203,
+          81.47550201416016,
+          199.20257568359375
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2021",
+        "bbox": [
+          292.0542907714844,
+          66.67887878417969,
+          336.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": "1,22,333",
+        "bbox": [
+          316.7933044433594,
+          189.8435821533203,
+          342.9004821777344,
+          199.20257568359375
+        ]
+      },
+      "raw_value": "122333",
+      "normalized_value": "1223330000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:profit_for_year:report2022",
+      "evidence_sha256": "ca736d73656083504b1e62622d90458d55b9462553f58085f7b718ca7ec58c94",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "current_year",
+      "label": {
+        "text": "PROFIT FOR THE YEAR",
+        "bbox": [
+          28.34771728515625,
+          300.7232971191406,
+          97.2130126953125,
+          310.082275390625
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          227.05430603027344,
+          66.67887878417969,
+          271.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": " 38,449 ",
+        "bbox": [
+          255.64869689941406,
+          300.72320556640625,
+          279.5256652832031,
+          310.0821838378906
+        ]
+      },
+      "raw_value": "38449",
+      "normalized_value": "384490000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2021:profit_for_year:report2022",
+      "evidence_sha256": "ced9d73ea1240ba9edb838292861d0b51e5689b0819d95d872ff7556cdb33dc5",
+      "source_sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "source_page": 245,
+      "column_role": "comparative",
+      "label": {
+        "text": "PROFIT FOR THE YEAR",
+        "bbox": [
+          28.34771728515625,
+          300.7232971191406,
+          97.2130126953125,
+          310.082275390625
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2021",
+        "bbox": [
+          292.0542907714844,
+          66.67887878417969,
+          336.7464904785156,
+          75.6248779296875
+        ]
+      },
+      "amount": {
+        "text": " 32,562 ",
+        "bbox": [
+          320.6614074707031,
+          300.72320556640625,
+          344.5257873535156,
+          310.0821838378906
+        ]
+      },
+      "raw_value": "32562",
+      "normalized_value": "325620000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:revenue:report2023",
+      "evidence_sha256": "ebe5125de6445eebe7d41c135e90451f9a173b1a8c93fb3ea6d755014d4562d1",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          54.24151611328125,
+          101.19615936279297,
+          145.49252319335938,
+          112.1851577758789
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          390.0675048828125,
+          89.86518859863281,
+          447.8114318847656,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "2,25,458",
+        "bbox": [
+          424.3845520019531,
+          101.19615936279297,
+          456.1724548339844,
+          112.1851577758789
+        ]
+      },
+      "raw_value": "225458",
+      "normalized_value": "2254580000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:revenue:report2023",
+      "evidence_sha256": "25fc3061eb6abaa16a7e24345c5d7d780971ce5f16f37eecdf0df698bb34cccb",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          54.24151611328125,
+          101.19615936279297,
+          145.49252319335938,
+          112.1851577758789
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          469.4835205078125,
+          89.86518859863281,
+          527.2274780273438,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "1,91,754",
+        "bbox": [
+          503.9805603027344,
+          101.19615936279297,
+          535.7684936523438,
+          112.1851577758789
+        ]
+      },
+      "raw_value": "191754",
+      "normalized_value": "1917540000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:other_income:report2023",
+      "evidence_sha256": "e2db1fe9e4269cffe85fde777e8c5f4b0a157141452fd83ebdb8d6757d54fa91",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          54.18756103515625,
+          111.74413299560547,
+          103.94856262207031,
+          122.7331314086914
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          390.0675048828125,
+          89.86518859863281,
+          447.8114318847656,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "3,449 ",
+        "bbox": [
+          435.7681884765625,
+          111.75017547607422,
+          458.2591247558594,
+          122.73917388916016
+        ]
+      },
+      "raw_value": "3449",
+      "normalized_value": "34490000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:other_income:report2023",
+      "evidence_sha256": "e3fc251f01e12ea8fe389fda1c9f2ebc8870cbdb89c0c2c6abde46cd09149bc1",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          54.18756103515625,
+          111.74413299560547,
+          103.94856262207031,
+          122.7331314086914
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          469.4835205078125,
+          89.86518859863281,
+          527.2274780273438,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "4,018 ",
+        "bbox": [
+          515.07080078125,
+          111.75017547607422,
+          537.561767578125,
+          122.73917388916016
+        ]
+      },
+      "raw_value": "4018",
+      "normalized_value": "40180000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:total_income:report2023",
+      "evidence_sha256": "44ad335fea7a2e99407de8519b7f308488af74eb5c20f0b5307e5a3ccc4bb2e2",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          54.17181396484375,
+          121.51515197753906,
+          110.67382049560547,
+          134.0071563720703
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          390.0675048828125,
+          89.86518859863281,
+          447.8114318847656,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "2,28,907",
+        "bbox": [
+          424.51580810546875,
+          121.51722717285156,
+          456.5377197265625,
+          134.0092315673828
+        ]
+      },
+      "raw_value": "228907",
+      "normalized_value": "2289070000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:total_income:report2023",
+      "evidence_sha256": "06186221e70faeee49d0305f18cb298d18a077dba71b92beaf33eb4df99720eb",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          54.17181396484375,
+          121.51515197753906,
+          110.67382049560547,
+          134.0071563720703
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          469.4835205078125,
+          89.86518859863281,
+          527.2274780273438,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "1,95,772",
+        "bbox": [
+          503.5646057128906,
+          121.51722717285156,
+          535.5865478515625,
+          134.0092315673828
+        ]
+      },
+      "raw_value": "195772",
+      "normalized_value": "1957720000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:finance_costs:report2023",
+      "evidence_sha256": "8d8ac12f0e38c1c9ea511d9784dbb95717b0fdb36b2a789b6a15262c2a9ad64d",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          62.798614501953125,
+          164.49212646484375,
+          111.06560516357422,
+          175.4811248779297
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          390.0675048828125,
+          89.86518859863281,
+          447.8114318847656,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "779 ",
+        "bbox": [
+          442.5356140136719,
+          164.49212646484375,
+          458.2585754394531,
+          175.4811248779297
+        ]
+      },
+      "raw_value": "779",
+      "normalized_value": "7790000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:finance_costs:report2023",
+      "evidence_sha256": "a90ba0a2d9435ad528ad9e1e5ac36451ddc4c03fe75600de7af37a5aecf4c120",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          62.798614501953125,
+          164.49212646484375,
+          111.06560516357422,
+          175.4811248779297
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          469.4835205078125,
+          89.86518859863281,
+          527.2274780273438,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "784 ",
+        "bbox": [
+          522.0596313476562,
+          164.49212646484375,
+          537.7825927734375,
+          175.4811248779297
+        ]
+      },
+      "raw_value": "784",
+      "normalized_value": "7840000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:total_expenses:report2023",
+      "evidence_sha256": "9109b9cf78ea776f36e07a590be98353fa5598e54443096f5bc2f02007f0d94c",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          54.16607666015625,
+          195.3651885986328,
+          116.57208251953125,
+          207.85719299316406
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          390.0675048828125,
+          89.86518859863281,
+          447.8114318847656,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "1,72,000",
+        "bbox": [
+          424.0036926269531,
+          195.36708068847656,
+          456.0256042480469,
+          207.8590850830078
+        ]
+      },
+      "raw_value": "172000",
+      "normalized_value": "1720000000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:total_expenses:report2023",
+      "evidence_sha256": "4621da348a66d5ca9243c31c35c857600d64a91fa441598e30159490c8562d73",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          54.16607666015625,
+          195.3651885986328,
+          116.57208251953125,
+          207.85719299316406
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          469.4835205078125,
+          89.86518859863281,
+          527.2274780273438,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": "1,44,085",
+        "bbox": [
+          503.6051025390625,
+          195.36708068847656,
+          535.6270751953125,
+          207.8590850830078
+        ]
+      },
+      "raw_value": "144085",
+      "normalized_value": "1440850000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:profit_for_year:report2023",
+      "evidence_sha256": "384a328041ca2914b38fb91fd0a6206b12803ded8cc0e572a519bcc5c8e1e4df",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "current_year",
+      "label": {
+        "text": "PROFIT FOR THE YEAR",
+        "bbox": [
+          54.451812744140625,
+          258.6651916503906,
+          136.61280822753906,
+          271.1571960449219
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          390.0675048828125,
+          89.86518859863281,
+          447.8114318847656,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": " 42,303 ",
+        "bbox": [
+          428.9588928222656,
+          258.66717529296875,
+          458.163818359375,
+          271.1591796875
+        ]
+      },
+      "raw_value": "42303",
+      "normalized_value": "423030000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2022:profit_for_year:report2023",
+      "evidence_sha256": "7eeb7eda96761726c1eb30948f8ac36ce0d9ee34a51c5a8753de22707ce5810d",
+      "source_sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "source_page": 191,
+      "column_role": "comparative",
+      "label": {
+        "text": "PROFIT FOR THE YEAR",
+        "bbox": [
+          54.451812744140625,
+          258.6651916503906,
+          136.61280822753906,
+          271.1571960449219
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2022",
+        "bbox": [
+          469.4835205078125,
+          89.86518859863281,
+          527.2274780273438,
+          102.35718536376953
+        ]
+      },
+      "amount": {
+        "text": " 38,449 ",
+        "bbox": [
+          508.2947082519531,
+          258.66717529296875,
+          537.4996948242188,
+          271.1591796875
+        ]
+      },
+      "raw_value": "38449",
+      "normalized_value": "384490000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:revenue:report2024",
+      "evidence_sha256": "a3b40799be9e9ad1c2902d8a1bfc1519be4b17b1e1062520df8a71db0122b87a",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          54.099822998046875,
+          104.20214080810547,
+          145.35443115234375,
+          115.1911392211914
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2024",
+        "bbox": [
+          389.8988342285156,
+          92.87117004394531,
+          447.64276123046875,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "2,40,893",
+        "bbox": [
+          424.3958435058594,
+          104.20214080810547,
+          456.1837463378906,
+          115.1911392211914
+        ]
+      },
+      "raw_value": "240893",
+      "normalized_value": "2408930000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:revenue:report2024",
+      "evidence_sha256": "73555051aa1f6c16995386ad2132f8d90e8b67eccd37157116a4f9d4161f0f6b",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          54.099822998046875,
+          104.20214080810547,
+          145.35443115234375,
+          115.1911392211914
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          469.29681396484375,
+          92.87117004394531,
+          527.040771484375,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "2,25,458",
+        "bbox": [
+          503.61383056640625,
+          104.20214080810547,
+          535.4017944335938,
+          115.1911392211914
+        ]
+      },
+      "raw_value": "225458",
+      "normalized_value": "2254580000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:other_income:report2024",
+      "evidence_sha256": "4616b6acfe13f588ec99c5d51ad488c186e40601ef1f9b091bcdfcf30bccb9a1",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          54.036834716796875,
+          114.75011444091797,
+          103.79873657226562,
+          125.7391128540039
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2024",
+        "bbox": [
+          389.8988342285156,
+          92.87117004394531,
+          447.64276123046875,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "4,422 ",
+        "bbox": [
+          435.98919677734375,
+          114.75017547607422,
+          458.4801330566406,
+          125.73917388916016
+        ]
+      },
+      "raw_value": "4422",
+      "normalized_value": "44220000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:other_income:report2024",
+      "evidence_sha256": "fdd9d30501dfa89713d4ea88e13f0cf917197ca1e96fee76614f59a4f3699dcb",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          54.036834716796875,
+          114.75011444091797,
+          103.79873657226562,
+          125.7391128540039
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          469.29681396484375,
+          92.87117004394531,
+          527.040771484375,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "3,449 ",
+        "bbox": [
+          514.99658203125,
+          114.75017547607422,
+          537.487548828125,
+          125.73917388916016
+        ]
+      },
+      "raw_value": "3449",
+      "normalized_value": "34490000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:total_income:report2024",
+      "evidence_sha256": "b362ee5bac3b970395694b87ee7cc4e4cf2665e04e30d02c47504efbe7b46fa8",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          54.02557373046875,
+          124.21815490722656,
+          110.53838348388672,
+          136.7101593017578
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2024",
+        "bbox": [
+          389.8988342285156,
+          92.87117004394531,
+          447.64276123046875,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "2,45,315",
+        "bbox": [
+          424.0932922363281,
+          124.21717834472656,
+          456.1152038574219,
+          136.7091827392578
+        ]
+      },
+      "raw_value": "245315",
+      "normalized_value": "2453150000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:total_income:report2024",
+      "evidence_sha256": "7fbb4b80bd2bbfa0251661d85d333ef68d16ff52037d21d4f492a53f36050309",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          54.02557373046875,
+          124.21815490722656,
+          110.53838348388672,
+          136.7101593017578
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          469.29681396484375,
+          92.87117004394531,
+          527.040771484375,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "2,28,907",
+        "bbox": [
+          503.74420166015625,
+          124.21717834472656,
+          535.7661743164062,
+          136.7091827392578
+        ]
+      },
+      "raw_value": "228907",
+      "normalized_value": "2289070000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:finance_costs:report2024",
+      "evidence_sha256": "15a7d3e962f07ef371ea449014f2bc42aabbd2a3f457610d70f98aad99a000e8",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          71.86119842529297,
+          166.30120849609375,
+          120.12820434570312,
+          177.2902069091797
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2024",
+        "bbox": [
+          389.8988342285156,
+          92.87117004394531,
+          447.64276123046875,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "778 ",
+        "bbox": [
+          442.3192138671875,
+          166.30120849609375,
+          458.04217529296875,
+          177.2902069091797
+        ]
+      },
+      "raw_value": "778",
+      "normalized_value": "7780000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:finance_costs:report2024",
+      "evidence_sha256": "b425ec51746991727bdbccb455267968291a2d37b9b8ecc0c2a3aaa4e06ac5ea",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          71.86119842529297,
+          166.30120849609375,
+          120.12820434570312,
+          177.2902069091797
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          469.29681396484375,
+          92.87117004394531,
+          527.040771484375,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "779 ",
+        "bbox": [
+          521.7532348632812,
+          166.30120849609375,
+          537.4761962890625,
+          177.2902069091797
+        ]
+      },
+      "raw_value": "779",
+      "normalized_value": "7790000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:total_expenses:report2024",
+      "evidence_sha256": "764b0ec73ce0f59cc209f5a1e3c476c68b7623f4f09d64aafba37f86a7d168a4",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          54.03070068359375,
+          196.8651885986328,
+          116.44480895996094,
+          209.35719299316406
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2024",
+        "bbox": [
+          389.8988342285156,
+          92.87117004394531,
+          447.64276123046875,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "1,82,360",
+        "bbox": [
+          423.86199951171875,
+          196.86708068847656,
+          455.8839111328125,
+          209.3590850830078
+        ]
+      },
+      "raw_value": "182360",
+      "normalized_value": "1823600000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:total_expenses:report2024",
+      "evidence_sha256": "040e44e86a73896beee2125329d9fd2e5a6636261c457f76a0ba72a673c7cb4c",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          54.03070068359375,
+          196.8651885986328,
+          116.44480895996094,
+          209.35719299316406
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          469.29681396484375,
+          92.87117004394531,
+          527.040771484375,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": "1,72,000",
+        "bbox": [
+          503.2320861816406,
+          196.86708068847656,
+          535.2540283203125,
+          209.3590850830078
+        ]
+      },
+      "raw_value": "172000",
+      "normalized_value": "1720000000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:profit_for_year:report2024",
+      "evidence_sha256": "f9205c3749ffaf9d44b16f3a6c55aa8ad4f2382371153135e784b6a1b4ed1929",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "PROFIT FOR THE YEAR",
+        "bbox": [
+          54.31011962890625,
+          289.4181823730469,
+          136.47560119628906,
+          301.9101867675781
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2024",
+        "bbox": [
+          389.8988342285156,
+          92.87117004394531,
+          447.64276123046875,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": " 46,099 ",
+        "bbox": [
+          428.7829895019531,
+          289.41717529296875,
+          457.9879150390625,
+          301.9091796875
+        ]
+      },
+      "raw_value": "46099",
+      "normalized_value": "460990000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2023:profit_for_year:report2024",
+      "evidence_sha256": "99cbe20e583b5490c9f68c1e13f48fb384e783a15ce129746bb5c5a85b3746d8",
+      "source_sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "PROFIT FOR THE YEAR",
+        "bbox": [
+          54.31011962890625,
+          289.4181823730469,
+          136.47560119628906,
+          301.9101867675781
+        ]
+      },
+      "year_header": {
+        "text": "March 31, 2023",
+        "bbox": [
+          469.29681396484375,
+          92.87117004394531,
+          527.040771484375,
+          105.36316680908203
+        ]
+      },
+      "amount": {
+        "text": " 42,303 ",
+        "bbox": [
+          508.1872863769531,
+          289.41717529296875,
+          537.3922729492188,
+          301.9091796875
+        ]
+      },
+      "raw_value": "42303",
+      "normalized_value": "423030000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:revenue:report2025",
+      "evidence_sha256": "a00a0899c5f1a1d3f079c48b968383c1e9419a2386dda7d73f9b1a10807c137f",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          51.3876953125,
+          104.27507781982422,
+          142.64230346679688,
+          115.26407623291016
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2025",
+        "bbox": [
+          397.7167053222656,
+          91.73811340332031,
+          455.46063232421875,
+          104.23011016845703
+        ]
+      },
+      "amount": {
+        "text": "2,55,32ϰ",
+        "bbox": [
+          430.8367004394531,
+          104.27507781982422,
+          462.6246032714844,
+          115.26407623291016
+        ]
+      },
+      "raw_value": "255324",
+      "normalized_value": "2553240000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:revenue:report2025",
+      "evidence_sha256": "c21bfda4e7c27115e6440417c5bda4b5aa61254e684711c8e695ae652bb1b4de",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          51.3876953125,
+          104.27507781982422,
+          142.64230346679688,
+          115.26407623291016
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2024",
+        "bbox": [
+          476.9977111816406,
+          90.73908996582031,
+          534.74169921875,
+          103.23108673095703
+        ]
+      },
+      "amount": {
+        "text": "2,ϰ0,893",
+        "bbox": [
+          510.14471435546875,
+          104.27507781982422,
+          541.9326782226562,
+          115.26407623291016
+        ]
+      },
+      "raw_value": "240893",
+      "normalized_value": "2408930000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:other_income:report2025",
+      "evidence_sha256": "03e820a0f5b78d1f20b7b06ed2086f4edb370f2ef217c1ad2aff76928bab64e9",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          51.32470703125,
+          114.82305145263672,
+          101.08660888671875,
+          125.81204986572266
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2025",
+        "bbox": [
+          397.7167053222656,
+          91.73811340332031,
+          455.46063232421875,
+          104.23011016845703
+        ]
+      },
+      "amount": {
+        "text": "3,962 ",
+        "bbox": [
+          442.36700439453125,
+          114.82421112060547,
+          464.8579406738281,
+          125.8132095336914
+        ]
+      },
+      "raw_value": "3962",
+      "normalized_value": "39620000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:other_income:report2025",
+      "evidence_sha256": "f2293c364529a6da91704b30ead7ac618072b49886d6bd875bbaf34371d81beb",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          51.32470703125,
+          114.82305145263672,
+          101.08660888671875,
+          125.81204986572266
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2024",
+        "bbox": [
+          476.9977111816406,
+          90.73908996582031,
+          534.74169921875,
+          103.23108673095703
+        ]
+      },
+      "amount": {
+        "text": "ϰ,ϰ22 ",
+        "bbox": [
+          521.7371215820312,
+          114.82421112060547,
+          544.2280883789062,
+          125.8132095336914
+        ]
+      },
+      "raw_value": "4422",
+      "normalized_value": "44220000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:total_income:report2025",
+      "evidence_sha256": "983a80a583bcf3f622f667b46bb76680879e2246994846e7ab8252f3759203cd",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          51.31610107421875,
+          124.29219055175781,
+          107.82890319824219,
+          136.78419494628906
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2025",
+        "bbox": [
+          397.7167053222656,
+          91.73811340332031,
+          455.46063232421875,
+          104.23011016845703
+        ]
+      },
+      "amount": {
+        "text": "2, 59, 286",
+        "bbox": [
+          430.2596130371094,
+          124.29121398925781,
+          462.2815246582031,
+          136.78321838378906
+        ]
+      },
+      "raw_value": "259286",
+      "normalized_value": "2592860000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:total_income:report2025",
+      "evidence_sha256": "d53006bce9509168b3f380f5c979780270eb26c214929221351a84f52ba7af99",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL INCOME",
+        "bbox": [
+          51.31610107421875,
+          124.29219055175781,
+          107.82890319824219,
+          136.78419494628906
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2024",
+        "bbox": [
+          476.9977111816406,
+          90.73908996582031,
+          534.74169921875,
+          103.23108673095703
+        ]
+      },
+      "amount": {
+        "text": "2, 45, 315",
+        "bbox": [
+          509.8411865234375,
+          124.29121398925781,
+          541.8631591796875,
+          136.78321838378906
+        ]
+      },
+      "raw_value": "245315",
+      "normalized_value": "2453150000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:finance_costs:report2025",
+      "evidence_sha256": "4e5750da7c0cb518e06d71364fb93c74eb5c5e051f85dcd270812b3722edc908",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          69.14715576171875,
+          166.3751220703125,
+          117.41864776611328,
+          177.36412048339844
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2025",
+        "bbox": [
+          397.7167053222656,
+          91.73811340332031,
+          455.46063232421875,
+          104.23011016845703
+        ]
+      },
+      "amount": {
+        "text": "796 ",
+        "bbox": [
+          448.8841857910156,
+          166.3751220703125,
+          464.6071472167969,
+          177.36412048339844
+        ]
+      },
+      "raw_value": "796",
+      "normalized_value": "7960000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:finance_costs:report2025",
+      "evidence_sha256": "2ac293bd407569b278e26800c7a935beab7436d2aef03a720f6ad96d5eba91f8",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          69.14715576171875,
+          166.3751220703125,
+          117.41864776611328,
+          177.36412048339844
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2024",
+        "bbox": [
+          476.9977111816406,
+          90.73908996582031,
+          534.74169921875,
+          103.23108673095703
+        ]
+      },
+      "amount": {
+        "text": "778 ",
+        "bbox": [
+          528.066162109375,
+          166.3751220703125,
+          543.7891235351562,
+          177.36412048339844
+        ]
+      },
+      "raw_value": "778",
+      "normalized_value": "7780000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:total_expenses:report2025",
+      "evidence_sha256": "56f41023a4a0b3a003d8ea2fecbab59888ad9e76569fbc84c16920d0cb761cf5",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          51.31591796875,
+          196.93910217285156,
+          113.73002624511719,
+          209.4311065673828
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2025",
+        "bbox": [
+          397.7167053222656,
+          91.73811340332031,
+          455.46063232421875,
+          104.23011016845703
+        ]
+      },
+      "amount": {
+        "text": "1, 93, 955",
+        "bbox": [
+          430.47119140625,
+          196.9411163330078,
+          462.49310302734375,
+          209.43312072753906
+        ]
+      },
+      "raw_value": "193955",
+      "normalized_value": "1939550000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:total_expenses:report2025",
+      "evidence_sha256": "5fe547aacf718a292413939da936ef8077a50bf2ffddef2a0ab45446baf86be3",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL EXPENSES",
+        "bbox": [
+          51.31591796875,
+          196.93910217285156,
+          113.73002624511719,
+          209.4311065673828
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2024",
+        "bbox": [
+          476.9977111816406,
+          90.73908996582031,
+          534.74169921875,
+          103.23108673095703
+        ]
+      },
+      "amount": {
+        "text": "1, 82, 360",
+        "bbox": [
+          509.6099853515625,
+          196.9411163330078,
+          541.6319580078125,
+          209.43312072753906
+        ]
+      },
+      "raw_value": "182360",
+      "normalized_value": "1823600000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:profit_for_year:report2025",
+      "evidence_sha256": "036a9819349d1db1117e059c0ed545ea9324ef4c0880d132d99ecf2144a456a2",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "current_year",
+      "label": {
+        "text": "PROFIT FOR THE Y EAR",
+        "bbox": [
+          51.597930908203125,
+          289.1921081542969,
+          133.7625274658203,
+          301.6841125488281
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2025",
+        "bbox": [
+          397.7167053222656,
+          91.73811340332031,
+          455.46063232421875,
+          104.23011016845703
+        ]
+      },
+      "amount": {
+        "text": " 48, 797 ",
+        "bbox": [
+          435.5989990234375,
+          289.19110107421875,
+          464.8039245605469,
+          301.68310546875
+        ]
+      },
+      "raw_value": "48797",
+      "normalized_value": "487970000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2024:profit_for_year:report2025",
+      "evidence_sha256": "1ecd3d28ab44d86b2b69bec465da207f0beb3c290e91c927bedc1ab436b3e57e",
+      "source_sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "source_page": 181,
+      "column_role": "comparative",
+      "label": {
+        "text": "PROFIT FOR THE Y EAR",
+        "bbox": [
+          51.597930908203125,
+          289.1921081542969,
+          133.7625274658203,
+          301.6841125488281
+        ]
+      },
+      "year_header": {
+        "text": "Marc h 31,  2024",
+        "bbox": [
+          476.9977111816406,
+          90.73908996582031,
+          534.74169921875,
+          103.23108673095703
+        ]
+      },
+      "amount": {
+        "text": " 46, 099 ",
+        "bbox": [
+          514.5308227539062,
+          289.19110107421875,
+          543.7357788085938,
+          301.68310546875
+        ]
+      },
+      "raw_value": "46099",
+      "normalized_value": "460990000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2026:revenue:report2026",
+      "evidence_sha256": "301e4ab00481d2b75d0ecfa97b29be4466cd917c90317f172da6a74fe0db90ae",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "current_year",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          60.20669937133789,
+          133.81826782226562,
+          121.09110260009766,
+          141.14427185058594
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2026",
+        "bbox": [
+          414.9249267578125,
+          120.77713775634766,
+          450.21307373046875,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "2,67,021",
+        "bbox": [
+          448.23870849609375,
+          133.81826782226562,
+          469.4306640625,
+          141.14427185058594
+        ]
+      },
+      "raw_value": "267021",
+      "normalized_value": "2670210000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:revenue:report2026",
+      "evidence_sha256": "6fb8fa66feef7d9e093f679757564022ae59b0b08742ee96f9beb0050f28c202",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "comparative",
+      "label": {
+        "text": "Revenue from operations",
+        "bbox": [
+          60.20669937133789,
+          133.81826782226562,
+          121.09110260009766,
+          141.14427185058594
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2025",
+        "bbox": [
+          494.2954406738281,
+          120.77713775634766,
+          529.5835571289062,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "2,55,324",
+        "bbox": [
+          527.606689453125,
+          133.81826782226562,
+          548.798583984375,
+          141.14427185058594
+        ]
+      },
+      "raw_value": "255324",
+      "normalized_value": "2553240000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2026:other_income:report2026",
+      "evidence_sha256": "ad21e00e5118ff93e0b52ccc041916507ec8011562f9fd7d16804cee469153ae",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "current_year",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          60.2066650390625,
+          143.29824829101562,
+          93.38127136230469,
+          150.62425231933594
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2026",
+        "bbox": [
+          414.9249267578125,
+          120.77713775634766,
+          450.21307373046875,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "4,402",
+        "bbox": [
+          455.78668212890625,
+          143.29824829101562,
+          469.4246520996094,
+          150.62425231933594
+        ]
+      },
+      "raw_value": "4402",
+      "normalized_value": "44020000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:other_income:report2026",
+      "evidence_sha256": "751dfa00278a5d22c60eafb73f7d9019d8e60f2fb73136437a25c2acb846a000",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "comparative",
+      "label": {
+        "text": "Other income",
+        "bbox": [
+          60.2066650390625,
+          143.29824829101562,
+          93.38127136230469,
+          150.62425231933594
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2025",
+        "bbox": [
+          494.2954406738281,
+          120.77713775634766,
+          529.5835571289062,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "3,962",
+        "bbox": [
+          535.1546630859375,
+          143.29824829101562,
+          548.7926025390625,
+          150.62425231933594
+        ]
+      },
+      "raw_value": "3962",
+      "normalized_value": "39620000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2026:total_income:report2026",
+      "evidence_sha256": "a823ef57f67a50ab17cc88ddb7f3d21f4552e2a02bee7afdc0af837bf7d21a63",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL IN COME",
+        "bbox": [
+          60.2066650390625,
+          152.25624084472656,
+          97.88188171386719,
+          160.584228515625
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2026",
+        "bbox": [
+          414.9249267578125,
+          120.77713775634766,
+          450.21307373046875,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "2, 7 1, 423",
+        "bbox": [
+          448.07666015625,
+          152.25624084472656,
+          469.42462158203125,
+          160.584228515625
+        ]
+      },
+      "raw_value": "271423",
+      "normalized_value": "2714230000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:total_income:report2026",
+      "evidence_sha256": "31842d0254cc53cc019ecb0e388e8fce01ebf0ce300b6efa5fae0e4366151c66",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL IN COME",
+        "bbox": [
+          60.2066650390625,
+          152.25624084472656,
+          97.88188171386719,
+          160.584228515625
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2025",
+        "bbox": [
+          494.2954406738281,
+          120.77713775634766,
+          529.5835571289062,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "2, 59, 286",
+        "bbox": [
+          527.4446411132812,
+          152.25624084472656,
+          548.7925415039062,
+          160.584228515625
+        ]
+      },
+      "raw_value": "259286",
+      "normalized_value": "2592860000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2026:finance_costs:report2026",
+      "evidence_sha256": "a48a9f1d4e745ec21dcd694f187a11c4541a50c0b3dee1f149084e7f4fd5b112",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "current_year",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          74.37860107421875,
+          190.69815063476562,
+          106.55960083007812,
+          198.02415466308594
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2026",
+        "bbox": [
+          414.9249267578125,
+          120.77713775634766,
+          450.21307373046875,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "1,227",
+        "bbox": [
+          455.78662109375,
+          190.69815063476562,
+          469.4245910644531,
+          198.02415466308594
+        ]
+      },
+      "raw_value": "1227",
+      "normalized_value": "12270000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:finance_costs:report2026",
+      "evidence_sha256": "1e85e43fe5198665101331df9a141d841497fadd2d5f6a85bdd2f5db9d99e234",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "comparative",
+      "label": {
+        "text": "Finance costs",
+        "bbox": [
+          74.37860107421875,
+          190.69815063476562,
+          106.55960083007812,
+          198.02415466308594
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2025",
+        "bbox": [
+          494.2954406738281,
+          120.77713775634766,
+          529.5835571289062,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "796",
+        "bbox": [
+          539.6666259765625,
+          190.69815063476562,
+          548.7926025390625,
+          198.02415466308594
+        ]
+      },
+      "raw_value": "796",
+      "normalized_value": "7960000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2026:total_expenses:report2026",
+      "evidence_sha256": "b9b71c67f9207dd5287cc0eda04048a4973c2c473f2477b3b7dca8ea972ce386",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "current_year",
+      "label": {
+        "text": "TOTAL EX PEN SES",
+        "bbox": [
+          60.20660400390625,
+          218.61610412597656,
+          101.8160171508789,
+          226.944091796875
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2026",
+        "bbox": [
+          414.9249267578125,
+          120.77713775634766,
+          450.21307373046875,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "2, 01, 410",
+        "bbox": [
+          448.07659912109375,
+          218.61610412597656,
+          469.424560546875,
+          226.944091796875
+        ]
+      },
+      "raw_value": "201410",
+      "normalized_value": "2014100000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:total_expenses:report2026",
+      "evidence_sha256": "e8c7a440e58a0def94075499a3729ba19cc21c2ee3fce55fe8130e6b63dcb9a9",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "comparative",
+      "label": {
+        "text": "TOTAL EX PEN SES",
+        "bbox": [
+          60.20660400390625,
+          218.61610412597656,
+          101.8160171508789,
+          226.944091796875
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2025",
+        "bbox": [
+          494.2954406738281,
+          120.77713775634766,
+          529.5835571289062,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": "1, 93, 955",
+        "bbox": [
+          527.444580078125,
+          218.61610412597656,
+          548.79248046875,
+          226.944091796875
+        ]
+      },
+      "raw_value": "193955",
+      "normalized_value": "1939550000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2026:profit_for_year:report2026",
+      "evidence_sha256": "89fd45cca4722a3b9114c5ccb60fdbefdf5f9970d9c12ccd6a141c4ba735c0d7",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "current_year",
+      "label": {
+        "text": "PROFIT FOR TH E Y EAR",
+        "bbox": [
+          60.206512451171875,
+          322.8961486816406,
+          114.98292541503906,
+          331.2241516113281
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2026",
+        "bbox": [
+          414.9249267578125,
+          120.77713775634766,
+          450.21307373046875,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": " 49, 454",
+        "bbox": [
+          451.3105163574219,
+          322.8961486816406,
+          469.4244689941406,
+          331.2241516113281
+        ]
+      },
+      "raw_value": "49454",
+      "normalized_value": "494540000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    },
+    {
+      "observation_id": "tcs:2025:profit_for_year:report2026",
+      "evidence_sha256": "199de938f5cf772e6eb987d9dabdc9c865fbf8b2504201ed2080d454387d0e91",
+      "source_sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "source_page": 167,
+      "column_role": "comparative",
+      "label": {
+        "text": "PROFIT FOR TH E Y EAR",
+        "bbox": [
+          60.206512451171875,
+          322.8961486816406,
+          114.98292541503906,
+          331.2241516113281
+        ]
+      },
+      "year_header": {
+        "text": "March 31,  2025",
+        "bbox": [
+          494.2954406738281,
+          120.77713775634766,
+          529.5835571289062,
+          128.4111328125
+        ]
+      },
+      "amount": {
+        "text": " 48, 7 97",
+        "bbox": [
+          530.6785278320312,
+          322.8961486816406,
+          545.75048828125,
+          331.2241516113281
+        ]
+      },
+      "raw_value": "48797",
+      "normalized_value": "487970000000",
+      "result": "label_row_and_dated_column_match",
+      "review_status": "pending"
+    }
+  ],
+  "summary": {
+    "documents": 10,
+    "pnl_observations": 120,
+    "approved_reviews": 0,
+    "production_writes": 0
+  },
+  "limitations": [
+    "Local bytes must be independently authenticated against official retrieval evidence.",
+    "Geometry checks corroborate extraction; they do not approve sources, definitions or series.",
+    "No balance-sheet or cash-flow row audit is asserted by this P&L packet.",
+    "Conflicts, target inspection and actual review decisions remain separate gates."
+  ]
+}

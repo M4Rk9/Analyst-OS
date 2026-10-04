@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "purpose": "Independent official re-fetch; corroboration only, no approved review ledger",
+  "retrievals": [
+    {
+      "source_key": "reliance-industries:12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2022,
+      "source_url": "https://www.ril.com/ar2021-22/pdf/RIL-Integrated-Annual-Report-2021-22.pdf",
+      "final_url": "https://www.ril.com/ar2021-22/pdf/RIL-Integrated-Annual-Report-2021-22.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:54:44.165084+00:00",
+      "sha256": "12c1797c5af606b8c8599b7d00b47aa232d4084270c5a4cf964b54ecfb52ed5b",
+      "bytes": 24650147,
+      "page_count": 247,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "reliance-industries:668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2023,
+      "source_url": "https://www.ril.com/ar2022-23/pdf/RIL-Integrated-Annual-Report-2022-23.pdf",
+      "final_url": "https://www.ril.com/ar2022-23/pdf/RIL-Integrated-Annual-Report-2022-23.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:00.837814+00:00",
+      "sha256": "668e2aa83dc751aaca87d81dfe487fc14171702f9327a1d3889383da41f91d6f",
+      "bytes": 18035699,
+      "page_count": 267,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "reliance-industries:d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2024,
+      "source_url": "https://www.ril.com/sites/default/files/reports/RIL-Integrated-Annual-Report-2023-24.pdf",
+      "final_url": "https://www.ril.com/sites/default/files/2024-08/RIL-Integrated-Annual-Report-2023-24.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:12.213750+00:00",
+      "sha256": "d8e3739d2e06f09b83a192e00cefda0113b5da778483e31018cb35429e72eafe",
+      "bytes": 15471517,
+      "page_count": 159,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "reliance-industries:bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2025,
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "final_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:50.845519+00:00",
+      "sha256": "bb541a68a0440fd4e27527afbb79f9a0e7584ae430fe9af244700709cacc0769",
+      "bytes": 11762229,
+      "page_count": 146,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "reliance-industries:ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "company_slug": "reliance-industries",
+      "report_fiscal_year": 2026,
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "final_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:00.583456+00:00",
+      "sha256": "ed8affb5e7d2da16e19ed925be925b04a8ee581038ff75ada1a5d0cb7309c1e0",
+      "bytes": 9681400,
+      "page_count": 147,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "tcs:6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2022,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/ar/annual-report-2021-2022.pdf",
+      "final_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/ar/annual-report-2021-2022.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:10.450595+00:00",
+      "sha256": "6a320c4a89bbf6cc1d34c794bc321d2bf669450b1632c2677c48263bf8bcd016",
+      "bytes": 9686807,
+      "page_count": 420,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "tcs:2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2023,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2022-23/ar/annual-report-2022-2023.pdf",
+      "final_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2022-23/ar/annual-report-2022-2023.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:10.369719+00:00",
+      "sha256": "2e23cd1b5989f16eda6327bae2737ca1307b900a61faddb523cefad9e734ae77",
+      "bytes": 10812472,
+      "page_count": 346,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "tcs:4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2024,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/ar/annual-report-2023-2024.pdf",
+      "final_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/ar/annual-report-2023-2024.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:20.018793+00:00",
+      "sha256": "4368b3466c37a083d50bfc19580d993652172937d8b3f11e6660001ee2af607f",
+      "bytes": 16745229,
+      "page_count": 340,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "tcs:62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2025,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/ar/annual-report-2024-2025.pdf",
+      "final_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/ar/annual-report-2024-2025.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:20.496554+00:00",
+      "sha256": "62ace414871697ed4c7ef34fd235fc3c89ed6208a30afe5ff2e49b5260fd8a57",
+      "bytes": 23905717,
+      "page_count": 336,
+      "matches_manifest": true
+    },
+    {
+      "source_key": "tcs:a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "company_slug": "tcs",
+      "report_fiscal_year": 2026,
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "final_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "status": 200,
+      "retrieved_at": "2026-10-04T07:53:20.498307+00:00",
+      "sha256": "a19bddbe9cfd136de02fbd266335034a31d507efe790dfec0241be9aa0b0a5a0",
+      "bytes": 22126348,
+      "page_count": 360,
+      "matches_manifest": true
+    }
+  ],
+  "uploaded_tcs_fy2026": {
+    "sha256": "e63271f157389386caac416cb70d2443b3e864ba35053706135a879d0aaba691",
+    "bytes": 30438344,
+    "selected_for_audit": false
+  },
+  "summary": {
+    "documents_refetched": 10,
+    "pinned_hash_matches": 10,
+    "approved_reviews": 0,
+    "production_writes": 0
+  }
+}
