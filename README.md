@@ -2,6 +2,8 @@
 
 **M2 update (2026-10-04):** [five-company controlled loading is independently verified](docs/M2_FIVE_COMPANY_LOAD_STATUS.md): 629 approved primary-source facts, preserved approval/provenance, 46 withheld conflict keys and two unavailable printed-dash candidates. M2 selected history population is complete; derived-output publication and production deployment verification remain open.
 
+**Next runtime step:** [loaded-history frontend bindings and the read-only analytics preview](docs/M3_WORKSPACE_BRIDGE.md) preserve reported definitions and unavailable values. The preview prepares derived publication; it does not write calculated database rows.
+
 Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspace built as a flagship portfolio project. It demonstrates financial analytics, Python data engineering, PostgreSQL/Supabase, local AI with Ollama, secure frontend engineering, testing, and deployment discipline.
 
 > **Positioning:** research and analysis tool only. Analyst OS does not provide investment advice, BUY/SELL signals, target prices, company investment rankings, or guaranteed returns.

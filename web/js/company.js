@@ -8,21 +8,7 @@ const COMPANY_META = Object.freeze({
   "larsen-toubro": { name: "Larsen & Toubro", symbol: "LT" },
 });
 
-const TREND_METRICS = new Set([
-  "revenue",
-  "operating_profit",
-  "ebitda",
-  "profit_after_tax",
-  "pat",
-  "net_income",
-  "eps",
-  "total_debt",
-  "debt",
-  "cash_from_operations",
-  "cfo",
-  "free_cash_flow",
-  "fcf",
-]);
+const TREND_METRICS = new Set(Object.keys(window.AnalystFinancialDisplay.labels));
 
 const SECTION_LABELS = Object.freeze({
   business_brief: "Business in brief",
@@ -74,8 +60,7 @@ function humanize(value) {
 }
 
 function numberValue(value) {
-  const parsed = Number(value);
-  return Number.isFinite(parsed) ? parsed : null;
+  return window.AnalystFinancialDisplay.numberValue(value);
 }
 
 function formatNumber(value, unit = "") {
@@ -169,17 +154,18 @@ function renderOverview(company) {
   panel.replaceChildren(element("h2", { text: "Overview" }), grid);
 }
 
-function renderTrendSvg(entries, label) {
-  const points = entries
-    .map((entry) => numberValue(entry.value))
-    .filter((value) => value !== null);
+function renderTrendSvg(entries, label, slug) {
+  const segments = window.AnalystFinancialDisplay.trendSegments(entries, slug);
+  const points = segments.flat();
   if (points.length < 2) return null;
 
   const width = 260;
   const height = 64;
   const padding = 6;
-  const minimum = Math.min(...points);
-  const maximum = Math.max(...points);
+  const minimum = Math.min(...points.map((point) => point.value));
+  const maximum = Math.max(...points.map((point) => point.value));
+  const firstYear = Math.min(...points.map((point) => point.period.fiscal_year));
+  const lastYear = Math.max(...points.map((point) => point.period.fiscal_year));
   const spread = maximum - minimum || 1;
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
@@ -187,21 +173,35 @@ function renderTrendSvg(entries, label) {
   svg.setAttribute("aria-label", `${label} trend`);
   svg.classList.add("trend-chart");
 
-  const polyline = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
-  polyline.setAttribute("points", points.map((value, index) => {
-    const x = padding + (index / (points.length - 1)) * (width - padding * 2);
-    const y = height - padding - ((value - minimum) / spread) * (height - padding * 2);
-    return `${x.toFixed(1)},${y.toFixed(1)}`;
-  }).join(" "));
-  polyline.setAttribute("fill", "none");
-  polyline.setAttribute("stroke", "currentColor");
-  polyline.setAttribute("stroke-width", "2");
-  polyline.setAttribute("vector-effect", "non-scaling-stroke");
-  svg.append(polyline);
+  const coordinates = (point) => [
+    padding + ((point.period.fiscal_year - firstYear) / (lastYear - firstYear || 1)) * (width - padding * 2),
+    height - padding - ((point.value - minimum) / spread) * (height - padding * 2),
+  ];
+  for (const segment of segments) {
+    if (segment.length > 1) {
+      const polyline = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
+      polyline.setAttribute("points", segment.map((point) => coordinates(point)
+        .map((coordinate) => coordinate.toFixed(1)).join(",")).join(" "));
+      polyline.setAttribute("fill", "none");
+      polyline.setAttribute("stroke", "currentColor");
+      polyline.setAttribute("stroke-width", "2");
+      polyline.setAttribute("vector-effect", "non-scaling-stroke");
+      svg.append(polyline);
+    }
+    for (const point of segment) {
+      const [x, y] = coordinates(point);
+      const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+      circle.setAttribute("cx", x.toFixed(1));
+      circle.setAttribute("cy", y.toFixed(1));
+      circle.setAttribute("r", "2.5");
+      circle.setAttribute("fill", "currentColor");
+      svg.append(circle);
+    }
+  }
   return svg;
 }
 
-function renderFinancials(facts, periodMap) {
+function renderFinancials(facts, periodMap, sourceMap, company) {
   const container = document.getElementById("financial-content");
   const groups = new Map();
   for (const fact of facts) {
@@ -209,7 +209,7 @@ function renderFinancials(facts, periodMap) {
     const period = periodMap.get(fact.reporting_period_id);
     if (!period) continue;
     if (!groups.has(fact.metric_code)) groups.set(fact.metric_code, []);
-    groups.get(fact.metric_code).push({ period, value: fact.normalized_value });
+    groups.get(fact.metric_code).push({ period, value: fact.normalized_value, fact });
   }
   if (!groups.size) {
     empty(container, "No verified preferred financial history has been loaded yet.");
@@ -219,7 +219,7 @@ function renderFinancials(facts, periodMap) {
   const table = element("table", { className: "data-table" });
   const head = element("thead");
   const headRow = element("tr");
-  for (const label of ["Metric", "Trend", "Latest", "Period"]) headRow.append(element("th", { text: label }));
+  for (const label of ["Reported metric", "History", "Latest (INR)", "Period", "Evidence"]) headRow.append(element("th", { text: label }));
   head.append(headRow);
   table.append(head);
   const body = element("tbody");
@@ -227,32 +227,31 @@ function renderFinancials(facts, periodMap) {
     entries.sort((a, b) => a.period.period_end.localeCompare(b.period.period_end));
     const latest = entries.at(-1);
     const row = element("tr");
-    row.append(element("th", { text: humanize(metric) }));
+    const label = window.AnalystFinancialDisplay.metricLabel(metric);
+    row.append(element("th", { text: label }));
     const trendCell = element("td");
-    trendCell.append(renderTrendSvg(entries, humanize(metric)) || element("span", {
+    trendCell.append(renderTrendSvg(entries, label, company.slug) || element("span", {
       className: "muted",
       text: "Insufficient history",
     }));
     row.append(trendCell);
     row.append(element("td", { className: "numeric", text: formatNumber(latest.value) }));
     row.append(element("td", { text: periodLabel(latest.period) }));
+    const evidence = element("td");
+    const source = sourceMap.get(latest.fact.source_document_id);
+    const link = source ? externalLink(`FY${source.fiscal_year} · PDF p.${latest.fact.source_page} ↗`, source.source_url) : null;
+    evidence.append(link || element("span", { text: "Unavailable" }));
+    row.append(evidence);
     body.append(row);
   }
   table.append(body);
-  container.replaceChildren(table);
+  const note = element("p", { className: "muted", text: "Reported consolidated figures in INR. Missing years are unavailable. Report scopes may differ; these lines do not assert comparable growth." });
+  if (company.slug === "tata-motors") note.append(element("span", { text: " Original Tata Motors continues into TMPV; FY2026 is a series break. The new CV company is separate. FY2024 core facts remain withheld." }));
+  container.replaceChildren(note, table);
 }
 
 function latestMetrics(metrics, periodMap) {
-  const selected = new Map();
-  for (const metric of metrics) {
-    const period = periodMap.get(metric.reporting_period_id);
-    if (!period) continue;
-    const current = selected.get(metric.metric_code);
-    if (!current || current.period.period_end < period.period_end) {
-      selected.set(metric.metric_code, { ...metric, period });
-    }
-  }
-  return [...selected.values()].sort((a, b) => a.metric_code.localeCompare(b.metric_code));
+  return window.AnalystFinancialDisplay.latestPeriodMetrics(metrics, periodMap);
 }
 
 function renderRatios(metrics, periodMap) {
@@ -453,9 +452,10 @@ async function loadWorkspace() {
       order: "period_end.asc",
     }),
     optionalRows("financial_facts", {
-      select: "reporting_period_id,metric_code,normalized_value,currency,source_document_id",
+      select: "id,reporting_period_id,metric_code,normalized_value,currency,source_document_id,source_page,source_label",
       company_id: filter,
       is_preferred: "eq.true",
+      quality_status: "eq.verified",
     }),
     optionalRows("calculated_metrics", {
       select: "reporting_period_id,metric_code,value,unit,formula_version,computed_at",
@@ -485,7 +485,7 @@ async function loadWorkspace() {
 
   const periodMap = new Map(periods.map((period) => [period.id, period]));
   const sourceMap = new Map(sources.map((source) => [source.id, source]));
-  renderFinancials(facts, periodMap);
+  renderFinancials(facts, periodMap, sourceMap, company);
   renderRatios(metrics, periodMap);
   renderSignals(flags, periodMap);
   renderInsights(insights, sourceMap);
