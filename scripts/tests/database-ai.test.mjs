@@ -96,8 +96,14 @@ async function drive(db, scenario, inject) {
   const timeout = setTimeout(() => child.kill(), 180_000);
   try {
     for await (const line of lines) {
-      const message = JSON.parse(line);
+      if (!line.startsWith('AI_RPC:')) {
+        stderr += `${line}\n`;
+        if (stderr.length > 65536) throw Error('AI test diagnostic limit exceeded');
+        continue;
+      }
+      const message = JSON.parse(line.slice('AI_RPC:'.length));
       if (message.result) { result = message.result; continue; }
+      if (typeof message.sql !== 'string') throw Error('Malformed framed AI test protocol');
       let sql = message.sql, index = 0;
       if (/^\s*insert\b/i.test(sql)) insertStatements++;
       sql = sql.replace(/%s/g, () => `$${++index}`);
@@ -116,6 +122,7 @@ async function drive(db, scenario, inject) {
     const exit = await closed;
     if (exit.error) throw exit.error;
     if (exit.code !== 0) throw new Error(stderr || `Publisher exited with code ${exit.code}`);
+    if (!result) throw Error(stderr || 'AI test exited without a framed result');
     return { result, insertStatements };
   } finally {
     clearTimeout(timeout);

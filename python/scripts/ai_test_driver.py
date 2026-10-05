@@ -20,7 +20,35 @@ from analyst_os_ingestion.planning import Review, build_load_plan, digest, empty
 from analyst_os_ingestion.publishing import canonical
 from analyst_os_ingestion.snapshot import collect_snapshot
 from scripts.plan_ril_tcs_load import load_catalog
-from scripts.publisher_test_driver import PROTOCOL_STDOUT, Connection
+from scripts.publisher_test_driver import PROTOCOL_STDOUT, Cursor
+
+PROTOCOL_PREFIX = "AI_RPC:"
+
+
+class Connection:
+    """TEST ONLY transport: frame SQL/result messages separately from diagnostics."""
+
+    from scripts.publisher_test_driver import Connection as _Base
+
+    pgconn = _Base.pgconn
+    info = _Base.info
+
+    def execute(self, sql, params=None):
+        print(
+            PROTOCOL_PREFIX + json.dumps({"sql": sql, "params": params}, default=str),
+            file=PROTOCOL_STDOUT,
+            flush=True,
+        )
+        response = json.loads(sys.stdin.readline())
+        if "error" in response:
+            raise RuntimeError(response["error"])
+        return Cursor(response["rows"])
+
+    def commit(self):
+        self.execute("commit")
+
+    def rollback(self):
+        self.execute("rollback")
 
 
 def run(scenario):
@@ -135,9 +163,11 @@ def run(scenario):
 
 
 if __name__ == "__main__":
+    # Deliberately reproduce dependency/startup noise in every ephemeral test.
+    print("warning: TEST ONLY incidental diagnostic", file=PROTOCOL_STDOUT, flush=True)
     try:
         with redirect_stdout(sys.stderr):
             outcome = run(sys.argv[1])
     except Exception as error:
         outcome = {"error": str(error)}
-    print(json.dumps({"result": outcome}), file=PROTOCOL_STDOUT, flush=True)
+    print(PROTOCOL_PREFIX + json.dumps({"result": outcome}), file=PROTOCOL_STDOUT, flush=True)
