@@ -53,7 +53,7 @@ Verified on the live target: selected five-company primary filings, exact approv
 
 M3 production publication is independently verified: [43 metrics / one signal / 32 unavailable](M3_PUBLICATION_VERIFICATION.md). Wider formulas remain unavailable where definitions or inputs do not support them.
 
-## M4 — AI Insight Pipeline — Completed in repository; runtime pending
+## M4 — AI Insight Pipeline — First RIL publication verified; runtime partially complete
 
 - Trusted-root PDF validation and bounded PyMuPDF extraction
 - Page-aware document chunking
@@ -65,7 +65,7 @@ M3 production publication is independently verified: [43 metrics / one signal / 
 - RLS limiting public visibility to validated insights backed by permitted source documents
 - Tests for path traversal, invalid files, loopback enforcement, prompt/evidence boundaries and provenance
 
-The [controlled M4 workflow](M4_CONTROLLED_PUBLICATION.md) adds exact quotation checks, model digest capture, explicit per-insight review, private provenance, native dry-run/apply, atomic receipts and recovery. Structural validation is not semantic truth verification. Actual Ollama generation, human AI review, production receipt and browser evidence rendering remain runtime gates.
+The [controlled M4 workflow](M4_CONTROLLED_PUBLICATION.md) adds exact quotation checks, model digest capture, explicit per-insight review, private provenance, native dry-run/apply, atomic receipts and recovery. Structural validation is not semantic truth verification. [The first RIL publication is independently verified](M4_PUBLICATION_VERIFICATION.md): genuine local generation, reviewer-corrected citations, explicit approval, atomic publication, durable receipt and anon-role visibility. Other-company coverage, HTTP Data API and browser evidence rendering remain runtime gates.
 
 ## M5 — Interactive Frontend — Completed in repository
 

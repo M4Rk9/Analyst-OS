@@ -1,8 +1,8 @@
 # Analyst OS
 
-**M2 update (2026-10-04):** [five-company controlled loading is independently verified](docs/M2_FIVE_COMPANY_LOAD_STATUS.md): 629 approved primary-source facts, preserved approval/provenance, 46 withheld conflict keys and two unavailable printed-dash candidates. M2 selected history population is complete. M3 production publication is verified; AI publication and deployment gates remain open.
+**M2 update (2026-10-04):** [five-company controlled loading is independently verified](docs/M2_FIVE_COMPANY_LOAD_STATUS.md): 629 approved primary-source facts, preserved approval/provenance, 46 withheld conflict keys and two unavailable printed-dash candidates. M2 selected history population is complete. M3 production publication is verified; remaining AI coverage and deployment gates remain open.
 
-**M3 live verified:** [43 metrics and one signal were loaded through the native controlled publisher](docs/M3_PUBLICATION_VERIFICATION.md); 32 calculations remain unavailable. **Next runtime step:** [M4 controlled local AI drafting, explicit review and publication](docs/M4_CONTROLLED_PUBLICATION.md). No AI output has been approved or published yet.
+**M3 live verified:** [43 metrics and one signal were loaded through the native controlled publisher](docs/M3_PUBLICATION_VERIFICATION.md); 32 calculations remain unavailable. **Next runtime step:** [M4 controlled local AI drafting, explicit review and publication](docs/M4_CONTROLLED_PUBLICATION.md). [One RIL insight is now independently verified live](docs/M4_PUBLICATION_VERIFICATION.md); the other four companies and browser checks remain pending.
 
 Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspace built as a flagship portfolio project. It demonstrates financial analytics, Python data engineering, PostgreSQL/Supabase, local AI with Ollama, secure frontend engineering, testing, and deployment discipline.
 
@@ -148,7 +148,7 @@ A milestone is not considered verified while its required gate is failing.
 | M1 — Data Foundation | Completed in repository |
 | M2 — Financial Data Pipeline | Completed — 629 approved facts independently verified |
 | M3 — Financial Analytics | Selected reported policy published and verified |
-| M4 — AI Insight Pipeline | Controlled workflow implemented; local execution/review/publication pending |
+| M4 — AI Insight Pipeline | First RIL insight published and verified; remaining coverage/browser checks pending |
 | M5 — Interactive Frontend | Completed in repository |
 | M6 — Security & Performance Hardening | Completed in repository |
 | M7 — Portfolio Release | In progress — external deployment/runtime checks pending |
