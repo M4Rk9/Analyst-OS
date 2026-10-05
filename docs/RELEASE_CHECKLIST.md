@@ -20,8 +20,9 @@ Selected core history is reviewed and loaded: 629 facts, 46 explicitly withheld 
 - [x] M1 schema/RLS foundation implemented
 - [x] M3 deterministic analytics implemented
 - [x] M3 controlled reported-policy publisher, SQL input/arithmetic guards, atomic receipts, recovery and frontend evidence bindings implemented — [workflow and coverage](M3_CONTROLLED_PUBLICATION.md)
-- [ ] M3 native production publication and receipt independently verified — 43 metrics / one signal / 32 unavailable expected
-- [x] M4 local source-backed AI pipeline implemented
+- [x] M3 native production publication and receipt independently verified — [43 metrics / one signal / 32 unavailable](M3_PUBLICATION_VERIFICATION.md)
+- [x] M4 local source-backed AI pipeline and controlled review/publication workflow implemented — [operator guide](M4_CONTROLLED_PUBLICATION.md)
+- [ ] M4 actual local model generation, exact human AI reviews, native publication receipts and browser evidence rendering independently verified
 - [x] M5 interactive static frontend implemented
 - [x] M6 security/frontend integration merged with green CI
 - [x] M2 verified-data population complete

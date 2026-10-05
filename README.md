@@ -1,8 +1,8 @@
 # Analyst OS
 
-**M2 update (2026-10-04):** [five-company controlled loading is independently verified](docs/M2_FIVE_COMPANY_LOAD_STATUS.md): 629 approved primary-source facts, preserved approval/provenance, 46 withheld conflict keys and two unavailable printed-dash candidates. M2 selected history population is complete; derived-output publication and production deployment verification remain open.
+**M2 update (2026-10-04):** [five-company controlled loading is independently verified](docs/M2_FIVE_COMPANY_LOAD_STATUS.md): 629 approved primary-source facts, preserved approval/provenance, 46 withheld conflict keys and two unavailable printed-dash candidates. M2 selected history population is complete. M3 production publication is verified; AI publication and deployment gates remain open.
 
-**Next runtime step:** [M3 controlled reported analytics publication](docs/M3_CONTROLLED_PUBLICATION.md) implements the native publisher, database guards, provenance, receipts, recovery and frontend evidence links. After migration and native apply, the approved history supports 43 calculations and one investigation signal; 32 calculations stay unavailable. Live publication remains pending until its receipt is verified.
+**M3 live verified:** [43 metrics and one signal were loaded through the native controlled publisher](docs/M3_PUBLICATION_VERIFICATION.md); 32 calculations remain unavailable. **Next runtime step:** [M4 controlled local AI drafting, explicit review and publication](docs/M4_CONTROLLED_PUBLICATION.md). No AI output has been approved or published yet.
 
 Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspace built as a flagship portfolio project. It demonstrates financial analytics, Python data engineering, PostgreSQL/Supabase, local AI with Ollama, secure frontend engineering, testing, and deployment discipline.
 
@@ -12,7 +12,7 @@ Analyst OS is a minimalist, source-backed, AI-assisted company-analysis workspac
 
 Repository engineering is implemented through **M6 — Security & Performance Hardening**. The project is **not yet production-ready** because runtime release gates remain:
 
-1. **M3/M4 runtime outputs:** publish definition-compatible deterministic analytics and validated AI outputs through controlled paths, then verify frontend binding. The [M2 load verification](docs/M2_FIVE_COMPANY_LOAD_STATUS.md) includes the post-load formula rerun; it does not publish derived database rows.
+1. **M4 runtime outputs:** generate real local-model drafts, explicitly review their source-backed claims, publish through the native controlled path, and verify frontend binding. The [M2 load verification](docs/M2_FIVE_COMPANY_LOAD_STATUS.md) includes the post-load formula rerun; it does not publish derived database rows.
 2. **M7 deployment verification:** complete HTTP Data API, concurrency/recovery, Cloudflare Pages, security-header, browser and accessibility checks.
 
 No synthetic production financial values are used merely to make the UI appear complete.
@@ -147,8 +147,8 @@ A milestone is not considered verified while its required gate is failing.
 | M0 — Foundation | Completed |
 | M1 — Data Foundation | Completed in repository |
 | M2 — Financial Data Pipeline | Completed — 629 approved facts independently verified |
-| M3 — Financial Analytics | Completed in repository |
-| M4 — AI Insight Pipeline | Completed in repository |
+| M3 — Financial Analytics | Selected reported policy published and verified |
+| M4 — AI Insight Pipeline | Controlled workflow implemented; local execution/review/publication pending |
 | M5 — Interactive Frontend | Completed in repository |
 | M6 — Security & Performance Hardening | Completed in repository |
 | M7 — Portfolio Release | In progress — external deployment/runtime checks pending |

@@ -347,7 +347,10 @@ function renderInsights(insights, sourceMap) {
     );
 
     const meta = element("div", { className: "insight-meta" });
-    meta.append(element("span", { text: `${insight.confidence} confidence` }));
+    meta.append(element("span", {
+      text: `Reviewed AI interpretation · ${insight.confidence} model self-assessment`,
+    }));
+    meta.append(element("span", { text: `Local model: ${insight.model_name}` }));
     const source = sourceMap.get(insight.source_document_id);
     for (const evidence of evidenceItems(insight)) {
       const page = Number.isInteger(Number(evidence.page)) ? Number(evidence.page) : null;
@@ -355,8 +358,13 @@ function renderInsights(insights, sourceMap) {
       const label = [source?.title || "Primary source", page ? `p.${page}` : "", section]
         .filter(Boolean)
         .join(" · ");
-      const link = externalLink(`${label} ↗`, evidence.source_url);
+      const citationUrl = safeHttpsUrl(evidence.source_url);
+      if (citationUrl && page) citationUrl.hash = `page=${page}`;
+      const link = externalLink(`${label} ↗`, citationUrl?.href);
       if (link) meta.append(link);
+      if (typeof evidence.quote === "string" && evidence.quote.length <= 1000) {
+        card.append(element("blockquote", { text: evidence.quote }));
+      }
     }
     card.append(meta);
     list.append(card);

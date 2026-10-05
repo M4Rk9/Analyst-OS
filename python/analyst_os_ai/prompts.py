@@ -27,10 +27,7 @@ def build_analysis_prompt(
 
     metrics_json = json.dumps(calculated_metrics or {}, sort_keys=True, ensure_ascii=False)
     evidence_json = json.dumps(
-        [
-            {"page": chunk.page, "source_url": source_url, "text": chunk.text}
-            for chunk in chunks
-        ],
+        [{"page": chunk.page, "source_url": source_url, "text": chunk.text} for chunk in chunks],
         ensure_ascii=False,
     )
 
@@ -61,7 +58,8 @@ Use this JSON shape:
       "title": "...",
       "text": "...",
       "confidence": "low|medium|high",
-      "evidence": [{{"source_url": "{source_url}", "page": 1, "section": null}}]
+      "evidence": [{{"source_url": "{source_url}", "page": 1, "section": null,
+                    "quote": "Copy 20-1000 exact characters from the cited page."}}]
     }}
   ]
 }}

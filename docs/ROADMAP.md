@@ -38,7 +38,7 @@ Implemented and verified in repository:
 
 Verified on the live target: selected five-company primary filings, exact approved observations and definitions, controlled native loads, every fact/source/approval fingerprint, explicit withheld conflicts and unavailable dashes. See [the verification record](M2_FIVE_COMPANY_LOAD_STATUS.md) and its post-load deterministic checks. Selected core coverage does not imply full note transcription, resolved disagreements or comparable-growth inputs.
 
-## M3 — Financial Analytics — Completed in repository
+## M3 — Financial Analytics — Selected reported policy published and verified
 
 - Growth and CAGR
 - Margins and ROE/ROA/ROCE
@@ -51,7 +51,9 @@ Verified on the live target: selected five-company primary filings, exact approv
 
 **Verified:** merged CI passed the repository quality/security gate.
 
-## M4 — AI Insight Pipeline — Completed in repository
+M3 production publication is independently verified: [43 metrics / one signal / 32 unavailable](M3_PUBLICATION_VERIFICATION.md). Wider formulas remain unavailable where definitions or inputs do not support them.
+
+## M4 — AI Insight Pipeline — Completed in repository; runtime pending
 
 - Trusted-root PDF validation and bounded PyMuPDF extraction
 - Page-aware document chunking
@@ -63,7 +65,7 @@ Verified on the live target: selected five-company primary filings, exact approv
 - RLS limiting public visibility to validated insights backed by permitted source documents
 - Tests for path traversal, invalid files, loopback enforcement, prompt/evidence boundaries and provenance
 
-**Verified:** merged M4 implementation and hardening PRs passed CI.
+The [controlled M4 workflow](M4_CONTROLLED_PUBLICATION.md) adds exact quotation checks, model digest capture, explicit per-insight review, private provenance, native dry-run/apply, atomic receipts and recovery. Structural validation is not semantic truth verification. Actual Ollama generation, human AI review, production receipt and browser evidence rendering remain runtime gates.
 
 ## M5 — Interactive Frontend — Completed in repository
 

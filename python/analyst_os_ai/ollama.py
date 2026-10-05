@@ -1,14 +1,52 @@
 """Minimal loopback-only Ollama client for offline analysis."""
 
 import json
+import math
 import re
 from urllib.parse import urlparse
-from urllib.request import ProxyHandler, Request, build_opener
+from urllib.request import HTTPRedirectHandler, ProxyHandler, Request, build_opener
 
 DEFAULT_OLLAMA_URL = "http://127.0.0.1:11434"
 MODEL_PATTERN = re.compile(r"^[A-Za-z0-9_.:-]{1,120}$")
 ALLOWED_HOSTS = {"127.0.0.1", "::1"}
 MAX_TIMEOUT_SECONDS = 300.0
+MAX_RESPONSE_BYTES = 2 * 1024 * 1024
+
+
+class NoRedirect(HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        raise OllamaSecurityError("Ollama redirects are forbidden")
+
+
+def local_response(request, timeout):
+    opener = build_opener(ProxyHandler({}), NoRedirect())
+    with opener.open(request, timeout=timeout) as response:  # noqa: S310
+        raw = response.read(MAX_RESPONSE_BYTES + 1)
+    if len(raw) > MAX_RESPONSE_BYTES:
+        raise ValueError("Ollama response exceeds bounded limit")
+    return json.loads(raw.decode("utf-8"))
+
+
+def model_digest(model, base_url=DEFAULT_OLLAMA_URL):
+    if not MODEL_PATTERN.fullmatch(model) or "cloud" in model.lower():
+        raise OllamaSecurityError("invalid Ollama model name")
+    base = validate_local_ollama_url(base_url)
+    data = local_response(Request(base + "/api/tags"), 30)  # noqa: S310
+    matches = [m for m in data.get("models", []) if m.get("name") == model]
+    if len(matches) != 1 or not re.fullmatch(r"[a-f0-9]{64}", matches[0].get("digest", "")):
+        raise ValueError("requested exact local model tag/digest is unavailable")
+    installed = matches[0]
+    if (
+        not isinstance(installed.get("size"), int)
+        or installed["size"] <= 0
+        or installed.get("details", {}).get("format") != "gguf"
+        or installed.get("remote_host")
+        or installed.get("remote_model")
+    ):
+        raise OllamaSecurityError(
+            "model must have installed local GGUF weights, not cloud metadata"
+        )
+    return matches[0]["digest"]
 
 
 class OllamaSecurityError(ValueError):
@@ -42,9 +80,9 @@ def generate_json(
 ) -> dict[str, object]:
     """Call local Ollama and decode its JSON-formatted model response."""
 
-    if not MODEL_PATTERN.fullmatch(model):
+    if not MODEL_PATTERN.fullmatch(model) or "cloud" in model.lower():
         raise OllamaSecurityError("invalid Ollama model name")
-    if timeout_seconds <= 0 or timeout_seconds > MAX_TIMEOUT_SECONDS:
+    if not math.isfinite(timeout_seconds) or not 0 < timeout_seconds <= MAX_TIMEOUT_SECONDS:
         raise OllamaSecurityError("Ollama timeout is outside the allowed range")
 
     base = validate_local_ollama_url(base_url)
@@ -66,9 +104,7 @@ def generate_json(
     )
 
     # Do not inherit HTTP(S)_PROXY or other proxy environment settings.
-    opener = build_opener(ProxyHandler({}))
-    with opener.open(request, timeout=timeout_seconds) as response:  # noqa: S310
-        outer = json.loads(response.read().decode("utf-8"))
+    outer = local_response(request, timeout_seconds)
 
     model_text = outer.get("response")
     if not isinstance(model_text, str):
