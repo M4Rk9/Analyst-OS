@@ -3,6 +3,8 @@
 import json
 import sys
 from contextlib import redirect_stdout
+from datetime import UTC, datetime
+from pathlib import Path
 
 from analyst_os_ai.publishing import (
     begin,
@@ -13,15 +15,45 @@ from analyst_os_ai.publishing import (
     source_record,
 )
 from analyst_os_ai.review import review_template
-from analyst_os_ingestion.planning import digest
+from analyst_os_ingestion import publishing as source_publisher
+from analyst_os_ingestion.planning import Review, build_load_plan, digest, empty_reviews
 from analyst_os_ingestion.publishing import canonical
+from analyst_os_ingestion.snapshot import collect_snapshot
+from scripts.plan_ril_tcs_load import load_catalog
 from scripts.publisher_test_driver import PROTOCOL_STDOUT, Connection
-from scripts.publisher_test_driver import run as load_source
 
 
 def run(scenario):
-    load_source("one")
     db = Connection()
+    # Bootstrap directly through the real publisher. Do not call another test
+    # driver's run(), whose diagnostic/protocol scenarios own their stdout.
+    catalog = load_catalog(Path(__file__).resolve().parents[2])
+    reviews = empty_reviews(catalog)
+    entry = catalog["candidates"][0]
+    approval = Review(
+        status="approved",
+        reviewer="TEST ONLY",
+        reviewed_at=datetime(2020, 1, 1, tzinfo=UTC),
+        rationale="Synthetic ephemeral source fixture, never production",
+    )
+    reviews.sources[entry["source_key"]] = approval
+    reviews.facts[entry["observation"]["observation_id"]] = approval
+    target = collect_snapshot(
+        db, project_ref="abcdefghijklmnopqrst", scope=["reliance-industries", "tcs"]
+    )
+    initial = build_load_plan(
+        catalog, reviews, target=target, expected_project_ref="abcdefghijklmnopqrst"
+    )
+    request = source_publisher.prepare_request(
+        catalog,
+        reviews,
+        target,
+        initial,
+        expected_plan_sha256=digest(initial),
+        project_ref="abcdefghijklmnopqrst",
+    )
+    source_plan = source_publisher.preview(db, request)
+    source_publisher.publish(db, request, expected_schema_sha256=source_plan["schema_sha256"])
     source_id = db.execute("select id::text from public.source_documents limit 1").fetchone()["id"]
     begin(db)
     source = source_record(db, source_id)
