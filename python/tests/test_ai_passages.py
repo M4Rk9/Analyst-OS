@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 from analyst_os_ai.chunking import DocumentChunk
 from analyst_os_ai.passages import build_passages, resolve_selection
-from analyst_os_ai.pipeline import generate_insights, AIOutputValidationError
+from analyst_os_ai.pipeline import AIOutputValidationError, generate_insights
 from analyst_os_ai.prompts import build_selection_prompt
 from pydantic import ValidationError
 
