@@ -1,8 +1,10 @@
 # M4 controlled local AI publication
 
-Repository implementation is ready for local execution. **Live M4 is pending**:
-no actual Ollama drafts, human AI reviews or AI publication receipts have been
-verified. M2 source approvals and M3 approvals do not approve AI interpretations.
+Repository implementation is ready for local execution. **Live M4 is partially complete**:
+[one RIL insight is published and independently verified](M4_PUBLICATION_VERIFICATION.md),
+including its explicit review, durable receipt and anon-role visibility. The other four
+companies and browser checks remain pending. M2 source approvals and M3 approvals
+do not approve AI interpretations.
 
 ## Boundaries
 
