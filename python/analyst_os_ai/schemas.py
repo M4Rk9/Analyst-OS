@@ -22,6 +22,7 @@ class EvidenceReference(BaseModel):
     source_url: HttpUrl
     page: int = Field(gt=0)
     section: str | None = Field(default=None, max_length=160)
+    quote: str | None = Field(default=None, min_length=20, max_length=1000)
 
     @field_validator("source_url")
     @classmethod

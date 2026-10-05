@@ -37,3 +37,7 @@ AI output must not contain or drive:
 ## Provenance
 
 Each stored insight retains company, source document, source page, optional source section, model name, prompt version, validation status, and timestamps. The database exposes only validated rows through SELECT-only RLS policy.
+
+## Controlled M4 execution
+
+Use [M4_CONTROLLED_PUBLICATION.md](M4_CONTROLLED_PUBLICATION.md) for the executable workflow. Legacy schema/page-only validation is draft-level validation, not publication approval. Publication requires exact quotations, a pinned PDF/model digest, explicit review of the exact draft, native preview hashes and a durable receipt. Live AI publication is pending.
