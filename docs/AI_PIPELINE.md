@@ -10,8 +10,8 @@ Analyst OS uses local Ollama only. The public Cloudflare Pages application never
 4. Page-aware chunks preserve source-page provenance.
 5. Python-calculated metrics may be supplied as verified context.
 6. The prompt explicitly treats document content as untrusted evidence, never instructions.
-7. Ollama is called only through a localhost URL.
-8. JSON output is validated with Pydantic.
+7. Python builds a bounded catalog of exact contiguous source passages, each with an ID and physical PDF page. Whitespace and punctuation inside each passage are preserved.
+8. Ollama is called only through a localhost URL and selects passage IDs for its interpretations. Strict Pydantic validation rejects unknown IDs and model-supplied quote, page, or URL overrides. Python attaches the catalog's exact citations before validating the persisted bundle.
 9. Company, model, source URL, and cited pages must match the supplied evidence.
 10. Only validated output is eligible for controlled storage in `public.ai_insights`.
 
@@ -41,3 +41,9 @@ Each stored insight retains company, source document, source page, optional sour
 ## Controlled M4 execution
 
 Use [M4_CONTROLLED_PUBLICATION.md](M4_CONTROLLED_PUBLICATION.md) for the executable workflow. Legacy schema/page-only validation is draft-level validation, not publication approval. Publication requires exact quotations, a pinned PDF/model digest, explicit review of the exact draft, native preview hashes and a durable receipt. Live AI publication is pending.
+
+## Exact passage selection
+
+Generation asks for 1–3 concise supported interpretations and may omit sections. Short fragments under 20 characters are excluded; passages are at most 800 characters. Passage IDs are local to each request, and only the resolved quote/page/URL is saved in the draft. The persisted `reviewed-quotes-2.0` contract and database migration are unchanged. Freehand rejected drafts cannot be repaired through this path: generate a new draft instead.
+
+Exact quotation matching establishes provenance, not semantic support. A reviewer must still check the whole claim against its selected passages, attribute management aspirations, and reject misleading or unsupported interpretations. A catalog can contain untrusted instructions, but those instructions have no authority. Live M4 completion still requires genuine local generation, explicit review, controlled publication, receipt verification, and public UI checks.
