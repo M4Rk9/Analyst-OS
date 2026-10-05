@@ -6,7 +6,8 @@ from pydantic import HttpUrl, TypeAdapter, ValidationError
 
 from .chunking import DocumentChunk
 from .ollama import generate_json
-from .prompts import SYSTEM_INSTRUCTIONS, build_analysis_prompt
+from .passages import build_passages, resolve_selection
+from .prompts import SYSTEM_INSTRUCTIONS, build_selection_prompt
 from .schemas import AIInsightBundle
 
 COMPANY_SLUG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
@@ -78,10 +79,10 @@ def generate_insights(
     if sum(len(chunk.text) for chunk in chunks) > MAX_CONTEXT_CHARS:
         raise ValueError("AI evidence context exceeds the configured character limit")
 
-    prompt = build_analysis_prompt(
+    passages = build_passages(chunks)
+    prompt = build_selection_prompt(
         company_slug=company_slug,
-        source_url=canonical_source,
-        chunks=chunks,
+        passages=passages,
         calculated_metrics=calculated_metrics,
     )
     payload = generate_json(
@@ -90,7 +91,12 @@ def generate_insights(
         user_prompt=prompt,
         base_url=ollama_base_url,
     )
-    payload["model_name"] = model
+    try:
+        payload = resolve_selection(
+            payload, passages=passages, source_url=canonical_source, model=model
+        )
+    except (ValidationError, ValueError) as exc:
+        raise AIOutputValidationError("AI output failed source passage selection") from exc
     return validate_insight_bundle(
         payload,
         expected_company_slug=company_slug,
@@ -98,3 +104,4 @@ def generate_insights(
         allowed_source_url=canonical_source,
         allowed_pages={chunk.page for chunk in chunks},
     )
+
