@@ -26,6 +26,10 @@ def build_analysis_prompt(
     """Build a prompt with document text serialized as untrusted JSON data."""
 
     metrics_json = json.dumps(calculated_metrics or {}, sort_keys=True, ensure_ascii=False)
+    allowed_pages = sorted({chunk.page for chunk in chunks})
+    if not allowed_pages:
+        raise ValueError("at least one evidence page is required")
+    example_page = allowed_pages[0]
     evidence_json = json.dumps(
         [{"page": chunk.page, "source_url": source_url, "text": chunk.text} for chunk in chunks],
         ensure_ascii=False,
@@ -48,6 +52,11 @@ Produce concise JSON insights for these sections when evidence exists:
 - risks
 - management_outlook
 
+Allowed physical PDF pages: {json.dumps(allowed_pages)}.
+Every evidence.page MUST be one of these exact page numbers. Use the page field
+from the supplied evidence, not a printed page label or a guessed page number.
+Copy each quote exactly from that same supplied page. Omit unsupported sections.
+
 Use this JSON shape:
 {{
   "company_slug": "{company_slug}",
@@ -58,7 +67,7 @@ Use this JSON shape:
       "title": "...",
       "text": "...",
       "confidence": "low|medium|high",
-      "evidence": [{{"source_url": "{source_url}", "page": 1, "section": null,
+      "evidence": [{{"source_url": "{source_url}", "page": {example_page}, "section": null,
                     "quote": "Copy 20-1000 exact characters from the cited page."}}]
     }}
   ]
